@@ -34,7 +34,6 @@ To pass this course you must meet the following requirements:
 
 13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
-
 1. Lesson Title & Topic
     - **Before Class**
     - **In Class Activities**
@@ -75,6 +74,17 @@ To pass this course you must meet the following requirements:
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+
+## Brainstorming:
+
+- start with ruby intro - move to rails
+    - contrast with javascript / python. 
+    - package management scenarios: `rvm` vs `nvm` vs `pip`.
+    - [syntax demo](https://easydatawarehousing.github.io)
+    - "foxes" syntax guide
+- day 1: rails demo at start - show off the "magic" of rails.
+- grow accustomed to creating new rails projects:
+    - `rails new` / `rails generate`: 7-10 descriptions of single resource apps, generate them one after another in a 20 minute session.
 
 ## Make School Course Policies
 
