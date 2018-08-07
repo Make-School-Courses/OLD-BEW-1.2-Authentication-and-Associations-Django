@@ -1,4 +1,4 @@
-# Intro to Ruby on Rails - The Rails Way
+# Intro to Ruby on Rails—The Rails Way
 
 ## Course Description
 
