@@ -32,8 +32,9 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- Link to all of the technical tutorials, projects, and course-level assignments (i.e. tutorials, contractor project, custom projects, etc)
-- Use a list
+- Ruby on Rails Guides Tutorial
+- RailsTutorial.org Twitter Clone
+- A Contractor Project - The instructor will roleplay being a client to your engineering team.
 
 ## Evaluation
 
@@ -126,7 +127,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Sign Up" User Story
    - **After Class**
-1. Authentication: Login and Logout**
+1. Authentication: Login and Logout
     - **In Class Activities**
       - **Discuss**:
         - `login`, `authenticate`
