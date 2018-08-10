@@ -24,8 +24,8 @@ BEW 1.1, BEW 1.2
 
 Students by the end of the course will be able to ...
 
-1. Identify & Describe
-1. Explain
+1. Gain familiarity with an opinionated web framework by developing in Ruby on Rails.
+1. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
 1. Compare & Contrast Common Patterns for Backend Web Development
 1. Design & Implement Multiple Rails applications.
 1. Continue growth and Mastery of Automated Testing Paradigms.
