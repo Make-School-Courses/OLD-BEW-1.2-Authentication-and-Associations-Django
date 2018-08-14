@@ -20,10 +20,13 @@ _TODO_
 
 ### Language Features
 
-_TODO: Create list of language features to assign to student groups._
-
 - Form students into 5 groups.
-- Assign a Ruby language feature to each group.
+- Assign a Ruby syntax feature to each group:
+    - Operators and Keywords
+    - Variables (Instance, Global, and Types of Variables)
+    - Methods (Class Methods, Method Arguments)
+    - Blocks and Block Arguments (Closures, Iterators, Generators)
+    - Arrays and Hashes
 - Announce target presentation time: each group will be responsible for an 8 minute presentation.
 - Each group will create a short slide deck describing the language feature they've been assigned.
 
@@ -44,4 +47,4 @@ _TODO_
 
 ## Additional Resources
 
-_TODO_
+* [A Quick (and Hopefully Painless) Ride Through Ruby](https://poignant.guide/book/chapter-3.html)
