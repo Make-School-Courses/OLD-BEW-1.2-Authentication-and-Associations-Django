@@ -24,16 +24,17 @@ BEW 1.1, BEW 1.2
 
 Students by the end of the course will be able to ...
 
-1. Identify & Describe
-1. Explain
+1. Gain familiarity with an opinionated web framework by developing in Ruby on Rails.
+1. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
 1. Compare & Contrast Common Patterns for Backend Web Development
 1. Design & Implement Multiple Rails applications.
 1. Continue growth and Mastery of Automated Testing Paradigms.
 
 ## Tutorials & Projects
 
-- Link to all of the technical tutorials, projects, and course-level assignments (i.e. tutorials, contractor project, custom projects, etc)
-- Use a list
+- Ruby on Rails Guides Tutorial
+- RailsTutorial.org Twitter Clone
+- A Contractor Project - The instructor will roleplay being a client to your engineering team.
 
 ## Evaluation
 
@@ -47,7 +48,7 @@ To pass this course you must meet the following requirements:
 
 ## Lessons
 
-1. Rails and You: Catching the Ruby Train
+1. [Rails and You: Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md)
    - **Before Class**
      - Install Ruby via Homebrew: `brew install ruby`
    - **In Class Activities**
@@ -56,7 +57,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**: Interactive Syntax Practice
    - **After Class**
      - HW: Ruby Syntax
-1. Convention Over Configuration: The Power of Rails
+1. [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md)
    - **In Class Activities**
      - **Discuss**: Common Server-Side Conventions
        - Object-Oriented Programming Principles
@@ -64,7 +65,7 @@ To pass this course you must meet the following requirements:
        - RESTful Resources
      - **Students Do**: Build and Push a Simple Single Resource Application
    - **After Class**
-1. User Focused Development: Top Down Development
+1. [User Focused Development: Top Down Development](03-Top-Down-Development/README.md)
    - **In Class Activities**
      - **Watch Me / Discuss**: Error-Guided MVC Implementation
        - Views
@@ -72,7 +73,7 @@ To pass this course you must meet the following requirements:
        - Models
      - **Students Do**: Rails Guide: Getting Started With Rails / Single Resource Application (MVC)
    - **After Class**
-1. Models: Multiple Resources, ORM, and Validation
+1. [Models: Multiple Resources, ORM, and Validation](04-Models/README.md)
    - **In Class Activities**
      - **Watch Me / Discuss**:
        - ActiveRecord querying, `has_many`, `belongs_to`
@@ -81,7 +82,7 @@ To pass this course you must meet the following requirements:
        - Add another Resource to your Single Resource Application with `has_many`.
        - Add model validations.
    - **After Class**
-1. Views: Look and Feel
+1. [Views: Look and Feel](05-Views/README.md)
    - **In Class Activities**
      - **Watch Me / Discuss**:
        - Adding Assets
@@ -92,7 +93,7 @@ To pass this course you must meet the following requirements:
        - **Students Do:**
          - Bootstrap + Rails View: Smoke Test (Grid System, Typography)
    - **After Class**
-1. Writing Safer Code with Minitest
+1. [Writing Safer Code with Minitest](06-Testing/README.md)
    - **In Class Activities**
      - **Explore / Contrast + Compare**: Types of Tests
        - Unit/Model
@@ -101,14 +102,14 @@ To pass this course you must meet the following requirements:
      - **Students Do**: Focus - Integration/Controller Testing
        - Write controller tests for two resource application
    - **After Class**
-1. Advanced Routes
+1. [Advanced Routes](07-Advanced-Routes/README.md)
    - **In Class Activities**
      - **Discuss**:
        - Nested Routes
        - Named Routes
      - **Students Do**:
    - **After Class**
-1. Advanced Model Associations
+1. [Advanced Model Associations](08-Advanced-Model-Associations/README.md)
    - **In Class Activities**
      - **Discuss**:
        - `has_many :through`
@@ -116,7 +117,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Add Comments" User Story Using `has_many` Comments Pattern
    - **After Class**
-1. Authorization: Registering Your First User
+1. [Authorization: Registering Your First User](09-Authorization/README.md)
    - **In Class Activities**
      - **Discuss**:
        - `has_secure_password`
@@ -126,7 +127,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Sign Up" User Story
    - **After Class**
-1. Authentication: Login and Logout**
+1. [Authentication: Login and Logout](10-Authentication/README.md)
     - **In Class Activities**
       - **Discuss**:
         - `login`, `authenticate`
@@ -134,10 +135,10 @@ To pass this course you must meet the following requirements:
       - **Students Do**:
         - Implement "Login", "Logout", and "Forgot Password" User Stories
     - **After Class**
-1. Lesson Title & Topic
+1. [Deployment: Heroku](11-Deployment/README.md)
     - **In Class Activities**
     - **After Class**
-1. Deployment: Heroku
+1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
 1. Lesson Title & Topic
@@ -149,7 +150,6 @@ To pass this course you must meet the following requirements:
 [Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
 [Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
 [Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
-[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
-<br>
+[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)<br>
 [Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>
 [Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
