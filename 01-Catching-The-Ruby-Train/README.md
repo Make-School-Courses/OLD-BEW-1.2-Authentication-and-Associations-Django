@@ -2,8 +2,8 @@
 
 ## Learning Objectives/Competencies
 
-1. Identify and describe common Ruby syntax features.
-1. Define common syntactical Ruby idioms.
+1. Introduce high-level Ruby and Ruby on Rails concepts.
+1. Define common syntactical Ruby features and idioms.
 1. Present language syntax features to the class.
 
 ## Initial Exercise
@@ -22,11 +22,11 @@ _TODO_
 
 - Form students into 5 groups.
 - Assign a Ruby syntax feature to each group:
-    - Operators and Keywords
-    - Variables (Instance, Global, and Types of Variables)
-    - Methods (Class Methods, Method Arguments)
-    - Blocks and Block Arguments (Closures, Iterators, Generators)
-    - Arrays and Hashes
+  - Operators and Keywords
+  - Variables (Instance, Global, and Types of Variables)
+  - Methods (Class Methods, Method Arguments)
+  - Blocks and Block Arguments (Closures, Iterators, Generators)
+  - Arrays and Hashes
 - Announce target presentation time: each group will be responsible for an 8 minute presentation.
 - Each group will create a short slide deck describing the language feature they've been assigned.
 
@@ -47,4 +47,4 @@ _TODO_
 
 ## Additional Resources
 
-* [A Quick (and Hopefully Painless) Ride Through Ruby](https://poignant.guide/book/chapter-3.html)
+- [A Quick (and Hopefully Painless) Ride Through Ruby](https://poignant.guide/book/chapter-3.html)

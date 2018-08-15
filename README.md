@@ -8,13 +8,13 @@ This course begins by fostering familiarity with syntactic language features, th
 
 ## Course Specifics
 
-Weeks to Completion:  7 <br>
-Total Seat Hours:  37.5 hours <br>
+Weeks to Completion: 7 <br>
+Total Seat Hours: 37.5 hours <br>
 Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
-Units:  3 units <br>
-Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs
+Units: 3 units <br>
+Delivery Method: Residential <br>
+Class Sessions: 14 classes, 7 labs
 
 ## Prerequisites:
 
@@ -52,9 +52,10 @@ To pass this course you must meet the following requirements:
    - **Before Class**
      - Install Ruby via Homebrew: `brew install ruby`
    - **In Class Activities**
-     - **Instructor Demo**: `rails new`, `rails g scaffold`, `rails g controller`, `rails g model`
-     - **Watch Me / Discuss**: Syntax Overview
-     - **Students Do**: Interactive Syntax Practice
+     - **Think, Pair, Share**: Ruby Rumors
+     - **TT**: Why Ruby / Syntax Overview
+     - **Group Activity**: Language Features
+     - **Group Presentations**: Language Features
    - **After Class**
      - HW: Ruby Syntax
 1. [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md)
@@ -128,22 +129,22 @@ To pass this course you must meet the following requirements:
        - Implement "Sign Up" User Story
    - **After Class**
 1. [Authentication: Login and Logout](10-Authentication/README.md)
-    - **In Class Activities**
-      - **Discuss**:
-        - `login`, `authenticate`
-        - Forgot Password pattern
-      - **Students Do**:
-        - Implement "Login", "Logout", and "Forgot Password" User Stories
-    - **After Class**
+   - **In Class Activities**
+     - **Discuss**:
+       - `login`, `authenticate`
+       - Forgot Password pattern
+     - **Students Do**:
+       - Implement "Login", "Logout", and "Forgot Password" User Stories
+   - **After Class**
 1. [Deployment: Heroku](11-Deployment/README.md)
-    - **In Class Activities**
-    - **After Class**
+   - **In Class Activities**
+   - **After Class**
 1. Lesson Title & Topic
-    - **In Class Activities**
-    - **After Class**
+   - **In Class Activities**
+   - **After Class**
 1. Lesson Title & Topic
-    - **In Class Activities**
-    - **After Class**
+   - **In Class Activities**
+   - **After Class**
 
 ## Make School Course Policies
 
