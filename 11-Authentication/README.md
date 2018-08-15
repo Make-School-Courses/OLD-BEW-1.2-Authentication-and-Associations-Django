@@ -1,4 +1,4 @@
-# Day 11 - Deployment: Heroku
+# Day 11 - Authentication: Login and Logout
 
 ## Learning Objectives/Competencies
 

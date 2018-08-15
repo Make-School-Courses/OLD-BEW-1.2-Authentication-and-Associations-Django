@@ -1,4 +1,4 @@
-# Day 4 - Models: Multiple Resources, ORM, and Validation
+# Day 13 / 14 - Final Project
 
 ## Learning Objectives/Competencies
 

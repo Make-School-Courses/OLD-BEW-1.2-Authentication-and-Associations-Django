@@ -1,4 +1,4 @@
-# Day 7 - Advanced Routes
+# Day 5 - Models: Multiple Resources, ORM, and Validation
 
 ## Learning Objectives/Competencies
 

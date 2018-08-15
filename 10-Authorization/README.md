@@ -1,4 +1,4 @@
-# Day 6 - Writing Safer Code with Minitest
+# Day 10 - Authorization: Registering Your First User
 
 ## Learning Objectives/Competencies
 

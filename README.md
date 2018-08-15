@@ -57,16 +57,21 @@ To pass this course you must meet the following requirements:
      - **Group Activity**: Language Features
      - **Group Presentations**: Language Features
    - **After Class**
-     - HW: Ruby Syntax
+     - HW: Ruby Reading Assignment / Syntax Playground
 1. [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md)
    - **In Class Activities**
      - **Discuss**: Common Server-Side Conventions
        - Object-Oriented Programming Principles
        - Opinionated vs. Non-Opinionated Frameworks
        - RESTful Resources
+   - **After Class**
+     - HW: Hello, Ruby on Rails - Getting Started Guide Chapters 1 - 4.
+1. [Your First Ruby on Rails Application](03-First-Application/README.md)
+   - **In Class Activities**
      - **Students Do**: Build and Push a Simple Single Resource Application
    - **After Class**
-1. [User Focused Development: Top Down Development](03-Top-Down-Development/README.md)
+        - HW - Tutorial: [From Zero to Deploy: RailsTutorial.org Chapter 1](https://www.railstutorial.org/book/beginning#cha-beginning)
+1. [User Focused Development: Top Down Development](04-Top-Down-Development/README.md)
    - **In Class Activities**
      - **Watch Me / Discuss**: Error-Guided MVC Implementation
        - Views
@@ -74,7 +79,8 @@ To pass this course you must meet the following requirements:
        - Models
      - **Students Do**: Rails Guide: Getting Started With Rails / Single Resource Application (MVC)
    - **After Class**
-1. [Models: Multiple Resources, ORM, and Validation](04-Models/README.md)
+1. [Models: Multiple Resources, ORM, and Validation](05-Models/README.md)
+
    - **In Class Activities**
      - **Watch Me / Discuss**:
        - ActiveRecord querying, `has_many`, `belongs_to`
@@ -83,7 +89,7 @@ To pass this course you must meet the following requirements:
        - Add another Resource to your Single Resource Application with `has_many`.
        - Add model validations.
    - **After Class**
-1. [Views: Look and Feel](05-Views/README.md)
+1. [Views: Look and Feel](06-Views/README.md)
    - **In Class Activities**
      - **Watch Me / Discuss**:
        - Adding Assets
@@ -94,7 +100,7 @@ To pass this course you must meet the following requirements:
        - **Students Do:**
          - Bootstrap + Rails View: Smoke Test (Grid System, Typography)
    - **After Class**
-1. [Writing Safer Code with Minitest](06-Testing/README.md)
+1. [Writing Safer Code with Minitest](07-Testing/README.md)
    - **In Class Activities**
      - **Explore / Contrast + Compare**: Types of Tests
        - Unit/Model
@@ -103,14 +109,14 @@ To pass this course you must meet the following requirements:
      - **Students Do**: Focus - Integration/Controller Testing
        - Write controller tests for two resource application
    - **After Class**
-1. [Advanced Routes](07-Advanced-Routes/README.md)
+1. [Advanced Routes](08-Advanced-Routes/README.md)
    - **In Class Activities**
      - **Discuss**:
        - Nested Routes
        - Named Routes
      - **Students Do**:
    - **After Class**
-1. [Advanced Model Associations](08-Advanced-Model-Associations/README.md)
+1. [Advanced Model Associations](09-Advanced-Model-Associations/README.md)
    - **In Class Activities**
      - **Discuss**:
        - `has_many :through`
@@ -118,7 +124,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Add Comments" User Story Using `has_many` Comments Pattern
    - **After Class**
-1. [Authorization: Registering Your First User](09-Authorization/README.md)
+1. [Authorization: Registering Your First User](10-Authorization/README.md)
    - **In Class Activities**
      - **Discuss**:
        - `has_secure_password`
@@ -128,7 +134,7 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Sign Up" User Story
    - **After Class**
-1. [Authentication: Login and Logout](10-Authentication/README.md)
+1. [Authentication: Login and Logout](11-Authentication/README.md)
    - **In Class Activities**
      - **Discuss**:
        - `login`, `authenticate`
@@ -136,13 +142,13 @@ To pass this course you must meet the following requirements:
      - **Students Do**:
        - Implement "Login", "Logout", and "Forgot Password" User Stories
    - **After Class**
-1. [Deployment: Heroku](11-Deployment/README.md)
+1. [Deployment: Heroku](12-Deployment/README.md)
    - **In Class Activities**
    - **After Class**
-1. Lesson Title & Topic
+1. [Final Project](13-Final-Project/README.md)
    - **In Class Activities**
    - **After Class**
-1. Lesson Title & Topic
+1. [Final Project](13-Final-Project/README.md)
    - **In Class Activities**
    - **After Class**
 

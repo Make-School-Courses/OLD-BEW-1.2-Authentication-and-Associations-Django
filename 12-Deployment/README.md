@@ -1,4 +1,4 @@
-# Day 9 - Authorization: Registering Your First User
+# Day 12 - Deployment: Heroku
 
 ## Learning Objectives/Competencies
 

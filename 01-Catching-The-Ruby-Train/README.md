@@ -14,11 +14,15 @@
 
 ### TT: Why Ruby / Syntax Overview / Setup Activity
 
+#### Why Ruby?
+
 _TODO_
 
-## In Class Activity I
+#### Syntax Overview
 
-### Language Features
+_TODO_
+
+#### Setup Activity
 
 - Form students into 5 groups.
 - Assign a Ruby syntax feature to each group:
@@ -29,6 +33,12 @@ _TODO_
   - Arrays and Hashes
 - Announce target presentation time: each group will be responsible for an 8 minute presentation.
 - Each group will create a short slide deck describing the language feature they've been assigned.
+
+## In Class Activity I
+
+### Language Features
+
+- Allow students 30 minutes to work in groups and build thier presentations.
 
 ## In Class Activity II
 
@@ -43,7 +53,7 @@ _TODO_
 
 ## After Class
 
-_TODO_
+- TODO: Find Syntax Reading Sample / Syntax Playground Activity
 
 ## Additional Resources
 

@@ -1,4 +1,4 @@
-# Day 8 - Advanced Model Associations
+# Day 7 - Writing Safer Code with Minitest
 
 ## Learning Objectives/Competencies
 

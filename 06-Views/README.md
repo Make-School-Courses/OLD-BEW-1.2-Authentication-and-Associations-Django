@@ -1,4 +1,4 @@
-# Day 10 - Authentication: Login and Logout
+# Day 6 - Views: Look and Feel
 
 ## Learning Objectives/Competencies
 
