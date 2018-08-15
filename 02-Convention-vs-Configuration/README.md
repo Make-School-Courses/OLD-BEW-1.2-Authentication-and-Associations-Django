@@ -9,11 +9,7 @@
 
 ## Initial Exercise
 
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
+- **Think, Pair, Share**: Write down three things you learned about Ruby from the assigned reading or from the in-class presentations last class. After 5 minutes, instruct students to discuss with a neighbor for 90 seconds, then another neighbor for another 90 seconds. Finally, go around the room, and document the "coolest thing" learned last session.
 
 ## Overview/TT I
 

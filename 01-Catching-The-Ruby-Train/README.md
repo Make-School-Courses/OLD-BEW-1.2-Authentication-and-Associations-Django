@@ -14,15 +14,11 @@
 
 ### TT: Why Ruby / Syntax Overview / Setup Activity
 
-#### Why Ruby?
+#### Slides - Why Ruby
 
-_TODO_
+#### Slides - Syntax Overview
 
-#### Syntax Overview
-
-_TODO_
-
-#### Setup Activity
+#### Slides - Setup Activity
 
 - Form students into 5 groups.
 - Assign a Ruby syntax feature to each group:
@@ -45,6 +41,7 @@ _TODO_
 ### Language Feature Presentations
 
 - Each group will deliver an approximately 8 minute presentation on the assigned Ruby topic.
+- Each group will Slack out their completed slideshow.
 
 ## Wrap Up
 
