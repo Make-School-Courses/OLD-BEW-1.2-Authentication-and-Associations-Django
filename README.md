@@ -32,8 +32,8 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- Ruby on Rails Guides Tutorial
-- RailsTutorial.org Twitter Clone
+- [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
+- [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
 - A Contractor Project - The instructor will roleplay being a client to your engineering team.
 
 ## Evaluation
