@@ -50,7 +50,7 @@
 
 ## After Class
 
-- TODO: Find Syntax Reading Sample / Syntax Playground Activity
+- Start the tutorial.
 
 ## Additional Resources
 
