@@ -34,7 +34,7 @@ Students by the end of the course will be able to ...
 
 - [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
 - [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
-- A Contractor Project - The instructor will roleplay being a client to your engineering team.
+- [Custom API Project](link-coming-soon)
 
 ## Evaluation
 
@@ -49,13 +49,6 @@ To pass this course you must meet the following requirements:
 1. [Rails and You: Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md)
    - **Before Class**
      - Install Ruby via Homebrew: `brew install ruby`
-   - **In Class Activities**
-     - **Think, Pair, Share**: Ruby Rumors
-     - **TT**: Why Ruby / Syntax Overview
-     - **Group Activity**: Language Features
-     - **Group Presentations**: Language Features
-   - **After Class**
-     - HW: Ruby Reading Assignment / Syntax Playground
 1. [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md)
    - **In Class Activities**
      - **Discuss**: Common Server-Side Conventions
@@ -78,7 +71,6 @@ To pass this course you must meet the following requirements:
      - **Students Do**: Rails Guide: Getting Started With Rails / Single Resource Application (MVC)
    - **After Class**
 1. [Models: Multiple Resources, ORM, and Validation](05-Models/README.md)
-
    - **In Class Activities**
      - **Watch Me / Discuss**:
        - ActiveRecord querying, `has_many`, `belongs_to`
@@ -141,14 +133,12 @@ To pass this course you must meet the following requirements:
        - Implement "Login", "Logout", and "Forgot Password" User Stories
    - **After Class**
 1. [Deployment: Heroku](12-Deployment/README.md)
-   - **In Class Activities**
-   - **After Class**
 1. [Final Project](13-Final-Project/README.md)
-   - **In Class Activities**
-   - **After Class**
 1. [Final Project](13-Final-Project/README.md)
-   - **In Class Activities**
-   - **After Class**
+
+## Additional Resources
+
+* [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
 
 ## Make School Course Policies
 
