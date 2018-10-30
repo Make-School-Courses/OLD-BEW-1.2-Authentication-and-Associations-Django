@@ -2,7 +2,7 @@
 
 ## Course Description
 
-In this course, students will learn to develop and release standardized server-side applications. Techniques include favoring convention over configuration, following a strict RESTful MVC architecture, and emphasising the role of automated testing.
+In this course, students will learn to develop and release standardized server-side applications. Techniques include favoring convention over configuration, following a strict RESTful MVC architecture, and emphasizing the role of automated testing.
 
 This course begins by fostering familiarity with syntactic language features, then rapidly moves into building server-side web applications and APIs. Deliverables include at least two completed and deployed applications.
 
@@ -18,17 +18,18 @@ Class Sessions: 14 classes, 7 labs
 
 ## Prerequisites:
 
-BEW 1.1, BEW 1.2
+* [BEW 1.1](https://make.sc/bew1-1)
+* [BEW 1.2](https://make.sc/bew1-2)
 
 ## Learning Objectives or Competencies (5-8)
 
 Students by the end of the course will be able to ...
 
-1. Gain familiarity with an opinionated web framework by developing in Ruby on Rails.
+1. Establish comfort and demonstrative ability in the Ruby language.
+1. Gain familiarity with an opinionated web framework by developing in Ruby on Rails and comparing and contrasting common patterns for backend web development.
+1. Design, implement, and deploy multiple Rails applications.
 1. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
-1. Compare & Contrast Common Patterns for Backend Web Development
-1. Design & Implement Multiple Rails applications.
-1. Continue growth and Mastery of Automated Testing Paradigms.
+1. Continue growth and mastery of automated testing paradigms.
 
 ## Tutorials & Projects
 
@@ -45,7 +46,7 @@ Students by the end of the course will be able to ...
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|   1   |  Tuesday, October 23    | [Rails and You: Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) |
+|   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) |
 |   2   | Thursday, October 25    | [Ruby Presentations](02-Ruby-Presentations/README.md) |
 |   3   |  Tuesday, October 30  | [Ruby Koans](03-Ruby-Koans/README.md) |
 |   4   | Thursday, November 1  | [User Focused Development: Top Down Development](04-Top-Down-Development/README.md) |
@@ -73,7 +74,10 @@ To pass this course you must meet the following requirements:
 
 ## Additional Resources
 
+* [12 Factor Web Apps](https://12factor.net)
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
+* [Try Ruby](https://ruby.github.io/TryRuby/)
+* [Typing.io - Ruby Syntax Typing Practice](https://typing.io/lesson/ruby/rails/relation.rb/1)
 
 ## Attendance
 
