@@ -1,6 +1,15 @@
 # Day 2 - Ruby Presentations
 
-## Learning Objectives/Competencies
+| Time | Activity                              |
+| ---- | ------------------------------------- |
+| 0:00 | Objectives                            |
+| 0:05 | Initial Exercise                      |
+| 0:25 | Presentations                         |
+| 1:10 | BREAK                                 |
+| 1:20 | Presentations                         |
+| 2:00 | END                                   |
+
+## Learning Objectives/Competencies (5 Minutes)
 
 1. Use peer learning techniques to quickly understand Ruby syntax through student presentations.
 1. Experience and practice live coding in front of peers.

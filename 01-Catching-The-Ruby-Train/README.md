@@ -1,16 +1,25 @@
 # Day 1 - Rails and You: Catching The Ruby Train
 
-## Learning Objectives/Competencies
+| Time | Activity                              |
+| ---- | ------------------------------------- |
+| 0:00 | Objectives                            |
+| 0:05 | Initial Exercise                      |
+| 0:20 | Overview/TT                           |
+| 0:35 | BREAK                                 |
+| 0:45 | In Class Activity I                   |
+| 2:00 | END                                   |
+
+## Learning Objectives/Competencies (5 Minutes)
 
 1. Introduce high-level Ruby and Ruby on Rails concepts.
 1. Define common syntactical Ruby features and idioms.
 1. Present language syntax features to the class.
 
-## Initial Exercise
+## Initial Exercise (15 Minutes)
 
 - **Think, Pair, Share - Ruby Rumors**: _What have you heard about Ruby / Ruby on Rails?_
 
-## Overview/TT I
+## Overview/TT (15 Minutes)
 
 ### TT: Setup Syntax Overview Activity
 
@@ -26,7 +35,14 @@
 - Announce target presentation time: each group will be responsible for a **10 to 15 minute presentation with live code examples**.
 - Each group will create a short slide deck describing the language feature they've been assigned.
 
-## In Class Activity I
+
+
+
+
+
+## BREAK (10 Minutes)
+
+## In Class Activity I (45 Minutes)
 
 ### Language Features
 
