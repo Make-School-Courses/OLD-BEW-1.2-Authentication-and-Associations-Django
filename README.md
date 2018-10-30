@@ -36,15 +36,6 @@ Students by the end of the course will be able to ...
 - [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
 - [Custom API Project](link-coming-soon)
 
-## Evaluation
-
-To pass this course you must meet the following requirements:
-
-- Pass all required tutorials and projects (see associated rubrics)
-- Pass the final summative assessment >= 70%
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-
 ## Schedule
 
 **Course Dates:** Tuesday, October 23 – Thursday, December 13, 2018 (7 weeks)
@@ -70,11 +61,21 @@ To pass this course you must meet the following requirements:
 |  13   | Tuesday, December 11   | [Final Project: Lab Day](13-Final-Project/README.md) |
 |  14   | Thursday, December 13   | Final Exams |
 
+## Evaluation
+
+To pass this course you must meet the following requirements:
+
+- Pass all required tutorials and projects (see associated rubrics)
+- Pass the final summative assessment >= 70%
+- Actively participate in class and abide by the attendance policy
+- Make up all classwork from all absences
+
 ## Additional Resources
 
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
 
 ## Attendance
+
  Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions: classes, huddles, etc. and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
 
 Attendance requirements for scheduled sessions are:
