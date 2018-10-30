@@ -52,8 +52,13 @@ Instruct the students to **pair up and work on the following challenge** to get 
 1. Run the following code in your terminal _after_ forking this repository. **Make sure to replace the clone link in the first instruction with your fork!**
 
     ```bash
-     git clone git@github.com:droxey/BEW-1.3-Server-Side-Architectures-and-Frameworks.git
-     cd BEW-1.3-Server-Side-Architectures-and-Frameworks/Materials/koans
+    git clone git@github.com:droxey/BEW-1.3-Server-Side-Architectures-and-Frameworks.git BEW-1.3-Class-Repo
+    ```
+
+1. Navigate to the `Materials/koans` directory.
+
+    ```bash
+    cd BEW-1.3-Class-Repo/Materials/koans
     ```
 
 1. Execute the `path_to_enlightenment.rb` script. You should receive the following output:
@@ -70,7 +75,7 @@ Instruct the students to **pair up and work on the following challenge** to get 
       Failed assertion.
 
     Please meditate on the following code:
-      /Users/droxey/dev/repos/BEW-1.3-Server-Side-Architectures-and-Frameworks/Materials/koans/about_asserts.rb:10:in `test_assert_truth'
+     BEW-1.3-Class-Repo/Materials/koans/about_asserts.rb:10:in `test_assert_truth'
 
     mountains are merely mountains
     your path thus far [X_________________________________________________] 0/282
@@ -80,10 +85,14 @@ Instruct the students to **pair up and work on the following challenge** to get 
 
     ```bash
     Please meditate on the following code:
-      /Users/droxey/dev/repos/BEW-1.3-Server-Side-Architectures-and-Frameworks/Materials/koans/about_asserts.rb:10:in `test_assert_truth'
+      BEW-1.3-Class-Repo/Materials/koans/about_asserts.rb:10:in `test_assert_truth'
     ```
 
-1. Did you spot the line number where the error occurred? The output reads `about_asserts.rb:10:in 'test_assert_truth'`. Open the `about_asserts.rb` file and observe the `test_assert_truth` method within:
+1. Did you spot the line number where the error occurred?
+
+    Observe that the output below the line reading **`Please meditate on the following code`** contains **`about_asserts.rb:10:in 'test_assert_truth'`**.
+
+    Open the `about_asserts.rb` file and observe the `test_assert_truth` method within:
 
     ```ruby
     def test_assert_truth
@@ -91,7 +100,7 @@ Instruct the students to **pair up and work on the following challenge** to get 
     end
     ```
 
-1. Discuss the results with your partner:
+1. Discuss the output with your partner:
 
     - What would you change in order for this test to pass?
     - What happens when you make the change and run the file again?
