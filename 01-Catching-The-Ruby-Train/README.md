@@ -30,7 +30,7 @@
 
 ### Language Features
 
-- Allow students the remainder of the time to work in groups and build thier presentations.
+- Allow students the remainder of the time to work in groups and build their presentations.
 
 ## Wrap Up
 
