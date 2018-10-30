@@ -1,12 +1,24 @@
 # Day 3 - Ruby Koans
 
+| Time | Activity                              |
+| ---- | ------------------------------------- |
+| 0:00 | Objectives                            |
+| 0:05 | [Initial Exercise](#environment-setup) |
+| 0:20 | [Overview/TT](#why-koans)             |
+| 0:35 | [In Class Activity I](#Starting-the-Journey) |
+| 0:50 | BREAK                                 |
+| 1:00 | [In Class Activity II](#walking-the-path-to-enlightenment) |
+| 2:00 | END                                   |
+
 ## Learning Objectives/Competencies (5 Minutes)
 
 1. Students will be able to setup their preferred IDE and integrate it with Ruby and Rails.
 1. Students will gain familiarity "thinking in Ruby" by implementing a number of [Ruby Koans](http://rubykoans.com/).
 1. Students will encounter and exercise the **Red, Green, Refactor** approach to developing Ruby applications.
 
-## Initial Exercise: Environment Setup (25 Minutes)
+## Initial Exercise (15 Minutes)
+
+### Environment Setup
 
 Direct students to **read and complete _one_ of the following tutorials**, based on their editor of choice:
 
@@ -31,7 +43,9 @@ Today's class focuses on **solving problems using the Ruby language**. In order 
 
 > Some koans simply need to **have the correct answer substituted for an incorrect one**. Some, however, **require you to supply your own answer**. If you see the method `__` (a double underscore) listed, it is a **hint** to you to **supply your own code in order to make it work correctly**.
 
-## In Class Activity I: Starting the Journey (25 Minutes)
+## In Class Activity I (25 Minutes)
+
+### Starting the Journey
 
 Instruct the students to **pair up and work on the following challenge** to get started:
 
@@ -84,11 +98,15 @@ Instruct the students to **pair up and work on the following challenge** to get 
 
 ## BREAK (10 Minutes)
 
-## In Class Activity II: Walking the Path to Enlightenment (40 Minutes)
+## In Class Activity II (60 Minutes)
+
+### Walking the Path to Enlightenment
 
 For the remainder of the class period, continue working with your partner, solving each koan in the order in which they appear. **How many koans can you successfully implement before the end of the class period?**
 
-At the end of class, slack the `#bew1-3` channel the following message:
+### Daily Deliverable
+
+At the **end of class**, slack the `#bew1-3` channel the following message:
 
 ```markdown
 *Partner A* and *Partner B* successfully completed *X Ruby Koans*!
@@ -97,7 +115,7 @@ At the end of class, slack the `#bew1-3` channel the following message:
 ## After Class
 
 - Continue working on the [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html).
-    - We'll be diving into Rails next class period!
+  - We'll be diving into Rails next class period!
 - Practice Ruby Koans in your spare time in order to level up your Ruby problem solving skills!
 
 ## Additional Resources
