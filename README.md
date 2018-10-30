@@ -40,111 +40,57 @@ Students by the end of the course will be able to ...
 
 To pass this course you must meet the following requirements:
 
+- Pass all required tutorials and projects (see associated rubrics)
+- Pass the final summative assessment >= 70%
+- Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
-- Finish all required tutorials and projects
-- Pass the final exam (summative assessment) >=70%
 
-## Lessons
+## Schedule
 
-1. [Rails and You: Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md)
-   - **Before Class**
-     - Install Ruby via Homebrew: `brew install ruby`
-1. [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md)
-   - **In Class Activities**
-     - **Discuss**: Common Server-Side Conventions
-       - Object-Oriented Programming Principles
-       - Opinionated vs. Non-Opinionated Frameworks
-       - RESTful Resources
-   - **After Class**
-     - HW: Hello, Ruby on Rails - Getting Started Guide Chapters 1 - 4.
-1. [Your First Ruby on Rails Application](03-First-Application/README.md)
-   - **In Class Activities**
-     - **Students Do**: Build and Push a Simple Single Resource Application
-   - **After Class**
-        - HW - Tutorial: [From Zero to Deploy: RailsTutorial.org Chapter 1](https://www.railstutorial.org/book/beginning#cha-beginning)
-1. [User Focused Development: Top Down Development](04-Top-Down-Development/README.md)
-   - **In Class Activities**
-     - **Watch Me / Discuss**: Error-Guided MVC Implementation
-       - Views
-       - Controllers
-       - Models
-     - **Students Do**: Rails Guide: Getting Started With Rails / Single Resource Application (MVC)
-   - **After Class**
-1. [Models: Multiple Resources, ORM, and Validation](05-Models/README.md)
-   - **In Class Activities**
-     - **Watch Me / Discuss**:
-       - ActiveRecord querying, `has_many`, `belongs_to`
-       - Demonstrate adding a second resource to the application.
-     - **Students Do**:
-       - Add another Resource to your Single Resource Application with `has_many`.
-       - Add model validations.
-   - **After Class**
-1. [Views: Look and Feel](06-Views/README.md)
-   - **In Class Activities**
-     - **Watch Me / Discuss**:
-       - Adding Assets
-         - HAML
-         - Asset Pipeline
-         - Bootstrap with Gem
-         - Bootstrap components, responsive helpers, forms
-       - **Students Do:**
-         - Bootstrap + Rails View: Smoke Test (Grid System, Typography)
-   - **After Class**
-1. [Writing Safer Code with Minitest](07-Testing/README.md)
-   - **In Class Activities**
-     - **Explore / Contrast + Compare**: Types of Tests
-       - Unit/Model
-       - Integration/Controller
-       - Acceptance/View
-     - **Students Do**: Focus - Integration/Controller Testing
-       - Write controller tests for two resource application
-   - **After Class**
-1. [Advanced Routes](08-Advanced-Routes/README.md)
-   - **In Class Activities**
-     - **Discuss**:
-       - Nested Routes
-       - Named Routes
-     - **Students Do**:
-   - **After Class**
-1. [Advanced Model Associations](09-Advanced-Model-Associations/README.md)
-   - **In Class Activities**
-     - **Discuss**:
-       - `has_many :through`
-       - Polymorphic Associations
-     - **Students Do**:
-       - Implement "Add Comments" User Story Using `has_many` Comments Pattern
-   - **After Class**
-1. [Authorization: Registering Your First User](10-Authorization/README.md)
-   - **In Class Activities**
-     - **Discuss**:
-       - `has_secure_password`
-       - `sign_up`
-       - `session`
-       - `current_user`
-     - **Students Do**:
-       - Implement "Sign Up" User Story
-   - **After Class**
-1. [Authentication: Login and Logout](11-Authentication/README.md)
-   - **In Class Activities**
-     - **Discuss**:
-       - `login`, `authenticate`
-       - Forgot Password pattern
-     - **Students Do**:
-       - Implement "Login", "Logout", and "Forgot Password" User Stories
-   - **After Class**
-1. [Deployment: Heroku](12-Deployment/README.md)
-1. [Final Project](13-Final-Project/README.md)
-1. [Final Project](13-Final-Project/README.md)
+**Course Dates:** Tuesday, October 23 – Thursday, December 13, 2018 (7 weeks)
+
+**Class Times:** Tuesday and Thursday at 1:30–3:20pm (13 class sessions)
+
+| Class |          Date          |                 Topics                  |
+|:-----:|:----------------------:|:---------------------------------------:|
+|   1   |  Tuesday, October 23    | [Rails and You: Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) |
+|   2   | Thursday, October 25    | [Convention Over Configuration: The Power of Rails](02-Convention-vs-Configuration/README.md) |
+|   3   |  Tuesday, October 30  | [Your First Ruby on Rails Application](03-First-Application/README.md) |
+|   4   | Thursday, November 1  | [User Focused Development: Top Down Development](04-Top-Down-Development/README.md) |
+|   5   |  Tuesday, November 6 |  [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) |
+|   6   | Thursday, November 8 | [Views: Look and Feel](06-Views/README.md) |
+|   7   |  Tuesday, November 13 | [Writing Safer Code with Minitest](07-Testing/README.md) |
+|   8   | Thursday, November 15 | [Advanced Routes](08-Advanced-Routes/README.md) |
+|      |  Tuesday, November 20 | **Don Rags** |
+|     | Thursday, November 22 | **Fall Break** |
+|  9   |  Tuesday, November 27    |  [Advanced Model Associations](09-Advanced-Model-Associations/README.md) |
+|  10   | Thursday, November 29    | [Authorization: Registering Your First User](10-Authorization/README.md) |
+|  11     |  Tuesday, December 4    | [Authentication: Login and Logout](11-Authentication/README.md) |
+|  12   | Thursday, December 6   | [Deployment: Heroku](12-Deployment/README.md) |
+|  13   | Tuesday, December 11   | [Final Project: Lab Day](13-Final-Project/README.md) |
+|  14   | Thursday, December 13   | Final Exams |
 
 ## Additional Resources
 
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
 
+## Attendance
+ Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions: classes, huddles, etc. and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
+
+Attendance requirements for scheduled sessions are:
+
+- No more than two no call no shows per term in any scheduled session.
+- No more than four excused absences per term in any scheduled session.
+
+Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP will result in not being invited back next term.
+
 ## Make School Course Policies
 
 [Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Accommodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Attendance Policy]()
 [Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
-[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)<br>
+[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
+<br>
 [Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>
 [Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
