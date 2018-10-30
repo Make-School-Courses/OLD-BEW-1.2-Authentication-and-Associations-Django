@@ -18,9 +18,9 @@
 
 ## In Class Activity II: Presentations (Part 2) (45 Minutes)
 
-- Remaining of student groups will present their syntax slides.
+- Remainder of student groups will present their syntax slides.
 - If students finish early, instruct them to work on their tutorial.
 
 ## After Class
 
-- Instruct students to begin working on the first tutorial.
+- Instruct students to begin working on the [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html).
