@@ -12,8 +12,8 @@
 
 ## Learning Objectives/Competencies (5 Minutes)
 
-1. Students will be able to setup their preferred IDE and integrate it with Ruby and Rails.
-1. Students will gain familiarity "thinking in Ruby" by implementing a number of [Ruby Koans](http://rubykoans.com/).
+1. Students will be able to **setup their preferred IDE** and **integrate it with Ruby and Rails**.
+1. Students will **gain familiarity "thinking in Ruby"** by implementing a number of [Ruby Koans](http://rubykoans.com/).
 1. Students will encounter and exercise the **Red, Green, Refactor** approach to developing Ruby applications.
 
 ## Initial Exercise (15 Minutes)
