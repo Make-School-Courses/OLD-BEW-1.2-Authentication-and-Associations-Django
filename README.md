@@ -34,7 +34,8 @@ Students by the end of the course will be able to ...
 
 - [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
 - [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
-- [Custom API Project](link-coming-soon)
+- [Custom API Project](Projects/custom-api-requirements.md)
+  - [Rubric](Projects/custom-api-rubric.md)
 
 ## Schedule
 
