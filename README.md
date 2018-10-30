@@ -21,7 +21,7 @@ Class Sessions: 14 classes, 7 labs
 * [BEW 1.1](https://make.sc/bew1-1)
 * [BEW 1.2](https://make.sc/bew1-2)
 
-## Learning Objectives or Competencies (5-8)
+## Learning Objectives
 
 Students by the end of the course will be able to ...
 
