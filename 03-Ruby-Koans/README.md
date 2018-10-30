@@ -61,7 +61,7 @@ Instruct the students to **pair up and work on the following challenge** to get 
     cd BEW-1.3-Class-Repo/Materials/koans
     ```
 
-1. Execute the `path_to_enlightenment.rb` script. You should receive the following output:
+1. **Execute the `path_to_enlightenment.rb` script**. You should receive the following output:
 
     ```bash
     $ ruby path_to_enlightenment.rb
@@ -81,18 +81,18 @@ Instruct the students to **pair up and work on the following challenge** to get 
     your path thus far [X_________________________________________________] 0/282
     ```
 
-1. Note that the output tells you where to look for the first error:
+1. Note that the **output tells you where to look for the first error**:
 
     ```bash
     Please meditate on the following code:
       BEW-1.3-Class-Repo/Materials/koans/about_asserts.rb:10:in `test_assert_truth'
     ```
 
-1. Did you spot the line number where the error occurred?
+1. Did you **spot the line number** where the error occurred?
 
     Observe that the output below the line reading **`Please meditate on the following code`** contains **`about_asserts.rb:10:in 'test_assert_truth'`**.
 
-    Open the `about_asserts.rb` file and observe the `test_assert_truth` method within:
+    Open the `about_asserts.rb` file and **observe the `test_assert_truth` method** within:
 
     ```ruby
     def test_assert_truth
@@ -100,10 +100,10 @@ Instruct the students to **pair up and work on the following challenge** to get 
     end
     ```
 
-1. Discuss the output with your partner:
+1. **Discuss the output** with your partner:
 
-    - What would you change in order for this test to pass?
-    - What happens when you make the change and run the file again?
+    - What would you change in order for this **test to pass**?
+    - What happens when you **make the change and run the file again**?
 
 ## BREAK (10 Minutes)
 
