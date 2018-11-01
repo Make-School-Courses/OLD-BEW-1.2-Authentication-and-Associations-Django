@@ -49,7 +49,7 @@ Students by the end of the course will be able to ...
 |   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) |
 |   2   | Thursday, October 25    | [Ruby Presentations](02-Ruby-Presentations/README.md) |
 |   3   |  Tuesday, October 30  | [Ruby Koans](03-Ruby-Koans/README.md) |
-|   4   | Thursday, November 1  | [User Focused Development: Top Down Development](04-Top-Down-Development/README.md) |
+|   4   | Thursday, November 1  | [Rails Intro](04-Rails-Intro/README.md) |
 |   5   |  Tuesday, November 6 |  [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) |
 |   6   | Thursday, November 8 | [Views: Look and Feel](06-Views/README.md) |
 |   7   |  Tuesday, November 13 | [Writing Safer Code with Minitest](07-Testing/README.md) |
