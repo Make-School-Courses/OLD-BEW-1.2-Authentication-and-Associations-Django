@@ -67,10 +67,10 @@ Students by the end of the course will be able to ...
 
 To pass this course you must meet the following requirements:
 
-- Pass all required tutorials and projects (see associated rubrics)
-- Pass the final summative assessment >= 70%
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+* Pass all required tutorials and projects (see associated rubrics)
+* Pass the final summative assessment >= 70%
+* Actively participate in class and abide by the attendance policy
+* Make up all classwork from all absences
 
 ## Additional Resources
 
@@ -85,8 +85,8 @@ To pass this course you must meet the following requirements:
 
 Attendance requirements for scheduled sessions are:
 
-- No more than two no call no shows per term in any scheduled session.
-- No more than four excused absences per term in any scheduled session.
+* No more than two no call no shows per term in any scheduled session.
+* No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP will result in not being invited back next term.
 
