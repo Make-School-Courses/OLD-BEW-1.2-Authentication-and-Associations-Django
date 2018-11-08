@@ -35,7 +35,7 @@ Today, we'll be using the Spotify Web API to create a custom API that allows a u
 
 * Finally, present an [overview of the `rspotify` gem](https://www.rubydoc.info/github/guilhermesad/rspotify/master) installed by students during the first half of class.
 
-## In Class Activity II (70 Minutes)
+## In Class Activity II (60 Minutes)
 
 ### Scaffolding + Gems = API Magic
 
