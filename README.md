@@ -53,7 +53,7 @@ Students by the end of the course will be able to ...
 |   5   |  Tuesday, November 6 |  [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) |
 |   6   | Thursday, November 8 | [Controllers and Actions](06-Controllers-and-Actions/README.md) |
 |   7   |  Tuesday, November 13 | [Data Driven Views](07-Views/README.md) |
-|   8   | Thursday, November 15 | [Advanced Routes](08-Advanced-Routes/README.md) |
+|   8   | Thursday, November 15 | [API Design](08-API-Design/README.md) |
 |      |  Tuesday, November 20 | **Don Rags** |
 |     | Thursday, November 22 | **Fall Break** |
 |  9   |  Tuesday, November 27    |  [Advanced Model Associations](09-Advanced-Model-Associations/README.md) |
