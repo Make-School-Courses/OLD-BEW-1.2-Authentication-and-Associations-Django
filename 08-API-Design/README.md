@@ -4,11 +4,11 @@
 | ---- | -------------------- |
 | 0:00 | Objectives           |
 | 0:05 | Initial Exercise     |
-| 0:15 | Overview/TT          |
-| 0:20 | In Class Activity I  |
-| 0:40 | BREAK                |
-| 0:50 | Overview/TT II       |
-| 1:10 | In Class Activity II |
+| 0:20 | Overview/TT          |
+| 0:25 | In Class Activity I  |
+| 0:45 | BREAK                |
+| 0:55 | Overview/TT II       |
+| 1:15 | In Class Activity II |
 | 1:50 | END                  |
 
 ## Learning Objectives/Competencies (5 Minutes)
@@ -33,7 +33,7 @@
 
 ## Overview/TT I
 
-### 12 Factor Applications (15 Minutes)
+### 12 Factor Applications (20 Minutes)
 
 Present this [lightning talk](12factor-lightning.pdf) on designing effective applications using the 12 Factor approach to web development.
 
@@ -44,6 +44,8 @@ Present this [lightning talk](12factor-lightning.pdf) on designing effective app
 - Assign each student a single factor to research from [12factor.net](https://12factor.net).
 
 - Have them each complete a **3-5 sentence summary about the topic** and **post it to `#bew1-3`**.
+
+## BREAK (10 Minutes)
 
 ## Overview/TT II
 
@@ -61,7 +63,7 @@ Present this [slide show](https://rubygarage.github.io/slides/api) on how to eff
 
 - **Discuss ideas** together as a group!
 
-### Initialize & Propose (25 Minutes)
+### Initialize & Propose (20 Minutes)
 
 - Create a [new GitHub repo](https://github.com/new).
 
