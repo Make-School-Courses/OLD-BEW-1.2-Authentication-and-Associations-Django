@@ -27,7 +27,7 @@
 
 - **PAIR**: Turn to the person next to you. Share and reflect on the ideas you generated.
 
-- **SHARE**. Choose `2` ideas** that inspire you. Have them ready! We'll share them later on today.
+- **SHARE**. **Choose `2` ideas** that inspire you. Have them ready! We'll share them later on today.
 
 - **NOTE: You may fly solo for this project, or opt to work with a partner.**
 
