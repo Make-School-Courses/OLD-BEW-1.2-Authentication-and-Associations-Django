@@ -5,10 +5,17 @@
 | 0:00 | Objectives           |
 | 0:05 | Initial Exercise     |
 | 0:20 | Overview/TT          |
+<<<<<<< HEAD
 | 0:35 | In Class Activity I  |
 | 0:40 | BREAK                |
 | 0:50 | Overview/TT II       |
 | 1:10 | In Class Activity II |
+=======
+| 0:25 | In Class Activity I  |
+| 0:45 | BREAK                |
+| 0:55 | Overview/TT II       |
+| 1:15 | In Class Activity II |
+>>>>>>> 74d598222caf3f27516d39c315465a3fea04e70f
 | 1:50 | END                  |
 
 ## Learning Objectives/Competencies (5 Minutes)
@@ -21,19 +28,19 @@
 
 ### Custom API Project Ideas (15 Minutes)
 
-- Review the [custom API project requirements](Projects/custom-api-requirements.md) and [rubric](Projects/custom-api-rubric.md) to **get a sense of the scope required** for the final deliverable in BEW 1.3. **Remember, you need to score `>=70%` to pass the class!**
+- Review the [custom API project requirements](../Projects/custom-api-requirements.md) and [rubric](../Projects/custom-api-rubric.md) to **get a sense of the scope required** for the final deliverable in BEW 1.3. **Remember, you need to score `>=70%` to pass the class!**
 
 - **THINK**: Write down **at least 5 ideas** for your custom API project **based on the requirements and rubric**.
 
 - **PAIR**: Turn to the person next to you. Share and reflect on the ideas you generated.
 
-- **SHARE**. Choose `2` ideas** that inspire you. Have them ready! We'll share them later on today.
+- **SHARE**. **Choose `2` ideas** that inspire you. Have them ready! We'll share them later on today.
 
 - **NOTE: You may fly solo for this project, or opt to work with a partner.**
 
 ## Overview/TT I
 
-### 12 Factor Applications (15 Minutes)
+### 12 Factor Applications (20 Minutes)
 
 Present this [lightning talk](12factor-lightning.pdf) on designing effective applications using the 12 Factor approach to web development.
 
@@ -44,6 +51,8 @@ Present this [lightning talk](12factor-lightning.pdf) on designing effective app
 - Assign each student a single factor to research from [12factor.net](https://12factor.net).
 
 - Have them each complete a **3-5 sentence summary about the topic** and **post it to `#bew1-3`**.
+
+## BREAK (10 Minutes)
 
 ## Overview/TT II
 
@@ -59,7 +68,23 @@ Present this [slide show](https://rubygarage.github.io/slides/api) on how to eff
 - Ask students for a **one to three sentence pitch** for each idea.
 - **Discuss ideas** together as a group!
 
+<<<<<<< HEAD
 ## After Class
+=======
+### Initialize & Propose (20 Minutes)
+
+- Create a [new GitHub repo](https://github.com/new).
+
+- If you're working in pairs, **invite your partner as a collaborator** for the project on GitHub.
+
+- **Clone** the repository locally.
+
+- `cd` to the cloned directory. **Create a `proposal.md` file. Link it in your `README.md`**.
+
+- Write **3 to 5 sentences** that tell me:
+  - What you're going to create.
+  - Why it's useful.
+>>>>>>> 74d598222caf3f27516d39c315465a3fea04e70f
 
 ### Initialize & Propose
 

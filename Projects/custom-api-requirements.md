@@ -51,4 +51,4 @@ It's time to get creative and write the authenticated API of your dreams!
 
 ## Additional Resources
 
-* [Grading Rubric](Projects/custom-api-rubric.md)
+* [Grading Rubric](custom-api-rubric.md)

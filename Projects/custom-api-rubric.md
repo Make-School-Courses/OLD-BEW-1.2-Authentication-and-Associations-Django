@@ -2,7 +2,7 @@
 
 Must receive higher than `70%` to pass the project.
 
-## Functional Requirements (50%)
+## Functional Requirements
 
 | Criteria | Points | Score |
 | -------- | ------ | ----- |
@@ -12,7 +12,7 @@ Must receive higher than `70%` to pass the project.
 | Brochure site | 10 | |
 | Has documentation | 10 | |
 
-## Non-Functional Requirements (50%)
+## Non-Functional Requirements
 
 | Criteria | Points | Score |
 | -------- | ------ | ----- |
@@ -20,7 +20,7 @@ Must receive higher than `70%` to pass the project.
 | MVC | 10 | |
 | Public GitHub repo | 5 | |
 | No exposed secrets | 5 | |
-| Has purpose / fulfills proposal | 15 | |
+| Has purpose & fulfills proposal | 15 | |
 | Deployed and usable | 15 | |
 
 ## Final Score
