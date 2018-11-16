@@ -35,11 +35,6 @@
 - Announce target presentation time: each group will be responsible for a **10 to 15 minute presentation with live code examples**.
 - Each group will create a short slide deck describing the language feature they've been assigned.
 
-
-
-
-
-
 ## BREAK (10 Minutes)
 
 ## In Class Activity I (45 Minutes)
@@ -55,7 +50,12 @@
 
 ## After Class
 
-- Start the first tutorial: [Ruby on Rails Guide](https://guides.rubyonrails.org/getting_started.html)
+- Complete your syntax presentations with your group.
+  - Follow the **directions below** to **turn in the assignment** to the instructor:
+      1. **Link your slides** in the [course tracker](https://make.sc/trackbew1.3).
+      1. **Presentations are a significant factor** when calculating **your midterm grade**!
+      1. If the **tracker does not include a link to your slide deck by the due date**, **you risk receiving a _NOT PASSING_ midterm grade**!
+- Dive into the first tutorial: [Ruby on Rails Guide](https://guides.rubyonrails.org/getting_started.html)
 
 ## Additional Resources
 

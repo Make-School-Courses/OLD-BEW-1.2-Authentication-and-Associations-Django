@@ -5,17 +5,10 @@
 | 0:00 | Objectives           |
 | 0:05 | Initial Exercise     |
 | 0:20 | Overview/TT          |
-<<<<<<< HEAD
 | 0:35 | In Class Activity I  |
 | 0:40 | BREAK                |
 | 0:50 | Overview/TT II       |
 | 1:10 | In Class Activity II |
-=======
-| 0:25 | In Class Activity I  |
-| 0:45 | BREAK                |
-| 0:55 | Overview/TT II       |
-| 1:15 | In Class Activity II |
->>>>>>> 74d598222caf3f27516d39c315465a3fea04e70f
 | 1:50 | END                  |
 
 ## Learning Objectives/Competencies (5 Minutes)
@@ -49,7 +42,6 @@ Present this [lightning talk](12factor-lightning.pdf) on designing effective app
 ### Research a Factor (15 Minutes)
 
 - Assign each student a single factor to research from [12factor.net](https://12factor.net).
-
 - Have them each complete a **3-5 sentence summary about the topic** and **post it to `#bew1-3`**.
 
 ## BREAK (10 Minutes)
@@ -68,25 +60,9 @@ Present this [slide show](https://rubygarage.github.io/slides/api) on how to eff
 - Ask students for a **one to three sentence pitch** for each idea.
 - **Discuss ideas** together as a group!
 
-<<<<<<< HEAD
 ## After Class
-=======
-### Initialize & Propose (20 Minutes)
 
-- Create a [new GitHub repo](https://github.com/new).
-
-- If you're working in pairs, **invite your partner as a collaborator** for the project on GitHub.
-
-- **Clone** the repository locally.
-
-- `cd` to the cloned directory. **Create a `proposal.md` file. Link it in your `README.md`**.
-
-- Write **3 to 5 sentences** that tell me:
-  - What you're going to create.
-  - Why it's useful.
->>>>>>> 74d598222caf3f27516d39c315465a3fea04e70f
-
-### Initialize & Propose
+### Initialize & Propose - Due Friday 11/16/2018 by 10pm.
 
 **REMEMBER: You may fly solo for this project, or opt to work with a partner.**
 
@@ -98,5 +74,5 @@ Present this [slide show](https://rubygarage.github.io/slides/api) on how to eff
     - What you're going to create.
     - Why it's useful.
 1. Add, commit, and **push your proposal document** to GitHub.
-1. **Add your repository link to the [progress tracker](https://make.sc/trackbew1.3) BY END OF BUSINESS ON FRIDAY. _NO EXCEPTIONS!_**
+1. **Add your repository link to the [progress tracker](https://make.sc/trackbew1.3) BY **11:59pm on Friday**.
 1. The instructor will **provide feedback** on your proposal **in the form of a GitHub issue before the beginning of class on Day 9**.

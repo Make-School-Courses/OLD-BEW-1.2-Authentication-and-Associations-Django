@@ -33,39 +33,40 @@ Students by the end of the course will be able to ...
 
 ## Tutorials & Projects
 
-- [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
-- [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
-- [Custom API Project](Projects/custom-api-requirements.md)
-  - [Rubric](Projects/custom-api-rubric.md)
+**Complete these tutorials and projects in the order in which they appear**. Optional tutorials won't affect your final grade in this course; they simply provide additional practice and supply deeper knowledge that you can apply to the Custom API Project due at the end of the term.
+
+1. [**REQUIRED**] [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
+1. [**OPTIONAL**] [RailsTutorial.org Twitter Clone](https://www.railstutorial.org/book)
+1. [**REQUIRED**] [Custom API Project](Projects/custom-api-requirements.md)
+    - [Custom API Grading Rubric](Projects/custom-api-rubric.md)
 
 ## Schedule
 
-**Course Dates:** Tuesday, October 23 – Thursday, December 13, 2018 (7 weeks)
+**Course Dates:** Tuesday, October 23<sup>rd</sup> – Thursday, Dec 13<sup>th</sup>, 2018 _(7 weeks)_<br>
+**Class Times:** Tuesday and Thursday at 1:30 – 3:20pm _(13 class sessions)_
 
-**Class Times:** Tuesday and Thursday at 1:30–3:20pm (13 class sessions)
-
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) |
-|   2   | Thursday, October 25    | [Ruby Presentations](02-Ruby-Presentations/README.md) |
-|   3   |  Tuesday, October 30  | [Ruby Koans](03-Ruby-Koans/README.md) |
-|   4   | Thursday, November 1  | [Rails Intro](04-Rails-Intro/README.md) |
-|   5   |  Tuesday, November 6 |  [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) |
-|   6   | Thursday, November 8 | [Controllers and Actions](06-Controllers-and-Actions/README.md) |
-|   7   |  Tuesday, November 13 | [Data Driven Views](07-Views/README.md) |
-|   8   | Thursday, November 15 | [API Design](08-API-Design/README.md) |
-|      |  Tuesday, November 20 | **Don Rags** |
-|     | Thursday, November 22 | **Fall Break** |
-|  9   |  Tuesday, November 27    |  [Advanced Model Associations](09-Advanced-Model-Associations/README.md) |
-|  10   | Thursday, November 29    | [Authorization: Registering Your First User](10-Authorization/README.md) |
-|  11     |  Tuesday, December 4    | [Authentication: Login and Logout](11-Authentication/README.md) |
-|  12   | Thursday, December 6   | [Deployment: Heroku](12-Deployment/README.md) |
-|  13   | Tuesday, December 11   | [Final Project: Lab Day](13-Final-Project/README.md) |
-|  14   | Thursday, December 13   | Final Exams |
+| Class |          Date          |                 Topics                  | Graded Deliverable    | Due On... |
+|:-----:|:----------------------:|---------------------------------------|--------------------------------------|-------------|
+|   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
+|   2   | Thursday, October 25    | [Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
+|   3   |  Tuesday, October 30    | [Ruby Koans](03-Ruby-Koans/README.md) ||
+|   4   | Thursday, November 1    | [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) ||
+|   5   |  Tuesday, November 6    | [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) ||
+|   6   | Thursday, November 8    | [Controllers and Actions](06-Controllers-and-Actions/README.md) ||
+|   7   |  Tuesday, November 13   | [Data Driven Views](07-Views/README.md) ||
+|   8   | Thursday, November 15   | [API Design](08-API-Design/README.md) | [_API Proposal_](08-API-Design/README.md#after-class) | `11/16 @ 11:59pm` |
+|       |  Tuesday, November 20   | **Don Rags** ||
+|       | Thursday, November 22   | **Fall Break** ||
+|   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
+|  10   | Thursday, November 29   | [TBD](10-TBD/README.md) ||
+|  11   |  Tuesday, December 4    | [TBD](11-TBD/README.md) ||
+|  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
+|  13   | Tuesday, December 11    | [Final Project: Lab Day](13-Final-Project/README.md) ||
+|  14   | Thursday, December 13   | Final Exam | 1. _Exam_<br>2. [_Custom API_](Projects/custom-api-requirements.md) |1. `Day 13 @ 3:20pm`<br>2. `Day 13 @ 11:59pm` |
 
 ## Evaluation
 
-To pass this course you must meet the following requirements:
+**To pass this course you must meet the following requirements**:
 
 * Pass all required tutorials and projects (see associated rubrics)
 * Pass the final summative assessment >= 70%
@@ -74,9 +75,12 @@ To pass this course you must meet the following requirements:
 
 ## Additional Resources
 
-* [12 Factor Web Apps](https://12factor.net)
+
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
 * [Try Ruby](https://ruby.github.io/TryRuby/)
+* [RubyGarage Slide Decks](https://rubygarage.github.io)
+* [12 Factor Web Apps](https://12factor.net)
+* [GitHub: Minitest](https://github.com/seattlerb/minitest)
 * [Typing.io - Ruby Syntax Typing Practice](https://typing.io/lesson/ruby/rails/relation.rb/1)
 
 ## Attendance

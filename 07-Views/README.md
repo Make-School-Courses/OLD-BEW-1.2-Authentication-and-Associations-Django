@@ -136,13 +136,10 @@ Follow this simple guide to setting up the `pg` driver on your local machine for
 
 ## After Class
 
-- Plan on finishing the Ruby on Rails tutorial this week.
-- Get started on the Twitter tutorial.
-- Make sure both are linked in the course tracker!
-- Make sure your presentations are linked in the course tracker; they represent your midterm grade!
+- Plan on **finishing the Ruby on Rails tutorial this week**.
+- We'll be learning more about **RESTApi in Rails** during our next class period to prepare for the **Custom API Project**, **due by 11:59pm on the day of our final class**.
 
 ## Additional Resources
 
 * [Devise](https://github.com/plataformatec/devise) - a flexible authentication solution for Rails.
 * [How to Setup Ruby on Rails with Postgres](https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres#setting-up-postgres)
-*
