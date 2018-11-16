@@ -50,7 +50,7 @@ Students by the end of the course will be able to ...
 |   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
 |   2   | Thursday, October 25    | [Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
 |   3   |  Tuesday, October 30    | [Ruby Koans](03-Ruby-Koans/README.md) ||
-|   4   | Thursday, November 1    | [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) ||
+|   4   | Thursday, November 1    | [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) | [_RoR Tutorial_](https://guides.rubyonrails.org/getting_started.html) | `Day 10 @ 11:59pm` |
 |   5   |  Tuesday, November 6    | [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) ||
 |   6   | Thursday, November 8    | [Controllers and Actions](06-Controllers-and-Actions/README.md) ||
 |   7   |  Tuesday, November 13   | [Data Driven Views](07-Views/README.md) ||
@@ -62,7 +62,7 @@ Students by the end of the course will be able to ...
 |  11   |  Tuesday, December 4    | [TBD](11-TBD/README.md) ||
 |  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
 |  13   | Tuesday, December 11    | [Final Project: Lab Day](13-Final-Project/README.md) ||
-|  14   | Thursday, December 13   | Final Exam | 1. _Exam_<br>2. [_Custom API_](Projects/custom-api-requirements.md) |1. `Day 13 @ 3:20pm`<br>2. `Day 13 @ 11:59pm` |
+|  14   | Thursday, December 13   | Final Exam | 1. _Exam_<br>2. [_Custom API_](Projects/custom-api-requirements.md) | 1. `Day 14 @ 3:20pm`<br>2. `Day 14 @ 11:59pm` |
 
 ## Evaluation
 
