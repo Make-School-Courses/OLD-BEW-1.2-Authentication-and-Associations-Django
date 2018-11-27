@@ -66,7 +66,8 @@ When you're done with the tutorial, your development environment will be properl
 
 ## Additional Resources
 
-* [Example: TDD in a Large Ruby Project](https://github.com/comfy/comfortable-mexican-sofa/tree/master/test)
-* [GitHub: minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara)
-* [GitHub: minitest-metadata](https://github.com/wojtekmach/minitest-metadata)
+* [Awesome Ruby: Testing](https://ruby.libhunt.com/categories/227-testing) - Great resources to learn more about testing packages in Ruby on Rails.
+* [Example: TDD in a Large Ruby Project](https://github.com/comfy/comfortable-mexican-sofa/tree/master/test) - Become familiar with testing in a large Ruby on Rails deployment.
+* [GitHub: minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara) - The gem used in the tutorial.
+* [GitHub: minitest-metadata](https://github.com/wojtekmach/minitest-metadata) - The gem used in the tutorial.
 
