@@ -8,13 +8,13 @@
 | 0:30 | In Class Activity I |
 | 0:50 | BREAK               |
 | 1:00 | TT II               |
-| 1:20 |                     |
-| 1:50 | END                 |
-
+| 1:20 | In Class Activity II|
+| 2:00 | END                 |
 
 ## Learning Objectives/Competencies
 
-1. `TODO`
+1. Reinforce TDD and BDD principles by further exploring how Ruby on Rails implements and incorporates both strategies into developer workflow.
+1. Gain familiarity with the concepts of integration testing, test fixtures, and acceptance test frameworks.
 
 ## Initial Exercise
 
@@ -54,14 +54,14 @@ Not sure what any of those terms reference? Let's investigate together in the fo
 
 Present the infamous [Bow Before Minitest](bow_before_minitest.pdf) slide deck.
 
-## In Class Activity II (optional)
+## In Class Activity II
 
-## After Class
+### Integration Testing Tutorial (40 Minutes)
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+Have students walk through the [following tutorial](https://semaphoreci.com/community/tutorials/integration-testing-ruby-on-rails-with-minitest-and-capybara).  This tutorial features integration testing and test fixtures via an acceptance test framework in Ruby on Rails.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+* [GitHub: minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara)
+* [GitHub: minitest-metadata](https://github.com/wojtekmach/minitest-metadata)
+
