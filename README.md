@@ -76,6 +76,7 @@ Students by the end of the course will be able to ...
 ## Additional Resources
 
 
+* [Awesome Ruby](https://awesome-ruby.com)
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
 * [Try Ruby](https://ruby.github.io/TryRuby/)
 * [RubyGarage Slide Decks](https://rubygarage.github.io)

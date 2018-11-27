@@ -58,10 +58,15 @@ Present the infamous [Bow Before Minitest](bow_before_minitest.pdf) slide deck.
 
 ### Integration Testing Tutorial (40 Minutes)
 
-Have students walk through the [following tutorial](https://semaphoreci.com/community/tutorials/integration-testing-ruby-on-rails-with-minitest-and-capybara).  This tutorial features integration testing and test fixtures via an acceptance test framework in Ruby on Rails.
+Walk through the [following tutorial](https://semaphoreci.com/community/tutorials/integration-testing-ruby-on-rails-with-minitest-and-capybara) individually or in pairs.
+
+This tutorial features integration testing and test fixtures via an acceptance test framework in Ruby on Rails called Capybara.
+
+When you're done with the tutorial, your development environment will be properly configured to leverage this testing strategy in the future!
 
 ## Additional Resources
 
+* [Example: TDD in a Large Ruby Project](https://github.com/comfy/comfortable-mexican-sofa/tree/master/test)
 * [GitHub: minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara)
 * [GitHub: minitest-metadata](https://github.com/wojtekmach/minitest-metadata)
 
