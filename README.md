@@ -45,7 +45,7 @@ Students by the end of the course will be able to ...
 **Course Dates:** Tuesday, October 23<sup>rd</sup> – Thursday, Dec 13<sup>th</sup>, 2018 _(7 weeks)_<br>
 **Class Times:** Tuesday and Thursday at 1:30 – 3:20pm _(13 class sessions)_
 
-| Class |          Date          |                 Topics                  | Graded Deliverable    | Due On... |
+| Class |          Date          |                 Topics                | Graded Deliverable                   | Due On...    |
 |:-----:|:----------------------:|---------------------------------------|--------------------------------------|-------------|
 |   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
 |   2   | Thursday, October 25    | [Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
@@ -58,7 +58,7 @@ Students by the end of the course will be able to ...
 |       |  Tuesday, November 20   | **Don Rags** ||
 |       | Thursday, November 22   | **Fall Break** ||
 |   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
-|  10   | Thursday, November 29   | [TBD](10-TBD/README.md) ||
+|  10   | Thursday, November 29   | **Lab Day: Custom API, Ruby/Rails Live Q&A, Feedback** ||
 |  11   |  Tuesday, December 4    | [TBD](11-TBD/README.md) ||
 |  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
 |  13   | Tuesday, December 11    | [Final Project: Lab Day](13-Final-Project/README.md) ||
