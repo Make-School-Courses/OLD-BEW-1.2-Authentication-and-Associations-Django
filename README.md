@@ -58,7 +58,7 @@ Students by the end of the course will be able to ...
 |       |  Tuesday, November 20   | **Don Rags** ||
 |       | Thursday, November 22   | **Fall Break** ||
 |   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
-|  10   | Thursday, November 29   | **Lab Day: Custom API, Ruby/Rails Live Q&A, Feedback** ||
+|  10   | Thursday, November 29   | **Lab: Ruby/Rails/Custom API Live Q&A/Feedback** ||
 |  11   |  Tuesday, December 4    | [TBD](11-TBD/README.md) ||
 |  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
 |  13   | Tuesday, December 11    | [Final Project: Lab Day](13-Final-Project/README.md) ||
