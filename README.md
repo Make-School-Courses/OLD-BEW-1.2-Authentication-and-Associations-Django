@@ -31,6 +31,10 @@ Students by the end of the course will be able to ...
 1. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
 1. Continue growth and mastery of automated testing paradigms.
 
+## Study Guide
+
+To best prepare for the final exam, review [this study guide](study-guide.md).
+
 ## Tutorials & Projects
 
 **Complete these tutorials and projects in the order in which they appear**. Optional tutorials won't affect your final grade in this course; they simply provide additional practice and supply deeper knowledge that you can apply to the Custom API Project due at the end of the term.
@@ -74,7 +78,6 @@ Students by the end of the course will be able to ...
 * Make up all classwork from all absences
 
 ## Additional Resources
-
 
 * [Awesome Ruby](https://awesome-ruby.com)
 * [Why's (Poignant) Guide to Ruby](https://poignant.guide/book/chapter-1.html)
