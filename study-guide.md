@@ -2,6 +2,8 @@
 
 ## Final Exam Format
 
+ If you have a disability that requires any accommodation for the final exam, please reach out to Jen or Anne to make sure this is documented according to the Make School Accommodations Policy and clarify with your instructor what accommodations will be made.
+
 ## Outcomes
 
 ### Outcome 1
