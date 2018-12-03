@@ -1,12 +1,12 @@
-# Custom Authenticated API Project
+# Custom API Project
 
-It's time to get creative and write the authenticated API of your dreams!
+It's time to get creative and write the API of your dreams!
 
 ## Objectives
 
 1. Practice the SDLC by **completing a project from proposal to deployment** with a **focus on Test Driven Development** practices.
 1. **Utilize all the techniques learned** in class **in a single cohesive project**.
-1. Produce a **portfolio-worthy authenticated API** to show off to the world!
+1. Produce a **portfolio-worthy API** to show off to the world!
 
 ## Requirements
 
