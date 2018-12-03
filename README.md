@@ -62,11 +62,11 @@ To best prepare for the final exam, review [this study guide](study-guide.md).
 |       |  Tuesday, November 20   | **Don Rags** ||
 |       | Thursday, November 22   | **Fall Break** ||
 |   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
-|  10   | Thursday, November 29   | [TBD](10-TBD/README.md) ||
+|  10   | Thursday, November 29   | **Lab Day** ||
 |  11   |  Tuesday, December 4    | [TBD](11-TBD/README.md) ||
 |  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
-|  13   | Tuesday, December 11    | [Final Project: Lab Day](13-Final-Project/README.md) ||
-|  14   | Thursday, December 13   | Final Exam | 1. _Exam_<br>2. [_Custom API_](Projects/custom-api-requirements.md) | 1. `Day 14 @ 3:20pm`<br>2. `Day 14 @ 11:59pm` |
+|  13   | Tuesday, December 11    | **Final Exam** | Written Exam |
+|  14   | Thursday, December 13   |  | **[_Custom API_](Projects/custom-api-requirements.md) Due** | `Day 14 @ 11:59pm` |
 
 ## Evaluation
 
