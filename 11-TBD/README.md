@@ -1,50 +1,28 @@
-# Day 11 - Authentication: Login and Logout
+# Day 11 - Gems
 
-## Learning Objectives/Competencies
+## Learning Objectives/Competencies (5 Minutes)
 
-1. Identify and describe
-1. Define
-1. Desgin
-1. Implement
+1. Identify and describe the architecture of a Ruby gem.
+1. Experience a one-on-one rapid fire code review session in Ruby on Rails.
 
 ## Initial Exercise
 
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
+### Ruby Koans (10 Minutes)
+
+Continue working on your Ruby Koans.
 
 ## Overview/TT I
 
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
+### Gem Architecture (20 Minutes)
+
+Present this slide deck on [how gems work](https://rubygarage.github.io/slides/ruby-gems#/) in the Ruby on Rails ecosystem.
+
+## BREAK (10 Minutes)
 
 ## In Class Activity I
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+### Custom API / Rapid Reviews (75 Minutes)
 
-## Overview/TT II (optional)
+Work on your Custom API Project in class. Please make sure the repo is linked in the [course tracker](https://make.sc/trackbew1.3) before you leave today!
 
-## In Class Activity II (optional)
-
-## After Class
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-## Additional Resources
-
-1. Links to additional readings and videos
+Dani will be conducting rapid fire code reviews (5-7 minutes each) one-on-one with each student and providing feedback during this time.
