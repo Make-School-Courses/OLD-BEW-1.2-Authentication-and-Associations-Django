@@ -2,6 +2,10 @@
 
 ## Final Exam Format
 
+10 to 12 questions that represent our learning for each day of class. 1 question per class period focused on the main idea from each day.
+
+## Accommodations
+
  If you have a disability that requires any accommodation for the final exam, please reach out to Jen or Anne to make sure this is documented according to the Make School Accommodations Policy and clarify with your instructor what accommodations will be made.
 
 ## Outcomes
