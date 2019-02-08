@@ -67,7 +67,7 @@ Students by the end of the course will be able to ...
 
 Tutorials are to help you get started in a topic.  They are graded on completion only.
 
-1. [**REQUIRED**] [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
+* [**REQUIRED**] [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
 
 ### Projects
 
@@ -89,9 +89,8 @@ Through this requirement, we hope to encourage you to think about projects with 
 
 Projects are a chance for you to build and ship code that is based on class concepts.  Many are open ended allowing you to be creative and to have individual work for your portfolio.
 
-[**REQUIRED**] [Custom API Project](Projects/custom-api-requirements.md)
-    - [Custom API Grading Rubric](Projects/custom-api-rubric.md)
-
+* [**REQUIRED**] [Custom API Project](Projects/custom-api-requirements.md)
+    * [Custom API Grading Rubric](Projects/custom-api-rubric.md)
 
 ## Evaluation
 
@@ -112,7 +111,6 @@ Attendance requirements for scheduled sessions are:
 - No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
-
 
 ## Make School Course Policies
 
