@@ -1,6 +1,9 @@
-# BEW 1.3 Server-Side Architectures and Frameworks
-
 ![](ruby.jpg)
+# BEW 1.3: Server-Side Architectures & Frameworks
+
+| Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| [**Dani**](https://github.com/droxey) | _#bew1-3_ | Fri 0:00-0:00 _(Room)_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) | [make.sc/codewithdani](https://make.sc/codewithdani) |
 
 ## Course Description
 
