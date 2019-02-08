@@ -1,9 +1,13 @@
-![](ruby.jpg)
+<p align="center">
+  <img src="ruby.png" height="200">
+</p>
+
+
 # BEW 1.3: Server-Side Architectures & Frameworks
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**Dani**](https://github.com/droxey) | _#bew1-3_ | Fri 0:00-0:00 _(Room)_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+| [**Dani**](https://github.com/droxey) | _#bew1-3_ | Day 3:30 - 4:30pm _(Room)_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) | [Click to Request](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -31,10 +35,10 @@ Class Sessions: 14 classes, 7 labs
 Students by the end of the course will be able to ...
 
 1. Establish comfort and demonstrative ability in the Ruby language.
-1. Gain familiarity with an opinionated web framework by developing in Ruby on Rails and comparing and contrasting common patterns for backend web development.
-1. Design, implement, and deploy multiple Rails applications.
-1. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
-1. Continue growth and mastery of automated testing paradigms.
+2. Gain familiarity with an opinionated web framework by developing in Ruby on Rails and comparing and contrasting common patterns for backend web development.
+3. Design, implement, and deploy multiple Rails applications.
+4. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
+5. Continue growth and mastery of automated testing paradigms.
 
 ## Schedule
 
@@ -56,7 +60,7 @@ Students by the end of the course will be able to ...
 |   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
 |  10   | Thursday, November 29   | **Lab: Ruby+Rails/Custom API Live Q&A** ||
 |  11   |  Tuesday, December 4    | [Gems](11-Gems/README.md) ||
-|  12   | Thursday, December 6    | [Deployment: Heroku](12-Deployment/README.md) ||
+|  12   | Thursday, December 6    | [Deployment: Heroku Lab](https://devcenter.heroku.com/articles/getting-started-with-rails5) ||
 |  13   | Tuesday, December 11    | **Final Exam** | Written Exam |
 |  14   | Thursday, December 13   |  | **[_Custom API_](Projects/custom-api-requirements.md) Due** | `Day 14 @ 11:59pm` |
 
