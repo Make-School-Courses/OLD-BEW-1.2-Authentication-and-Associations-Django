@@ -42,27 +42,27 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Tuesday, October 23<sup>rd</sup> – Thursday, Dec 13<sup>th</sup>, 2018 _(7 weeks)_<br>
-**Class Times:** Tuesday and Thursday at 1:30 – 3:20pm _(13 class sessions)_
+**Course Dates:** Tues, 10/23<sup>rd</sup> – Thurs, Dec 13<sup>th</sup>, 2018 _(7 weeks)_<br>
+**Class Times:** Tues and Thurs at 1:30 – 3:20pm _(13 class sessions)_
 
 | Class |          Date          |                 Topics                | Graded Deliverable                   | Due On...    |
 |:-----:|:----------------------:|---------------------------------------|--------------------------------------|-------------|
-|   1   |  Tuesday, October 23    | [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
-|   2   | Thursday, October 25    | [Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
-|   3   |  Tuesday, October 30    | [Ruby Koans](03-Ruby-Koans/README.md) ||
-|   4   | Thursday, November 1    | [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) | [_RoR Tutorial_](https://guides.rubyonrails.org/getting_started.html) | `Day 10 @ 11:59pm` |
-|   5   |  Tuesday, November 6    | [Models: Multiple Resources, ORM, and Validation](05-Models/README.md) ||
-|   6   | Thursday, November 8    | [Controllers and Actions](06-Controllers-and-Actions/README.md) ||
-|   7   |  Tuesday, November 13   | [Data Driven Views](07-Views/README.md) ||
-|   8   | Thursday, November 15   | [API Design](08-API-Design/README.md) | [_API Proposal_](08-API-Design/README.md#after-class) | `11/16 @ 11:59pm` |
-|       |  Tuesday, November 20   | **Don Rags** ||
-|       | Thursday, November 22   | **Fall Break** ||
-|   9   |  Tuesday, November 27   | [Minitest = Max Results](09-Minitest/README.md) ||
-|  10   | Thursday, November 29   | **Lab: Ruby+Rails/Custom API Live Q&A** ||
-|  11   |  Tuesday, December 4    | [Gems](11-Gems/README.md) ||
-|  12   | Thursday, December 6    | [Deployment: Heroku Lab](https://devcenter.heroku.com/articles/getting-started-with-rails5) ||
-|  13   | Tuesday, December 11    | **Final Exam** | Written Exam |
-|  14   | Thursday, December 13   |  | **[_Custom API_](Projects/custom-api-requirements.md) Due** | `Day 14 @ 11:59pm` |
+|   1   |  Tues, 10/23    | **Lesson 1**: [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
+|   2   | Thurs, 10/25    | **Lesson 2**:[Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
+|   3   |  Tues, 10/30    | **Lesson 3**:[Ruby Koans](03-Ruby-Koans/README.md) ||
+|   4   | Thurs, 11/1    | **Lesson 4**: [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) | [_RoR Tutorial_](https://guides.rubyonrails.org/getting_started.html) | `Day 10 @ 11:59pm` |
+|   5   |  Tues, 11/6    | **Lesson 5**: [Models: Multiple Resources, ORM, & Validation](05-Models/README.md) ||
+|   6   | Thurs, 11/8    | **Lesson 6**: [Controllers & Actions](06-Controllers-and-Actions/README.md) ||
+|   7   |  Tues, 11/13   | **Lesson 7**: [Data Driven Views](07-Views/README.md) ||
+|   8   | Thurs, 11/15   | **Lesson 8**: [API Design](08-API-Design/README.md) | [_API Proposal_](08-API-Design/README.md#after-class) | `11/16 @ 11:59pm` |
+|       |  Tues, 11/20   | **Don Rags** ||
+|       | Thurs, 11/22   | **Fall Break** ||
+|   9   |  Tues, 11/27   | **Lesson 9**: [Minitest = Max Results](09-Minitest/README.md) ||
+|  10   | Thurs, 11/29   | **Lab: Ruby+Rails/Custom API Live Q&A** ||
+|  11   |  Tues, 12/4    | **Lesson 10**: [Gems](11-Gems/README.md) ||
+|  12   | Thurs, 12/6    | **Lesson 11**: [Hands On Deployment: Heroku Tutorial](https://devcenter.heroku.com/articles/getting-started-with-rails5) ||
+|  13   | Tues, 12/11    | **Final Exam** | Written Exam |
+|  14   | Thurs, 12/13   | --- | **[_Custom API_](Projects/custom-api-requirements.md) Due** | `Day 14 @ 11:59pm` |
 
 ## Class Assignments
 
