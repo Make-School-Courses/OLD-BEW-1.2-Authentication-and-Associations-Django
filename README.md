@@ -1,6 +1,6 @@
-# BEW 1.3: Server-Side Architectures & Frameworks
-
 ![](ruby.jpg)
+
+# BEW 1.3: Server-Side Architectures & Frameworks
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
