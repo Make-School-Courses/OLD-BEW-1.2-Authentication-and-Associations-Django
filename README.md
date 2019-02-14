@@ -34,11 +34,11 @@ Class Sessions: 14 classes, 7 labs
 
 Students by the end of the course will be able to ...
 
-1. Establish comfort and demonstrative ability in the Ruby language.
-2. Gain familiarity with an opinionated web framework by developing in Ruby on Rails and comparing and contrasting common patterns for backend web development.
-3. Design, implement, and deploy multiple Rails applications.
-4. Master SQL-based Object Relationships Manager (ORM) patterns and queries.
-5. Continue growth and mastery of automated testing paradigms.
+1. Use an open-source programming language such as Ruby.
+1. Compare and contrast common patterns for backend web development.
+1. Design, implement, and deploy multiple web applications through an opinionated web framework.
+1. Build SQL-based Object Relationships Manager (ORM) patterns and queries.
+1. Practice automated testing paradigms.
 
 ## Schedule
 
