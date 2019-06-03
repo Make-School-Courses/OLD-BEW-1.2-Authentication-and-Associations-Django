@@ -15,6 +15,7 @@
 
 1. Identify and describe different types of Django model fields.
 2. Define what a Django model is, and their applicable use cases.
+3. Write a new Django project and app!
 
 ## Initial Exercise (15 Minutes)
 
