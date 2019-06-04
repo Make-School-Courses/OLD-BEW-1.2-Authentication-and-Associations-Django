@@ -37,20 +37,22 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday and Wednesday at 1:30–3:20pm (11 class sessions)
 
-| Class |          Date          |                 Topics                | Graded Deliverable                   | Due On...    |
+| Class |          Date          |                 Topics                | Assignment                   | Due On...    |
 |:-----:|:----------------------:|---------------------------------------|--------------------------------------|-------------|
-|   1   | Mon, May 27    | **Lesson 1**: [Catching the Ruby Train](01-Catching-The-Ruby-Train/README.md) | [_Presentation_](01-Catching-The-Ruby-Train/README.md#after-class) | `Day 2 @ 1:30pm` |
-|   2   | Wed, May 29    | **Lesson 2**:[Rapid Ruby Syntax Sessions](02-Ruby-Presentations/README.md) |  |
-|   3   | Mon, June 3    | **Lesson 3**:[Ruby Koans](03-Ruby-Koans/README.md) ||
-|   4   | Wed, June 5    | **Lesson 4**: [Get on Board: Intro to Modern Rails](04-Rails-Intro/README.md) | [_RoR Tutorial_](https://guides.rubyonrails.org/getting_started.html) | `Day 10 @ 11:59pm` |
-|   5   |   Mon, June 10   | **Lesson 5**: [Models: Multiple Resources, ORM, & Validation](05-Models/README.md) ||
-|   6   |   Wed, June 12   | **Lesson 6**: [Controllers & Actions](06-Controllers-and-Actions/README.md) ||
-|   7   |   Mon, June 17   | **Lesson 7**: [Data Driven Views](07-Views/README.md) ||
-|   8   |   Wed, June 19   | **Lesson 8**: [API Design](08-API-Design/README.md) | [_API Proposal_](08-API-Design/README.md#after-class) | `11/16 @ 11:59pm` |
-|   9   |   Mon, June 24   | **Lesson 9**: [Minitest = Max Results](09-Minitest/README.md) ||
-|  10   |   Wed, June 26    | **Lesson 10**: [Gems](11-Gems/README.md) <br> **/** <br> **Lesson 11**: [Hands On Deployment: Heroku Tutorial](https://devcenter.heroku.com/articles/getting-started-with-rails5) |
+|  -    | Mon, May 27.  | **Memorial Day** | |
+|   1   | Wed, May 29    | **Lesson 1**: [Introducing Django](https://docs.djangoproject.com/en/2.2/) | [Requests and Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2, before class |
+|   2   | Mon, June 3    | **Lesson 2**: [Models](DjangoLessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3, before class
+|   3   | Wed, June 5    | **Lesson 3**: Query Sets & Migrations | | 
+|   4   | Mon, June 10    | **Lesson 4**: Views (Controllers) | [Views and Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
+|   5   |   Wed, June 12   | **Lesson 5**: Templates & Forms | [Forms and Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
+|   6   |   Mon, June 17   | **Lesson 6**: Middleware ||
+|   7   |   Wed, June 19   | **Lesson 7**: The Admin Site | | |
+|   8   |   Mon, June 24   | **Lesson 8**: Django REST Framework | [_API Proposal_](08-API-Design/README.md#after-class) | Day 8 @ 11:59pm |
+|   9   |   Wed, June 26   | **Lesson 9**: Security ||
+|  10   |   Mon, July 1    | **Lesson 10**: Performance and Optimization | [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/) + [Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 11, before class
 |  11   |  Wed, July 3 | **Final Exam** | Written Exam |
-|  12   |   | Fri, July 5 | **[_Custom API_](Projects/custom-api-requirements.md) Due** | `Day 12 @ 11:59pm` |
+|  -   |   | Fri, July 5 | **[_Custom API_](Projects/custom-api-requirements.md)** | Last day of the term @ 11:59pm - **no exceptions!** |
+
 
 ## Class Assignments
 
@@ -58,7 +60,7 @@ Students by the end of the course will be able to ...
 
 Tutorials are to help you get started in a topic. They are graded on completion only.
 
-* [Ruby on Rails Guides Tutorial](https://guides.rubyonrails.org/getting_started.html)
+* [Django Tutorials](https://docs.djangoproject.com/en/2.2/) - These will be completed throughout the course. Reference the schedule for due dates
 
 ### Projects
 
