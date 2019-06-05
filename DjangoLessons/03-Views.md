@@ -39,3 +39,5 @@ Keep working on your Django tutorial!
 _All seven sections must be complete in order to earn credit for this class._
 
 ## Additional Resources
+
+- [Django Tips #7: Function-Based Views vs Class-Based Views](https://wsvincent.com/class-function-based-views/)
