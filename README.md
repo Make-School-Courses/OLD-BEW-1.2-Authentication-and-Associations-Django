@@ -42,8 +42,8 @@ Students by the end of the course will be able to ...
 |  -    | Mon, May 27.  | **Memorial Day** | |
 |   1   | Wed, May 29    | **Lesson 1**: [Introducing Django](https://docs.djangoproject.com/en/2.2/) | [Requests and Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2, before class |
 |   2   | Mon, June 3    | **Lesson 2**: [Models](DjangoLessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3, before class
-|   3   | Wed, June 5    | **Lesson 3**: Query Sets & Migrations | | 
-|   4   | Mon, June 10    | **Lesson 4**: Views (Controllers) | [Views and Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
+|   3   | Wed, June 5    | **Lesson 3**:  | [Views (Controllers)](DjangoLessons/03-Views.md) |
+|   4   | Mon, June 10    | **Lesson 4**: Query Sets & Migrations | [Views and Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
 |   5   |   Wed, June 12   | **Lesson 5**: Templates & Forms | [Forms and Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
 |   6   |   Mon, June 17   | **Lesson 6**: Middleware ||
 |   7   |   Wed, June 19   | **Lesson 7**: The Admin Site | | |

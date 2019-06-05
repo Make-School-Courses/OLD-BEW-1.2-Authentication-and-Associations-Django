@@ -39,5 +39,3 @@ Keep working on your Django tutorial!
 _All seven sections must be complete in order to earn credit for this class._
 
 ## Additional Resources
-
-* [Best practices working with Django models in Python](https://steelkiwi.com/blog/best-practices-working-django-models-python/)
