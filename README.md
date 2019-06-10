@@ -37,20 +37,20 @@ Students by the end of the course will be able to ...
 **Class Times:** Monday and Wednesday at 1:30–3:20pm (11 class sessions)
 
 | Class |          Date          |                 Topics                | Assignment                   | Due On...    |
-|:-----:|:----------------------:|---------------------------------------|--------------------------------------|:-------------:|
+|:-----:|:----------------------:|---------------------------------------|:------------------------------------:|:-------------:|
 |  -    | Mon, May 27  | **Memorial Day** | |
 |   1   | Wed, May 29    | **Lesson 1**: [Introducing Django](https://docs.djangoproject.com/en/2.2/) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2, before class |
 |   2   | Mon, June 3    | **Lesson 2**: [Models](DjangoLessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3, before class
 |   3   | Wed, June 5    | **Lesson 3**:  [Views (Controllers)](DjangoLessons/03-Views.md) || |
 |   4   | Mon, June 10    | **Lesson 4**: [Templates & Forms](DjangoLessons/04-Templates.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
-|   5   |   Wed, June 12   | **Lesson 5**: Django REST Framework | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
-|   6   |   Mon, June 17   | **Lesson 6**: Middleware | [_API Proposal_](Projects/proposal.md) | Day 7 @ 11:59pm |
-|   7   |   Wed, June 19   | **Lesson 7**:   Testing |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 8, before class |
+|   5   |   Wed, June 12   | **Lesson 5**: Django REST Framework | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 8, before class |
+|   6   |   Mon, June 17   | **Lesson 6**: Middleware | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
+|   7   |   Wed, June 19   | **Lesson 7**:   Testing |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9, before class |
 |   8   |   Mon, June 24   | **Lesson 8**: Deployment |||
 |   9   |   Wed, June 26   | **Lesson 9**: Customizing the Admin Site |||
-|  10   |   Mon, July 1    | **Lesson 10**: Security, Performance, & Optimization | [Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 11, before class
+|  10   |   Mon, July 1    | **Lesson 10**: Security, Performance, & Optimization |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10, before class|
 |  11   |  Wed, July 3 | **Final Exam** | Written Exam |
-|  -   |   | Fri, July 5 | **[_Custom API_](Projects/requirements.md)** | Last day of the term @ 11:59pm - **no exceptions!** |
+|  -   |   | Fri, July 5 | **[_Contractor Project_](Projects/requirements.md)** | Last day of the term @ 11:59pm PST - **no exceptions!** |
 
 
 ## Class Assignments
