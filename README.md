@@ -23,9 +23,8 @@ This course begins by fostering familiarity with syntactic language features, th
 
 Students by the end of the course will be able to ...
 
-1. Use an open-source programming language.
-1. Compare and contrast common patterns for backend web development.
-1. Design, implement, and deploy multiple web applications through an opinionated web framework.
+1. Compare and contrast configuration and convention based frameworks in backend web development.
+1. Design, implement, and deploy multiple web applications via an opinionated web framework.
 1. Build SQL-based Object Relationships Manager (ORM) patterns and queries.
 1. Practice automated testing paradigms.
 
@@ -38,20 +37,20 @@ Students by the end of the course will be able to ...
 **Class Times:** Monday and Wednesday at 1:30–3:20pm (11 class sessions)
 
 | Class |          Date          |                 Topics                | Assignment                   | Due On...    |
-|:-----:|:----------------------:|---------------------------------------|--------------------------------------|-------------|
-|  -    | Mon, May 27.  | **Memorial Day** | |
-|   1   | Wed, May 29    | **Lesson 1**: [Introducing Django](https://docs.djangoproject.com/en/2.2/) | [Requests and Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2, before class |
+|:-----:|:----------------------:|---------------------------------------|--------------------------------------|:-------------:|
+|  -    | Mon, May 27  | **Memorial Day** | |
+|   1   | Wed, May 29    | **Lesson 1**: [Introducing Django](https://docs.djangoproject.com/en/2.2/) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2, before class |
 |   2   | Mon, June 3    | **Lesson 2**: [Models](DjangoLessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3, before class
-|   3   | Wed, June 5    | **Lesson 3**:  | [Views (Controllers)](DjangoLessons/03-Views.md) |
-|   4   | Mon, June 10    | **Lesson 4**: Query Sets & Migrations | [Views and Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
-|   5   |   Wed, June 12   | **Lesson 5**: Templates & Forms | [Forms and Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
-|   6   |   Mon, June 17   | **Lesson 6**: Middleware ||
-|   7   |   Wed, June 19   | **Lesson 7**: The Admin Site | | |
-|   8   |   Mon, June 24   | **Lesson 8**: Django REST Framework | [_API Proposal_](08-API-Design/README.md#after-class) | Day 8 @ 11:59pm |
-|   9   |   Wed, June 26   | **Lesson 9**: Security ||
-|  10   |   Mon, July 1    | **Lesson 10**: Performance and Optimization | [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/) + [Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 11, before class
+|   3   | Wed, June 5    | **Lesson 3**:  [Views (Controllers)](DjangoLessons/03-Views.md) || |
+|   4   | Mon, June 10    | **Lesson 4**: [Templates & Forms](DjangoLessons/04-Templates.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
+|   5   |   Wed, June 12   | **Lesson 5**: Middleware | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
+|   6   |   Mon, June 17   | **Lesson 6**: Django REST Framework | [_API Proposal_](Projects/proposal.md) | Day 7 @ 11:59pm |
+|   7   |   Wed, June 19   | **Lesson 7**:   Testing |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 8, before class |
+|   8   |   Mon, June 24   | **Lesson 8**: Deployment |||
+|   9   |   Wed, June 26   | **Lesson 9**: Customizing the Admin Site |||
+|  10   |   Mon, July 1    | **Lesson 10**: Security, Performance, & Optimization | [Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 11, before class
 |  11   |  Wed, July 3 | **Final Exam** | Written Exam |
-|  -   |   | Fri, July 5 | **[_Custom API_](Projects/custom-api-requirements.md)** | Last day of the term @ 11:59pm - **no exceptions!** |
+|  -   |   | Fri, July 5 | **[_Custom API_](Projects/requirements.md)** | Last day of the term @ 11:59pm - **no exceptions!** |
 
 
 ## Class Assignments
@@ -64,8 +63,8 @@ Tutorials are to help you get started in a topic. They are graded on completion 
 
 ### Projects
 
-* [Custom API Project](Projects/custom-api-requirements.md)
-    * [Custom API Grading Rubric](Projects/custom-api-rubric.md)
+* [Contractor Project](Projects/requirements.md)
+    * [Contractor Project Grading Rubric](Projects/rubric.md)
 
 ## Evaluation
 

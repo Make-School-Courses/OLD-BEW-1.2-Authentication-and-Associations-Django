@@ -21,7 +21,7 @@
 
 ### Custom API Project Ideas (15 Minutes)
 
-- Review the [custom API project requirements](../Projects/custom-api-requirements.md) and [rubric](../Projects/custom-api-rubric.md) to **get a sense of the scope required** for the final deliverable in BEW 1.3. **Remember, you need to score `>=70%` to pass the class!**
+- Review the [custom API project requirements](../Projects/requirements.md) and [rubric](../Projects/rubric.md) to **get a sense of the scope required** for the final deliverable in BEW 1.3. **Remember, you need to score `>=70%` to pass the class!**
 
 - **THINK**: Write down **at least 5 ideas** for your custom API project **based on the requirements and rubric**.
 
