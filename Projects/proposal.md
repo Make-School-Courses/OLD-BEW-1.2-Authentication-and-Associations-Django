@@ -1,6 +1,4 @@
-# Contractor Project Proposal
-
-**REMEMBER: You may fly solo for this project, or opt to work with a partner.**
+# Proposal: Contractor Project
 
 1. Create a [new GitHub repo](https://github.com/new).
 1. If you're working in pairs, **invite your partner as a collaborator** for the project on GitHub.
