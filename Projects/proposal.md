@@ -7,5 +7,5 @@
 1. Write **3 to 5 sentences** that tell me:
     - What you're going to create.
     - Why it's useful.
-1. Add, commit, and **push your proposal document** to GitHub.
-1. **Add your repository link to the [progress tracker](https://make.sc/trackbew1.3) by the due date in the [course syllabus](../README.md#Schedule).**
+1. Add, commit, and **push your proposal document** to GitHub by the due date in the [course syllabus](../README.md#Schedule).
+1. **Refresh the [tracker](https://make.sc/trackbew1.3). Make sure the proposal button is green.**.
