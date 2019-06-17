@@ -4,10 +4,11 @@ It's time to get creative and write the website of your dreams!
 
 ## 📖 Table of Contents
 
-1. [📝 Objectives](#objectives)
-1. [💡 Sample Ideas](#sample-ideas)
-1. [🚧 Get Started](#get-started)
-1. [✨ Finishing Touches](#finishing-touches)
+1. [� Table of Contents](#%F0%9F%93%96-Table-of-Contents)
+2. [📝 Objectives](#%F0%9F%93%9D-Objectives)
+3. [💡Sample Ideas](#%F0%9F%92%A1Sample-Ideas)
+4. [🚧 Get Started](#%F0%9F%9A%A7-Get-Started)
+5. [✨ Finishing Touches](#%E2%9C%A8-Finishing-Touches)
 
 ## 📝 Objectives
 
@@ -37,8 +38,8 @@ Level up and **earn bonus points** via the following _optional_ stretch challeng
 
 **Each challenge is designed to add polish to your project and make your release shine!**
 
-| Skill                      | Level-Up Opportunity                                                                     | BONUS |
-| -------------------------- | ---------------------------------------------------------------------------------------- | :---: |
-| **🎉Portfolio +1**              | Add your project to your Make School portfolio, linked in your project's `README`.       | `10`  |
-| **🔌Integrations**           | Find a clever way to utilize a third-party API within your project.                    | `20`  |
-| **📈DevOps**                 | Already a Heroku Master? Deploy on any virtual private server (DigitalOcean, AWS)        | `30`  |
+| Skill              | Level-Up Opportunity                                                               | BONUS |
+| ------------------ | ---------------------------------------------------------------------------------- | :---: |
+| **🎉Portfolio +1** | Add your project to your Make School portfolio, linked in your project's `README`. | `10`  |
+| **🔌Integrations** | Find a clever way to utilize a third-party API within your project.                | `20`  |
+| **📈DevOps**       | Already a Heroku Master? Deploy on any virtual private server (DigitalOcean, AWS)  | `30`  |
