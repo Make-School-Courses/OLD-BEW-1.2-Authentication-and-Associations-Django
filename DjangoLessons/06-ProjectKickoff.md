@@ -41,4 +41,11 @@ You may work on pairs for this project.
 
 ## 💻 **70m**: In Class Activity II
 
-Begin working on your proposal while in class!
+### Choose Your Own Adventure Lab Day
+
+During the rest of the class period, work on:
+
+- **Option 1**: Your project proposal according to the [proposal requirements](../Projects/proposal.md).
+- **Option 2**: The [MakePizza REST API](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) covered last class period.
+- **Option 3**: Completing your tutorial *(Part 4 was due today before class)*.
+- **Option 4**: Reviewing the [requirements](../Projects/requirements.md) and [rubric](../Projects/rubric.md), then starting your project!
