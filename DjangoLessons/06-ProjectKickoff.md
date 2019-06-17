@@ -35,7 +35,7 @@ You may work on pairs for this project.
 
 1. Go over the [proposal requirements](../Projects/proposal.md) for the Contractor Project.
 2. Go over the [project requirements](../Projects/requirements.md).
-3. Review the [project rubric](../Projects/rubric.md)
+3. Review the [project rubric](../Projects/rubric.md).
 
 ## 🌴 **10m**: BREAK
 
