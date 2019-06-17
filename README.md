@@ -43,7 +43,7 @@ Students by the end of the course will be able to ...
 |   2   | Mon, June 3    | **Lesson 2**: [Models](DjangoLessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3, before class
 |   3   | Wed, June 5    | **Lesson 3**:  [Views (Controllers)](DjangoLessons/03-Views.md) || |
 |   4   | Mon, June 10    | **Lesson 4**: [Templates & Forms](DjangoLessons/04-Templates.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5, before class  |
-|   5   |   Wed, June 12   | **Lesson 5**: Django REST Framework | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 8, before class |
+|   5   |   Wed, June 12   | **Lesson 5**: [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 8, before class |
 |   6   |   Mon, June 17   | **Lesson 6**: Project Kickoff | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
 |   7   |   Wed, June 19   | **Lesson 7**:   Testing |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9, before class |
 |   8   |   Mon, June 24   | **Lesson 8**: Deployment |||
