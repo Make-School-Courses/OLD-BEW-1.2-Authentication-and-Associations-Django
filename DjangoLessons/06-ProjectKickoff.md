@@ -2,13 +2,13 @@
 
 ### ⏱ Agenda
 
-1. [🏆 Learning Objectives](#%F0%9F%8F%86-Learning-Objectives)
+1. [🏆 **5m**: Learning Objectives](#%F0%9F%8F%86-5m-Learning-Objectives)
 2. [💻 **20m**: In Class Activity I](#%F0%9F%92%BB-20m-In-Class-Activity-I)
 3. [📖 **20m**: Overview](#%F0%9F%93%96-20m-Overview)
 4. [🌴 **10m**: BREAK](#%F0%9F%8C%B4-10m-BREAK)
 5. [💻 **70m**: In Class Activity II](#%F0%9F%92%BB-70m-In-Class-Activity-II)
 
-## 🏆 Learning Objectives
+## 🏆 **5m**: Learning Objectives
 
 1. Practice Django code review skills through peer discussion and tutorial reflection.
 2. Investigate well-scoped project ideas using the Django framework.
@@ -18,6 +18,8 @@
 ### Tutorial Progress Checkin
 
 Keeping up to date with the assigned tutorial sections is crucial for success in this course.
+
+*Instructors: Make sure to broadcast the tracker as it's being updated by students.*
 
 **Spend the next 20 minutes supporting one another by walking through your progress to-date.**
 
