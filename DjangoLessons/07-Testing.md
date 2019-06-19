@@ -5,10 +5,10 @@
 1. [🏆 [5m] Learning Objectives](#%F0%9F%8F%86-5m-Learning-Objectives)
 2. [🏁 [15m] Initial Exercise](#%F0%9F%8F%81-15m-Initial-Exercise)
 3. [📖 [25m] Live Coding Demo](#%F0%9F%93%96-25m-Live-Coding-Demo)
-4. [💻 [15m] In Class Activity I](#%F0%9F%92%BB-15m-In-Class-Activity-I)
+4. [💻 [10m] In Class Activity I](#%F0%9F%92%BB-10m-In-Class-Activity-I)
 5. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-BREAK)
 6. [📖 [20m] Overview: Testing in Django](#%F0%9F%93%96-20m-Overview-Testing-in-Django)
-7. [💻 [30m] In Class Activity II](#%F0%9F%92%BB-30m-In-Class-Activity-II)
+7. [💻 [35m] In Class Activity II](#%F0%9F%92%BB-35m-In-Class-Activity-II)
 8. [📚 Resources & Credits](#%F0%9F%93%9A-Resources--Credits)
 
 ## 🏆 [5m] Learning Objectives
@@ -38,7 +38,7 @@ Create [random groups] of 2-3 and ask students to review one another's proposals
 3. Add, commit, and push the code during break.
 4. Message students in Slack with the repo link.
 
-## 💻 [15m] In Class Activity I
+## 💻 [10m] In Class Activity I
 
 Break into [random groups] of 2-3.
 
@@ -50,7 +50,7 @@ Write down all the different test cases you'd create for the Polls app used in t
 
 Go through the documentation regarding [Writing and Running Tests in Django].
 
-## 💻 [30m] In Class Activity II
+## 💻 [35m] In Class Activity II
 
 Break into [random groups] of 2-3.
 
