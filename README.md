@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="django.png" height="200">
+  <img src="django.png" height="`150`">
 </p>
 
 
