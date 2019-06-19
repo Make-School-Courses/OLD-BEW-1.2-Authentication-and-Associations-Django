@@ -50,7 +50,7 @@ Recall the **two typical types of tests** developers write:
 Break into [random groups] of 2-3.
 
 1. **Write down all the different test cases you'd create for the Polls app used in the Django tutorial.**
-2. Discuss the scenarios in which testing can benefit the developer and product.
+2. **Discuss the scenarios in which testing can benefit the developer and product.**
 
 ## 🌴 [10m] BREAK
 
@@ -64,7 +64,7 @@ Go through the documentation regarding [Writing and Running Tests in Django].
 
 Break into [random groups] of 2-3.
 
-* **Challenge**: Use this [Intro to Testing in Django] tutorial to dive into testing!
+* **Challenge**: Use this [Intro to Testing in Django] tutorial to dive into testing and gain familiarity with the Python `coverage` module.
 * **Stretch Challenge**: If you finish early, try writing tests for your Pizza models using this guide to [Testing APIs with Django REST Framework]. Use a fresh clone of the [makepizza] project to get started.
 
 ## 📚 Resources & Credits
