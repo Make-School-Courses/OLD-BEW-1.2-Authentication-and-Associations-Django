@@ -3,8 +3,8 @@
 ### ⏱ Agenda
 
 1. [🏆 [5m] Learning Objectives](#%F0%9F%8F%86-5m-Learning-Objectives)
-2. [🏁 [15m] Initial Exercise](#%F0%9F%8F%81-15m-Initial-Exercise)
-3. [📖 [25m] Live Coding Demo](#%F0%9F%93%96-25m-Live-Coding-Demo)
+2. [🏁 [10m] Initial Exercise](#%F0%9F%8F%81-10m-Initial-Exercise)
+3. [📖 [30m] Live Coding Demo](#%F0%9F%93%96-30m-Live-Coding-Demo)
 4. [💻 [10m] In Class Activity I](#%F0%9F%92%BB-10m-In-Class-Activity-I)
 5. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-BREAK)
 6. [📖 [20m] Overview: Testing in Django](#%F0%9F%93%96-20m-Overview-Testing-in-Django)
@@ -19,7 +19,7 @@
 4. Practice identifying and writing test cases in Django apps.
 5. Integrate newly written test cases with existing code.
 
-## 🏁 [15m] Initial Exercise
+## 🏁 [10m] Initial Exercise
 
 ### Contractor Project Proposal Review
 
@@ -31,7 +31,7 @@ Create [random groups] of 2-3 and ask students to review one another's proposals
 - What is **most effective** about the proposal?
 - What points in the proposal could benefit from **improvement or further consideration**?
 
-## 📖 [25m] Live Coding Demo
+## 📖 [30m] Live Coding Demo
 
 1. Ask students to close their laptops for this portion of class.
 2. Live code the solution for the Pizza API challenge delivered on Day 5. Pull up the relevant documentation links and walk through each section of the code as you write it, pausing frequently for questions.
@@ -39,6 +39,8 @@ Create [random groups] of 2-3 and ask students to review one another's proposals
 4. Message students in Slack with the repo link.
 
 ## 💻 [10m] In Class Activity I
+
+### Brainstorming Test Cases
 
 Recall the **two typical types of tests** developers write:
 
@@ -57,11 +59,12 @@ Go through the documentation regarding [Writing and Running Tests in Django].
 
 ## 💻 [35m] In Class Activity II
 
+### Dive into the Code
+
 Break into [random groups] of 2-3.
 
-**Challenge**: Use this [Intro to Testing in Django] tutorial to dive into testing!
-
-**Stretch Challenge**: If you finish early, try writing tests for your Pizza models using this guide to [Testing APIs with Django REST Framework]. Use a fresh clone of the [makepizza] project to get started.
+* **Challenge**: Use this [Intro to Testing in Django] tutorial to dive into testing!
+* **Stretch Challenge**: If you finish early, try writing tests for your Pizza models using this guide to [Testing APIs with Django REST Framework]. Use a fresh clone of the [makepizza] project to get started.
 
 ## 📚 Resources & Credits
 
