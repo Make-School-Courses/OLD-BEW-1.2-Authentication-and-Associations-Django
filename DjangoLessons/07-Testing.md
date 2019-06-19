@@ -44,6 +44,8 @@
 
 Use this [Intro to Testing in Django] tutorial to dive into testing!
 
+If you finish early, try writing tests for your Pizza models.
+
 ## 📚 Resources & Credits
 
 [Create random groups]: https://www.randomlists.com/team-generator?items=Marianna%0D%0AEric%0D%0AJayce%0D%0AStephanie%0D%0AFaith%0D%0AMakhmud%0D%0AMedi%0D%0AMatthew%0D%0ARicardo%0D%0ASukhrob%0D%0AWilliam%0D%0ARamon%0D%0ARaymond%0D%0AVictoria%0D%0AZurich%0D%0ATim%0D%0AAli%0D%0AAsim%0D%0ANya%0D%0ANathan&grp=7#
