@@ -1,4 +1,4 @@
-# 📜 Day 7: Testing
+# 📜 Day 7: API Review & Testing
 
 ### ⏱ Agenda
 
