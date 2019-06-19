@@ -17,7 +17,7 @@
 2. Describe the process involved when writing test cases using the Django framework.
 3. Recognize which unit tests add value to a Django codebase.
 4. Practice identifying and writing test cases in Django apps.
-5. Integrate newly written test cases with  existing code.
+5. Integrate newly written test cases with existing code.
 
 ## 🏁 [15m] Initial Exercise
 
@@ -40,7 +40,9 @@ Create [random groups] of 2-3 and ask students to review one another's proposals
 
 ## 💻 [15m] In Class Activity I
 
-- Brainstorm how to test the Pizza API.
+Break into [random groups] of 2-3.
+
+Write down all the different test cases you'd create for the Polls app used in the Django tutorial.
 
 ## 🌴 [10m] BREAK
 
@@ -57,6 +59,10 @@ Break into [random groups] of 2-3.
 **Stretch Challenge**: If you finish early, try writing tests for your Pizza models using this guide to [Testing APIs with Django REST Framework]. Use a fresh clone of the [makepizza] project to get started.
 
 ## 📚 Resources & Credits
+
+- [Intro to Testing in Django]
+- [Writing and Running Tests in Django]
+- [Testing APIs with Django REST Framework]
 
 [random groups]: https://www.randomlists.com/team-generator?items=Marianna%0D%0AEric%0D%0AJayce%0D%0AStephanie%0D%0AFaith%0D%0AMakhmud%0D%0AMedi%0D%0AMatthew%0D%0ARicardo%0D%0ASukhrob%0D%0AWilliam%0D%0ARamon%0D%0ARaymond%0D%0AVictoria%0D%0AZurich%0D%0ATim%0D%0AAli%0D%0AAsim%0D%0ANya%0D%0ANathan&grp=7#
 [Intro to Testing in Django]: https://realpython.com/testing-in-django-part-1-best-practices-and-examples/
