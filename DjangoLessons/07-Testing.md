@@ -49,7 +49,8 @@ Recall the **two typical types of tests** developers write:
 
 Break into [random groups] of 2-3.
 
-**Write down all the different test cases you'd create for the Polls app used in the Django tutorial.**
+1. **Write down all the different test cases you'd create for the Polls app used in the Django tutorial.**
+2. Discuss the scenarios in which testing can benefit the developer and product.
 
 ## 🌴 [10m] BREAK
 
