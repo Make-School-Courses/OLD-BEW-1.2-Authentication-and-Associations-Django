@@ -40,9 +40,14 @@ Create [random groups] of 2-3 and ask students to review one another's proposals
 
 ## 💻 [10m] In Class Activity I
 
+Recall the **two typical types of tests** developers write:
+
+- **Unit Tests** are isolated tests that test one specific function.
+- **Integration Tests**, meanwhile, are larger tests that focus on user behavior and testing entire applications. Integration testing combines different pieces of code functionality to make sure they behave correctly.
+
 Break into [random groups] of 2-3.
 
-Write down all the different test cases you'd create for the Polls app used in the Django tutorial.
+**Write down all the different test cases you'd create for the Polls app used in the Django tutorial.**
 
 ## 🌴 [10m] BREAK
 
