@@ -1,0 +1,6 @@
+- **[📋 Syllabus](README.md)**
+- **[📅 Lessons](README.md#Schedule)**
+- **📈 Django Contractor Project**
+  - [Proposal Instructions](Project/proposal.md)
+  - [Project Requirements](Project/requirements.md)
+  - [Grading Rubric](Project/rubric.md)
