@@ -3,7 +3,7 @@
 ### ⏱ Agenda
 
 1. [🏆 [5m] Learning Objectives](#%F0%9F%8F%86-5m-Learning-Objectives)
-2. [🏁 [10m] Initial Exercise](#%F0%9F%8F%81-10m-Initial-Exercise)
+2. [🏁 [15m] Initial Exercise](#%F0%9F%8F%81-15m-Initial-Exercise)
 3. [📖 [20m] Overview](#%F0%9F%93%96-20m-Overview)
 4. [💻 [30m] In Class Activity I](#%F0%9F%92%BB-30m-In-Class-Activity-I)
 5. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-BREAK)
@@ -15,7 +15,7 @@
 1. Identify and describe the different files required for Django deployment.
 1. Implement a deployment strategy for Django on Heroku.
 
-## 🏁 [10m] Initial Exercise
+## 🏁 [15m] Initial Exercise
 
 ### Thinking About Deployments
 

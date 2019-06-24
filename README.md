@@ -59,7 +59,7 @@ Students by the end of the course will be able to ...
 
 Tutorials are to help you get started in a topic. They are graded on completion only.
 
-* [Django Tutorials](https://docs.djangoproject.com/en/2.2/) - These will be completed throughout the course. Reference the schedule for due dates
+* [Django Tutorials](https://docs.djangoproject.com/en/2.2/) - These will be completed throughout the course. Reference the schedule for due dates.
 
 ### Projects
 
