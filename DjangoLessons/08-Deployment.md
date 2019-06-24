@@ -72,6 +72,12 @@ pip install -r requirements.txt
 
 #### Heroku Dependencies
 
+**Web applications that process incoming HTTP requests concurrently make much more efficient use of dyno resources than web applications that only process one request at a time**. Because of this, Heroku recommends using web servers that support *concurrent request processing* whenever developing and running production services.
+
+The Django and Flask web frameworks feature convenient built-in web servers,but **these blocking servers only process a single request at a time**. If you deploy with one of these servers on Heroku, your dyno resources will be **underutilized** and your application will **feel unresponsive**.
+
+**[Gunicorn] is a pure-Python HTTP server for WSGI applications. It allows you to run any Python application concurrently by running multiple Python processes within a single dyno**. It provides a perfect balance of performance, flexibility, and configuration simplicity.
+
 Walk through [Django App Configuration on Heroku](https://devcenter.heroku.com/articles/django-app-configuration) to learn more about what dependencies are required to install Django on Heroku.
 
 #### Writing a Procfile
@@ -79,7 +85,7 @@ Walk through [Django App Configuration on Heroku](https://devcenter.heroku.com/a
 A `Procfile` looks like this:
 
 ```Procfile
-web: gunicorn hello:app
+web: gunicorn pizzashop:app
 ```
 
 It consists of **two parts**:
@@ -89,15 +95,19 @@ It consists of **two parts**:
 * The command to run in order to execute the web server (after the colon)
     * **Example**: `gunicorn hello:app` runs to the `hello` Django project via Gunicorn.
 
+
+
+
 ## 💻 [30m] In Class Activity I
 
 ### Deploy Sample Project
 
-**Challenge**: **Use [this tutorial](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy to Heroku.** It also serves to refresh your knowledge on everything we've learned in class so far! It will walk you through setting up a sample Django website and pushing it to Heroku.
+**Challenge**: **Use the [Heroku: Getting Started on Heroku with Python] tutorial to deploy to Heroku.** It also serves to refresh your knowledge on everything we've learned in class so far! It will walk you through setting up a sample Django website and pushing it to Heroku.
 
 You may ask your friends or your instructor for help, but **be sure to complete the tutorial on your own machine, and to show the instructor when you've finished**.
 
 **Remember**: *ask the instructor if you have any questions about deploying!*
+
 
 ## 🌴 [10m] BREAK
 
@@ -111,4 +121,10 @@ Find a buddy and use the example you walked through earlier to develop a `Procfi
 
 ## 📚 Resources & Credits
 
+
+- **[Heroku: Deploying Python Applications with Gunicorn]**: This guide will walk you through deploying a new Python application to Heroku using the Gunicorn web server.
+- **[Heroku: Getting Started on Heroku with Python]**: This tutorial will have you deploying a Python app (a simple Django app) in minutes.
 - **[Slant: Heroku vs. GitHub Pages](https://www.slant.co/versus/11233/13313/~heroku_vs_github-pages)**
+
+[Heroku: Deploying Python Applications with Gunicorn]: https://devcenter.heroku.com/articles/python-gunicorn
+[Heroku: Getting Started on Heroku with Python]: https://devcenter.heroku.com/articles/getting-started-with-python
