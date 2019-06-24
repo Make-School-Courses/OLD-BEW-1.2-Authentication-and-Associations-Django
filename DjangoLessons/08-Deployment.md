@@ -121,10 +121,11 @@ Find a buddy and use the example you walked through earlier to develop a `Procfi
 
 ## 📚 Resources & Credits
 
-
+- **[Gunicorn]**: Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
 - **[Heroku: Deploying Python Applications with Gunicorn]**: This guide will walk you through deploying a new Python application to Heroku using the Gunicorn web server.
 - **[Heroku: Getting Started on Heroku with Python]**: This tutorial will have you deploying a Python app (a simple Django app) in minutes.
 - **[Slant: Heroku vs. GitHub Pages](https://www.slant.co/versus/11233/13313/~heroku_vs_github-pages)**
 
+[Gunicorn]: https://gunicorn.org/
 [Heroku: Deploying Python Applications with Gunicorn]: https://devcenter.heroku.com/articles/python-gunicorn
 [Heroku: Getting Started on Heroku with Python]: https://devcenter.heroku.com/articles/getting-started-with-python
