@@ -22,12 +22,20 @@
 With a neighbor, **write down the answers** to the following questions:
 
 1. What is the **primary difference** between Heroku and GitHub Pages?
-2. What is **Gunicorn**?
-3. What **role does Gunicorn play** when deploying any Python web server?
+2. What **role does Gunicorn play** when deploying any Python web server?
+3. What is a **Dyno** on Heroku?
 
 ## 📖 [20m] Overview
 
 ### Why We Use Heroku
+
+- **Simple to Start**: Getting started with Heroku is straightforward; a beginner can set up their first app in less than 10 minutes.
+- **Excellent Error Logs**: You have access to real error logging inside the Heroku console as well as on your command line. Heroku deployments, in comparison to other platforms, are simple to debug.
+- **Add-Ons**: Heroku has a vast list of plugins and services that can be added to an instance. These plugins cover things from databases to email systems.
+- **Simple Scaling**: Heroku instances can easily be scaled up or down by increasing or decreasing the number of available "dynos" for that instance. This can be done through the CLI or through Heroku's own web UI.
+- **Dedicated Build Servers**: Heroku has dedicated servers for building app dependencies. This ensures that you won't have issues like "out of memory" errors when deploying your app.
+- **Mature**: Heroku is one of the oldest PaaS providers. There's a massive number of articles, guides, and tutorials on Heroku out there for beginners and advanced users.
+- **Free Option**: Heroku offers a free tier which contains a single dyno instance. It offers `512MB` of memory and `100MB` swap space.
 
 ### What You Need to Deploy
 
