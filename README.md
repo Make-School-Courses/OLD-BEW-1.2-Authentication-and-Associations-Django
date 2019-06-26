@@ -47,8 +47,8 @@ Students by the end of the course will be able to ...
 |   6   |   Mon, June 17   | **Lesson 6**: [Project Kickoff](DjangoLessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6, before class |
 |   7   |   Wed, June 19   | **Lesson 7**:   [Testing](DjangoLessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9, before class |
 |   8   |   Mon, June 24   | **Lesson 8**: [Deployment](DjangoLessons/08-Deployment.md) |||
-|   9   |   Wed, June 26   | **Lesson 9**: Customizing the Admin Site |||
-|  10   |   Mon, July 1    | **Lesson 10**: Security, Performance, & Optimization |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10, before class|
+|   9   |   Wed, June 26   | **Lesson 9**: Lab Day |||
+|  10   |   Mon, July 1    | **Lesson 10**: Exam Review Day |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10, before class|
 |  11   |  Wed, July 3 | **Final Exam** | Written Exam |
 |  -   |   | Fri, July 5 | **[_Contractor Project_](Projects/requirements.md)** | Last day of the term @ 11:59pm PST - **no exceptions!** |
 
