@@ -50,7 +50,7 @@ Students by the end of the course will be able to ...
 |   9   |   Wed, June 26   | **Lesson 9**: Lab Day |||
 |  10   |   Mon, July 1    | **Lesson 10**: Exam Review Day |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10, before class|
 |  11   |  Wed, July 3 | **Final Exam** | Written Exam |
-|  -   |   | Fri, July 5 | **[_Contractor Project_](Projects/requirements.md)** | Last day of the term @ 11:59pm PST - **no exceptions!** |
+|  -   |   | Fri, July 4 | **[_Contractor Project_](Projects/requirements.md)** | Last day of the term @ 12:00pm PST - **no exceptions!** |
 
 
 ## Class Assignments
