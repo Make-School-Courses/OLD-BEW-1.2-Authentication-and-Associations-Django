@@ -3,11 +3,7 @@
 </p>
 
 
-# BEW 1.3: Server-Side Architectures & Frameworks
-
-| Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| [**Dani**](https://github.com/droxey) | _#bew1-3_ | [M/W 3:30 - 4pm](https://calendly.com/droxey/officehours)<br>_(Great Hall)_ | [make.sc/bew1.3](https://make.sc/bew1.3) | [make.sc/trackbew1.3](https://make.sc/trackbew1.3) | [Click to Request](https://make.sc/codewithdani) |
+# BEW 1.2: Authentication, Associations, & Advanced Queries
 
 ## Course Description
 
