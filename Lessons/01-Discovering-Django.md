@@ -22,7 +22,7 @@
 
 ## 📖 [15m] Course Overview
 
-Review the [syllabus](#/README.md) with students.
+Review the [syllabus](/README.md) with students.
 
 ## 📖 [20m] Discovering Django
 
