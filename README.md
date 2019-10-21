@@ -5,6 +5,14 @@
 
 # BEW 1.2: Authentication, Associations, & Advanced Queries
 
+1. [Course Description](#course-description)
+2. [Prerequisites](#prerequisites)
+3. [Learning Outcomes](#learning-outcomes)
+4. [Schedule](#schedule)
+5. [Class Assignments](#class-assignments)
+6. [Evaluation](#evaluation)
+7. [Make School Course Policies](#make-school-course-policies)
+
 ## Course Description
 
 In this course, students will learn to develop and release standardized server-side applications that include authorized and authenticated users. Techniques include favoring convention over configuration, following a strict RESTful MVC architecture, and emphasizing the role of automated testing.
