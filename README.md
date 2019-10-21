@@ -32,7 +32,7 @@ Students by the end of the course will be able to...
 TODO: Update with section class times.
 **Class Times:** Monday and Wednesday at 1:30–3:20pm (11 class sessions) -->
 
-| Class | Topics | Assignment | Due Before... |
+| Day | Topics | Assignment | Due Before... |
 | :---: | ------ | ---------- | :-------: |
 |   1   | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
 |   2   | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
