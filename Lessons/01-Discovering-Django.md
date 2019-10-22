@@ -4,14 +4,14 @@
 
 ### ⏱ Agenda
 
-1. [🏆 Learning Objectives](#%f0%9f%8f%86-learning-objectives)
-2. [📖 [15m] Course Overview](#%f0%9f%93%96-15m-course-overview)
-3. [📖 [20m] Discovering Django](#%f0%9f%93%96-20m-discovering-django)
-4. [🌴 [10m] BREAK](#%f0%9f%8c%b4-10m-break)
-5. [💻 [30m] Group Activity: Unlocking Features](#%f0%9f%92%bb-30m-group-activity-unlocking-features)
-6. [🖥 [30m] Presentations: Unlocking Features](#%f0%9f%96%a5-30m-presentations-unlocking-features)
-7. [🌃 [5m] After Class](#%f0%9f%8c%83-5m-after-class)
-8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+1. [🏆 Learning Objectives]
+2. [📖 [15m] Course Overview]
+3. [📖 [20m] Discovering Django]
+4. [🌴 [10m] BREAK]
+5. [💻 [30m] Group Activity: Unlocking Features]
+6. [🖥 [30m] Presentations: Unlocking Features]
+7. [🌃 [5m] After Class]
+8. [📚 Resources & Credits]
 
 ## 🏆 Learning Objectives
 
