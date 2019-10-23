@@ -46,12 +46,14 @@ TODO: Update with section class times.
 |   2   | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
 |   3   | **Lesson 3**:  [Views (Controllers)](Lessons/03-Views.md) |||
 |   4   | **Lesson 4**: [Templates & Forms](Lessons/04-Templates.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
-|   5   | **Lesson 5**: [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 7 |
-|   6   | **Lesson 6**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
-|   7   | **Lesson 7**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9 |
-|   8   | **Lesson 8**: [Deployment](Lessons/08-Deployment.md) |||
-|   9   | **Lesson 9**: Lab Day |||
-|  10   | **Lesson 10**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10 |
+| 5 | **Lesson 5**:  Django Based Authentication & Authorization | |
+| 6 |  **Lesson 6**:  OAuth Based Authentication & Authorization | |
+|      | **Lesson 7**: [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 7 |
+|   8   | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
+|   9   | **Lesson 9**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9 |
+|   10   | **Lesson 10**: [Deployment](Lessons/08-Deployment.md) |||
+|   11   | **Lesson 11**: Lab Day |||
+|   12   | **Lesson 12**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) |[Static Files Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) + [Customizing the Admin Site Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10 |
 
 
 ## Class Assignments
