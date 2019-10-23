@@ -45,6 +45,8 @@ Use your `makepizza` project in order to write the following queries using the c
 
 ### Challenges
 
+Use the [Making Queries](https://docs.djangoproject.com/en/2.2/topics/db/queries/) documentation to guide you in your quest to solve the following challenges:
+
 1. Write a query that returns all Pizzas.
 2. Write a query that returns one specific pizza by ID.
 3. Write a query that filters the Pizza objects, and returns only Pepperoni pizzas.
