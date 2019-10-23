@@ -3,12 +3,12 @@
 ### Table of Contents
 
 1. [Learning Objectives (5 Minutes)](#learning-objectives-5-minutes)
-2. [Initial Exercise (15 Minutes)](#initial-exercise-15-minutes)
-3. [In Class Activity I (20 Minutes)](#in-class-activity-i-20-minutes)
-4. [Overview / TT (20 Minutes)](#overview--tt-20-minutes)
+2. [Tutorial Time (30 Minutes)](#tutorial-time-30-minutes)
+3. [Overview / TT (20 Minutes)](#overview--tt-20-minutes)
+4. [In Class Activity I (30 Minutes)](#in-class-activity-i-30-minutes)
 5. [BREAK (10 Minutes)](#break-10-minutes)
-6. [In Class Activity II (20 Minutes)](#in-class-activity-ii-20-minutes)
-7. [Wrap Up (20 Minutes)](#wrap-up-20-minutes)
+6. [In Class Activity II (30 Minutes)](#in-class-activity-ii-30-minutes)
+7. [Wrap Up Exercise (15 Minutes)](#wrap-up-exercise-15-minutes)
 8. [Additional Resources](#additional-resources)
 
 ## Learning Objectives (5 Minutes)
@@ -17,17 +17,17 @@
 2. Define what a Django model is, and their applicable use cases.
 3. Write a new Django project and app!
 
-## Initial Exercise (15 Minutes)
+## Tutorial Time (30 Minutes)
 
-### Check for Understanding
+Begin the first portion of the Django tutorial.
 
-All answers will be in the form of a bash command.
+Make sure to raise your hand if you get stuck installing or running Django!
 
-1. What is the first step a Python developer should take before starting ANY project?
-2. What two commands, run after the answer to the first, allow you to initialize the environment and safely install Django?
-3. What command will allow you to create a new module (or app)?
+## Overview / TT (20 Minutes)
 
-## In Class Activity I (20 Minutes)
+Go over the [Django model](https://docs.djangoproject.com/en/2.2/topics/db/models) and [Django fields](https://docs.djangoproject.com/en/2.2/topics/db/models/#fields) documentation.
+
+## In Class Activity I (30 Minutes)
 
 ### `makepizza`
 
@@ -37,15 +37,9 @@ Work together with a friend!
 
 **Hint**: The capitalized letters mean something special in python!
 
-## Overview / TT (20 Minutes)
-
-Go over the [Django model](https://docs.djangoproject.com/en/2.2/topics/db/models) and [Django fields](https://docs.djangoproject.com/en/2.2/topics/db/models/#fields) documentation.
-
-Code up the solution(s) to the `makepizza` problem.
-
 ## BREAK (10 Minutes)
 
-## In Class Activity II (20 Minutes)
+## In Class Activity II (30 Minutes)
 
 Use your `makepizza` project in order to write the following queries using the command `python manage.py shell`.
 
@@ -61,11 +55,15 @@ Use your `makepizza` project in order to write the following queries using the c
 2. Write a query that returns all Pizzas that are less than `$8.99`.
 3. What is the most complex query you can write by reviewing the Django documentation?
 
-## Wrap Up (20 Minutes)
+## Wrap Up Exercise (15 Minutes)
 
-Keep working on your Django tutorial!
+### Check for Understanding
 
-_All seven sections must be complete in order to earn credit for this class._
+All answers will be in the form of a bash command.
+
+1. What is the first step a Python developer should take before starting ANY project?
+2. What two commands, run after the answer to the first, allow you to initialize the environment and safely install Django?
+3. What command will allow you to create a new module (or app)?
 
 ## Additional Resources
 
