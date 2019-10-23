@@ -22,7 +22,7 @@
 
 ## 📖 [15m] Course Overview
 
-Review the [syllabus](../README.md) with students.
+Review the [syllabus](/README.md) with students.
 
 ## 📖 [20m] Discovering Django
 
@@ -86,7 +86,7 @@ Your group's presentation should **include 4 slides** with **answers to each que
 5. **[Authentication](https://docs.djangoproject.com/en/stable/topics/auth/)**: Django comes with a full-featured and secure authentication system. It handles user accounts, groups, permissions and cookie-based user sessions. This lets you easily build sites that let users to create accounts and safely log in/out.
 6. **[Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/)**: One of the most powerful parts of Django is its automatic admin interface.
 7. **[Internationalization](https://docs.djangoproject.com/en/stable/topics/i18n/)**: Django offers full support for translating text into different languages, plus locale-specific formatting of dates, times, numbers and time zones.
-8. **[Security](https://docs.djangoproject.com/en/stable/topics/security/)**: Django provides multiple protections againstDjango provides multiple protections against clickjacking, cross-site scripting, and more.
+8. **[Security](https://docs.djangoproject.com/en/stable/topics/security/)**: Django provides multiple protections against clickjacking, cross-site scripting, and more.
 
 ## 🖥 [30m] Presentations: Unlocking Features
 

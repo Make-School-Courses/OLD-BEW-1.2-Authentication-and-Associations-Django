@@ -1,6 +1,14 @@
-- **[📋 Syllabus](README.md)**
-- **[📅 Lessons](README.md#Schedule)**
+- **[📋 Syllabus](/README.md)**
+- **[📅 Lessons](/README.md?id=schedule)**
+  - [Discovering Django](Lessons/01-Discovering-Django)
+  - [Models](Lessons/02-Models)
+  - [Views (Controllers)](Lessons/03-Views)
+  - [Templates & Forms](Lessons/04-Templates)
+  - [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk/edit#slide=id.g4cf79cf4e3_0_202)
+  - [Project Kickoff](Lessons/06-ProjectKickoff)
+  - [Testing](Lessons/07-Testing)
+  - [Deployment](Lessons/08-Deployment)
 - **📈 Django Contractor Project**
-  - [Proposal Instructions](Projects/proposal.md)
-  - [Project Requirements](Projects/requirements.md)
-  - [Grading Rubric](Projects/rubric.md)
+  - [Proposal Instructions](/Projects/proposal.md)
+  - [Project Requirements](/Projects/requirements.md)
+  - [Grading Rubric](/Projects/rubric.md)
