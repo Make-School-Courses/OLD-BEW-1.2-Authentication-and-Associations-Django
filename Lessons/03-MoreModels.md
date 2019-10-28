@@ -5,7 +5,7 @@
 1. [[5m] Learning Objectives](#5m-learning-objectives)
 2. [[40m] Review: Models and Filters](#40m-review-models-and-filters)
 3. [[10m] BREAK](#10m-break)
-4. [[30m] Activity: Creating Events](#30m-activity-creating-events)
+4. [[45m] Activity: Creating Events](#45m-activity-creating-events)
 5. [Additional Resources & Credits](#additional-resources--credits)
 
 ## [5m] Learning Objectives
@@ -109,7 +109,7 @@ These common filters come in handy in nearly every project:
 
 ## [10m] BREAK
 
-## [30m] Activity: Creating Events
+## [45m] Activity: Creating Events
 
 Create an `events` app using the walkthrough above, add data manually, then execute a few queries against it based on the suggestions below.
 
@@ -126,6 +126,8 @@ Create an `events` app using the walkthrough above, add data manually, then exec
 1. Update one of your events by changing the `name` or `date` on which it occurs.
 2. Delete one of the events.
 3. Sort a list of all events by `date`, descending.
+
+### Finish Early?
 
 If you finish early, keep working on your Django tutorial until the end of class!
 
