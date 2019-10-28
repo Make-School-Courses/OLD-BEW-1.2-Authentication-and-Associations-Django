@@ -108,7 +108,7 @@ These common filters come in handy in nearly every project:
 - `Event.objects.get(id=14)`: Return *one* `Event` with `id` `14`.
 - `Event.objects.filter(name="Dungeons and Dragons")`: Return 0 to many `Event`s with the `name` `Dungeons and Dragons`.
 - `Event.objects.filter(name__iexact="Kanye")`: Return Events that match `Kanye` and `kanye`.
-- `Event.objects.get(headline__contains="West")`: Return events that contain the exact string, `West`, but not `west`.
+- `Event.objects.filter(headline__contains="West")`: Return events that contain the exact string, `West`, but not `west`.
 
 **PROTIP**: `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
 
