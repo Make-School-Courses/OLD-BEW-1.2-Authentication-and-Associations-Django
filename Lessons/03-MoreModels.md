@@ -23,6 +23,7 @@
 
 #### Start With A Plan
 
+We'll start by creating a model for our clubs website, called `Event`. Let's imagine what it looks like together:
 
 | Field Name | Field Description | Data Type |
 | ---------- | ----------------- | --------- |
@@ -47,15 +48,18 @@ class Event(models.Model):
     description = models.TextField(blank=True)
 ```
 
+1. **Question**: What command created `myclub_project`?
+2. **Question**: What command created the `events` directory?
+
 #### Models: A Line By Line Review
 
 - ` Line 1` imports the models package from `django.db`. This line will already be in your file!
 - `Line 3` is the Event class definition. Each Django model must inherit from Django’s Model class.
-- `Line 4`: the `name` field is a Django `CharField`. A `CharField` is a short line of text (up to 255 characters). In this case, the max_length option sets the maximum length of the event name to 120 characters.
+- `Line 4`: the `name` field is a Django `CharField`. A `CharField` is a short line of text (up to 255 characters). In this case, the `max_length` option sets the maximum length of the event name to 120 characters.
     - The `name` field also has a verbose name argument. The verbose name is used to create a human-friendly name for the model field.
     - Most model fields accept verbose name, either as the first positional argument, or as a keyword argument (`verbose_name`).
 * `Line 5`. `event_date` is a Django `DateTimeField`. A `DateTimeField` records a Python `datetime` object. The `event_date` field has a single argument—the verbose name for the field. Note that I have named the field `event_date`, rather than just `date`. This is because `date` is a reserved word in Python and, while Django will let you use reserved words in field names, it’s always best not to.
-* `Lines 6 and 7`: `venue` and `manager` are both Django `CharField`s. As the `max_length` argument is required on `CharField`s, they have both had their `max_length` set to limit the size of the field.
+* `Lines 6 & 7`: `venue` and `manager` are both Django `CharField`s. As the `max_length` argument is required on `CharField`s, they have both had their `max_length` set to limit the size of the field.
 * `Line 8`: `description` is a Django `TextField`. A `TextField` is a large text container that can hold many thousands of characters (maximum depends on the database). The final option: `blank=True` —-- is set so that we can create an event without a detailed description. The default for this option is `False`; if you don’t add a description, Django will throw an error.
 
 #### Migrate the Models
