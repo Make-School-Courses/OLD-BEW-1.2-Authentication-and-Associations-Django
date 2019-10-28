@@ -2,15 +2,16 @@
 
 ### Table of Contents
 
-1. [Learning Objectives (5 Minutes)](#learning-objectives-5-minutes)
+1. [[5m] Learning Objectives](#5m-learning-objectives)
 2. [[40m] Review: Models and Filters](#40m-review-models-and-filters)
 3. [[10m] BREAK](#10m-break)
 4. [[30m] Activity: Creating Events](#30m-activity-creating-events)
 5. [Additional Resources & Credits](#additional-resources--credits)
 
-## Learning Objectives (5 Minutes)
+## [5m] Learning Objectives
 
 1. Review models, filters, and their common usage patterns in Django.
+2. Use models and filters to complete challenges and stretch challenges.
 
 ## [40m] Review: Models and Filters
 
