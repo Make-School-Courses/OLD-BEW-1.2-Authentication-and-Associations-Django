@@ -6,8 +6,7 @@
 2. [[40m] Review: Models and Filters](#40m-review-models-and-filters)
 3. [[10m] BREAK](#10m-break)
 4. [[30m] Activity: Creating Events](#30m-activity-creating-events)
-5. [[20m] Activity: Tutorial Time](#20m-activity-tutorial-time)
-6. [Additional Resources & Credits](#additional-resources--credits)
+5. [Additional Resources & Credits](#additional-resources--credits)
 
 ## Learning Objectives (5 Minutes)
 
@@ -87,25 +86,47 @@ $ python manage.py shell
 
 #### Querying Events
 
-`TODO`
+Django allows us to retrieve all the Events we've made, or, alternatively, to filter the results to retrieve only the Events we're interested in.
+
+**Question: What are some scenarios where Events might be filtered? Take 5 minutes to write down every situation you could think of.**
+
+#### Filters
+
+Perhaps we want to only see the events that are happening today --- or this weekend! Or an event that has our favorite band in it's title.
+
+Use Django filters to enable this capability! They allow us to use a double-underscore, in conjunction with the field name, to generate results based on our unique criteria.
+
+##### Common Filters
+
+These common filters come in handy in nearly every project:
+
+- `Event.objects.get(id=14)`: Return *one* `Event` with `id` `14`.
+- `Event.objects.filter(name__iexact="Kanye")`: Return Events that match `Kanye` and `kanye`.
+- `Event.objects.get(headline__contains="West")`: Return events that contain the exact string, `West`.
+
+**PROTIP**: `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
 
 ## [10m] BREAK
 
 ## [30m] Activity: Creating Events
 
-**Challenge**: Create an `events` app using the walkthrough above, add data manually, then execute a few queries against it based on the suggestions below.
+Create an `events` app using the walkthrough above, add data manually, then execute a few queries against it based on the suggestions below.
 
 **Need a Hand?** Use the following resource, [Django Book: Chapter 2, Models](https://djangobook.com/mdj2-models/), to guide you in your quest!
 
-### Queries
+### Challenges
 
 1. Get an event by ID.
 2. Get an event by name.
-3. `TODO` more
+3. In the above brainstorming activity, you generated a few ideas for how you would filter events. Write the solution to those queries now!
 
-## [20m] Activity: Tutorial Time
+### Stretch Challenges
 
-Keep working on your Django tutorial until the end of class!
+1. Update one of your events by changing the `name` or `date` on which it occurs.
+2. Delete one of the events.
+3. Sort a list of all events by `date`, descending.
+
+If you finish early, keep working on your Django tutorial until the end of class!
 
 _All seven sections must be complete in order to earn credit for this class._
 
