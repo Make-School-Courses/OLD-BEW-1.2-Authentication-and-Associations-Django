@@ -51,7 +51,7 @@ $ django-admin startproject myclub_project
 And create a new app with the command:
 
 ```bash
-$ python manage.py startapp myclub_app
+$ python manage.py startapp events
 ```
 
 #### Write The Model's Code
