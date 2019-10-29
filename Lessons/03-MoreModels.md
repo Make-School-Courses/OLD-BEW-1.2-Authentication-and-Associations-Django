@@ -13,6 +13,13 @@
 1. Review models, filters, and their common usage patterns in Django.
 2. Use models and filters to complete challenges and stretch challenges.
 
+## [5m] Tips for Using Django Documentation
+
+In this course, we will be treating the Django documentation site ([docs.djangoproject.com](http://docs.djangoproject.com)) as our textbook. Here are some tips for using it effectively:
+
+1. Visit the [Table of Contents](https://docs.djangoproject.com/en/2.2/contents/) page and Cmd+F for a particular topic. (**HINT:** It may be helpful to bookmark this page!)
+1. Do a Google Search for a particular topic with `site:docs.djangoproject.com` included in your query.
+
 ## [40m] Review: Models and Filters
 
 ### Models Overview
@@ -32,6 +39,20 @@ We'll start by creating a model for our clubs website, called `Event`. Let's ima
 | `venue` | Location of the event | Short Text |
 | `manager` | Name of the person managing the event | Short Text |
 | `description` | Detailed description of the event | Long Text |
+
+#### Start your Project
+
+We can create a new Django project with the following command:
+
+```bash
+django-admin startproject myclub_project
+```
+
+And create a new app with the command:
+
+```bash
+python manage.py startapp myclub_app
+```
 
 #### Write The Model's Code
 
