@@ -7,8 +7,7 @@
 3. [📝 [10m] In Class Activity: Getting to Know Views](#%f0%9f%93%9d-10m-in-class-activity-getting-to-know-views)
 4. [🌴 [10m] BREAK](#%f0%9f%8c%b4-10m-break)
 5. [💻 [30m] In Class Activity: Let's Make A Website!](#%f0%9f%92%bb-30m-in-class-activity-lets-make-a-website)
-6. [🌃 After Class](#%f0%9f%8c%83-after-class)
-7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 ## 🏆 [5m] Learning Objectives
 
@@ -47,7 +46,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^now/$', views.show_time_time),
+    url(r'^now/$', views.show_the_time),
 ]
 ```
 
@@ -137,19 +136,16 @@ For these challenges, use `views.py` in the `clubs_app` app we created last clas
 
 ### Challenges
 
-1. Create a **function-based view** that returns a `Hello, World!` message as a string.
-2. Create a **function-based view** that returns an HTML template that does the same.
+1. Create a **function-based view** that returns a `Hello, World!` message as a string when you visit it in a browser.
+1. Create a **class-based view** that returns a `Hello, World!` message as a string.
 
 ### Stretch Challenges
 
-1. Create a **class-based view** that returns a `Hello, World!` message as a string.
-2. Import the `Event` model we created during our last class. Use it to show a list of `Event`s using a class-based view and an HTML template.
-
-## 🌃 After Class
+1. Import the `Event` model we created during our last class. Use it to show a list of `Event`s using a class-based view and an HTML template. Which class-based view will you use?
 
 ## 📚 Resources & Credits
 
 1. [Medium: Django Class-Based Views vs Function-Based Views](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b)
-1. [YouTube: Intro to Class-Based Views in Django](https://www.youtube.com/watch?v=-tqhhT3R6VY)
-1. [YouTube: Deep Dive - Class-Based Views](https://youtu.be/Qki2m5AyfWw)
-1. [Class-Based Views: Advanced Django Training](https://django-advanced-training.readthedocs.io/en/latest/features/class-based-views/)
+2. [YouTube: Intro to Class-Based Views in Django](https://www.youtube.com/watch?v=-tqhhT3R6VY)
+3. [YouTube: Deep Dive - Class-Based Views](https://youtu.be/Qki2m5AyfWw)
+4. [Class-Based Views: Advanced Django Training](https://django-advanced-training.readthedocs.io/en/latest/features/class-based-views/)
