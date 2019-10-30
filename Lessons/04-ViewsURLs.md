@@ -13,7 +13,7 @@
 
 1. Identify and describe the difference between class-based views and function-based views in Django.
 2. Recognize the role of URLs in the Django framework.
-3. Apply class-based views and function-based views in a series of challenges and stretch challenges.
+3. Apply class-based views, function-based views, and urlpatterns in a series of challenges and stretch challenges.
 
 ## 📖 Overview
 
