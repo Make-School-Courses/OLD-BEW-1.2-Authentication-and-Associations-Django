@@ -116,7 +116,7 @@ Class-based views provide an **alternative way to implement views as Python obje
 Use this handy flowchart to choose when to use each type of view!
 
 <p align="center">
-  <img src="Assets/which-view.jpeg">
+  <img src="https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/Assets/which-view.jpeg?raw=true">
 </p>
 
 ## 📝 [10m] In Class Activity: Getting to Know Views
