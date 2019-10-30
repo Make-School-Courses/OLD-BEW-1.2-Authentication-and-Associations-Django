@@ -158,6 +158,10 @@ For these challenges, use `views.py` in the `clubs_app` app we created last clas
 
 1. Import the `Event` model we created during our last class. Use it to show a list of `Event`s using a class-based view and an HTML template. Which class-based view will you use?
 
+## 🤗 Vibe Check
+
+[make.sc/bew1.2-vibe-check](https://make.sc/bew1.2-vibe-check)
+
 ## 📚 Resources & Credits
 
 1. [Medium: Django Class-Based Views vs Function-Based Views](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b)
