@@ -3,11 +3,12 @@
 ### ⏱ Agenda
 
 1. [🏆 [5m] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
-2. [📖 Overview](#%f0%9f%93%96-overview)
+2. [📖 [30m] Overview](#%f0%9f%93%96-30m-overview)
 3. [📝 [10m] In Class Activity: Getting to Know Views](#%f0%9f%93%9d-10m-in-class-activity-getting-to-know-views)
 4. [🌴 [10m] BREAK](#%f0%9f%8c%b4-10m-break)
-5. [💻 [30m] In Class Activity: Let's Make A Website!](#%f0%9f%92%bb-30m-in-class-activity-lets-make-a-website)
-6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+5. [📝 [20m] In Class Activity: Class-Based Views](#%f0%9f%93%9d-20m-in-class-activity-class-based-views)
+6. [💻 [30m] In Class Activity: Let's Make A Website!](#%f0%9f%92%bb-30m-in-class-activity-lets-make-a-website)
+7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 ## 🏆 [5m] Learning Objectives
 
@@ -15,7 +16,7 @@
 2. Recognize the role of URLs in the Django framework.
 3. Apply class-based views, function-based views, and urlpatterns in a series of challenges and stretch challenges.
 
-## 📖 Overview
+## 📖 [30m] Overview
 
 ### Views
 
@@ -132,6 +133,18 @@ We will discuss the answers together as a group when we return from break!
 
 ## 🌴 [10m] BREAK
 
+## 📝 [20m] In Class Activity: Class-Based Views
+
+Pair back up, discuss, and write one to two sentences (in your own words!) on the following prompt:
+
+1. Describe one situation in which you might use this class-based view?
+   - [View](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#view)
+   - [ListView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#listview)
+   - [DetailView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#detailview)
+   - [TemplateView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#templateview)
+3. Which class-based view would you use to display **all events**?
+4. Which class-based view would you use to display **only one event**?
+
 ## 💻 [30m] In Class Activity: Let's Make A Website!
 
 For these challenges, use `views.py` in the `clubs_app` app we created last class period.
@@ -139,7 +152,7 @@ For these challenges, use `views.py` in the `clubs_app` app we created last clas
 ### Challenges
 
 1. Create a **function-based view** that returns a `Hello, World!` message as a string when you visit it in a browser.
-1. Create a **class-based view** that returns a `Hello, World!` message as a string.
+2. Create a **class-based view** that returns a `Hello, World!` message as a string.
 
 ### Stretch Challenges
 
@@ -151,3 +164,4 @@ For these challenges, use `views.py` in the `clubs_app` app we created last clas
 2. [YouTube: Intro to Class-Based Views in Django](https://www.youtube.com/watch?v=-tqhhT3R6VY)
 3. [YouTube: Deep Dive - Class-Based Views](https://youtu.be/Qki2m5AyfWw)
 4. [Class-Based Views: Advanced Django Training](https://django-advanced-training.readthedocs.io/en/latest/features/class-based-views/)
+5. [Built-in class-based views API](https://docs.djangoproject.com/en/2.2/ref/class-based-views/)
