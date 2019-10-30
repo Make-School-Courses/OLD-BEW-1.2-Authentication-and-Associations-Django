@@ -137,7 +137,7 @@ We will discuss the answers together as a group when we return from break!
 
 Pair back up, discuss, and write one to two sentences (in your own words!) on the following prompt:
 
-1. Describe one situation in which you might use this class-based view?
+1. Describe one situation in which you might use each of these class-based views:
    - [View](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#view)
    - [ListView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#listview)
    - [DetailView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#detailview)
