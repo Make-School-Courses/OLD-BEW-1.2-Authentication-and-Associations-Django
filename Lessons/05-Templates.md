@@ -39,11 +39,19 @@ In Django templating, the following terminology is used frequently:
 #### Template Tags + Filters: Working Together
 
   ```python
-  {% for animal in animal_list %}
-    {% if animal.species == 'Walrus' %}
-      You have {{ num_walruses }} walrus{{ num_walruses|pluralize:"es" }}.
-    {% endif %}
-  {% endfor %}
+  <p class="info">
+    You have {{ walrus_list|length }} walrus{{ walrus_list|length|pluralize:"es" }.
+  </p>
+  <ul id="walruses-list">
+    {% for walrus in walrus_list %}
+      <li class="walrus">
+        <p><strong>Nickname</strong>: {{ walrus.nickname|title }}</p>
+        <p><strong>Age</strong>: {{ walrus.age|timesince:walrus.birthdate }}
+      <li>
+    {% empty %}
+        <li class="no-walruses"></li>
+    {% endfor %}
+  </ul>
   ```
 
 #### Customizable
