@@ -99,7 +99,7 @@ class ShowTimeView(View):
 ### How and When Templates Render
 
 <p align="center">
-  <img src="https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/Lessons/Assets/django-lifecycle.png?raw=true" width="500">
+  <img src="https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/Assets/django-lifecycle.png?raw=true" width="500">
 </p>
 
 ## 📝 [**20m**] Activity: Django Lifecycle Worksheet
