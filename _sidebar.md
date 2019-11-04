@@ -4,7 +4,7 @@
   - [Models](Lessons/02-Models)
   - [More Models](Lessons/03-MoreModels)
   - [Views & URLs](Lessons/04-ViewsURLs)
-  - [Templates](Lessons/04-Templates)
+  - [Templates](Lessons/05-Templates)
   - [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk/edit#slide=id.g4cf79cf4e3_0_202)
   - [Project Kickoff](Lessons/06-ProjectKickoff)
   - [Testing](Lessons/07-Testing)

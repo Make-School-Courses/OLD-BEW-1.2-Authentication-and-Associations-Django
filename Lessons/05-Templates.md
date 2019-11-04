@@ -3,10 +3,10 @@
 ### ⏱ Agenda
 
 1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
-2. [📖 [**20m**] Overview: Template Deja-Vu](#%f0%9f%93%96-20m-overview-template-deja-vu)
-3. [📝 [**20m**] Activity: Django Lifecycle Worksheet](#%f0%9f%93%9d-20m-activity-django-lifecycle-worksheet)
+2. [📖 [**20m**] **Overview**: Template Deja-Vu](#%f0%9f%93%96-20m-overview-template-deja-vu)
+3. [📝 [**20m**] **Activity**: Django Lifecycle Worksheet](#%f0%9f%93%9d-20m-activity-django-lifecycle-worksheet)
 4. [🌴 [**10m**] BREAK](#%f0%9f%8c%b4-10m-break)
-5. [💻 [**65m**] Activity: Personal Wiki (makewiki)](#%f0%9f%92%bb-65m-activity-personal-wiki-makewiki)
+5. [💻 [**65m**] **Activity**: Personal Wiki (makewiki)](#%f0%9f%92%bb-65m-activity-personal-wiki-makewiki)
 6. [🌃 **After Class**: Complete Project](#%f0%9f%8c%83-after-class-complete-project)
 7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
@@ -17,7 +17,7 @@
 3. Distinguish the each file in a Django app and when it's executed by the framework.
 4. Create a minimal application from start to finish.
 
-## 📖 [**20m**] Overview: Template Deja-Vu
+## 📖 [**20m**] **Overview**: Template Deja-Vu
 
 - Built on top of Jinja!
 - Enhance the template syntax you're already familiar with
@@ -110,13 +110,13 @@ class ShowTimeView(View):
   <img src="https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/Assets/django-lifecycle.png?raw=true" width="500">
 </p>
 
-## 📝 [**20m**] Activity: Django Lifecycle Worksheet
+## 📝 [**20m**] **Activity**: Django Lifecycle Worksheet
 
 Complete the Application Lifecycle worksheet and save it to study from!
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**65m**] Activity: Personal Wiki (makewiki)
+## 💻 [**65m**] **Activity**: Personal Wiki (makewiki)
 
 > ⚠️ **IMPORTANT NOTE BEFORE YOU START** ⚠️ <br>
 > To ensure the best development experience, **_carefully and mindfully_** follow each instruction <font color="red">**_exactly_**</font> as written. _No exceptions_. Blocked? Raise your hand and let us know!
