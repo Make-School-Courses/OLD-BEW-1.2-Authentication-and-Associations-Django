@@ -83,11 +83,12 @@ from datetime import datetime
 from django.shortcuts import render
 
 def show_the_time(request):
-    """ """
+    """
     Gets the current datetime from the server and passes it to the template,
     and rendered via {{ current_date_time }}.
+    """
     return render('now.html', {
-      current_date_time = datetime.now()
+      'current_date_time': datetime.now()
     })
 ```
 
@@ -107,7 +108,7 @@ from django.views import View
 class ShowTimeView(View):
     def get(self, request):
         return render('now.html', {
-          current_date_time = datetime.now()
+          'current_date_time': datetime.now()
         })
 ```
 
@@ -135,7 +136,7 @@ Present the specifications for the makewiki project, walking through the instruc
     cd makewiki
     rm -rf .git
     git init
-    git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki
+    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki
     ```
 
 4. **Open the `makewiki` repository folder** in your IDE.
