@@ -4,7 +4,7 @@
 
 1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
 2. [📖 [**20m**] **Overview**: Template Deja-Vu](#%f0%9f%93%96-20m-overview-template-deja-vu)
-3. [📝 [**20m**] **Activity**: Django Lifecycle Worksheet](#%f0%9f%93%9d-20m-activity-django-lifecycle-worksheet)
+3. [📝 [**20m**] **Demo**: Personal Wiki](#%f0%9f%93%9d-20m-demo-personal-wiki)
 4. [🌴 [**10m**] BREAK](#%f0%9f%8c%b4-10m-break)
 5. [💻 [**65m**] **Activity**: Personal Wiki (makewiki)](#%f0%9f%92%bb-65m-activity-personal-wiki-makewiki)
 6. [🌃 **After Class**: Complete Project](#%f0%9f%8c%83-after-class-complete-project)
@@ -111,9 +111,9 @@ class ShowTimeView(View):
         })
 ```
 
-## 📝 [**20m**] **Activity**: Django Lifecycle Worksheet
+## 📝 [**20m**] **Demo**: Personal Wiki
 
-Complete the Application Lifecycle worksheet and save it to study from!
+Present the specifications for the makewiki project, walking through the instructions and starter code before students begin.
 
 ## 🌴 [**10m**] BREAK
 
