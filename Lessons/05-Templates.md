@@ -146,9 +146,9 @@ Complete the Application Lifecycle worksheet and save it to study from!
 - **Docs**: Built-in [Filters] list
 - **Docs**: How to Implement [Custom Tags and Filters]
 
-[Template Tags]:(https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-tag-reference)
-[Filters]:(https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-filter-reference)
-[makewiki starter codebase]:(https://github.com/make-school-labs/makewiki-starterpack)
+[Template Tags]: (https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-tag-reference)
+[Filters]: (https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-filter-reference)
+[makewiki starter codebase]: (https://github.com/make-school-labs/makewiki-starterpack)
 [new repository]: (https://github.com/new)
 [tracker]: (https://make.sc/trackbew1.2)
-[Custom Tags and Filters]:(https://docs.djangoproject.com/en/2.2/howto/custom-template-tags/)
+[Custom Tags and Filters]: (https://docs.djangoproject.com/en/2.2/howto/custom-template-tags/)
