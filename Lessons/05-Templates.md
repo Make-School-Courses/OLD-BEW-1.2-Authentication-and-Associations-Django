@@ -87,7 +87,7 @@ def show_the_time(request):
     Gets the current datetime from the server and passes it to the template,
     and rendered via {{ current_date_time }}.
     """
-    return render('now.html', {
+    return render(request, 'now.html', {
       'current_date_time': datetime.now()
     })
 ```
@@ -107,7 +107,7 @@ from django.views import View
 
 class ShowTimeView(View):
     def get(self, request):
-        return render('now.html', {
+        return render(request, 'now.html', {
           'current_date_time': datetime.now()
         })
 ```
