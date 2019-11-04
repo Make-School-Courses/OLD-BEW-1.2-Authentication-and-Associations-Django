@@ -3,7 +3,7 @@
   - [Discovering Django](Lessons/01-Discovering-Django)
   - [Models](Lessons/02-Models)
   - [More Models](Lessons/03-MoreModels)
-  - [Templates & Forms](Lessons/04-ViewsURLs)
+  - [Views & URLs](Lessons/04-ViewsURLs)
   - [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk/edit#slide=id.g4cf79cf4e3_0_202)
   - [Project Kickoff](Lessons/06-ProjectKickoff)
   - [Testing](Lessons/07-Testing)
