@@ -47,10 +47,10 @@ In Django templating, the following terminology is used frequently:
     {% for walrus in walrus_list %}
       <li class="walrus">
         <p><strong>Nickname</strong>: {{ walrus.nickname|title }}</p>
-        <p><strong>Age</strong>: {{ walrus.age|timesince:walrus.birthdate }}
+        <p><strong>Age</strong>: {{ now|timesince:walrus.birthdate }}
       <li>
     {% empty %}
-        <li class="no-walruses"></li>
+        <li class="no-walruses">No walruses here. ¯\_(ツ)_/¯</li>
     {% endfor %}
   </ul>
   ```
@@ -114,7 +114,11 @@ class ShowTimeView(View):
 
 ## 📝 [**20m**] **Demo**: Personal Wiki
 
-Present the specifications for the makewiki project, walking through the instructions and starter code before students begin.
+### Instructions for the Instructor 
+
+1. Present the specifications for the makewiki project. Ask students to close their laptops, then walk through and demonstrate  the [setup instructions](#setup-from-starter-code) live. 
+2. Walk through the starter code, and visit each file in the same order that students will complete their challenges. 
+3. After prompting for questions, allow students to go on break.
 
 ## 🌴 [**10m**] BREAK
 
