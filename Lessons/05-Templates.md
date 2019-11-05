@@ -147,8 +147,14 @@ class ShowTimeView(View):
 
 ### Starting the Challenges
 
-1. Find your challenges by **searching the project for instances of the word `CHALLENGE #`**. To search all files in your project directory, *press** **`<Command>` + `<Shift>` + `<F>`**, **type `CHALLENGE #`**, and **hit `<Return>`**.
-2. **Solve each challenge** in numerical order!
+1. **REQUIRED**: Complete challenges in each of these files, in order:
+    1. `makewiki/urls.py`
+    1. `wiki/views.py`
+    1. `wiki/urls.py`
+    1. `templates/base.html`
+1. **OPTIONAL**: Move on to the stretch challenges in any file to level up!
+
+**TIP**: Find all challenges by searching the project for instances of the word CHALLENGE. To search all files in your project directory, press <Command> + <Shift> + <F>, type CHALLENGE, and hit <Return>.
 
 ## 🌃 **After Class**: Complete Project
 
