@@ -42,11 +42,11 @@ TODO: Update with section class times.
 
 | Day | Topics | Assignment | Due Before... |
 | :---: | ------ | ---------- | :-------: |
-|   1   | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
-|   2   | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
-|   3   | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
-|   4   | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
-| 5 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Mini Project](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/05-Templates.md#%f0%9f%92%bb-40m-in-class-activity-personal-wiki-makewiki): `makewiki v1.0.0` | Day 6) |
+| 1 | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
+| 2 | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
+| 3 | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
+| 4 | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
+| 5 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Mini Project](https://github.com/make-school-labs/makewiki-starter): `makewiki v1.0.0` | Day 6) |
 | 6 |  **Lesson 6**:  Django Based Authentication & Authorization | |
 | 7 | **Lesson 7**: OAuth Based Authentication & Authorization | |
 | 8 | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
