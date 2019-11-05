@@ -46,8 +46,8 @@ TODO: Update with section class times.
 |   2   | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
 |   3   | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
 |   4   | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
-| 6 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Mini Project](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/05-Templates.md#%f0%9f%92%bb-40m-in-class-activity-personal-wiki-makewiki): `makewiki` | Day 7) |
-| 7 |  **Lesson 6**:  Django Based Authentication & Authorization | |
+| 6 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Mini Project](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/05-Templates.md#%f0%9f%92%bb-40m-in-class-activity-personal-wiki-makewiki): `makewiki` | Day 6) |
+| 7 |  **Lesson 6**:  [Django Based Authentication & Authorization](Lessons/06-DjangoAuth.md) | |
 | 8 | **Lesson 7**: OAuth Based Authentication & Authorization | |
 |   9   | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
 | 10 | [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 7 |
