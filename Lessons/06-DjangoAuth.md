@@ -3,7 +3,7 @@
 ### ⏱ Agenda
 
 1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
-2. [[**20m**] ✅ Review: v1 Challenges - Personal Wiki](#20m-%e2%9c%85-review-v1-challenges---personal-wiki)
+2. [[**20m**] ✓ Review: v1 Challenges - Personal Wiki](#20m-%e2%9c%93-review-v1-challenges---personal-wiki)
 3. [[**20m**] 📖 Overview: Authentication & Authorization](#20m-%f0%9f%93%96-overview-authentication--authorization)
 4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
 5. [[**45m**] 💻 Activity: v2 Challenges - Authentication](#45m-%f0%9f%92%bb-activity-v2-challenges---authentication)
@@ -21,10 +21,16 @@
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 
-## [**20m**] ✅ Review: v1 Challenges - Personal Wiki
+## [**20m**] ✓ Review: v1 Challenges - Personal Wiki
 
-`TODO`: Add solution repo
+<details><summary><b>v1 SOLUTION REPO</b></summary>
+<p>
 
+`TODO`: Add solution repo [Link]()
+
+</p>
+</details>
+<br>
 Go over the solutions to each challenge in the following order:
 
 1. `makewiki/urls.py`
