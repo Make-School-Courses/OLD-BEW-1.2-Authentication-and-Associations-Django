@@ -24,7 +24,7 @@ It's time to get creative and write the website of your dreams!
 
 ## 🚧 Get Started
 
-1. You must **fly solo** for this project (to assess that you met the course outcomes).
+1. You must **fly solo** for this project --- repositories submitted with multiple collaborators will not pass the course. You may pair program with another student.
 2. **Submit a proposal** by the due date listed on the [course syllabus](../README.md#Schedule).
     * Instructions for writing your proposal can be found in [proposal.md](proposal.md).
     * Link your proposal directly in the [course tracker](https://make.sc/trackbew1.3).
