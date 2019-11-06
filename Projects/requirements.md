@@ -4,11 +4,11 @@ It's time to get creative and write the website of your dreams!
 
 ## 📖 Table of Contents
 
-1. [� Table of Contents](#%F0%9F%93%96-Table-of-Contents)
-2. [📝 Objectives](#%F0%9F%93%9D-Objectives)
-3. [💡Sample Ideas](#%F0%9F%92%A1Sample-Ideas)
-4. [🚧 Get Started](#%F0%9F%9A%A7-Get-Started)
-5. [✨ Finishing Touches](#%E2%9C%A8-Finishing-Touches)
+1. [📖 Table of Contents](#%f0%9f%93%96-table-of-contents)
+2. [📝 Objectives](#%f0%9f%93%9d-objectives)
+3. [💡Sample Ideas](#%f0%9f%92%a1sample-ideas)
+4. [🚧 Get Started](#%f0%9f%9a%a7-get-started)
+5. [✨ Finishing Touches](#%e2%9c%a8-finishing-touches)
 
 ## 📝 Objectives
 
@@ -24,13 +24,13 @@ It's time to get creative and write the website of your dreams!
 
 ## 🚧 Get Started
 
-1. You may **fly solo** for this project, or **opt to work with a partner**.
-1. **Submit a proposal** by the due date listed on the [course syllabus](../README.md#Schedule).
+1. You must **fly solo** for this project (to assess that you met the course outcomes).
+2. **Submit a proposal** by the due date listed on the [course syllabus](../README.md#Schedule).
     * Instructions for writing your proposal can be found in [proposal.md](proposal.md).
     * Link your proposal directly in the [course tracker](https://make.sc/trackbew1.3).
     * The link to your proposal should look like this: **`https://github.com/username/reponame/proposal.md`**
-1. **Review the requirements in the [Project Rubric](rubric.md)**.
-1. **Copy [rubric.md](rubric.md)** to your project's repository. Each time you complete a requirement, communicate your progress by **adding a checkbox** next to the completed requirement in your copy of the rubric! **Use this strategy to self-assess your progress**.
+3. **Review the requirements in the [Project Rubric](rubric.md)**.
+4. **Copy [rubric.md](rubric.md)** to your project's repository. Each time you complete a requirement, communicate your progress by **adding a checkbox** next to the completed requirement in your copy of the rubric! **Use this strategy to self-assess your progress**.
 
 ## ✨ Finishing Touches
 
