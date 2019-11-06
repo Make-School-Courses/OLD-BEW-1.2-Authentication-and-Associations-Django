@@ -42,19 +42,19 @@ TODO: Update with section class times.
 
 | Day | Topics | Assignment | Due Before... |
 | :---: | ------ | ---------- | :-------: |
-|   1   | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
-|   2   | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
-|   3   | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
-|   4   | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
-| 6 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Mini Project](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Lessons/05-Templates.md#%f0%9f%92%bb-40m-in-class-activity-personal-wiki-makewiki): `makewiki` | Day 6) |
-| 7 |  **Lesson 6**:  [Django Based Authentication & Authorization](Lessons/06-DjangoAuth.md) | |
-| 8 | **Lesson 7**: OAuth Based Authentication & Authorization | |
-|   9   | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
-| 10 | [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 7 |
-|   11   | **Lesson 9**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9 |
-|   12   | **Lesson 10**: [Deployment](Lessons/08-Deployment.md) |||
-|   13  | **Lesson 11**: Lab Day |||
-|   14   | **Lesson 12**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) |[Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10 |
+| 1 | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
+| 2 | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
+| 3 | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
+| 4 | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
+| 5 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Day 6 |
+| 6 |  **Lesson 6**:  [Django Based Authentication & Authorization](Lessons/06-DjangoAuth.md) | `v2` Challenges | Day 7 |
+| 7 | **Lesson 7**: OAuth Based Authentication & Authorization | |
+| 8 | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 6 |
+| 9 | [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 7 |
+| 10 | **Lesson 9**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 9 |
+| 11 | **Lesson 10**: [Deployment](Lessons/08-Deployment.md) |||
+| 12 | **Lesson 11**: Lab Day |||
+| 13 | **Lesson 12**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) |[Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 10 |
 
 
 ## Class Assignments

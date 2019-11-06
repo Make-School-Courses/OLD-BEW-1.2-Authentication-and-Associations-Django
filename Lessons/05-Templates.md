@@ -47,10 +47,10 @@ In Django templating, the following terminology is used frequently:
     {% for walrus in walrus_list %}
       <li class="walrus">
         <p><strong>Nickname</strong>: {{ walrus.nickname|title }}</p>
-        <p><strong>Age</strong>: {{ walrus.age|timesince:walrus.birthdate }}
+        <p><strong>Age</strong>: {{ now|timesince:walrus.birthdate }}
       <li>
     {% empty %}
-        <li class="no-walruses"></li>
+        <li class="no-walruses">No walruses here. ¯\_(ツ)_/¯</li>
     {% endfor %}
   </ul>
   ```
@@ -114,7 +114,11 @@ class ShowTimeView(View):
 
 ## 📝 [**20m**] **Demo**: Personal Wiki
 
-Present the specifications for the makewiki project, walking through the instructions and starter code before students begin.
+### Instructions for the Instructor 
+
+1. Present the specifications for the makewiki project. Ask students to close their laptops, then walk through and demonstrate  the [setup instructions](#setup-from-starter-code) live. 
+2. Walk through the starter code, and visit each file in the same order that students will complete their challenges. 
+3. After prompting for questions, allow students to go on break.
 
 ## 🌴 [**10m**] BREAK
 
@@ -143,8 +147,14 @@ Present the specifications for the makewiki project, walking through the instruc
 
 ### Starting the Challenges
 
-1. Find your challenges by **searching the project for instances of the word `CHALLENGE #`**. To search all files in your project directory, *press** **`<Command>` + `<Shift>` + `<F>`**, **type `CHALLENGE #`**, and **hit `<Return>`**.
-2. **Solve each challenge** in numerical order!
+1. **REQUIRED**: Complete challenges in each of these files, in order:
+    1. `makewiki/urls.py`
+    1. `wiki/views.py`
+    1. `wiki/urls.py`
+    1. `templates/base.html`
+1. **OPTIONAL**: Move on to the stretch challenges in any file to level up!
+
+**TIP**: Find all challenges by searching the project for instances of the word CHALLENGE. To search all files in your project directory, press <Command> + <Shift> + <F>, type CHALLENGE, and hit <Return>.
 
 ## 🌃 **After Class**: Complete Project
 
