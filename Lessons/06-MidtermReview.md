@@ -1,4 +1,4 @@
-# 📜 Day #: Title
+# 📜 Day 6: Review Day
 
 ### ⏱ Agenda
 
