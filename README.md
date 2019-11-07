@@ -47,7 +47,7 @@ TODO: Update with section class times.
 | 3 | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
 | 4 | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
 | 5 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Day 7 |
-| 6 | Review Day: Django Core | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 8 |
+| 6 | **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 8 |
 | 7 | **Lesson 6**: [Django Based Authentication & Authorization](Lessons/06-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Day 9 |
 | 8 | **Lesson 7**: Forms | |
 | 9 | **Lesson 8**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 10 |
