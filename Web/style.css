@@ -26,13 +26,13 @@
   --blockquote-font-style: italic;
   --blockquote-font-weight: 500;
 
-  --code-font-size: 1em;
+  --code-font-size: 1.2em;
   --code-font-weight: 500;
   --code-tab-size: 2;
 }
 
 body {
-  font: 1.2em/2rem Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+  font: 1.2em/3rem Source Sans Pro, Helvetica Neue, Arial, sans-serif;
 }
 
 .sidebar>h1 {
