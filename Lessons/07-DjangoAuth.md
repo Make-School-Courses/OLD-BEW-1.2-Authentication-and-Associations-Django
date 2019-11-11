@@ -100,16 +100,16 @@ Here's the `views.py` that handles the following workflow:
 # accounts/views.py
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
-from django.views import generic
+from django.views.generic import CreateView
 
 
-class SignUpView(generic.CreateView):
+class SignUpView(CreateView):
     form_class = UserCreationForm
     success_url = reverse_lazy('login')
     template_name = 'signup.html'
 ```
 
-We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class. We specify the use of the built-in `UserCreationForm` and the not-yet-created template at `signup.html`. And we use `reverse_lazy` to redirect the user to the login page upon successful registration.
+We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class. We specify the use of the built-in `UserCreationForm` and the not-yet-created template at `signup.html`. We then use `reverse_lazy` to redirect the user to the login page upon successful registration.
 
 **STRETCH CHALLENGE**: Why use `reverse_lazy` instead of `reverse`?
 
@@ -123,7 +123,8 @@ Move on to the `Signup` section of the [v2 Challenges](https://github.com/make-s
 
 ## 🌃 After Class
 
-- Complete [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by next class period.
+- **HOMEWORK**: Complete [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by next class period.
+- **UP NEXT:** We'll add functionality to the green 'New Page' button in our `makewiki` project to learn more about creating and customizing Django forms!
 
 <!-- > -->
 
