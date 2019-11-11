@@ -34,6 +34,12 @@ In Django, superusers have access to the `/admin` interface, whereas regular use
 - All users can attempt to **log in** (*authentication*)
 - But only superusers **have access to** the administrative interface (*authorization*)
 
+### Think / Pair / Share: Brainstorm Analogies
+
+Spend 5 minutes coming up with one or two real-world analogies for authentication and authorization. Discuss and choose your favorite analogy.
+
+We will share these analogies together shortly.
+
 ### Enabling User Authentication in Django
 
 In your project's root URLconf, add the following to the provided `urlpatterns` list:
@@ -77,6 +83,7 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
     ```bash
     git clone https://github.com/make-school-labs/makewiki-starter makewiki_v2
     ```
+
 2. Stop when you complete the first section titled [`Login & Signup`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
 
 ## [**10m**] 🌴 BREAK

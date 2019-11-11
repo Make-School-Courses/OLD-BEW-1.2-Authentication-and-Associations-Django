@@ -31,6 +31,10 @@
   --code-tab-size: 2;
 }
 
+body {
+  font: 1.2em/2rem Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+}
+
 .sidebar>h1 {
   margin: 2.3rem auto 1rem;
 }
@@ -63,7 +67,6 @@
 
 .sidebar ul li a {
   color: #333;
-  font-size: 14px;
   font-weight: 400;
   overflow: hidden;
   text-decoration: none;
@@ -148,4 +151,8 @@ table>tbody>tr>td::before {
 .btn-edit-on-github:hover a {
   text-decoration: none;
   color: white;
+}
+
+.markdown-section pre>code {
+  font-size: 0.9rem;
 }
