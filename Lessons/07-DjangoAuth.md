@@ -119,7 +119,24 @@ These four lines of code do a lot!
 
 ### Signup Templates
 
-A typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/signup.html).
+The simplest `signup.html` template looks like this:
+
+```html
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+  <h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign up</button>
+  </form>
+{% endblock %}
+```
+
+Another typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/signup.html).
 
 ## [**30m**] 💻 Activity: v2 Challenges - Signup
 
