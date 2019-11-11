@@ -78,7 +78,7 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
 
 ## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
 
-1. Begin the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
+1. Begin the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
 
     ```bash
     git clone https://github.com/make-school-labs/makewiki-starter makewiki_v2
@@ -151,7 +151,7 @@ Another typical `signup.html` template has been included with your `makewiki` `v
 
 ## [**30m**] 💻 Activity: v2 Challenges - Signup
 
-Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) to complete the assignment.
+Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) to complete the assignment.
 
 ## 🌃 After Class
 
