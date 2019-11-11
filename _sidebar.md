@@ -7,12 +7,11 @@
   - [Templates](Lessons/05-Templates)
   - [Review Day](Lessons/06-MidtermReview)
   - [Authentication & Authorization](Lessons/07-DjangoAuth)
-  - [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk/edit#slide=id.g4cf79cf4e3_0_202)
-  - [Authentication & Authorization](Lessons/06-DjangoAuth)
-  - [Project Kickoff](Lessons/06-ProjectKickoff)
+
   - [Testing](Lessons/07-Testing)
   - [Deployment](Lessons/08-Deployment)
 - **📈 Django Contractor Project**
+  - [Project Kickoff](Lessons/06-ProjectKickoff)
   - [Proposal Instructions](/Projects/proposal.md)
   - [Project Requirements](/Projects/requirements.md)
   - [Grading Rubric](/Projects/rubric.md)
