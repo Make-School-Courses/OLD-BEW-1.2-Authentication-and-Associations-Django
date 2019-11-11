@@ -22,24 +22,95 @@
 
 ## [**20m**] 📖 Overview: Authentication & Authorization
 
-### Terminology
 
-`TODO`: Define
+### User Creation
 
-- **Authentication**:
-- **Authorization**:
+#### Users
 
-### Authentication Workflow
+Created in the Python shell, in the `/admin` interface, or through your own `signup` view!
 
-`TODO`: What happens during each step
+```python
+from django.contrib.auth.models import User
 
-1. **Sign Up**
-1. **Log In**
-1. **Log Out**
 
-### Add Django Auth to Existing Project
+user = User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
 
-`TODO`: Flesh out directions
+# At this point, user is a User object that has already been saved to the database.
+# You can continue to change its attributes if you want to change other fields.
+user.last_name = 'Lennon'
+user.save()
+```
+
+#### Superusers
+
+Always created on the command line:
+
+```bash
+python manage.py createsuperuser --username=joe --email=joe@example.com
+```
+
+### User Authorization
+
+In Django, superusers have access to the `/admin` interface, whereas regular users do not. This is an example of **authorization**: `TODO` define
+
+### User Authentication
+
+We can authenticate a user through our own **`login` view**:
+
+```python
+from django.contrib.auth import authenticate, login
+
+def login(request):
+    username = request.POST['username']
+    password = request.POST['password']
+    user = authenticate(request, username=username, password=password)
+    if user is not None:
+        login(request, user)
+        # Redirect to a success page.
+    else:
+        # Return an 'invalid login' error message.
+```
+
+For **views that only logged in users can see**, decorate the view function with `@login_required`:
+
+```python
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def my_view(request):
+    ...
+```
+
+To **log the user out** via a view, call the `logout` function, then redirect to a page that lets the user know they've successfully logged out:
+
+```python
+from django.contrib.auth import logout
+
+def logout_view(request):
+    logout(request)
+    # Redirect to a success page.
+```
+
+### Enabling Default Login, Signup, and Logout Views
+
+In your project's root URLconf, add the following to the provided `urlpatterns` list:
+
+```python
+path('accounts/', include('django.contrib.auth.urls')),
+```
+
+This will enable the following URL patterns:
+
+```python
+accounts/login/ [name='login']
+accounts/logout/ [name='logout']
+accounts/password_change/ [name='password_change']
+accounts/password_change/done/ [name='password_change_done']
+accounts/password_reset/ [name='password_reset']
+accounts/password_reset/done/ [name='password_reset_done']
+accounts/reset/<uidb64>/<token>/ [name='password_reset_confirm']
+accounts/reset/done/ [name='password_reset_complete']
+```
 
 #### Step 1: Sign Up
 
