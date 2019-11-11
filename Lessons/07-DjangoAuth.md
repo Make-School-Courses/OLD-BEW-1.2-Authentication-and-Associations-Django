@@ -69,9 +69,9 @@ DEFAULT_LOGOUT_URL = '/'
 This will enable authentication outside the administrative interface, like you see on typical websites.
 
 
-### Templates
+### Login Templates
 
-A typical `login.html` template has been included with your `makewiki` `v2` starter code.
+A typical `login.html` template has been included with your `makewiki` `v2` starter code. [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/login.html).
 
 ## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
 
@@ -84,9 +84,11 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
 
 ## [**15m**] 📖 Overview: Signup
 
-We can log users in and out, but how do they sign up? We'll have to implement that functionality with our own view. User-related functionality is typically kept in an `accounts` app.
+We can log users in and out, but how do they sign up? We'll have to implement that functionality with our own view.
 
-### Views
+User-related functionality --- creation during signup, viewing or editing a user profile, etc. ---  is typically kept in an `accounts` app.
+
+### Signup Views
 
 Here's the `views.py` that handles the following workflow:
 
@@ -94,10 +96,9 @@ Here's the `views.py` that handles the following workflow:
 - Saves the user based on the submitted form data.
 - Redirects the user to the homepage if successful, or shows an error that tells the user what went wrong.
 
-**NOTE**: Signing up **does not authenticate** the user! Be sure to redirect the user to the login page after signing up.
+**IMPORTANT**: Signing up **does not authenticate** the user! Be sure to redirect the user to the login page after signing up.
 
 ```python
-# accounts/views.py
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
@@ -109,13 +110,16 @@ class SignUpView(CreateView):
     template_name = 'signup.html'
 ```
 
-We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class. We specify the use of the built-in `UserCreationForm` and the not-yet-created template at `signup.html`. We then use `reverse_lazy` to redirect the user to the login page upon successful registration.
+These four lines of code do a lot!
 
-**STRETCH CHALLENGE**: Why use `reverse_lazy` instead of `reverse`?
+- We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class.
+- We specify the use of the built-in `UserCreationForm` and a template called `signup.html`.
+- We then use `reverse_lazy` to redirect the user to the login page upon successful registration.
+    - **DIVE DEEP**: After class, research why `reverse_lazy` instead of `reverse` is used in this example. Why not just use `reverse`?
 
-### Templates
+### Signup Templates
 
-A typical `signup.html` template has been included with your `makewiki` `v2` starter code.
+A typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/signup.html).
 
 ## [**30m**] 💻 Activity: v2 Challenges - Signup
 
