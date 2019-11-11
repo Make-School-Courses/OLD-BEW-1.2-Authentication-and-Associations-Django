@@ -116,7 +116,8 @@ These four lines of code do a lot!
 - We then use `reverse_lazy` to redirect the user to the login page upon successful registration. Why use `reverse_lazy` instead of `reverse`?
     - All Python class attributes, like `success_url`, are **evaluated when the class is imported**.
     - When this happens, Django hasn't finished building all the URLs for the project.
-    - We use `reverse_lazy` to tell Python to reverse the URL when a user requests it, instead of saving it when the class is imported.
+    - We use `reverse_lazy` to tell Python to reverse (or "build") the URL when a user requests it, instead of saving it when the class is imported.
+    - You'll get an error like the one below if you don't use `reverse_lazy` with CBVs: `django.core.exceptions.ImproperlyConfigured: The included urlconf 'accounts.urls' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.`
 
 ### Signup Templates
 
@@ -152,9 +153,17 @@ Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-s
 
 ## 📚 Resources & Credits
 
-**Unblockers**: Use these resources if you get stuck on your challenges today.
+### Unblockers
 
-- [**Django Authentication: Login & Logout Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
-- [**Django Authentication: Sign Up Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-signup/)
+Use these resources if you get stuck on your challenges today.
 
+- [Django Authentication: **Login & Logout Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
+- [Django Authentication: **Sign Up Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-signup/)
+- [Django Authentication: **Password Reset Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-password-reset/)
+
+### More Information
+
+Learn more through the resources below.
+
+- [**Django `reverse` vs `reverse_lazy`**](http://cheng.logdown.com/posts/2015/05/25/django-reverse-vs-reverse-lazy): Blog post describing a common pitfall when implementing class-based views.
 <!-- > -->
