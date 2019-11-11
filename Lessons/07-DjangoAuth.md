@@ -63,6 +63,8 @@ DEFAULT_LOGOUT_URL = '/'
 
 This will enable authentication outside the administrative interface, like you see on typical websites.
 
+Read more about [Authentication Views in Django](https://docs.djangoproject.com/en/2.2/topics/auth/default/#module-django.contrib.auth.views).
+
 
 ### Login Templates
 
@@ -165,5 +167,6 @@ Use these resources if you get stuck on your challenges today.
 
 Learn more through the resources below.
 
+- [**Docs**: Using the Django authentication system](https://docs.djangoproject.com/en/2.2/topics/auth/default/)
 - [**Django `reverse` vs `reverse_lazy`**](http://cheng.logdown.com/posts/2015/05/25/django-reverse-vs-reverse-lazy): Blog post describing a common pitfall when implementing class-based views.
 <!-- > -->
