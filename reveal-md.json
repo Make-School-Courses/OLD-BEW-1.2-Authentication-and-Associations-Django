@@ -6,7 +6,7 @@
     "watch": true,
     "title": "BEW 1.2 Slides",
     "static": "Slides",
-    "assetsDir": "assets",
+    "assetsDir": "Assets",
     "staticDirs": "Lessons/Images",
     "scripts": [],
     "css": [

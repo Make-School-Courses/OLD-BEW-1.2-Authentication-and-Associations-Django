@@ -1,22 +1,19 @@
-<!-- Run this slideshow via the following command: -->
-<!-- reveal-md README.md -w -->
-
-
 <!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # 📜 Day 7: Authentication & Authorization
 
-<p align="center"><a href="https://make-school-courses.github.io/REPO_NAME/Slides/00-LESSON_NAME" title="Slides" target="_blank"><strong>Slides</strong></a></p>
+<!-- <p align="center"><a href="https://make-school-courses.github.io/REPO_NAME/Slides/00-LESSON_NAME" title="Slides" target="_blank"><strong>Slides</strong></a></p> -->
 
 <!-- > -->
 
 ### ⏱ Agenda
 
 1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
-2. [[**20m**] 📖 Overview: Authentication & Authorization](#20m-%f0%9f%93%96-overview-authentication--authorization)
-3. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-4. [[**45m**] 💻 Activity: v2 Challenges - Authentication](#45m-%f0%9f%92%bb-activity-v2-challenges---authentication)
-5. [🌃 After Class](#%f0%9f%8c%83-after-class)
-6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+2. [[**15m**] 📖 Overview: Login & Logout](#15m-%f0%9f%93%96-overview-login--logout)
+3. [[**30m**] 💻 Activity: v2 Challenges - Login & Logout](#30m-%f0%9f%92%bb-activity-v2-challenges---login--logout)
+4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
+5. [[**15m**] 📖 Overview: Signup](#15m-%f0%9f%93%96-overview-signup)
+6. [[**30m**] 💻 Activity: v2 Challenges - Signup](#30m-%f0%9f%92%bb-activity-v2-challenges---signup)
+7. [🌃 After Class](#%f0%9f%8c%83-after-class)
 
 <!-- > -->
 
@@ -33,77 +30,16 @@
 
 <!-- > -->
 
-## [**20m**] 📖 Overview: Authentication & Authorization
+## [**15m**] 📖 Overview: Login & Logout
 
-### User Creation
+### Authentication vs. Authorization
 
-#### Users
+In Django, superusers have access to the `/admin` interface, whereas regular users do not. This is an example of **authentication** and **authorization**:
 
-Created in the Python shell, in the `/admin` interface, or through your own `signup` view!
+- All users can attempt to **log in** (*authentication*)
+- But only superusers **have access to** the administrative interface (*authorization*)
 
-```python
-from django.contrib.auth.models import User
-
-
-user = User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-
-# At this point, user is a User object that has already been saved to the database.
-# You can continue to change its attributes if you want to change other fields.
-user.last_name = 'Lennon'
-user.save()
-```
-
-#### Superusers
-
-Always created on the command line:
-
-```bash
-python manage.py createsuperuser --username=joe --email=joe@example.com
-```
-
-### User Authorization
-
-In Django, superusers have access to the `/admin` interface, whereas regular users do not. This is an example of **authorization**: `TODO` define
-
-### User Authentication
-
-We can authenticate a user through our own **`login` view**:
-
-```python
-from django.contrib.auth import authenticate, login
-
-def login(request):
-    username = request.POST['username']
-    password = request.POST['password']
-    user = authenticate(request, username=username, password=password)
-    if user is not None:
-        login(request, user)
-        # Redirect to a success page.
-    else:
-        # Return an 'invalid login' error message.
-```
-
-For **views that only logged in users can see**, decorate the view function with `@login_required`:
-
-```python
-from django.contrib.auth.decorators import login_required
-
-@login_required
-def my_view(request):
-    ...
-```
-
-To **log the user out** via a view, call the `logout` function, then redirect to a page that lets the user know they've successfully logged out:
-
-```python
-from django.contrib.auth import logout
-
-def logout_view(request):
-    logout(request)
-    # Redirect to a success page.
-```
-
-### Enabling Default Login, Signup, and Logout Views
+### Enabling User Authentication in Django
 
 In your project's root URLconf, add the following to the provided `urlpatterns` list:
 
@@ -124,26 +60,37 @@ accounts/reset/<uidb64>/<token>/ [name='password_reset_confirm']
 accounts/reset/done/ [name='password_reset_complete']
 ```
 
-#### Step 1: Sign Up
+As well as the following settings in `settings.py`:
 
-#### Step 2: Log In
+```python
+DEFAULT_LOGOUT_URL = '/'
+```
 
-#### Step 3: Log Out
+This will enable authentication outside the administrative interface, like you see on typical websites.
+
+## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
+
+1. Begin the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today.!
+2. Stop when you complete the first section titled `Login & Signup`.
 
 ## [**10m**] 🌴 BREAK
 
-## [**45m**] 💻 Activity: v2 Challenges - Authentication
-
 <!-- > -->
+
+## [**15m**] 📖 Overview: Signup
+
+## [**30m**] 💻 Activity: v2 Challenges - Signup
+
+Begin the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) to complete the assignment.
 
 ## 🌃 After Class
 
-- Complete v2 Challenges by next class period.
+- Complete [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by next class period.
 
 <!-- > -->
 
-## 📚 Resources & Credits
+<!-- ## 📚 Resources & Credits
 
-- `TODO`: Link to Jasmine's authentication blog posted recently on Slack
+- `TODO`: Link to Jasmine's authentication blog posted recently on Slack -->
 
 <!-- > -->
