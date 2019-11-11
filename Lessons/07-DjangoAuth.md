@@ -7,7 +7,7 @@
 
 ### ⏱ Agenda
 
-1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
+1. [[**02m**] 🏆 Objectives](#02m-%f0%9f%8f%86-objectives)
 2. [[**15m**] 📖 Overview: Login & Logout](#15m-%f0%9f%93%96-overview-login--logout)
 3. [[**30m**] 💻 Activity: v2 Challenges - Login & Logout](#30m-%f0%9f%92%bb-activity-v2-challenges---login--logout)
 4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
@@ -17,16 +17,10 @@
 
 <!-- > -->
 
-## [**00m**] 🏆 Objectives
+## [**02m**] 🏆 Objectives
 
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
+1. Define authentication and authorization and discuss examples of each.
+1. Apply authentication to an existing codebase.
 
 <!-- > -->
 
@@ -75,8 +69,12 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
 
 ## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
 
-1. Begin the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today!
-2. Stop when you complete the first section titled `Login & Signup`.
+1. Begin the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
+
+    ```bash
+    git clone https://github.com/make-school-labs/makewiki-starter makewiki_v2
+    ```
+2. Stop when you complete the first section titled [`Login & Signup`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
 
 ## [**10m**] 🌴 BREAK
 
@@ -115,6 +113,7 @@ These four lines of code do a lot!
 - We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class.
 - We specify the use of the built-in `UserCreationForm` and a template called `signup.html`.
 - We then use `reverse_lazy` to redirect the user to the login page upon successful registration.
+    - For all generic class-based views, the urls are not loaded when the file is imported --- we use the lazy form of `reverse` to load them later when they’re available.
     - **DIVE DEEP**: After class, research why `reverse_lazy` instead of `reverse` is used in this example. Why not just use `reverse`?
 
 ### Signup Templates
@@ -140,7 +139,7 @@ Another typical `signup.html` template has been included with your `makewiki` `v
 
 ## [**30m**] 💻 Activity: v2 Challenges - Signup
 
-Move on to the `Signup` section of the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) to complete the assignment.
+Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://github.com/make-school-labs/makewiki-starter/CHALLENGES.md) to complete the assignment.
 
 ## 🌃 After Class
 
