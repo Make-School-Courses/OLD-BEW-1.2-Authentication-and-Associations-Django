@@ -14,6 +14,7 @@
 5. [[**15m**] 📖 Overview: Signup](#15m-%f0%9f%93%96-overview-signup)
 6. [[**30m**] 💻 Activity: v2 Challenges - Signup](#30m-%f0%9f%92%bb-activity-v2-challenges---signup)
 7. [🌃 After Class](#%f0%9f%8c%83-after-class)
+8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 <!-- > -->
 
@@ -112,9 +113,10 @@ These four lines of code do a lot!
 
 - We’re subclassing the generic class-based view `CreateView` in our `SignUpView` class.
 - We specify the use of the built-in `UserCreationForm` and a template called `signup.html`.
-- We then use `reverse_lazy` to redirect the user to the login page upon successful registration.
-    - For all generic class-based views, the urls are not loaded when the file is imported --- we use the lazy form of `reverse` to load them later when they’re available.
-    - **DIVE DEEP**: After class, research why `reverse_lazy` instead of `reverse` is used in this example. Why not just use `reverse`?
+- We then use `reverse_lazy` to redirect the user to the login page upon successful registration. Why use `reverse_lazy` instead of `reverse`?
+    - All Python class attributes, like `success_url`, are **evaluated when the class is imported**.
+    - When this happens, Django hasn't finished building all the URLs for the project.
+    - We use `reverse_lazy` to tell Python to reverse the URL when a user requests it, instead of saving it when the class is imported.
 
 ### Signup Templates
 
@@ -148,8 +150,11 @@ Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-s
 
 <!-- > -->
 
-<!-- ## 📚 Resources & Credits
+## 📚 Resources & Credits
 
-- `TODO`: Link to Jasmine's authentication blog posted recently on Slack -->
+**Unblockers**: Use these resources if you get stuck on your challenges today.
+
+- [**Django Authentication: Login & Logout Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
+- [**Django Authentication: Sign Up Tutorial**](https://wsvincent.com/django-user-authentication-tutorial-signup/)
 
 <!-- > -->
