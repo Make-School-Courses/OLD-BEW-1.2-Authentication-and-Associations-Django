@@ -1,4 +1,13 @@
-# 📜 Day 6: Authentication & Authorization
+<!-- Run this slideshow via the following command: -->
+<!-- reveal-md README.md -w -->
+
+
+<!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
+# 📜 Day 7: Authentication & Authorization
+
+<p align="center"><a href="https://make-school-courses.github.io/REPO_NAME/Slides/00-LESSON_NAME" title="Slides" target="_blank"><strong>Slides</strong></a></p>
+
+<!-- > -->
 
 ### ⏱ Agenda
 
@@ -8,6 +17,8 @@
 4. [[**45m**] 💻 Activity: v2 Challenges - Authentication](#45m-%f0%9f%92%bb-activity-v2-challenges---authentication)
 5. [🌃 After Class](#%f0%9f%8c%83-after-class)
 6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+
+<!-- > -->
 
 ## [**00m**] 🏆 Objectives
 
@@ -20,8 +31,9 @@
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 
-## [**20m**] 📖 Overview: Authentication & Authorization
+<!-- > -->
 
+## [**20m**] 📖 Overview: Authentication & Authorization
 
 ### User Creation
 
@@ -122,12 +134,16 @@ accounts/reset/done/ [name='password_reset_complete']
 
 ## [**45m**] 💻 Activity: v2 Challenges - Authentication
 
-`TODO`: Write specs
+<!-- > -->
 
 ## 🌃 After Class
 
 - Complete v2 Challenges by next class period.
 
+<!-- > -->
+
 ## 📚 Resources & Credits
 
 - `TODO`: Link to Jasmine's authentication blog posted recently on Slack
+
+<!-- > -->
