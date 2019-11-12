@@ -84,7 +84,7 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
     git clone https://github.com/make-school-labs/makewiki-starter makewiki_v2
     ```
 
-2. Stop when you complete the first section titled [`Login & Signup`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
+2. Stop when you complete the first section titled [`Login & Logout`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
 
 ## [**10m**] 🌴 BREAK
 
