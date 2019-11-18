@@ -7,7 +7,7 @@
   - [Templates](Lessons/05-Templates)
   - [Review Day](Lessons/06-MidtermReview)
   - [Authentication & Authorization](Lessons/07-DjangoAuth)
-
+  - [Working with Forms](Lessons/08-Forms)
   - [Testing](Lessons/07-Testing)
   - [Deployment](Lessons/08-Deployment)
 - **📈 Django Contractor Project**
