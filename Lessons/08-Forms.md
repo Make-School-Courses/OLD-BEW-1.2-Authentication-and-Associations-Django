@@ -22,21 +22,9 @@
 
 ## [**05m**] 🏆 Objectives
 
-<!--
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
--->
-
-
 1. Recall HTML form concepts introduced in BEW 1.1.
-1. Identify and describe different techniques to handle forms in Django.
-1. Compose and apply Django forms, alongside class-based views, to create a new Page in the makewiki project.
+2. Identify and describe different techniques to handle forms in Django.
+3. Compose and apply Django forms, alongside class-based views, to create a new Page in the makewiki project.
 
 <!-- > -->
 
