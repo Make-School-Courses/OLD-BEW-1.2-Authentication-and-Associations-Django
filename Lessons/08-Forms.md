@@ -33,6 +33,11 @@
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 -->
 
+
+1. Recall HTML form concepts introduced in BEW 1.1.
+1. Identify and describe different techniques to handle forms in Django.
+1. Compose and apply Django forms, alongside class-based views, to create a new Page in the makewiki project.
+
 <!-- > -->
 
 ## [**05m**] ☀️ Warm Up
