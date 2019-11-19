@@ -177,7 +177,6 @@ class BookCreateView(CreateView):
       form = BookCreateForm(request.POST)
       if form.is_valid():
           book = form.save()
-          book.save()
           return HttpResponseRedirect(reverse_lazy('books:detail', args=[book.id]))
       return render(request, 'books/new.html', {'form': form})
 ```
