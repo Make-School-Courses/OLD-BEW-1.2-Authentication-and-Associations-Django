@@ -96,12 +96,17 @@ Add this to your `tests.py` file, then run the new test. Did it work?
 
 What other things could we test? We could check to see whether or not our routes are working.
 
+
+<p align="center"><img src="https://i.imgur.com/i91qZsF.png" width="240"></p>
+
 Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
 ```python
 import unittest
+
 from django.test import Client
 from wiki.models import Page
+
 
 class WikiRoutesTest(unittest.TestCase):
     def setUp(self):
@@ -113,12 +118,14 @@ class WikiRoutesTest(unittest.TestCase):
         response = self.client.get('/')
 
         # Check that the response is 200 OK.
+        # More info: https://httpstatuses.com/200
         self.assertEqual(response.status_code, 200)
 
         # Check that the rendered context contains
         # all the pages in the database.
-        pages_count = Page.objects.all().count()
-        self.assertEqual(len(response.context['pages']), pages_count)
+        db_count = Page.objects.all().count()
+        response_count = len(response.context['pages'])
+        self.assertEqual(response_count, db_count)
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
@@ -127,9 +134,9 @@ Run your tests a final time. Are they all passing? Be sure to ask a friend or ra
 
 #### More is Better!
 
-It might seem that if we tested everything, that our tests could grow out of control. There might be more code in our tests than in our application! The testing code may appear to be repetitive or unaesthetic, compared to the elegant conciseness of the rest of our code.
+It may seem that if we tested everything, that our tests could grow out of control --- with more code in our tests than in our application! The testing code may appear to be repetitive or unaesthetic, compared to the elegant conciseness of the rest of our code.
 
-It doesn’t matter. Let your tests grow. For the most part, you can write a test once and then forget about it. It will continue performing its useful function as you continue to develop your program.
+It doesn’t matter. **Let your tests grow**. For the most part, you can **write a test once** and **then forget about it**. It will continue performing its useful function as you continue to develop your program.
 
 At worst, as you continue developing, you might find that you have some tests that are now redundant. Even that’s not a problem; in testing **redundancy is a good thing**.
 
