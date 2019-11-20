@@ -79,7 +79,7 @@ class WikiTestCase(TestCase):
 def test_page_slugify_on_save(self):
         """ Tests the slug generated when saving a Page. """
         # Author is a required field in our model.
-        # Create one for this test and save it to the test database.
+        # Create a user for this test and save it to the test database.
         user = User()
         user.save()
 
