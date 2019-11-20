@@ -107,7 +107,7 @@ class WikiRoutesTest(unittest.TestCase):
         # Every test needs a client.
         self.client = Client()
 
-    def test_details(self):
+    def test_makewiki_homepage(self):
         # Issue a GET request to the MakeWiki homepage.
         response = self.client.get('/')
 
