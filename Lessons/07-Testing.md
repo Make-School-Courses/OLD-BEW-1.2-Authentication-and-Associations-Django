@@ -94,19 +94,33 @@ Add this to your `tests.py` file, then run the new test. Did it work?
 
 ### Testing a Route
 
-What other things could we test? We could check to see whether or not our routes are working. Let's add the following code to our `tests.py` file together:
+What other things could we test? We could check to see whether or not our routes are working.
+
+Let's add the following code to our `tests.py` file together:
 
 ```python
 # TODO
 ```
 
+Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
+
 ### Final Thoughts
 
-**When testing, more is better!**
+#### More is Better!
 
 It might seem that if we tested everything, that our tests could grow out of control. There might be more code in our tests than in our application! The testing code may appear to be repetitive or unaesthetic, compared to the elegant conciseness of the rest of our code.
 
 It doesn’t matter. Let your tests grow. For the most part, you can write a test once and then forget about it. It will continue performing its useful function as you continue to develop your program.
+
+At worst, as you continue developing, you might find that you have some tests that are now redundant. Even that’s not a problem; in testing **redundancy is a good thing**.
+
+#### Test Organization
+
+As long as your tests are sensibly arranged, they won’t become unmanageable. Good rules-of-thumb include having:
+
+- A **separate TestClass for each model or view**
+- A **separate test method** for **each set of conditions** you want to test
+- Test **method names** that **describe their function**
 
 ## 🌴 [**10m**] BREAK
 
