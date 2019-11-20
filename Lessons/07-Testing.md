@@ -68,6 +68,7 @@ Let's try something using the code we've already written. Let's test an aspect o
 ```python
 # wiki/tests.py
 from django.test import TestCase
+from django.contrib.auth.models import User
 from wiki.models import Page
 
 class WikiTestCase(TestCase):
@@ -75,10 +76,21 @@ class WikiTestCase(TestCase):
         """ Tests if True is equal to True. Should always pass. """
         self.assertEqual(True, True)
 
-    def test_todo(self):
-        """ """
-        pass
+    def test_page_slugify_on_save(self):
+        """ Tests the slug generated when saving a Page. """
+        # Author is a required field in our model. Let's use the admin user.
+        admin = User.objects.get(username__iexact="admin")
+
+        # Create and save a new page.
+        page = Page(title="My Test Page", content="test", author=admin)
+        page.save()
+
+        # Make sure the slug that was generated in Page.save()
+        # matches what we think it should be.
+        self.assertEqual(page.slug, "my-test-page")
 ```
+
+Add this to your `tests.py` file, then run the new test. Did it work?
 
 ### Testing a Route
 
