@@ -1,7 +1,7 @@
 :root {
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 14px;
+  --base-font-size: 15px;
 
   --sidebar-width: 22rem;
   --sidebar-nav-link-before-content: "";
@@ -32,7 +32,7 @@
 }
 
 body {
-  font: 1.1em/3rem Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
 }
 
 .sidebar>h1 {
@@ -44,7 +44,7 @@ body {
 }
 
 .markdown-section {
-  max-width: 840px;
+  max-width: 100%;
 }
 
 .markdown-section a:hover {
