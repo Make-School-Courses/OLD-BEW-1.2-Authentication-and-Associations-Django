@@ -153,6 +153,8 @@ In the same `tests.py` file we've used today, write tests that prove the followi
 
 - [Intro to Testing in Django]
 - [Writing and Running Tests in Django]
+- [The Django Test Client](https://docs.djangoproject.com/en/2.2/topics/testing/tools/): Used when writing route tests.
 
 [Intro to Testing in Django]: https://realpython.com/testing-in-django-part-1-best-practices-and-examples/
 [Writing and Running Tests in Django]: https://docs.djangoproject.com/en/2.2/topics/testing/overview/
+
