@@ -76,13 +76,15 @@ class WikiTestCase(TestCase):
         """ Tests if True is equal to True. Should always pass. """
         self.assertEqual(True, True)
 
-    def test_page_slugify_on_save(self):
+def test_page_slugify_on_save(self):
         """ Tests the slug generated when saving a Page. """
-        # Author is a required field in our model. Let's use the admin user.
-        admin = User.objects.get(username__iexact="admin")
+        # Author is a required field in our model.
+        # Create one for this test and save it to the test database.
+        user = User()
+        user.save()
 
-        # Create and save a new page.
-        page = Page(title="My Test Page", content="test", author=admin)
+        # Create and save a new page to the test database.
+        page = Page(title="My Test Page", content="test", author=user)
         page.save()
 
         # Make sure the slug that was generated in Page.save()
