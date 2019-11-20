@@ -104,18 +104,20 @@ What other things could we test? We could check to see whether or not our routes
 Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
 ```python
-import unittest
+from django.contrib.auth.models import User
+from django.test import TestCase
 
-from django.test import Client
 from wiki.models import Page
 
 
-class WikiRoutesTest(unittest.TestCase):
-    def setUp(self):
-        # Every test needs a client.
-        self.client = Client()
+class PageListViewTests(TestCase):
+    def test_multiple_pages(self):
+        # Make some test data to be displayed on the page.
+        user = User.objects.create()
 
-    def test_makewiki_homepage(self):
+        Page.objects.create(title="My Test Page", content="test", author=user)
+        Page.objects.create(title="Another Test Page", content="test", author=user)
+
         # Issue a GET request to the MakeWiki homepage.
         # When we make a request, we get a response back.
         response = self.client.get('/')
@@ -125,9 +127,14 @@ class WikiRoutesTest(unittest.TestCase):
 
         # Check that the number of pages passed to the template
         # matches the number of pages we have in the database.
-        db_count = Page.objects.all().count()
-        response_count = len(response.context['pages'])
-        self.assertEqual(response_count, db_count)
+        responses = response.context['pages']
+        self.assertEqual(len(responses), 2)
+
+        self.assertQuerysetEqual(
+            responses,
+            ['<Page: My Test Page>', '<Page: Another Test Page>'],
+            ordered=False
+        )
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
@@ -156,8 +163,15 @@ As long as your tests are sensibly arranged, they won’t become unmanageable. G
 
 In the same `tests.py` file we've used today, write tests that prove the following:
 
-- `TODO`
-- `TODO`
+1. That the wiki details page loads for a specific page
+1. That the wiki page creation form loads when visiting `/create`
+
+Next, write a test that proves that we can successfully create a new wiki page by filling out the new page form. This one involves a few more steps:
+
+- Create a dictionary of key-value pairs containing the post data to be sent via the form
+- Make a POST request to the client with `self.client.post()`
+- Check that we get a `302` status code (Why 302 and not 200?)
+- Check that a new page object was created in the test database
 
 ## 📚 Resources & Credits
 
