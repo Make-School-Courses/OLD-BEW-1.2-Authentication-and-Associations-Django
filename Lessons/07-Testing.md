@@ -96,10 +96,28 @@ Add this to your `tests.py` file, then run the new test. Did it work?
 
 What other things could we test? We could check to see whether or not our routes are working.
 
-Let's add the following code to our `tests.py` file together:
+Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
 ```python
-# TODO
+import unittest
+from django.test import Client
+
+class WikiRoutesTest(unittest.TestCase):
+    def setUp(self):
+        # Every test needs a client.
+        self.client = Client()
+
+    def test_details(self):
+        # Issue a GET request to the MakeWiki homepage.
+        response = self.client.get('/')
+
+        # Check that the response is 200 OK.
+        self.assertEqual(response.status_code, 200)
+
+        # Check that the rendered context contains 14 pages,
+        # the current number in the database.
+        # You should change this if you've added more during testing!
+        self.assertEqual(len(response.context['pages']), 14)
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
