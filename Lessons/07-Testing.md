@@ -115,14 +115,14 @@ class WikiRoutesTest(unittest.TestCase):
 
     def test_makewiki_homepage(self):
         # Issue a GET request to the MakeWiki homepage.
+        # When we make a request, we get a response back.
         response = self.client.get('/')
 
         # Check that the response is 200 OK.
-        # More info: https://httpstatuses.com/200
         self.assertEqual(response.status_code, 200)
 
-        # Check that the rendered context contains
-        # all the pages in the database.
+        # Check that the number of pages passed to the template
+        # matches the number of pages we have in the database.
         db_count = Page.objects.all().count()
         response_count = len(response.context['pages'])
         self.assertEqual(response_count, db_count)
