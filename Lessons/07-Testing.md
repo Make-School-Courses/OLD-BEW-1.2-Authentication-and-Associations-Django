@@ -35,7 +35,7 @@ Break into assigned/random groups of 2-3. Have students open their MakeWiki proj
 Tests are written in each app's `tests.py` file. This file is created when you run `python manage.py startapp`. Here's what it looks like at the start:
 
 ```python
-# myapp/tests.py
+# wiki/tests.py
 from django.test import TestCase
 
 # Create your tests here.
@@ -101,6 +101,7 @@ Let's add the following class to our `tests.py` file together, below the definit
 ```python
 import unittest
 from django.test import Client
+from wiki.models import Page
 
 class WikiRoutesTest(unittest.TestCase):
     def setUp(self):
@@ -114,10 +115,10 @@ class WikiRoutesTest(unittest.TestCase):
         # Check that the response is 200 OK.
         self.assertEqual(response.status_code, 200)
 
-        # Check that the rendered context contains 14 pages,
-        # the current number in the database.
-        # You should change this if you've added more during testing!
-        self.assertEqual(len(response.context['pages']), 14)
+        # Check that the rendered context contains
+        # all the pages in the database.
+        pages_count = Page.objects.all().count()
+        self.assertEqual(len(response.context['pages']), pages_count)
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
