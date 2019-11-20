@@ -1,80 +1,114 @@
-# 📜 Day 7: API Review & Testing
+# 📜 Day 9: Testing
 
 ### ⏱ Agenda
 
-1. [🏆 [5m] Learning Objectives](#%F0%9F%8F%86-5m-Learning-Objectives)
-2. [🏁 [10m] Initial Exercise](#%F0%9F%8F%81-10m-Initial-Exercise)
-3. [📖 [30m] Live Coding Demo](#%F0%9F%93%96-30m-Live-Coding-Demo)
-4. [💻 [10m] In Class Activity I](#%F0%9F%92%BB-10m-In-Class-Activity-I)
-5. [🌴 [10m] BREAK](#%F0%9F%8C%B4-10m-BREAK)
-6. [📖 [20m] Overview: Testing in Django](#%F0%9F%93%96-20m-Overview-Testing-in-Django)
-7. [💻 [35m] In Class Activity II](#%F0%9F%92%BB-35m-In-Class-Activity-II)
-8. [📚 Resources & Credits](#%F0%9F%93%9A-Resources--Credits)
+1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
+2. [☀️ [**10m**] Warm Up: Brainstorming Test Cases](#%e2%98%80%ef%b8%8f-10m-warm-up-brainstorming-test-cases)
+3. [📖 [**40m**] Overview: Testing in Django](#%f0%9f%93%96-40m-overview-testing-in-django)
+4. [🌴 [**10m**] BREAK](#%f0%9f%8c%b4-10m-break)
+5. [💻 [**35m**] Activity: MakeWiki Tests](#%f0%9f%92%bb-35m-activity-makewiki-tests)
+6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
-## 🏆 [5m] Learning Objectives
+## 🏆 [**5m**] Learning Objectives
 
-1. Discuss, review, and revise Django Contractor Project proposals.
-2. Describe the process involved when writing test cases using the Django framework.
-3. Recognize which unit tests add value to a Django codebase.
-4. Practice identifying and writing test cases in Django apps.
-5. Integrate newly written test cases with existing code.
+1. Describe the process involved when writing test cases using the Django framework.
+1. Recognize which unit tests add value to a Django codebase.
+1. Practice identifying and writing test cases in Django apps.
+1. Integrate newly written test cases with existing code.
 
-## 🏁 [10m] Initial Exercise
-
-### Contractor Project Proposal Review
-
-Create [random groups] of 2-3 and ask students to review one another's proposals, which were due at the start of class today.
-
-**Give feedback on:**
-
-- Does the proposal **make sense**?
-- What is **most effective** about the proposal?
-- What points in the proposal could benefit from **improvement or further consideration**?
-
-## 📖 [30m] Live Coding Demo
-
-1. Ask students to close their laptops for this portion of class.
-2. Live code the solution for the Pizza API challenge delivered on Day 5. Pull up the relevant documentation links and walk through each section of the code as you write it, pausing frequently for questions.
-3. Add, commit, and push the code during break.
-4. Message students in Slack with the repo link.
-
-## 💻 [10m] In Class Activity I
-
-### Brainstorming Test Cases
+## ☀️ [**10m**] Warm Up: Brainstorming Test Cases
 
 Recall the **two typical types of tests** developers write:
 
 - **Unit Tests** are isolated tests that test one specific function.
 - **Integration Tests**, meanwhile, are larger tests that focus on user behavior and testing entire applications. Integration testing combines different pieces of code functionality to make sure they behave correctly.
 
-Break into [random groups] of 2-3.
+Break into assigned/random groups of 2-3. Have students open their MakeWiki project and run the code. Prompt the following:
 
-1. **Write down all the different test cases you'd create for the Polls app used in the Django tutorial.**
-2. **Discuss the scenarios in which testing can benefit the developer and product.**
+1. **While viewing each page of the MakeWiki website, write down your ideas for the different interactions you should consider testing**.
+2. Label each potential test case as a unit test, or an integration test.
 
-## 🌴 [10m] BREAK
+## 📖 [**40m**] Overview: Testing in Django
 
-## 📖 [20m] Overview: Testing in Django
+> **Documentation**: [Writing and Running Tests in Django].
 
-Go through the documentation regarding [Writing and Running Tests in Django].
+Tests are written in each app's `tests.py` file. This file is created when you run `python manage.py startapp`. Here's what it looks like at the start:
 
-## 💻 [35m] In Class Activity II
+```python
+# myapp/tests.py
+from django.test import TestCase
 
-### Dive into the Code
+# Create your tests here.
+```
 
-Break into [random groups] of 2-3.
+Run `python manage.py test` to test your project.
 
-* **Challenge**: Use this [Intro to Testing in Django] tutorial to dive into testing and gain familiarity with the Python `coverage` module.
-* **Stretch Challenge**: If you finish early, try writing tests for your Pizza models using this guide to [Testing APIs with Django REST Framework]. Use a fresh clone of the [makepizza] project to get started.
+**NOTE**: Django’s unit tests use a Python standard library module: `unittest` --- the same thing Flask uses! That means, when you run `python manage.py test`, `unittest` will find all subclasses of `unittest.TestCase` in any file whose name begins with `test`, then automatically run all of the tests it found.
+
+### Canary Test
+
+Open up `wiki/tests.py` and write your first test case: a **_canary_** test. Canary tests are minimal tests that quickly verify that the system works as expected.
+
+```python
+# wiki/tests.py
+from django.test import TestCase
+
+class WikiTestCase(TestCase):
+    def test_true_is_true(self):
+        """ Tests if True is equal to True. Should always pass. """
+        self.assertEqual(True, True)
+```
+
+When you're done writing the code, run the tests with `python manage.py test`. This first test should always pass!
+
+### Testing a Model
+
+Let's try something using the code we've already written. Let's test an aspect of our `Page` model!
+
+```python
+# wiki/tests.py
+from django.test import TestCase
+from wiki.models import Page
+
+class WikiTestCase(TestCase):
+    def test_true_is_true(self):
+        """ Tests if True is equal to True. Should always pass. """
+        self.assertEqual(True, True)
+
+    def test_todo(self):
+        """ """
+        pass
+```
+
+### Testing a Route
+
+What other things could we test? We could check to see whether or not our routes are working. Let's add the following code to our `tests.py` file together:
+
+```python
+# TODO
+```
+
+### Final Thoughts
+
+**When testing, more is better!**
+
+It might seem that if we tested everything, that our tests could grow out of control. There might be more code in our tests than in our application! The testing code may appear to be repetitive or unaesthetic, compared to the elegant conciseness of the rest of our code.
+
+It doesn’t matter. Let your tests grow. For the most part, you can write a test once and then forget about it. It will continue performing its useful function as you continue to develop your program.
+
+## 🌴 [**10m**] BREAK
+
+## 💻 [**35m**] Activity: MakeWiki Tests
+
+In the same `tests.py` file we've used today, write tests that prove the following:
+
+- `TODO`
+- `TODO`
 
 ## 📚 Resources & Credits
 
 - [Intro to Testing in Django]
 - [Writing and Running Tests in Django]
-- [Testing APIs with Django REST Framework]
 
-[random groups]: https://www.randomlists.com/team-generator?items=Marianna%0D%0AEric%0D%0AJayce%0D%0AStephanie%0D%0AFaith%0D%0AMakhmud%0D%0AMedi%0D%0AMatthew%0D%0ARicardo%0D%0ASukhrob%0D%0AWilliam%0D%0ARamon%0D%0ARaymond%0D%0AVictoria%0D%0AZurich%0D%0ATim%0D%0AAli%0D%0AAsim%0D%0ANya%0D%0ANathan&grp=7#
 [Intro to Testing in Django]: https://realpython.com/testing-in-django-part-1-best-practices-and-examples/
 [Writing and Running Tests in Django]: https://docs.djangoproject.com/en/2.2/topics/testing/overview/
-[Testing APIs with Django REST Framework]: https://www.django-rest-framework.org/api-guide/testing/#api-test-cases
-[makepizza]: https://github.com/droxeu/makepizza
