@@ -9,7 +9,7 @@
   - [Authentication & Authorization](Lessons/07-DjangoAuth)
   - [Working with Forms](Lessons/08-Forms)
   - [Testing](Lessons/07-Testing)
-  - [Django REST Framework](*https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk*)
+  - [Django REST Framework](Lessons/09-Django-REST-Framework)
   - [Deployment](Lessons/08-Deployment)
 - **📈 Django Contractor Project**
   - [Project Kickoff](Lessons/06-ProjectKickoff)

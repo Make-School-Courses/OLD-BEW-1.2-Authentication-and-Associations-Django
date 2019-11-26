@@ -2,12 +2,11 @@
 
 ### ⏱ Agenda
 
-1. [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
-2. [[**05m**] ☀️ Warm Up](#05m-%e2%98%80%ef%b8%8f-warm-up)
-3. [[**40m**] 📖 Overview: Working with Forms](#40m-%f0%9f%93%96-overview-working-with-forms)
-4. [[**15m**] ✓ Review: v2 Solution](#15m-%e2%9c%93-review-v2-solution)
-5. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-6. [[**30m**] 💻 Activity: Forms Challenges](#30m-%f0%9f%92%bb-activity-forms-challenges)
+1. [**05m**] 🏆 Objectives
+2. [**05m**] ☀️ Warm Up
+3. [**40m**] 📖 Overview: Django REST Framework
+5. [**10m**] 🌴 BREAK
+6. [**30m**] 💻 Activity: Build the MakeWiki API
 7. [🌃 After Class](#%f0%9f%8c%83-after-class)
 8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
@@ -165,7 +164,6 @@ class QuestionDetail(RetrieveDestroyAPIView):
 
 ## [**10m**] 🌴 BREAK
 
-<!-- > -->
 
 ## [**30m**] 💻 Activity: Build the MakeWiki API
 
@@ -183,23 +181,15 @@ class QuestionDetail(RetrieveDestroyAPIView):
     - With [Postman](https://www.getpostman.com/downloads/)
 
 
-## [**20m**] Activity: Contractor Project Kickoff
+## [**20m**] 🎉 Activity: Contractor Project Kickoff
 
 1. Introduce [Django Contractor Project Requirements](Projects/requirements) + [Rubric](Projects/rubric)
 
-1. Activity: Project Proposal
+1. Activity: [Project Proposal](Projects/proposal)
 
-## 🌃 After Class
-
-Be sure to complete today's challenges in your `v2` makewiki repo!
-
-The instructors and TAs will be checking in on your progress this week.
-
-<!-- > -->
 
 ## 📚 Resources & Credits
 
-- [**Django Docs**: Working with Forms](https://docs.djangoproject.com/en/2.2/topics/forms/)
-- [**Django Girls**: Forms](https://tutorial.djangogirls.org/en/django_forms/)
-- [When and How to Use Django FormView](https://www.agiliq.com/blog/2019/01/django-formview/)
-- [When and How to Use Django CreateView](https://www.agiliq.com/blog/2019/01/django-createview/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [DRF Quickstart](https://www.django-rest-framework.org/tutorial/quickstart/)
+- [DRF Serialization](https://www.django-rest-framework.org/tutorial/1-serialization/)

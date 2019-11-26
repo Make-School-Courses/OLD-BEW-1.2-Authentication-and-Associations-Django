@@ -51,7 +51,7 @@ TODO: Update with section class times.
 | 7 | **Lesson 6**:[Authentication & Authorization in Django](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Day 9 |
 | 8 | **Lesson 7**: [Working with Forms](Lessons/08-Forms) | |
 | 9 | **Lesson 8**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 10  |
-| 10 | **Lesson 9**: [Django REST Framework](https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 11 |
+| 10 | **Lesson 9**: [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 11 |
 | 11 | **Lesson 10**: [Project Kickoff](Lessons/06-ProjectKickoff.md) |  |
 | 12 | **Lesson 11**: [Deployment](Lessons/08-Deployment.md) | [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 12 |
 | 13 | Lab Day |||
