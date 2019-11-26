@@ -1,11 +1,4 @@
-<!-- Run this slideshow via the following command: -->
-<!-- reveal-md README.md -w -->
-
-
-<!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # 📜 Day 8: Working with Forms
-
-<!-- > -->
 
 ### ⏱ Agenda
 
@@ -18,15 +11,11 @@
 7. [🌃 After Class](#%f0%9f%8c%83-after-class)
 8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
-<!-- > -->
-
 ## [**05m**] 🏆 Objectives
 
 1. Recall HTML form concepts introduced in BEW 1.1.
 2. Identify and describe different techniques to handle forms in Django.
 3. Compose and apply Django forms, alongside class-based views, to create a new Page in the makewiki project.
-
-<!-- > -->
 
 ## [**05m**] ☀️ Warm Up
 

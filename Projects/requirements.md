@@ -25,12 +25,12 @@ It's time to get creative and write the website of your dreams!
 ## 🚧 Get Started
 
 1. You must **fly solo** for this project --- repositories submitted with multiple collaborators will not pass the course. You may pair program with another student.
-2. **Submit a proposal** by the due date listed on the [course syllabus](../README.md#Schedule).
-    * Instructions for writing your proposal can be found in [proposal.md](proposal.md).
+2. **Submit a proposal** by the due date listed on the [course syllabus](README.md#Schedule).
+    * Instructions for writing your proposal can be found in [proposal.md](Projects/proposal.md).
     * Link your proposal directly in the [course tracker](https://make.sc/trackbew1.3).
     * The link to your proposal should look like this: **`https://github.com/username/reponame/proposal.md`**
-3. **Review the requirements in the [Project Rubric](rubric.md)**.
-4. **Copy [rubric.md](rubric.md)** to your project's repository. Each time you complete a requirement, communicate your progress by **adding a checkbox** next to the completed requirement in your copy of the rubric! **Use this strategy to self-assess your progress**.
+3. **Review the requirements in the [Project Rubric](Projects/rubric.md)**.
+4. **Copy [rubric.md](Projects/rubric.md)** to your project's repository. Each time you complete a requirement, communicate your progress by **adding a checkbox** next to the completed requirement in your copy of the rubric! **Use this strategy to self-assess your progress**.
 
 ## ✨ Finishing Touches
 
