@@ -3,12 +3,12 @@
 ### ⏱ Agenda
 
 1. [**05m**] 🏆 Objectives
-2. [**05m**] ☀️ Warm Up
-3. [**40m**] 📖 Overview: Django REST Framework
-5. [**10m**] 🌴 BREAK
-6. [**30m**] 💻 Activity: Build the MakeWiki API
-7. [🌃 After Class](#%f0%9f%8c%83-after-class)
-8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+1. [**05m**] ☀️ Warm Up
+1. [**40m**] 📖 Overview: Django REST Framework
+1. [**10m**] 🌴 BREAK
+1. [**30m**] 💻 Activity: Build the MakeWiki API
+1. [**20m**] 🎉 Activity: Contractor Project Kickoff
+1. 📚 Resources & Credits
 
 ## [**05m**] 🏆 Objectives
 
