@@ -9,12 +9,8 @@
   - [Authentication & Authorization](Lessons/07-DjangoAuth)
   - [Working with Forms](Lessons/08-Forms)
   - [Testing](Lessons/07-Testing)
-<<<<<<< HEAD
-  - [Django REST Framework](*https://docs.google.com/presentation/d/1dIiOXOVEKkCV4-VHHcd1ALcrLCjcx_Z2WzhakfejgQk*)
-  - [Static Files](Lessons/10-StaticFiles)
-=======
   - [Django REST Framework](Lessons/09-Django-REST-Framework)
->>>>>>> 1e7f6f825459e3af7133e0ed910aa0d08948730c
+  - [Static Files](Lessons/10-StaticFiles)
   - [Deployment](Lessons/08-Deployment)
 - **📈 Django Contractor Project**
   - [Project Kickoff](Lessons/06-ProjectKickoff)
