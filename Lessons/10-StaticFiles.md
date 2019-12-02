@@ -33,20 +33,13 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
 **To include static files in your project, follow these steps**:
 
 1. Make sure that `django.contrib.staticfiles` is included in your `INSTALLED_APPS`.
-2. In your settings file, define `STATIC_URL`, for example:
+1. In your settings file, define `STATIC_URL`, for example:
 
       ```python
       STATIC_URL = '/static/'
       ```
 
-3. In your templates, use the static template tag to build the URL for the given relative path to your image.
-
-      ```html
-      {% load static %}
-      <img src="{% static "my_app/example.jpg" %}" alt="My image">
-      ```
-
-4. Your project will probably also have static assets that aren’t tied to a particular app. In addition to using a `static/` directory inside your apps, you can define a list of directories (`STATICFILES_DIRS`) in your settings file where Django will also look for static files. For example:
+1. Your project will probably also have static assets that aren’t tied to a particular app. In addition to using a `static/` directory inside your apps, you can define a list of directories (`STATICFILES_DIRS`) in your settings file where Django will also look for static files. For example:
 
     ```python
     STATICFILES_DIRS = [
@@ -54,7 +47,7 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
     ]
     ```
 
-5. Add the following code to your root URLconf to serve static URLs:
+1. Add the following code to your root URLconf to serve static URLs:
 
    ```python
    from django.conf import settings
@@ -64,6 +57,13 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
         # ... the rest of your URLconf goes here ...
     ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     ```
+
+1. In your templates, use the static template tag to build the URL for the given relative path to your image.
+
+      ```html
+      {% load static %}
+      <img src="{% static "my_app/example.jpg" %}" alt="My image">
+      ```
 
 <!-- > -->
 
