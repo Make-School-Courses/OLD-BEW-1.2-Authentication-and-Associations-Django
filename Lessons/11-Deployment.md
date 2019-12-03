@@ -114,9 +114,11 @@ git push heroku master
 git subtree push —-prefix projectname heroku master
 ```
 
+🛑 **GET A DIFFERENT ERROR?**: Run `heroku logs` in your terminal, then raise your hand to receive 1 on 1 feedback from your instructor on the state of your deployment.
+
 ⏰ **Why does this take so long?!**
 
-Every time you push to Heroku, it kicks off the following deployment workflow:
+Each time you push to Heroku, it kicks off the following deployment workflow:
 
 1. Examine `requirements.txt` for changes since the last deployment.
       - Install new dependencies automatically.
