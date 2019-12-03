@@ -59,31 +59,38 @@ web: gunicorn projectname.wsgi —-log-file -
 
 **What does this line of code tell Heroku to do?**
 - `web`: Informs the Heroku Dyno that your project is a web project.
-- `projectname.wsgi` Tells the Dyno to look at a file called `wsgi` in the folder called `projectname`. This file is included when you create a new Django project.
-- `—-log-file -` Write all terminal output to the logs. View your Heroku logs by running `heroku logs`.
+- `projectname.wsgi` Tells the Dyno to look at a file called `wsgi` in the folder called `projectname`.
+    - This file is included when you create a new Django project.
+- `—-log-file -` Write all terminal output to the logs.
+    - View your Heroku logs by running `heroku logs`.
 
 ### Step 2: Run Locally Via Heroku (5m)
 
-Heroku recommends completing this step early on to make sure your Procfile works, and Heroku has everything it needs in order to successfully deploy.
+Heroku recommends completing this step early on to make sure your `Procfile` works, and that the Dyno has everything it needs in order to successfully install your project and deploy it live.
 
-What is required to successfully deploy on Heroku? **These two files must exist in your project's root directory**:
+**What files are required to successfully deploy on Heroku?** These two files must exist in your project's root directory**:
 
 - `Procfile`
 - `requirements.txt`
 
 ### Step 3: Create New Heroku App (8m)
 
-**3a**: In your terminal, run the following command to create a new dyno to run your deployed application:
+- **3a**: In your terminal, run the following command to create a new Dyno, where your project will be installed and deployed for use by the public.
 
-```bash
-heroku create uniqueprojectname
-```
+    ```bash
+    heroku create uniqueprojectname
+    ```
 
-**3b**: Open your editor, and add the following three strings to the blank `ALLOWED_HOSTS` list in `settings.py`:
+- **3b**: Open your editor, and add the following strings to the blank `ALLOWED_HOSTS` list in `settings.py`:
 
-```python
-ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, 'uniqueprojectname.herokuapp.com']
-```
+    ```python
+    ALLOWED_HOSTS = [‘localhost’, 'uniqueprojectname.herokuapp.com']
+    ```
+
+    **What do these values mean?**:
+
+    - `localhost`: Development environment --- the place where you write code.
+    - `uniqueprojectname.herokuapp.com`: Production environment 000 the place you deploy your finished code to show others.
 
 ### Step 4: Setup Static Root (3m)
 
@@ -103,11 +110,21 @@ git commit -m "tweaked settings for deployment"
 git push heroku master
 ```
 
-**GET AN ERROR?**: When deploying with Git, Heroku wants to initiate the repo from the project root, where your` manage.py`  file lives. You might notice in the tutorial repo that `manage.py` is one level down. Even though running the app locally with Heroku worked, if you try to deploy with `git push heroku master` you’ll receive an error that says `Failed to detect app`. You can fix this by running the following command instead of `git push heroku master`:
+⚠️ **GET AN ERROR?**: When deploying with Git, Heroku wants to initiate the repo from the project root, where your ` manage.py`  file lives. You might notice in the tutorial repo that `manage.py` is one level down. Even though running the app locally with Heroku worked, if you try to deploy with `git push heroku master` you’ll receive an error that says `Failed to detect app`. You can fix this by running the following command instead of `git push heroku master`:
 
 ```bash
 git subtree push —-prefix projectname heroku master
 ```
+
+⏰ **Why does this take so long?!**
+
+Every time you push to Heroku, it kicks off the following deployment workflow:
+
+1. Examine `requirements.txt` for changes since the last deployment.
+      - Install new dependencies automatically.
+2. Run all new migrations found since the last deployment.
+      - Heroku executes the exact same `manage.py` commands we've practiced all term!
+3. Launch the production server according to the command in the `Procfile`.
 
 ### Step 6: Push to GitHub (2m)
 
