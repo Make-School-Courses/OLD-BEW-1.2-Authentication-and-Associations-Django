@@ -4,7 +4,7 @@
 
 1. [[**02m**] 🏆 Objectives](#02m--objectives)
 2. [[**03m**] 🤔 Why You Should Know This](#03m--why-you-should-know-this)
-3. [[**60m**] 📖 Guided Step By Step: Heroku Deployment](#60m--guided-step-by-step-heroku-deployment)
+3. [[**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku](#60m--guided-tour-deploy-tutorial-on-heroku)
    1. [Step 0: Before We Get Started (5m)](#step-0-before-we-get-started-5m)
    2. [Step 1: Create Procfile (5m)](#step-1-create-procfile-5m)
    3. [Step 2: Run Locally Via Heroku (5m)](#step-2-run-locally-via-heroku-5m)
@@ -16,13 +16,15 @@
    9. [Step 8: Run Commands (5m)](#step-8-run-commands-5m)
    10. [Step 9: Release Early and Often (5m)](#step-9-release-early-and-often-5m)
 4. [[**10m**] 🌴 BREAK](#10m--break)
-5. [[**30m**] 💻 Activity: Deploy MakeWiki](#30m--activity-deploy-makewiki)
+5. [[**30m**] 💻 **In Class Activity**: Deploy MakeWiki](#30m--in-class-activity-deploy-makewiki)
 6. [📚 Resources & Credits](#-resources--credits)
 
 <!-- > -->
 
 ## [**02m**] 🏆 Objectives
 
+`TODO`
+<!--
 |   Level   | Verbs |
 | --------- | ----- |
 | 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
@@ -31,8 +33,7 @@
 | 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
-
-<!-- > -->
+-->
 
 ## [**03m**] 🤔 Why You Should Know This
 
@@ -40,7 +41,7 @@
 - In two hours, you'll have two opportunities to deploy a Django site to Heroku, along with two successfully shipped mini projects that you can reference when preparing to deploy your Contractor Project for the first time.
 - Additionally, the step by step guide in this lesson plan works for _any_ Django applications. Be sure to bookmark it!
 
-## [**60m**] 📖 Guided Step By Step: Heroku Deployment
+## [**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku
 
 ### Step 0: Before We Get Started (5m)
 
@@ -199,7 +200,7 @@ heroku run python manage.py createsuperuser
 
 ## [**10m**] 🌴 BREAK
 
-## [**30m**] 💻 Activity: Deploy MakeWiki
+## [**30m**] 💻 **In Class Activity**: Deploy MakeWiki
 
 1. Follow all 8 steps above to deploy the MakeWiki project.
 2. Log in to `https://uniqueprojectname.herokuapp.com/admin/` with the credentials you made in Step 8.
