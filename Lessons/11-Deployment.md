@@ -201,8 +201,10 @@ heroku run python manage.py createsuperuser
 ### Step 9: Release Early and Often (5m)
 
 **So far, we've accomplished**:
-- Creating a live website, located at `https://uniqueprojectname.herokuapp.com` now uses a PostgreSQL database ‒ with absolutely no changes to our application's code!
-- We have our first user, an administrator, ready for the next step ‒ logging in to the admin (located at https://uniqueprojectname.herokuapp.com/admin/), entering the credentials you created in the terminal, then adding some data!
+
+- Creating a live website, located at `https://uniqueprojectname.herokuapp.com`.
+- Configuring the live website to use a PostgreSQL database ‒ with absolutely no changes to our application's code!
+- We have our first user, an administrator, ready for the next step ‒ logging in to the admin (located at https://uniqueprojectname.herokuapp.com/admin/), entering the credentials you created in the terminal, then adding some data.
 - We've done all the work required to release new features and bug fixes early and often!
 
 <p style="color:red; font-weight: bold;">You should strive to frequently push to your production server ‒ anytime you fix a bug or add a new feature. That means you may find yourself pushing code to Heroku multiple times a day ‒ just like most major companies!</p>
