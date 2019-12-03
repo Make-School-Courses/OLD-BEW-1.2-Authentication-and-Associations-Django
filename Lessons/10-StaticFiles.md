@@ -9,14 +9,14 @@
 
 ### ⏱ Agenda
 
-1. [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
-2. [[**15m**] ✓ Review: Static Files](#15m-%e2%9c%93-review-static-files)
-3. [[**30m**] 💻 Activity: Serve Static Files](#30m-%f0%9f%92%bb-activity-serve-static-files)
-4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-5. [[**15m**] 💻 Activity: Peer Proposal Review](#15m-%f0%9f%92%bb-activity-peer-proposal-review)
-6. [[**45m**] 💻 Activity: Kickoff Contractor Project](#45m-%f0%9f%92%bb-activity-kickoff-contractor-project)
-7. [🌃 After Class](#%f0%9f%8c%83-after-class)
-8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+1. [[**05m**] 🏆 Objectives](#05m--objectives)
+2. [[**15m**] ✓ Review: Static Files](#15m--review-static-files)
+3. [[**30m**] 💻 Activity: Serve Static Files](#30m--activity-serve-static-files)
+4. [[**10m**] 🌴 BREAK](#10m--break)
+5. [[**15m**] 💻 Activity: Peer Proposal Review](#15m--activity-peer-proposal-review)
+6. [[**45m**] 💻 Activity: Kickoff Contractor Project](#45m--activity-kickoff-contractor-project)
+7. [🌃 After Class](#-after-class)
+8. [📚 Resources & Credits](#-resources--credits)
 
 <!-- > -->
 
@@ -74,7 +74,7 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
 1. Create a `static` folder in the root of your `makewiki` repository.
 2. Find an image online that you like, then save it inside the new `static` folder.
 3. Follow the steps listed above to enable static files in your above in your makewiki project.
-4. Edit the `home.html` template to show the image somewhere on the screen!
+4. Edit the `list.html` template to show the image somewhere on the screen!
 
 <!-- > -->
 
