@@ -126,11 +126,15 @@ git push origin master
 
 ### Step 7: Provision a Remote Database (18m)
 
-🤔 You might be asking yourself the following questions: **I thought we stored our data using SQLite?! Isn't that just a file in our repository? Why do we need to create a whole new database?**
+🤔 You might be asking yourself the following questions:
 
-You're right! Our development environment uses SQLite. It's an excellent tool for day to day development — but it doesn’t work with Heroku and numerous other platforms used to deploy and manage server-side applications. PostgreSQL (or Postgres) is the most popular database deployed amongst real-world Django projects.
+  - *I thought we stored our data using SQLite?!*
+  - *Isn't that just a file in our repository?*
+  - *Why do we need to create and use a whole new database?*
 
-⁉️ Never heard of Postgres? Don't worry, let's walk through setting up our first database together!
+Our development environment uses SQLite. It's an excellent tool for day to day development — but **it doesn’t work with Heroku** and numerous other platforms used to deploy and manage server-side applications. PostgreSQL (or Postgres) is the most popular database deployed amongst real-world Django projects.
+
+⁉️ ***Never heard of Postgres? Don't worry, let's walk through setting up our first database together!***
 
 **7a**. Add a free database to your project by running the following command in your terminal:
 
@@ -147,15 +151,16 @@ Database has been created and is available
 Created postgresql-randomword-35234 as DATABASE_URL
 ```
 
-**7b**: In your terminal, install both `psycopg2-binary` and `dj-database-url` from `pip`:
+**7b**: In your terminal, install `gunicorn`, `psycopg2-binary` and `dj-database-url` via `pip`:
 
 ```bash
-pip install dj-database-url psycopg2-binary
+python -m pip install gunicorn dj-database-url psycopg2-binary
 ```
 
 **7c**: Add the two new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
 
 ```txt
+gunicorn
 dj-database-url
 psycopg2-binary
 ```
