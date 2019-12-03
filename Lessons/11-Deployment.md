@@ -51,21 +51,16 @@ Open your your Django tutorial codebase in your editor, and complete each step a
 
 ### Step 1: Create Procfile (5m)
 
-A `Procfile` tells Heroku how to run your application.
-
-In your project root, create a file called `Procfile` and add the following line of code to it:
+A `Procfile` tells Heroku how to run your application. In your project root, **create a file called `Procfile`** and **add the following line of code** inside:
 
 ```txt
 web: gunicorn projectname.wsgi —-log-file -
 ```
 
-What does this line of code tell Heroku to do?
-
-- `web`: Informs your Heroku dyno that you'd like to run a web process.
-- `projectname.wsgi` is informs the dyno to look at a file called `wsgi` in the folder called `projectname` — substitute this with the name of your project.
-—-log-file - is saying add the output to the logs
-
-<!-- > -->
+**What does this line of code tell Heroku to do?**
+- `web`: Informs the Heroku Dyno that your project is a web project.
+- `projectname.wsgi` Tells the Dyno to look at a file called `wsgi` in the folder called `projectname`. This file is included when you create a new Django project.
+- `—-log-file -` Write all terminal output to the logs. View your Heroku logs by running `heroku logs`.
 
 ### Step 2: Run Locally Via Heroku (5m)
 
