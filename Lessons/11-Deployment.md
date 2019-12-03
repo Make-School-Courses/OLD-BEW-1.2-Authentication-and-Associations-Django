@@ -85,7 +85,7 @@ The following files in this list live in the project's root directory, and must 
     ALLOWED_HOSTS = [‘localhost’, 'uniqueprojectname.herokuapp.com']
     ```
 
-    🤔 **What do these values mean?**:
+    🤔 **What do these values mean?**
     - `localhost`: Development environment ‒ the place where you write code.
     - `uniqueprojectname.herokuapp.com`: Production environment - the place you deploy your finished code to show others.
 
@@ -134,28 +134,24 @@ git push origin master
 
 ### Step 7: Provision a Remote Database (18m)
 
+#### Why We're Doing This
+
 🤔 You may be asking yourself the following questions:
-    - *I thought we stored our data using SQLite?!*
-    - *Isn't that just a file in our repository?*
-    - *Why do we need to create and use a whole new database?*
+
+- *I thought we stored our data using SQLite?!*
+- *Isn't that just a file in our repository?*
+- *Why do we need to create and use a whole new database?*
 
 Our development environment uses SQLite. It's an excellent tool for day to day development — but **it doesn’t work with Heroku** and numerous other platforms used to deploy and manage server-side applications. PostgreSQL (or Postgres) is the most popular database deployed amongst real-world Django projects.
 
 ⁉️ ***Never heard of Postgres? Don't worry, let's walk through setting up our first database together!***
 
-**7a**. Add a free database to your project by running the following command in your terminal:
+#### Steps to Create a Remote Database
+
+**7a**. Add a free database instance to your Heroku application by running the following command in your terminal:
 
 ```bash
 heroku addons:create heroku-postgresql:hobby-dev
-```
-
-You'll see the following output:
-
-```bash
-Creating heroku-postgresql:hobby-dev on ⬢ uniqueprojectname... free
-Database has been created and is available
- ! This database is empty.
-Created postgresql-randomword-35234 as DATABASE_URL
 ```
 
 **7b**: In your terminal, install `gunicorn`, `psycopg2-binary` and `dj-database-url` via `pip`:
@@ -164,7 +160,7 @@ Created postgresql-randomword-35234 as DATABASE_URL
 python -m pip install gunicorn dj-database-url psycopg2-binary
 ```
 
-**7c**: Add the two new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
+**7c**: Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
 
 ```txt
 gunicorn
