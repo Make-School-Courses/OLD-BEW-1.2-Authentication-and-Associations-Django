@@ -63,13 +63,7 @@ What is required to successfully deploy on Heroku? **These two files must exist 
 heroku create uniqueprojectname
 ```
 
-**3b**: When you run `heroku create uniqueprojectname`, Heroku also creates a git repository to host your deployed code. Run the following terminal command to add `heroku` as a remote repository --- deployment is just a `git push heroku master` away!
-
-```bash
-add heroku https://git.heroku.com/uniqueprojectname.git
-```
-
-**3c**: Open your editor, and add the following three strings to the blank `ALLOWED_HOSTS` list in `settings.py`:
+**3b**: Open your editor, and add the following three strings to the blank `ALLOWED_HOSTS` list in `settings.py`:
 
 ```python
 ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, 'uniqueprojectname.herokuapp.com']

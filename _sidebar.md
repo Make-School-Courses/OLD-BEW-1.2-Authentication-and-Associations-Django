@@ -11,7 +11,7 @@
   - [Testing](Lessons/07-Testing)
   - [Django REST Framework](Lessons/09-Django-REST-Framework)
   - [Static Files](Lessons/10-StaticFiles)
-  - [Deployment](Lessons/08-Deployment)
+  - [Deployment](Lessons/11-Deployment)
 - **📈 Django Contractor Project**
   - [Project Kickoff](Lessons/06-ProjectKickoff)
   - [Proposal Instructions](/Projects/proposal.md)
