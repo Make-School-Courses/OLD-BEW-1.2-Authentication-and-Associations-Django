@@ -54,7 +54,7 @@ TODO: Update with section class times.
 | 10 | **Lesson 9**: [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 11 |
 | 11 | **Lesson 10**: [Project Kickoff](Lessons/06-ProjectKickoff.md) |  |
 | 12 | **Lesson 11**: [Static Files](Lessons/10-StaticFiles.md) |||
-| 13 | **Lesson 12**: [Deployment](Lessons/08-Deployment.md) | [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 12 |
+| 13 | **Lesson 12**: [Deployment](Lessons/11-Deployment.md) | [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 12 |
 | 14 | **Lesson 13**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) | | |
 
 
