@@ -19,8 +19,6 @@
 5. [[**30m**] 💻 **In Class Activity**: Deploy MakeWiki](#30m--in-class-activity-deploy-makewiki)
 6. [📚 Resources & Credits](#-resources--credits)
 
-<!-- > -->
-
 ## [**02m**] 🏆 Objectives
 
 1. Demonstrate a Django deployment illustrated live, step by step, with guided mini activities and skills drills.
@@ -45,13 +43,11 @@
 2. Replace references to `projectname` with the name of your Django project.
      - **Not sure what the project's name is?** Locate the folder that contains `settings.py` --- the name of that folder is your Django project name.
 
-Now that we know how to use this guide later on, let's get started.
-
-Open your your Django tutorial codebase in your editor, and complete each step as guided by the instructor.
+Now that we know how to use this guide later on, let's get started. **Open your your Django tutorial codebase in your editor**, and complete each step as guided by the instructor.
 
 ### Step 1: Create Procfile (5m)
 
-A `Procfile` tells Heroku how to run your application. In your project root, **create a file called `Procfile`** and **add the following line of code** inside:
+In your project root, **create a file called `Procfile`** and **add the following line of code** inside:
 
 ```txt
 web: gunicorn projectname.wsgi —-log-file -
@@ -68,10 +64,12 @@ web: gunicorn projectname.wsgi —-log-file -
 
 Heroku recommends completing this step early on to make sure your `Procfile` works, and that the Dyno has everything it needs in order to successfully install your project and deploy it live.
 
-**What files are required to successfully deploy on Heroku?** These two files must exist in your project's root directory**:
+🤔 **What files are required to successfully deploy on Heroku?**
 
-- `Procfile`
-- `requirements.txt`
+The following files in this list live in the project's root directory, and must be included in order to successfully deploy your project**:
+
+- `requirements.txt`: A list of dependencies to install before starting the server.
+- `Procfile`: Contains the command Heroku will run to start the server.
 
 ### Step 3: Create New Heroku App (8m)
 
@@ -90,7 +88,7 @@ Heroku recommends completing this step early on to make sure your `Procfile` wor
     **What do these values mean?**:
 
     - `localhost`: Development environment --- the place where you write code.
-    - `uniqueprojectname.herokuapp.com`: Production environment 000 the place you deploy your finished code to show others.
+    - `uniqueprojectname.herokuapp.com`: Production environment - the place you deploy your finished code to show others.
 
 ### Step 4: Setup Static Root (3m)
 
