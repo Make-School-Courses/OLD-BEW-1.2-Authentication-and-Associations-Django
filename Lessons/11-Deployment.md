@@ -41,7 +41,7 @@
 1. Replace references to `uniqueprojectname` with a unique and memorable name for your project.
      - **Spaces aren't allowed in a project name, so be sure any spaces in the string with dashes (`-`)**.
 2. Replace references to `projectname` with the name of your Django project.
-     - **Not sure what the project's name is?** Locate the folder that contains `settings.py` --- the name of that folder is your Django project name.
+     - **Not sure what the project's name is?** Locate the folder that contains `settings.py` ‒ the name of that folder is your Django project name.
 
 Now that we know how to use this guide later on, let's get started. **Open your your Django tutorial codebase in your editor**, and complete each step as guided by the instructor.
 
@@ -85,9 +85,8 @@ The following files in this list live in the project's root directory, and must 
     ALLOWED_HOSTS = [‘localhost’, 'uniqueprojectname.herokuapp.com']
     ```
 
-    **What do these values mean?**:
-
-    - `localhost`: Development environment --- the place where you write code.
+    🤔 **What do these values mean?**:
+    - `localhost`: Development environment ‒ the place where you write code.
     - `uniqueprojectname.herokuapp.com`: Production environment - the place you deploy your finished code to show others.
 
 ### Step 4: Setup Static Root (3m)
@@ -108,23 +107,22 @@ git commit -m "tweaked settings for deployment"
 git push heroku master
 ```
 
-⚠️ **GET AN ERROR?**: When deploying with Git, Heroku wants to initiate the repo from the project root, where your ` manage.py`  file lives. You might notice in the tutorial repo that `manage.py` is one level down. Even though running the app locally with Heroku worked, if you try to deploy with `git push heroku master` you’ll receive an error that says `Failed to detect app`. You can fix this by running the following command instead of `git push heroku master`:
+#### Common Issues & Questions
 
-```bash
-git subtree push —-prefix projectname heroku master
-```
+- ⚠️ **GET AN ERROR?**: When deploying with Git, Heroku wants to initiate the repo from the project root, where your ` manage.py`  file lives. You might notice in the tutorial repo that `manage.py` is one level down. Even though running the app locally with Heroku worked, if you try to deploy with `git push heroku master` you’ll receive an error that says `Failed to detect app`. You can fix this by running the following command instead of `git push heroku master`:
 
-🛑 **GET A DIFFERENT ERROR?**: Run `heroku logs` in your terminal, then raise your hand to receive 1 on 1 feedback from your instructor on the state of your deployment.
+    ```bash
+    git subtree push —-prefix projectname heroku master
+    ```
 
-⏰ **Why does this take so long?!**
-
-Each time you push to Heroku, it kicks off the following deployment workflow:
-
-1. Examine `requirements.txt` for changes since the last deployment.
-      - Install new dependencies automatically.
-2. Run all new migrations found since the last deployment.
-      - Heroku executes the exact same `manage.py` commands we've practiced all term!
-3. Launch the production server according to the command in the `Procfile`.
+- 🛑 **GET A DIFFERENT ERROR?**: Run `heroku logs` in your terminal, then raise your hand to receive 1 on 1 feedback from your instructor on the state of your deployment.
+- 🤔 **Why does pushing to Heroku take so long?!**
+  - Each time you push to Heroku, it kicks off the following deployment workflow:
+    1. Examine `requirements.txt` for changes since the last deployment.
+          - Installs new dependencies automatically.
+    2. Run all new migrations found since the last deployment.
+          - Heroku executes the exact same `manage.py` commands we've practiced all term!
+    3. Launch the production server according to the command in the `Procfile`.
 
 ### Step 6: Push to GitHub (2m)
 
@@ -136,11 +134,10 @@ git push origin master
 
 ### Step 7: Provision a Remote Database (18m)
 
-🤔 You might be asking yourself the following questions:
-
-  - *I thought we stored our data using SQLite?!*
-  - *Isn't that just a file in our repository?*
-  - *Why do we need to create and use a whole new database?*
+🤔 You may be asking yourself the following questions:
+    - *I thought we stored our data using SQLite?!*
+    - *Isn't that just a file in our repository?*
+    - *Why do we need to create and use a whole new database?*
 
 Our development environment uses SQLite. It's an excellent tool for day to day development — but **it doesn’t work with Heroku** and numerous other platforms used to deploy and manage server-side applications. PostgreSQL (or Postgres) is the most popular database deployed amongst real-world Django projects.
 
