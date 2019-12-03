@@ -40,7 +40,7 @@
 - Each experience in class today is engineered to support shipping your Contractor Project!
 - In two hours, you'll have two opportunities to deploy a Django site to Heroku, along with two successfully shipped mini projects that you can reference when preparing to deploy your Contractor Project for the first time.
 - Additionally, the step by step guide in this lesson plan works for _any_ Django application deployed to Heroku.
-- Wise students may consider bookmarking this plan to ensure stress-free, successful Django deployments in the future.
+- Wise students may consider bookmarking this plan to ensure stress-free, successful Django deployments in the future. Intensives kick off at the start of the new year!
 
 ## [**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku
 
