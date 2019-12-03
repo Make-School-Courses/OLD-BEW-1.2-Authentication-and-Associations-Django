@@ -23,17 +23,9 @@
 
 ## [**02m**] 🏆 Objectives
 
-`TODO`
-<!--
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
--->
+1. Demonstrate a Django deployment illustrated live, step by step, with guided mini activities and skills drills.
+2. Develop a generalized, standardized plan for deploying Django projects.
+3. Describe each step of the standardized required to deploy a Django project to a remote server.
 
 ## [**03m**] 🤔 Why You Should Know This
 
