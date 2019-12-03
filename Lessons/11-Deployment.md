@@ -2,7 +2,7 @@
 
 ### ⏱ Agenda
 
-1. [[**02m**] 🏆 Objectivess](#02m--objectivess)
+1. [[**02m**] 🏆 Objectives](#02m--objectives)
 2. [[**03m**] 🤔 Why You Should Know This](#03m--why-you-should-know-this)
 3. [[**60m**] 📖 Guided Step By Step: Heroku Deployment](#60m--guided-step-by-step-heroku-deployment)
    1. [Step 0: Before We Get Started (5m)](#step-0-before-we-get-started-5m)
@@ -21,7 +21,7 @@
 
 <!-- > -->
 
-## [**02m**] 🏆 Objectivess
+## [**02m**] 🏆 Objectives
 
 |   Level   | Verbs |
 | --------- | ----- |
