@@ -14,7 +14,7 @@
    7. [Step 6: Push to GitHub (2m)](#step-6-push-to-github-2m)
    8. [Step 7: Release Early and Often (5m)](#step-7-release-early-and-often-5m)
 4. [[**10m**] 🌴 BREAK](#10m--break)
-5. [[**30m**] 💻 **In Class Activity**: Deploy MakeWiki](#30m--in-class-activity-deploy-makewiki)
+5. [[**40m**] 💻 **In Class Activity**: Deploy MakeWiki](#40m--in-class-activity-deploy-makewiki)
 6. [📚 Resources & Credits](#-resources--credits)
    1. [Advanced Deployments](#advanced-deployments)
 
@@ -149,7 +149,7 @@ git push origin master
 
 ## [**10m**] 🌴 BREAK
 
-## [**30m**] 💻 **In Class Activity**: Deploy MakeWiki
+## [**40m**] 💻 **In Class Activity**: Deploy MakeWiki
 
 1. Follow all the steps above to deploy the MakeWiki project. When complete, you should have a live, working website that looks similar to [this example](https://makewiki-dani-test.herokuapp.com) created using today's step by step plan.
 2. Add at least two new Pages in the admin.
@@ -158,8 +158,13 @@ git push origin master
    2. Log In
    3. Create Page
    4. Log Out
-4. Add your Heroku link to column K of the [Course Tracker](https://docs.google.com/spreadsheets/d/1lqgLdtLawKbIfsHinBktLNc2i_Axtmex6oHOsmlkCXg/edit#gid=1530489478&range=K:K).
-5. _(Optional)_ Celebrate your second deployment! Slack the link to your working deployment in our class channel.
+4. Let's practice deploying a change to our project.
+      1. In `wiki/views.py`, modify `PageListView` to return all `Page` objects sorted by the `created` date, newest first.
+      2. Test the change locally to make sure it works.
+      3. Add, commit, and push the change to Heroku.
+      4. Verify that the change on your live website.
+5. Add your Heroku link to column K of the [Course Tracker](https://docs.google.com/spreadsheets/d/1lqgLdtLawKbIfsHinBktLNc2i_Axtmex6oHOsmlkCXg/edit#gid=1530489478&range=K:K).
+6. _(Optional)_ Celebrate your second deployment! Slack the link to your working deployment in our class channel.
 
 ## 📚 Resources & Credits
 
