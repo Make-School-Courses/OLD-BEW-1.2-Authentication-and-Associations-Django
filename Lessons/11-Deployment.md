@@ -152,7 +152,7 @@ git push origin master
 
 ## [**30m**] 💻 **In Class Activity**: Deploy MakeWiki
 
-1. Follow all the steps above to deploy the MakeWiki project. When complete, you should have a live, working website that looks similar to [this example](https://makewiki-dani-test.herokuapps.com) created using today's step by step plan.
+1. Follow all the steps above to deploy the MakeWiki project. When complete, you should have a live, working website that looks similar to [this example](https://makewiki-dani-test.herokuapp.com) created using today's step by step plan.
 2. Add at least two new Pages in the admin.
 3. Test the application's workflow in the browser:
    1. Sign Up
