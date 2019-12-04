@@ -81,6 +81,7 @@ python -m pip install gunicorn dj-database-url psycopg2-binary
 **2b**: Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
 
 ```txt
+django==2.2.7
 gunicorn
 dj-database-url
 psycopg2-binary
