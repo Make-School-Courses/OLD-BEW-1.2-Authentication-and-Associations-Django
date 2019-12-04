@@ -64,7 +64,7 @@ Heroku recommends completing this step early on to make sure your `Procfile` wor
 
 🤔 **What files are required to successfully deploy on Heroku?**
 
-The following files in this list live in the project's root directory, and must be included in order to successfully deploy your project**:
+The following files in this list live in the project's root directory, and **must be included in order to successfully deploy your project**:
 
 - `requirements.txt`: A list of dependencies to install before starting the server.
 - `Procfile`: Contains the command Heroku will run to start the server.
