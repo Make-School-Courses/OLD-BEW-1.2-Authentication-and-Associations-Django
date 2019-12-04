@@ -152,7 +152,7 @@ git push origin master
 
 ## [**30m**] 💻 **In Class Activity**: Deploy MakeWiki
 
-1. Follow all the steps above to deploy the MakeWiki project.
+1. Follow all the steps above to deploy the MakeWiki project. When complete, you should have a live, working website that looks similar to [this example](https://makewiki-dani-test.herokuapps.com) created using today's step by step plan.
 2. Add at least two new Pages in the admin.
 3. Test the application's workflow in the browser:
    1. Sign Up
@@ -163,6 +163,7 @@ git push origin master
 
 ## 📚 Resources & Credits
 
+- [Howto: Deploy on Heroku Using PostgreSQL](./Lessons/HowTo-DeployWithPostgres.md)
 - [Provisioning Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres)
 - [Painless PostgreSQL + Django](https://medium.com/agatha-codes/painless-postgresql-django-d4f03364989)
 - [9 Straightforward Steps for Deploying Your Django App With Heroku](https://medium.com/agatha-codes/9-straightforward-steps-for-deploying-your-django-app-with-heroku-82b952652fb4)
