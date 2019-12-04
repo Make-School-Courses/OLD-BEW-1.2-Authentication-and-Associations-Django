@@ -1,7 +1,6 @@
 # Proposal: Contractor Project
 
 1. Create a [new GitHub repo](https://github.com/new).
-1. If you're working in pairs, **invite your partner as a collaborator** for the project on GitHub.
 1. **Clone** the repository locally.
 1. `cd` to the cloned directory. **Create a `proposal.md` file. Link it in your `README.md`**.
 1. Write **3 to 5 sentences** that tell me:
