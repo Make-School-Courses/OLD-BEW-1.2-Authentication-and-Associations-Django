@@ -158,7 +158,8 @@ git push origin master
    2. Log In
    3. Create Page
    4. Log Out
-4. Celebrate your second deployment! Slack the link to your working deployment in our class channel.
+4. Add your Heroku link to column K of the [Course Tracker](https://docs.google.com/spreadsheets/d/1lqgLdtLawKbIfsHinBktLNc2i_Axtmex6oHOsmlkCXg/edit#gid=1530489478&range=K:K).
+5. _(Optional)_ Celebrate your second deployment! Slack the link to your working deployment in our class channel.
 
 ## 📚 Resources & Credits
 
