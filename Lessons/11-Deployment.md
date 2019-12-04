@@ -4,17 +4,15 @@
 
 1. [[**02m**] 🏆 Objectives](#02m--objectives)
 2. [[**03m**] 🤔 Why You Should Know This](#03m--why-you-should-know-this)
-3. [[**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku](#60m--guided-tour-deploy-tutorial-on-heroku)
+3. [[**40m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku](#40m--guided-tour-deploy-tutorial-on-heroku)
    1. [Step 0: Before We Get Started (5m)](#step-0-before-we-get-started-5m)
    2. [Step 1: Create Procfile (5m)](#step-1-create-procfile-5m)
    3. [Step 2: Add Dependencies to requirements.txt (5m)](#step-2-add-dependencies-to-requirementstxt-5m)
-   4. [Step 3: Create New Heroku App (8m)](#step-3-create-new-heroku-app-8m)
-   5. [Step 4: Setup Static Root (3m)](#step-4-setup-static-root-3m)
-   6. [Step 5: Push to Heroku (3m)](#step-5-push-to-heroku-3m)
+   4. [Step 3: Create New Heroku App (5m)](#step-3-create-new-heroku-app-5m)
+   5. [Step 4: Setup Static Root (5m)](#step-4-setup-static-root-5m)
+   6. [Step 5: Push to Heroku (5m)](#step-5-push-to-heroku-5m)
    7. [Step 6: Push to GitHub (2m)](#step-6-push-to-github-2m)
-   8. [Step 7: Provision a Remote Database (18m)](#step-7-provision-a-remote-database-18m)
-   9. [Step 8: Run Commands (5m)](#step-8-run-commands-5m)
-   10. [Step 9: Release Early and Often (5m)](#step-9-release-early-and-often-5m)
+   8. [Step 7: Release Early and Often (5m)](#step-7-release-early-and-often-5m)
 4. [[**10m**] 🌴 BREAK](#10m--break)
 5. [[**30m**] 💻 **In Class Activity**: Deploy MakeWiki](#30m--in-class-activity-deploy-makewiki)
 6. [📚 Resources & Credits](#-resources--credits)
@@ -32,7 +30,7 @@
     - The [step by step guide](#60m--guided-tour-deploy-tutorial-on-heroku) in this plan works for _any_ Django application deployed to Heroku.
     - Wise students may consider bookmarking this plan to ensure stress-free, successful Django deployments in the future. Intensives kick off at the start of the new year!
 
-## [**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku
+## [**40m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku
 
 ### Step 0: Before We Get Started (5m)
 
@@ -71,23 +69,14 @@ The following files in this list live in the project's root directory, and must 
 - `requirements.txt`: A list of dependencies to install before starting the server.
 - `Procfile`: Contains the command Heroku will run to start the server.
 
-
-**2a**: In your terminal, install `gunicorn`, `psycopg2-binary` and `dj-database-url` via `pip`:
-
-```bash
-python -m pip install gunicorn dj-database-url psycopg2-binary
-```
-
-**2b**: Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
+Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
 
 ```txt
 django==2.2.7
 gunicorn
-dj-database-url
-psycopg2-binary
 ```
 
-### Step 3: Create New Heroku App (8m)
+### Step 3: Create New Heroku App (5m)
 
 - **3a**: In your terminal, run the following command to create a new Dyno, where your project will be installed and deployed for use by the public.
 
@@ -98,14 +87,14 @@ psycopg2-binary
 - **3b**: Open your editor, and add the following strings to the blank `ALLOWED_HOSTS` list in `settings.py`:
 
     ```python
-    ALLOWED_HOSTS = [‘localhost’, 'uniqueprojectname.herokuapp.com']
+    ALLOWED_HOSTS = ['localhost', 'uniqueprojectname.herokuapp.com']
     ```
 
     🤔 **What do these values mean?**
     - `localhost`: Development environment ‒ the place where you write code.
     - `uniqueprojectname.herokuapp.com`: Production environment - the place you deploy your finished code to show others.
 
-### Step 4: Setup Static Root (3m)
+### Step 4: Setup Static Root (5m)
 
 Add the following string to `settings.py`:
 
@@ -113,7 +102,7 @@ Add the following string to `settings.py`:
 STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
 ```
 
-### Step 5: Push to Heroku (3m)
+### Step 5: Push to Heroku (5m)
 
 Add, commit, and push your changes to Heroku!
 
@@ -148,59 +137,7 @@ Once you know everything works, push to GitHub.
 git push origin master
 ```
 
-### Step 7: Provision a Remote Database (18m)
-
-#### Why We're Doing This
-
-🤔 You may be asking yourself the following questions:
-
-- *I thought we stored our data using SQLite?!*
-- *Isn't that just a file in our repository?*
-- *Why do we need to create and use a whole new database?*
-
-Our development environment uses SQLite. It's an excellent tool for day to day development — but **it doesn’t work with Heroku** and numerous other platforms used to deploy and manage server-side applications. PostgreSQL (or Postgres) is the most popular database deployed amongst real-world Django projects.
-
-⁉️ ***Never heard of Postgres? Don't worry, let's walk through setting up our first database together!***
-
-#### Steps to Create a Remote Database
-
-**7a**. Add a free database instance to your Heroku application by running the following command in your terminal:
-
-```bash
-heroku addons:create heroku-postgresql:hobby-dev
-```
-
-**7b**: Add these two lines to the bottom of `settings.py`:
-
-```python
-import dj_database_url
-db_from_env = dj_database_url.config()
-DATABASES[‘default’].update(db_from_env)
-```
-
-This code will parse the values of the `DATABASE_URL` environment variable and convert them to something Django can understand.
-
-**7c**: Push to Heroku to complete the database setup:
-
-```bash
-git push heroku master
-```
-
-### Step 8: Run Commands (5m)
-
-**8a**: Right now, the database we just created is completely empty. It doesn't know about our models, or how to store the data we defined within them. We can migrate the new database by running the following command:
-
-```bash
-heroku run python manage.py migrate
-```
-
-**8b**: Finally, create an admin user to test the admin interface on your deployed website:
-
-```bash
-heroku run python manage.py createsuperuser
-```
-
-### Step 9: Release Early and Often (5m)
+### Step 7: Release Early and Often (5m)
 
 **So far, we've accomplished**:
 
@@ -215,15 +152,14 @@ heroku run python manage.py createsuperuser
 
 ## [**30m**] 💻 **In Class Activity**: Deploy MakeWiki
 
-1. Follow all 8 steps above to deploy the MakeWiki project.
-2. Log in to `https://uniqueprojectname.herokuapp.com/admin/` with the credentials you made in Step 8.
-3. Add at least two new Pages in the admin.
-4. Test the application's workflow in the browser:
+1. Follow all the steps above to deploy the MakeWiki project.
+2. Add at least two new Pages in the admin.
+3. Test the application's workflow in the browser:
    1. Sign Up
    2. Log In
    3. Create Page
    4. Log Out
-5. Celebrate your second deployment! Slack the link to your working deployment in our class channel.
+4. Celebrate your second deployment! Slack the link to your working deployment in our class channel.
 
 ## 📚 Resources & Credits
 
