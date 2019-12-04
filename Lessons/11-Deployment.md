@@ -7,7 +7,7 @@
 3. [[**60m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku](#60m--guided-tour-deploy-tutorial-on-heroku)
    1. [Step 0: Before We Get Started (5m)](#step-0-before-we-get-started-5m)
    2. [Step 1: Create Procfile (5m)](#step-1-create-procfile-5m)
-   3. [Step 2: Run Locally Via Heroku (5m)](#step-2-run-locally-via-heroku-5m)
+   3. [Step 2: Add Dependencies to requirements.txt (5m)](#step-2-add-dependencies-to-requirementstxt-5m)
    4. [Step 3: Create New Heroku App (8m)](#step-3-create-new-heroku-app-8m)
    5. [Step 4: Setup Static Root (3m)](#step-4-setup-static-root-3m)
    6. [Step 5: Push to Heroku (3m)](#step-5-push-to-heroku-3m)
@@ -60,7 +60,7 @@ web: gunicorn projectname.wsgi —-log-file -
 - `—-log-file -` Write all terminal output to the logs.
     - View your Heroku logs by running `heroku logs`.
 
-### Step 2: Run Locally Via Heroku (5m)
+### Step 2: Add Dependencies to requirements.txt (5m)
 
 Heroku recommends completing this step early on to make sure your `Procfile` works, and that the Dyno has everything it needs in order to successfully install your project and deploy it live.
 
@@ -70,6 +70,21 @@ The following files in this list live in the project's root directory, and must 
 
 - `requirements.txt`: A list of dependencies to install before starting the server.
 - `Procfile`: Contains the command Heroku will run to start the server.
+
+
+**2a**: In your terminal, install `gunicorn`, `psycopg2-binary` and `dj-database-url` via `pip`:
+
+```bash
+python -m pip install gunicorn dj-database-url psycopg2-binary
+```
+
+**2b**: Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
+
+```txt
+gunicorn
+dj-database-url
+psycopg2-binary
+```
 
 ### Step 3: Create New Heroku App (8m)
 
@@ -154,21 +169,7 @@ Our development environment uses SQLite. It's an excellent tool for day to day d
 heroku addons:create heroku-postgresql:hobby-dev
 ```
 
-**7b**: In your terminal, install `gunicorn`, `psycopg2-binary` and `dj-database-url` via `pip`:
-
-```bash
-python -m pip install gunicorn dj-database-url psycopg2-binary
-```
-
-**7c**: Add the new dependencies to `requirements.txt` so that they are installed when you next push to Heroku:
-
-```txt
-gunicorn
-dj-database-url
-psycopg2-binary
-```
-
-**7d**: Add these two lines to the bottom of `settings.py`:
+**7b**: Add these two lines to the bottom of `settings.py`:
 
 ```python
 import dj_database_url
@@ -178,7 +179,7 @@ DATABASES[‘default’].update(db_from_env)
 
 This code will parse the values of the `DATABASE_URL` environment variable and convert them to something Django can understand.
 
-**7e**: Push to Heroku to complete the database setup:
+**7c**: Push to Heroku to complete the database setup:
 
 ```bash
 git push heroku master
