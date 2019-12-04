@@ -100,7 +100,7 @@ gunicorn
 Add the following string to `settings.py`:
 
 ```python
-STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
 
 ### Step 5: Push to Heroku (5m)
