@@ -118,7 +118,7 @@ git push heroku master
 - ⚠️ **GET AN ERROR?**: When deploying with Git, Heroku wants to initiate the repo from the project root, where your ` manage.py`  file lives. You might notice in the tutorial repo that `manage.py` is one level down. Even though running the app locally with Heroku worked, if you try to deploy with `git push heroku master` you’ll receive an error that says `Failed to detect app`. You can fix this by running the following command instead of `git push heroku master`:
 
     ```bash
-    git subtree push —-prefix projectname heroku master
+    git subtree push --prefix projectname heroku master
     ```
 
 - 🛑 **GET A DIFFERENT ERROR?**: Run `heroku logs` in your terminal, then raise your hand to receive 1 on 1 feedback from your instructor on the state of your deployment.
