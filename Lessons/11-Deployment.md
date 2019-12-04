@@ -16,6 +16,7 @@
 4. [[**10m**] 🌴 BREAK](#10m--break)
 5. [[**30m**] 💻 **In Class Activity**: Deploy MakeWiki](#30m--in-class-activity-deploy-makewiki)
 6. [📚 Resources & Credits](#-resources--credits)
+   1. [Advanced Deployments](#advanced-deployments)
 
 ## [**02m**] 🏆 Objectives
 
@@ -160,6 +161,8 @@ git push origin master
 4. Celebrate your second deployment! Slack the link to your working deployment in our class channel.
 
 ## 📚 Resources & Credits
+
+### Advanced Deployments
 
 - [Howto: Deploy on Heroku Using PostgreSQL](./Lessons/HowTo-DeployWithPostgres.md)
 - [Provisioning Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres)
