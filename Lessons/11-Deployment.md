@@ -49,7 +49,7 @@ Now that we know how to use this guide later on, let's get started. **Open your 
 In your project root, **create a file called `Procfile`** and **add the following line of code** inside:
 
 ```txt
-web: gunicorn projectname.wsgi —-log-file -
+web: gunicorn projectname.wsgi --log-file -
 ```
 
 **What does this line of code tell Heroku to do?**
