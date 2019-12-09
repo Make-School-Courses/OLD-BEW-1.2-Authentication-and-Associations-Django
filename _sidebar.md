@@ -17,4 +17,5 @@
   - [Proposal Instructions](/Projects/proposal.md)
   - [Project Requirements](/Projects/requirements.md)
   - [Grading Rubric](/Projects/rubric.md)
-
+- **Final Exam**
+  - [Study Guide](/Assessments/final-study-guide.md)
