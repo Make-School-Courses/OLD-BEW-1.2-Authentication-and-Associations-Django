@@ -18,4 +18,4 @@ _**NOTE**: Must score higher than a **`70%`** to pass._
 | `README` with documentation                |   `10`    |   `00`   |          |
 | Public GitHub repo                         |    `5`    |   `00`   |          |
 | No exposed secrets                         |    `5`    |   `00`   |          |
-| **TOTAL**                                  | **`275`** | **`00`** |          |
+| **TOTAL**                                  | **`235`** | **`00`** |          |
