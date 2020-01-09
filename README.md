@@ -5,14 +5,18 @@
 
 # BEW 1.2: Authentication, Associations, & Advanced Queries
 
+| Instructor | Slack Channel | Course Website | Course Tracker | Instructor 1-on-1 |
+| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
+| [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Book](https://make.sc/codewithdani) |
+
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
 3. [Learning Outcomes](#learning-outcomes)
 4. [Schedule](#schedule)
-5. [Class Assignments](#class-assignments)
+5. [Evaluation](#evaluation)
+6. [Class Assignments](#class-assignments)
    1. [Tutorials](#tutorials)
    2. [Projects](#projects)
-6. [Evaluation](#evaluation)
 7. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -38,41 +42,21 @@ Students by the end of the course will be able to...
 
 **Course Dates:** October 21 through December 12, 2019
 
-<!--
-TODO: Update with section class times.
-**Class Times:** Monday and Wednesday at 1:30–3:20pm (11 class sessions) -->
-
-| Day | Topics | Assignment | Due Before... |
-| :---: | ------ | ---------- | :-------: |
-| 1 | **Lesson 1**: [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Day 2 |
-| 2 | **Lesson 2**: [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Day 3 |
-| 3 | **Lesson 3**:  [More Models](Lessons/03-MoreModels.md) |||
-| 4 | **Lesson 4**: [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Day 5 |
-| 5 | **Lesson 5**: [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Day 7 |
-| 6 | **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Day 8 |
-| 7 | **Lesson 6**:[Authentication & Authorization in Django](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Day 9 |
-| 8 | **Lesson 7**: [Working with Forms](Lessons/08-Forms) | |
-| 9 | **Lesson 8**:   [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Day 10  |
-| 10 | **Lesson 9**: [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Day 11 |
-| 11 | **Lesson 10**: [Project Kickoff](Lessons/06-ProjectKickoff.md) | [Contractor Project](Projects/requirements.md) | Day 14 |
-| 12 | **Lesson 11**: [Static Files](Lessons/10-StaticFiles.md) |||
-| 13 | **Lesson 12**: [Deployment](Lessons/11-Deployment.md) | [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Day 12 |
-| 14 | **Lesson 13**: [Review Day](https://docs.google.com/presentation/d/1NOXp_KSYTzwQ7Rj_893hfS45JWDShkb_ADXAVl5QNRM) | | |
-| 15 | Final Exam | | |
-
-
-
-## Class Assignments
-
-### Tutorials
-
-Tutorials are to help you get started in a topic. Your progress will be reviewed by your instructor throughout the term. They are graded on completion only.
-
-* [Django Tutorials](https://docs.djangoproject.com/en/2.2/) - These will be completed throughout the course. Reference the schedule for due dates.
-
-### Projects
-
-* [Contractor Project](Projects/requirements.md) ([Rubric](Projects/rubric.md))
+| Class | Date | Topics | Assignment | Done Before |
+|:-----:|:----:| :----: | :--------: | :-----------: |
+|  1 |  Tue, January 21 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 |
+|  2 |  Thu, January 23 | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 |
+|  3 |  Tue, January 28 | [More Models](Lessons/03-MoreModels.md) |||
+|  4 |  Thu, January 30 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 |
+|  5 |  Tue, February 4 | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 |
+|  6 |  Thu, February 6 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 |
+|  7 |  Tue, February 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 |
+|  8 |  Thu, February 13 | [Working with Forms](Lessons/08-Forms) | |
+|  9 |  Tue, February 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  |
+| 10 |  Thu, February 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 |
+| 11 |  Tue, February 25 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 |
+| 12 |  Thu, February 27 | [Deployment](Lessons/11-Deployment.md) ||
+| 13 |  Tue, March 3 | Final Exam | Contractor Project | End of Day |
 
 ## Evaluation
 
@@ -89,13 +73,23 @@ Tutorials are to help you get started in a topic. Your progress will be reviewed
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
-
 _To pass each project or tutorial, students must earn the required number of points or higher indicated on the associated rubric. Note that all points within one project or tutorial submission are fungible (that is, interchangeable) and so if one portion of work is below the "Met All Expectations" column of the rubric, another portion of work submitted can "Exceed Expectations" (generally by completing stretch challenges) to earn an extra point to make up for the missing one. Therefore, it's wise to complete stretch challenges as "insurance" in case some work does not meet expectations._
 
 _Another way to think of the submissions is a game where your goal is to earn enough points to pass in whatever way you see fit, with rubrics as the rules of the game that you can optimize against and "win" to pass the course._
 
 _The instructor or teaching assistants will review students' submissions and verify or correct their self-assessed scores, then share feedback with the student through a GitHub issue opened on their repository. Feedback will include their status on that submission (that is, whether their work is passing the rubric). Resubmissions will not be considered unless the instructor has approved a resubmission in writing due to exceptional circumstances._
 
+## Class Assignments
+
+### Tutorials
+
+Tutorials are to help you get started in a topic. Your progress will be reviewed by your instructor throughout the term. They are graded on completion only.
+
+* [Django Tutorials](https://docs.djangoproject.com/en/2.2/) - These will be completed throughout the course. Reference the schedule for due dates.
+
+### Projects
+
+* [Contractor Project](Projects/requirements.md) ([Rubric](Projects/rubric.md))
 
 ## Make School Course Policies
 
