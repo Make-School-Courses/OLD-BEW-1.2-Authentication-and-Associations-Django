@@ -5,9 +5,9 @@
 
 # BEW 1.2: Authentication, Associations, & Advanced Queries
 
-| Instructor | Slack Channel | Course Website | Course Tracker | Instructor 1-on-1 |
-| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
-| [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Click to Book](https://make.sc/codewithdani) |
+| Instructor | Slack Channel | Course Website | Course Tracker | Documentation | Instructor 1-on-1 |
+| :--------------------------------------: | :-----------: | :-:| :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
+| [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Django Website](https://docs.djangoproject.com/en/3.0/) | [Click to Book](https://make.sc/codewithdani) |
 
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
