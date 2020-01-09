@@ -40,23 +40,26 @@ Students by the end of the course will be able to...
 
 ## Schedule
 
-**Course Dates:** January 21 through March 3, 2020
+**Course Dates:** January 22 through March 4, 2020
+
+**Class Times:** Monday and Wednesday at 2:30 – 5:15pm (13 class sessions)
 
 | Class | Date | Topics | Assignment | Done Before |
 |:-----:|:----:| :----: | :--------: | :-----------: |
-|  1 |  Tue, January 21 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 |
-|  2 |  Thu, January 23 | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 |
-|  3 |  Tue, January 28 | [More Models](Lessons/03-MoreModels.md) |||
-|  4 |  Thu, January 30 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 |
-|  5 |  Tue, February 4 | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 |
-|  6 |  Thu, February 6 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 |
-|  7 |  Tue, February 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 |
-|  8 |  Thu, February 13 | [Working with Forms](Lessons/08-Forms) | |
-|  9 |  Tue, February 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  |
-| 10 |  Thu, February 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 |
-| 11 |  Tue, February 25 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 |
-| 12 |  Thu, February 27 | [Deployment](Lessons/11-Deployment.md) ||
-| 13 |  Tue, March 3 | Final Exam | Contractor Project | End of Day |
+|  - | Mon, January 20 | **NO CLASS** - MLK Day | |
+|  1 | Wed, January 22  |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 |
+|  2 | Mon, January 27  | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 |
+|  3 | Wed, January 29  | [More Models](Lessons/03-MoreModels.md) |||
+|  4 | Mon, February 3  | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 |
+|  5 | Wed, February 5  | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 |
+|  6 | Mon, February 10 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 |
+|  7 | Wed, February 12  | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 |
+|  8 | Mon, February 17  | [Working with Forms](Lessons/08-Forms) | |
+|  9 | Wed, February 19  | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  |
+| 10 | Mon, February 24  | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 |
+| 11 | Wed, February 26 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 |
+| 12 | Mon, March 2 | [Deployment](Lessons/11-Deployment.md) ||
+| 13 | Wed, March 4 | Final Exam | Contractor Project | End of Day |
 
 ## Evaluation
 
