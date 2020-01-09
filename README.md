@@ -10,6 +10,8 @@
 3. [Learning Outcomes](#learning-outcomes)
 4. [Schedule](#schedule)
 5. [Class Assignments](#class-assignments)
+   1. [Tutorials](#tutorials)
+   2. [Projects](#projects)
 6. [Evaluation](#evaluation)
 7. [Make School Course Policies](#make-school-course-policies)
 
@@ -73,6 +75,10 @@ Tutorials are to help you get started in a topic. Your progress will be reviewed
 * [Contractor Project](Projects/requirements.md) ([Rubric](Projects/rubric.md))
 
 ## Evaluation
+
+<p align="center">
+  <img src="criteria.png"">
+</p>
 
 **To pass this course, you must meet the following requirements**:
 
