@@ -82,9 +82,10 @@ Tutorials are to help you get started in a topic. Your progress will be reviewed
 
 **To pass this course, you must meet the following requirements**:
 
-- Complete the Django Tutorial and `makewiki` project.
+- Complete the Django Tutorial and `makewiki` project
+- Write and publish two blog posts to Medium, dev.to, or a personal blog website
 - Pass the [Contractor Project](Projects/requirements.md) according to the [rubric](Projects/rubric.md)
-- Pass **ALL** assessments
+- Pass the final exam
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
