@@ -26,7 +26,7 @@ As we review, be sure to compare/contrast Django syntax with what you've seen be
 
 ### Practice - I Do, We Do, You Do
 
-Watch as the instructor starts a new project using the techniques from the tutorial.
+Close your laptops and watch as the instructor starts a new project using the techniques from the tutorial.
 
 Then, tell the instructor what to do to accomplish the same task.
 
