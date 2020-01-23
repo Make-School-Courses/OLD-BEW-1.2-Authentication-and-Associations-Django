@@ -8,7 +8,7 @@
 | Course Section | Instructor | Slack Channel | Course Website | Course Tracker | Documentation | Instructor 1-on-1 |
 | :---: | :--------------------------------------: | :-----------: | :-:| :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
 | A | [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Django Website](https://docs.djangoproject.com/en/3.0/) | [Click to Book](https://make.sc/codewithdani) |
-| B | **@Meredith** | - | - | - | - | [Click to Book](https://make.sc/codewithmeredith) |
+| B | **@Meredith** | - | - | None | - | [Click to Book](https://make.sc/codewithmeredith) |
 
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
