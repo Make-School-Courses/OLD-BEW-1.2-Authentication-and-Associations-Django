@@ -47,23 +47,27 @@ Students by the end of the course will be able to...
 
 **Class Times (Section B):** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
 
-| Class | Section A | Section B | Topics | Assignment | Done Before |
-|:-----:|:----:| :----: | :--------: | :-----------: | :-----------: |
+| Class | Section A | Section B | Topics | Assignment | Done Before | Assessment |
+|:-----:|:----:| :----: | :--------: | :-----------: | :-----------: | :----:|
 |  - | Mon, Jan 20 | - | **NO CLASS** - MLK Day | |
-|  1 | Wed, Jan 22 | Tue, Jan 21 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 |
-|  2 | Mon, Jan 27  | Thu, Jan 23 | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 |
-|  3 | Wed, Jan 29  | Tue, Jan 28 | [More Models](Lessons/03-MoreModels.md) |||
-|  4 | Mon, Feb 3  | Thu, Jan 30 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 |
-|  5 | Wed, Feb 5  | Tue, Feb 4 | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 |
-|  6 | Mon, Feb 10 | Thu, Feb 6 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 |
-|  7 | Wed, Feb 12  | Tue, Feb 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 |
-|  8 | Mon, Feb 17  | Thu, Feb 13 | [Working with Forms](Lessons/08-Forms) | |
-|  9 | Wed, Feb 19  | Tue, Feb 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  |
-| 10 | Mon, Feb 24  | Thu, Feb 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 |
-| 11 | Wed, Feb 26 | Tue, Feb 25 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | | Class 12 |
-| 12 | Mon, Mar 2 | Thu, Feb 27 | [Deployment](Lessons/11-Deployment.md) ||
-| 13 | - | Tue, Mar 3 | Review Day ||
-| 14 | Wed, Mar 4 | Thu, Mar 5 | Final Exam | Contractor Project | End of Day |
+|  1 | Wed, Jan 22 | Tue, Jan 21 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 ||
+|  2 | Mon, Jan 27  | Thu, Jan 23 | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
+|  3 | Wed, Jan 29  | Tue, Jan 28 | [More Models](Lessons/03-MoreModels.md) ||||
+|  4 | Mon, Feb 3  | Thu, Jan 30 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
+|  5 | Wed, Feb 5  | Tue, Feb 4 | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 | [Quiz 1] |
+|  6 | Mon, Feb 10 | Thu, Feb 6 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 ||
+|  7 | Wed, Feb 12  | Tue, Feb 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
+|  8 | Mon, Feb 17  | Thu, Feb 13 | [Working with Forms](Lessons/08-Forms) | ||
+|  9 | Wed, Feb 19  | Tue, Feb 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  | [Quiz 2] |
+| 10 | Mon, Feb 24  | Thu, Feb 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 ||
+| 11 | Wed, Feb 26 | Tue, Feb 25 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 | |
+| 12 | Mon, Mar 2 | Thu, Feb 27 | [Deployment](Lessons/11-Deployment.md) |||
+| 13 | - | Tue, Mar 3 | Review Day ||||
+| 14 | Wed, Mar 4 | Thu, Mar 5 | Final Assessment / Lab | Contractor Project | End of Day | [Quiz 3] |
+
+[Quiz 1]: Assessments/quiz-1.md
+[Quiz 2]: Assessments/quiz-2.md
+[Quiz 3]: Assessments/quiz-3.md
 
 ## Evaluation
 
