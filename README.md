@@ -52,7 +52,7 @@ Students by the end of the course will be able to...
 |  - | Mon, Jan 20 | - | **NO CLASS** - MLK Day | |
 |  1 | Wed, Jan 22 | Tue, Jan 21 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) | Class 2 ||
 |  2 | Mon, Jan 27  | Thu, Jan 23 | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
-|  3 | Wed, Jan 29  | Tue, Jan 28 | [More Models](Lessons/03-MoreModels.md) ||||
+|  3 | Wed, Jan 29  | Tue, Jan 28 | [More Models](Lessons/03-MoreModels.md) | Read & answer questions (Section B) | Class 4 ||
 |  4 | Mon, Feb 3  | Thu, Jan 30 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
 |  5 | Wed, Feb 5  | Tue, Feb 4 | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 | [Quiz 1] |
 |  6 | Mon, Feb 10 | Thu, Feb 6 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 ||
