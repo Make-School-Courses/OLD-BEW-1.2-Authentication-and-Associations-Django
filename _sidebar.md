@@ -17,5 +17,7 @@
   - [Proposal Instructions](/Projects/proposal.md)
   - [Project Requirements](/Projects/requirements.md)
   - [Grading Rubric](/Projects/rubric.md)
-- **Final Exam**
-  - [Study Guide](/Assessments/final-study-guide.md)
+- **Assessments**
+  - [Quiz 1: Models](/Assessments/quiz-1.md)
+  - [Quiz 2: Views & URLs, Templates, Authentication](/Assessments/quiz-2.md)
+  - [Quiz 3: Forms, Testing, DRF](/Assessments/quiz-3.md)
