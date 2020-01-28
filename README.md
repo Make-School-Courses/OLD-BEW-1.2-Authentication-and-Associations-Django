@@ -5,10 +5,10 @@
 
 # BEW 1.2: Authentication, Associations, & Advanced Queries
 
-| Course Section | Instructor | Slack Channel | Course Website | Course Tracker | Documentation | Instructor 1-on-1 |
-| :---: | :--------------------------------------: | :-----------: | :-:| :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
-| A | [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [make.sc/trackbew1.2](https://make.sc/trackbew1.2) | [Django Website](https://docs.djangoproject.com/en/3.0/) | [Click to Book](https://make.sc/codewithdani) |
-| B | **@Meredith** | - | - | None | - | [Click to Book](https://make.sc/codewithmeredith) |
+| Course Section | Instructor | Slack Channel | Course Website | Documentation | Instructor 1-on-1 |
+| :---: | :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
+| A | [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [Django Website](https://docs.djangoproject.com/en/3.0/) | [Click to Book](https://make.sc/codewithdani) |
+| B | **@Meredith** | - | - | - | - | [Click to Book](https://make.sc/codewithmeredith) |
 
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
@@ -78,7 +78,7 @@ Students by the end of the course will be able to...
 **To pass this course, you must meet the following requirements**:
 
 - Complete the Django Tutorial and `makewiki` project
-- Write and publish two blog posts to Medium, dev.to, or a personal blog website
+- Write and publish a blog post to Medium, dev.to, or a personal blog website
 - Pass the [Contractor Project](Projects/requirements.md) according to the [rubric](Projects/rubric.md)
 - Pass the final exam
 - Actively participate in class and abide by the attendance policy
