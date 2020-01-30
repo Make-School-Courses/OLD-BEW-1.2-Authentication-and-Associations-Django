@@ -50,6 +50,10 @@ These common filters come in handy in nearly every project:
 
 **PROTIP**: `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
 
+### Activity: Filters
+
+Find a partner you haven't worked with yet. Go over the [Model Field Reference](https://docs.djangoproject.com/en/3.0/ref/models/fields/) documentation and write down 3 more filters for `Song`, `Musician`, and/or `Album`.
+
 ## BREAK (10 minutes)
 
 ## Activity: Data Modeling (25 minutes)
