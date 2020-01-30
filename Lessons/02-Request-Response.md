@@ -2,9 +2,14 @@
 
 ## Agenda
 
+1. Tutorial Review
+1. Request/Response Practice
+1. Tutorial Time
+1. 
+
 ## Learning Objectives
 
-## Tutorial Review (30 Minutes)
+## Tutorial Review (50 Minutes)
 
 Submit your Tutorial Part 1 using [Gradescope](https://gradescope.com).
 
@@ -24,6 +29,8 @@ On your own, complete the following:
 1. Re-route _all_ web requests (hint: use the empty string `''`) to your music app's URLs file. Then, send any web requests for the homepage `''` to a view called `home`.
 1. Create a view function `home` that returns an HttpResponse with the text "Hello World! You're at the Music App home page."
 
-## Tutorial Time (30 Minutes)
+## Break
+
+## Tutorial Time (50 Minutes)
 
 Continue to work on the Tutorial Part 2 (Models).
