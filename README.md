@@ -43,13 +43,11 @@ Students by the end of the course will be able to...
 
 **Course Dates:** January 22 through March 4, 2020
 
-**Class Times (Section A):** Monday and Wednesday at 2:30 – 5:15pm (13 class sessions)
-
-**Class Times (Section B):** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
-
 <!-- tabs:start -->
 
 #### ** Section A (Dani) **
+
+**Class Times:** Monday and Wednesday at 2:30 – 5:15pm (13 class sessions)
 
 | Class | Date | Topics | Assignment | Done Before | Assessment |
 |:-----:| :----: | :--------: | :-----------: | :-----------: | :----:|
@@ -70,6 +68,8 @@ Students by the end of the course will be able to...
 
 
 #### ** Section B (Meredith) **
+
+**Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
 
 | Class | Date | Topics | Assignment | Done Before | Assessment |
 |:-----:| :----: | :--------: | :-----------: | :-----------: | :----:|
