@@ -4,8 +4,10 @@
 
 1. Tutorial Review
 1. Request/Response Practice
+1. BREAK
 1. Tutorial Time
-1. 
+1. Wrap-Up
+1. Resources & Credits
 
 ## Learning Objectives
 
@@ -34,3 +36,12 @@ On your own, complete the following:
 ## Tutorial Time (50 Minutes)
 
 Continue to work on the Tutorial Part 2 (Models).
+
+## Wrap-Up
+
+Finish Tutorial Part 2 (Models) before the next class session.
+
+## Resources & Credits
+
+1. [Django: Writing Views](https://docs.djangoproject.com/en/3.0/topics/http/views/)
+1. [Django: URL Dispatcher](https://docs.djangoproject.com/en/3.0/topics/http/urls/)
