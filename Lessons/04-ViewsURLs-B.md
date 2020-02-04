@@ -1,4 +1,4 @@
-# 📜 Day 4: Views & URLs
+# 📜 Day 4: Views
 
 ### ⏱ Agenda
 
