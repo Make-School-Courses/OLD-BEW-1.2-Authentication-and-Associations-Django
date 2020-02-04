@@ -77,7 +77,7 @@ Students by the end of the course will be able to...
 |  2 | Thu, Jan 23 | [Request & Response](Lessons/02-Request-Response.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
 |  3 | Tue, Jan 28 | [Models](Lessons/02-Models.md) | Read & answer questions | Class 4 ||
 |  4 | Thu, Jan 30 | [More Models](Lessons/03-MoreModels.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
-|  5 | Tue, Feb 4 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 ||
+|  5 | Tue, Feb 4 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-v1): `v1` Challenges | Class 7 ||
 |  6 | Thu, Feb 6 |  [Templates: Tying it Together](Lessons/05-Templates.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 | [Quiz 1] |
 |  7 | Tue, Feb 11 | **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
 |  8 | Thu, Feb 13 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | ||
