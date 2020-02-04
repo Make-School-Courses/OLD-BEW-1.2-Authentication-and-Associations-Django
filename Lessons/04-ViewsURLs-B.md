@@ -35,7 +35,7 @@ class WorkExperience(models.Model):
   ...
 ```
 
-Go over the solution together as a class
+Go over the solution together as a class.
 
 ## 📖 [30m] Overview
 
@@ -121,7 +121,6 @@ With a partner, choose one of the following View classes:
   - [ListView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#listview) - [Source Code](https://github.com/django/django/blob/master/django/views/generic/list.py)
   - [DetailView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#detailview) - [Source Code](https://github.com/django/django/blob/master/django/views/generic/detail.py)
   - [TemplateView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#templateview) - [Source Code](https://github.com/django/django/blob/master/django/views/generic/base.py)
-  - [RedirectView](https://docs.djangoproject.com/en/3.0/ref/class-based-views/base/#redirectview) - [Source Code](https://github.com/django/django/blob/master/django/views/generic/base.py)
 
 Read the documentation _and_ the source code, then use what you learned to create a page for your music site.
 
