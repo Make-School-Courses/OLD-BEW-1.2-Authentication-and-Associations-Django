@@ -10,11 +10,11 @@ Your Django site must include the following pages:
 
 1. Artist List page
   - Must list all `Musician` objects in bullet points or list items
-  - `Musician` names must link to their detail pages
+  - `Musician` names must link to their detail pages using the `{% url %}` template tag
 1. Artist Detail page
   - Must show any relevant details about that artist
   - Must list all songs by that artist in bullet points or list items
-  - Each song should link to its Song Detail page
+  - Each song should link to its Song Detail page using the `{% url %}` template tag
 1. Song Detail page
   - Must show any relevant details about the song, including its artist
 
@@ -26,7 +26,7 @@ Your Django site must include the following pages:
 
 ## Scoring
 
-Your work will be scored out of 40 points as follows:
+Your work will be scored out of **30** points as follows:
 
 | Criteria                                       | Possible  |
 | ---------------------------------------------- | :-------: |

@@ -55,9 +55,9 @@ In Django templating, the following terminology is used frequently:
   </ul>
   ```
 
-#### Customizable
+### Activity: Exploring Filters [5 minutes]
 
-  You can even implement [custom tags and filters] for unique use cases!
+Look through the [filters documentation](https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-filter-reference) and, with a partner, identify 3 interesting or useful filters. Discuss how they could be used in a project.
 
 ### Inheritance Structure
 
@@ -67,10 +67,6 @@ In Django templating, the following terminology is used frequently:
 - **`myproject/app/templates/list.html`**: Extends the project's `base.html` page using the `extends` template tag: `{% extends "base.html" %}`.
   - Starting point for most templates you write.
 - **`myproject/app/templates/partials/list_item.html`**: Write less code with partial templates! Use the `include` template tag to include a partial in a parent or child template:`{% include "templates/partials/comment.html" %}`
-
-### Activity: Exploring Filters [5 minutes]
-
-Look through the [filters documentation](https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-filter-reference) and, with a partner, identify 3 interesting or useful filters. Discuss how they could be used in a project.
 
 ### Rendering Templates in Views
 
@@ -172,13 +168,44 @@ How could we use the `{% url %}` template tag in our music app?
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**65m**] Activity: Music Site
+## 💻 [**65m**] **Activity**: Personal Wiki (makewiki)
 
+> ⚠️ **IMPORTANT NOTE BEFORE YOU START** ⚠️ <br>
+> To ensure the best development experience, **_carefully and mindfully_** follow each instruction <font color="red">**_exactly_**</font> as written. _No exceptions_. Blocked? Raise your hand and let us know!
 
+### Setup From Starter Code
+
+ **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
+
+1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki`.
+2. **In your terminal**, navigate to the directory where you store your projects.
+3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
+
+    ```bash
+    git clone https://github.com/make-school-labs/makewiki-starter makewiki
+    cd makewiki
+    rm -rf .git
+    git init
+    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki
+    ```
+
+4. **Open the `makewiki` repository folder** in your IDE.
+
+### Starting the Challenges
+
+1. **REQUIRED**: Complete challenges in each of these files, in order:
+    1. `makewiki/urls.py`
+    1. `wiki/views.py`
+    1. `wiki/urls.py`
+    1. `templates/base.html`
+
+You will also need to create template files in `wiki/templates/wiki` for the list and detail pages that extend `base.html`. The naming of those files is up to you!
+
+**TIP**: Find all challenges by searching the project for instances of the word CHALLENGE. To search all files in your project directory, press <Command> + <Shift> + <F>, type CHALLENGE, and hit <Return>.
 
 ## Wrap-Up
 
-
+Continue working on your [tutorial part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) (due next class) and the [music site]() mini-project (due in 1 week).
 
 ## 📚 Resources & Credits
 
