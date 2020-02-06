@@ -8,7 +8,7 @@
 | Course Section | Instructor | Slack Channel | Course Website | Documentation | Instructor 1-on-1 |
 | :---: | :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
 | A | [**@droxey**](https://github.com/droxey) | `#bew1-2-django`  | [make.sc/bew1.2](https://make.sc/bew1.2) | [Django Website](https://docs.djangoproject.com/en/3.0/) | [Click to Book](https://make.sc/codewithdani) |
-| B | **@Meredith** | - | - | - | - | [Click to Book](https://make.sc/codewithmeredith) |
+| B | **@Meredith** | - | - | - | [Click to Book](https://make.sc/codewithmeredith) |
 
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
@@ -77,15 +77,15 @@ Students by the end of the course will be able to...
 |  2 | Thu, Jan 23 | [Request & Response](Lessons/02-Request-Response.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
 |  3 | Tue, Jan 28 | [Models](Lessons/02-Models.md) | Read & answer questions | Class 4 ||
 |  4 | Thu, Jan 30 | [More Models](Lessons/03-MoreModels.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
-|  5 | Tue, Feb 4 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-v1): `v1` Challenges | Class 7 ||
-|  6 | Thu, Feb 6 |  [Templates: Tying it Together](Lessons/05-Templates.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 | [Quiz 1] |
-|  7 | Tue, Feb 11 | **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
-|  8 | Thu, Feb 13 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | ||
-|  9 | Tue, Feb 18 | [Working with Forms](Lessons/08-Forms) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  ||
-| 10 | Thu, Feb 20 | [Testing](Lessons/07-Testing.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 | [Quiz 2] |
-| 11 | Tue, Feb 25 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 | |
-| 12 | Thu, Feb 27 | [Static Files](Lessons/10-StaticFiles.md) |||
-| 13 | Tue, Mar 3 | [Deployment](Lessons/11-Deployment.md) ||||
+|  5 | Tue, Feb 4 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | - | - ||
+|  6 | Thu, Feb 6 |  [Templates: Tying it Together](Lessons/05-Templates-B.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 7 | [Quiz 1] |
+|  7 | Tue, Feb 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
+|  8 | Thu, Feb 13 | [Working with Forms](Lessons/08-Forms) | ||
+|  9 | Tue, Feb 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  ||
+| 10 | Thu, Feb 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 | [Quiz 2] |
+| 11 | Tue, Feb 25 | [Static Files](Lessons/10-StaticFiles.md) |  [Static Files](https://docs.djangoproject.com/en/2.2/intro/tutorial06/) & [Admin Site](https://docs.djangoproject.com/en/2.2/intro/tutorial07/) | Class 12 | |
+| 12 | Thu, Feb 27 | [Deployment](Lessons/11-Deployment.md) |||
+| 13 | Tue, Mar 3 | Review Day ||||
 | 14 | Thu, Mar 5 | Final Assessment / Lab | Contractor Project | End of Day | [Quiz 3] |
 
 <!-- tabs:end -->
