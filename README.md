@@ -16,8 +16,6 @@
 4. [Schedule](#schedule)
 5. [Evaluation](#evaluation)
 6. [Class Assignments](#class-assignments)
-   1. [Tutorials](#tutorials)
-   2. [Projects](#projects)
 7. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -56,8 +54,8 @@ Students by the end of the course will be able to...
 |  2 | Mon, Jan 27  | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
 |  3 | Wed, Jan 29  | [More Models](Lessons/03-MoreModels.md) | - | Class 4 ||
 |  4 | Mon, Feb 3  | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
-|  5 | Wed, Feb 5  | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://make.sc/makewiki): `v1` Challenges | Class 7 | [Quiz 1] |
-|  6 | Mon, Feb 10 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 ||
+|  5 | Wed, Feb 5  | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://make.sc/makewiki): `v1` Challenges | Class 7 | |
+|  6 | Mon, Feb 10 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 | [Quiz 1] |
 |  7 | Wed, Feb 12  | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://make.sc/makewiki): `v2` Challenges | Class 9 ||
 |  8 | Mon, Feb 17  | [Working with Forms](Lessons/08-Forms) | ||
 |  9 | Wed, Feb 19  | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  | [Quiz 2] |
