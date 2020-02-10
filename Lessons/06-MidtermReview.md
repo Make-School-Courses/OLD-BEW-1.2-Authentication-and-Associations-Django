@@ -22,7 +22,7 @@
 >
 > Your grade is determined based on **completion of the challenges only**.
 
-Today's class focuses on continuing to implement the [core challenges](https://github.com/make-school-labs/makewiki-starter#step-4-solve-the-challenges) in the [`makewiki`](https://github.com/make-school-labs/makewiki-starter) project.
+Today's class focuses on continuing to implement the [core challenges](https://make.sc/makewiki#step-4-solve-the-challenges) in the [`makewiki`](https://make.sc/makewiki) project.
 
 We'll then review the solution at the end of the class period.
 

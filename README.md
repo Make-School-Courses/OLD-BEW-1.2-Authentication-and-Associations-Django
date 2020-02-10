@@ -56,9 +56,9 @@ Students by the end of the course will be able to...
 |  2 | Mon, Jan 27  | [Models](Lessons/02-Models.md) | [Models Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial02) | Class 3 ||
 |  3 | Wed, Jan 29  | [More Models](Lessons/03-MoreModels.md) | - | Class 4 ||
 |  4 | Mon, Feb 3  | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
-|  5 | Wed, Feb 5  | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v1` Challenges | Class 7 | [Quiz 1] |
+|  5 | Wed, Feb 5  | [Templates: Tying it Together](Lessons/05-Templates.md) | [Wiki Project](https://make.sc/makewiki): `v1` Challenges | Class 7 | [Quiz 1] |
 |  6 | Mon, Feb 10 |  **Review Day**: [Django Core](Lessons/06-MidtermReview.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 ||
-|  7 | Wed, Feb 12  | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
+|  7 | Wed, Feb 12  | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://make.sc/makewiki): `v2` Challenges | Class 9 ||
 |  8 | Mon, Feb 17  | [Working with Forms](Lessons/08-Forms) | ||
 |  9 | Wed, Feb 19  | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  | [Quiz 2] |
 | 10 | Mon, Feb 24  | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 ||
@@ -79,7 +79,7 @@ Students by the end of the course will be able to...
 |  4 | Thu, Jan 30 | [More Models](Lessons/03-MoreModels.md) | [Views & Templates Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) | Class 5 ||
 |  5 | Tue, Feb 4 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [MakeWiki v1](https://github.com/make-school-labs/makewiki-v1) | Class 7 ||
 |  6 | Thu, Feb 6 |  [Templates: Tying it Together](Lessons/05-Templates-B.md) | [Forms & Generic Views Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) | Class 8 | [Quiz 1] |
-|  7 | Tue, Feb 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | Class 9 ||
+|  7 | Tue, Feb 11 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://make.sc/makewiki): `v2` Challenges | Class 9 ||
 |  8 | Thu, Feb 13 | [Working with Forms](Lessons/08-Forms) | Blog Post | Class 14 |
 |  9 | Tue, Feb 18 | [Testing](Lessons/07-Testing.md) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| Class 10  ||
 | 10 | Thu, Feb 20 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | Class 11 | [Quiz 2] |
@@ -132,7 +132,7 @@ Tutorials are to help you get started in a topic. Your progress will be reviewed
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
