@@ -114,10 +114,10 @@ class ShowTimeView(View):
 
 ## 📝 [**20m**] **Demo**: Personal Wiki
 
-### Instructions for the Instructor 
+### Instructions for the Instructor
 
-1. Present the specifications for the makewiki project. Ask students to close their laptops, then walk through and demonstrate  the [setup instructions](#setup-from-starter-code) live. 
-2. Walk through the starter code, and visit each file in the same order that students will complete their challenges. 
+1. Present the specifications for the makewiki project. Ask students to close their laptops, then walk through and demonstrate  the [setup instructions](#setup-from-starter-code) live.
+2. Walk through the starter code, and visit each file in the same order that students will complete their challenges.
 3. After prompting for questions, allow students to go on break.
 
 ## 🌴 [**10m**] BREAK
@@ -136,7 +136,7 @@ class ShowTimeView(View):
 3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
 
     ```bash
-    git clone https://github.com/make-school-labs/makewiki-starter makewiki
+    git clone https://make.sc/makewiki makewiki
     cd makewiki
     rm -rf .git
     git init

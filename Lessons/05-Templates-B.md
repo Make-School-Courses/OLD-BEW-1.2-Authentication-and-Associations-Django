@@ -182,7 +182,7 @@ How could we use the `{% url %}` template tag in our music app?
 3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
 
     ```bash
-    git clone https://github.com/make-school-labs/makewiki-starter makewiki
+    git clone https://make.sc/makewiki makewiki
     cd makewiki
     rm -rf .git
     git init
