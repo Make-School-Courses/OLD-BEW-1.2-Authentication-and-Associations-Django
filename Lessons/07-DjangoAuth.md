@@ -1,9 +1,4 @@
-<!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # 📜 Day 7: Authentication & Authorization
-
-<!-- <p align="center"><a href="https://make-school-courses.github.io/REPO_NAME/Slides/00-LESSON_NAME" title="Slides" target="_blank"><strong>Slides</strong></a></p> -->
-
-<!-- > -->
 
 ### ⏱ Agenda
 
@@ -16,14 +11,10 @@
 7. [🌃 After Class](#%f0%9f%8c%83-after-class)
 8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
-<!-- > -->
-
 ## [**02m**] 🏆 Objectives
 
 1. Define authentication and authorization and discuss examples of each.
 1. Apply authentication to an existing codebase.
-
-<!-- > -->
 
 ## [**15m**] 📖 Overview: Login & Logout
 
@@ -87,8 +78,6 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
 2. Stop when you complete the first section titled [`Login & Logout`](https://make.sc/makewiki/blob/master/CHALLENGES.md#login--logout).
 
 ## [**10m**] 🌴 BREAK
-
-<!-- > -->
 
 ## [**15m**] 📖 Overview: Signup
 
@@ -158,8 +147,6 @@ Move on to the [`Signup` section](https://make.sc/makewiki/blob/master/CHALLENGE
 - **HOMEWORK**: Complete [v2 Challenges](https://make.sc/makewiki/blob/master/CHALLENGES.md) by next class period.
 - **UP NEXT:** We'll add functionality to the green 'New Page' button in our `makewiki` project to learn more about creating and customizing Django forms!
 
-<!-- > -->
-
 ## 📚 Resources & Credits
 
 ### Unblockers
@@ -176,4 +163,4 @@ Learn more through the resources below.
 
 - [**Docs**: Using the Django authentication system](https://docs.djangoproject.com/en/2.2/topics/auth/default/)
 - [**Django `reverse` vs `reverse_lazy`**](http://cheng.logdown.com/posts/2015/05/25/django-reverse-vs-reverse-lazy): Blog post describing a common pitfall when implementing class-based views.
-<!-- > -->
+
