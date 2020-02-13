@@ -65,17 +65,17 @@ Read more about [Authentication Views in Django](https://docs.djangoproject.com/
 
 ### Login Templates
 
-A typical `login.html` template has been included with your `makewiki` `v2` starter code. [View it on GitHub](https://make.sc/makewiki/blob/master/templates/registration/login.html).
+A typical `login.html` template has been included with your `makewiki` `v2` starter code. [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/login.html).
 
 ## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
 
-1. Begin the [v2 Challenges](https://make.sc/makewiki/blob/master/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
+1. Begin the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
 
     ```bash
-    git clone https://make.sc/makewiki makewiki_v2
+    git clone https://github.com/Make-School-Labs/makewiki-starter makewiki_v2
     ```
 
-2. Stop when you complete the first section titled [`Login & Logout`](https://make.sc/makewiki/blob/master/CHALLENGES.md#login--logout).
+2. Stop when you complete the first section titled [`Login & Logout`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
 
 ## [**10m**] 🌴 BREAK
 
@@ -136,15 +136,15 @@ The simplest `signup.html` template looks like this:
 {% endblock %}
 ```
 
-Another typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://make.sc/makewiki/blob/master/templates/registration/signup.html).
+Another typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/signup.html).
 
 ## [**30m**] 💻 Activity: v2 Challenges - Signup
 
-Move on to the [`Signup` section](https://make.sc/makewiki/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://make.sc/makewiki/blob/master/CHALLENGES.md) to complete the assignment.
+Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) to complete the assignment.
 
 ## 🌃 After Class
 
-- **HOMEWORK**: Complete [v2 Challenges](https://make.sc/makewiki/blob/master/CHALLENGES.md) by next class period.
+- **HOMEWORK**: Complete [v2 Challenges](https://https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by next class period.
 - **UP NEXT:** We'll add functionality to the green 'New Page' button in our `makewiki` project to learn more about creating and customizing Django forms!
 
 ## 📚 Resources & Credits
