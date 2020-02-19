@@ -13,6 +13,7 @@ This quiz will revisit some of the same topics from [Quiz 1](Assessments/quiz-1.
 
 - Given a URL configuration, use the `reverse` function & `url` template tag to dynamically generate URLs.
 - Read & understand code using template filters.
+- Organize templates within a project using template namespacing
 
 ### Authentication & Authorization
 
