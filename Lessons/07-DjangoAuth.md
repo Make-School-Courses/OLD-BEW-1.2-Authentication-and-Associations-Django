@@ -144,7 +144,7 @@ Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-s
 
 ## 🌃 After Class
 
-- **HOMEWORK**: Complete [v2 Challenges](https://https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by next class period.
+- **HOMEWORK**: Complete [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by next class period.
 - **UP NEXT:** We'll add functionality to the green 'New Page' button in our `makewiki` project to learn more about creating and customizing Django forms!
 
 ## 📚 Resources & Credits
