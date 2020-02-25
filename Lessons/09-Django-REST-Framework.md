@@ -181,12 +181,10 @@ class QuestionDetail(RetrieveDestroyAPIView):
     - With [Postman](https://www.getpostman.com/downloads/)
 
 
-## [**20m**] 🎉 Activity: Contractor Project Kickoff
+## [**20m**] 🎉 Activity: Blog Post Kickoff
 
-1. Introduce [Django Contractor Project Requirements](Projects/requirements) + [Rubric](Projects/rubric)
-
-1. Activity: [Project Proposal](Projects/proposal)
-
+1. Explore [Dev.to](https://dev.to) and brainstorm ideas for your blog post.
+1. Read over the [Blog Post rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit).
 
 ## 📚 Resources & Credits
 
