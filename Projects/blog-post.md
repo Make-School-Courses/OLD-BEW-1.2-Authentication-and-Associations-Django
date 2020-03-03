@@ -2,7 +2,11 @@
 
 ## Purpose (Why should I do this?)
 
-This assignment is designed for you to practice writing a technical piece
+This assignment is designed for you to:
+
+- Practice writing a technical piece and improve your technical writing skill
+- Dive deep into a specific topic within Django and utilize resources to explore your area of interest
+- Develop a portfolio-worthy piece to show potential employers
 
 ## Requirements
 
@@ -13,6 +17,7 @@ Your blog post must satisfy the following:
 1. Includes image and context to hook the reader
 1. Includes code samples to back up main points
 1. Includes headers to break up content; utilizes
+1. Utilizes at least one characteristic of quality writing: Persuasive, Informative, Entertaining
 
 ## Scoring
 
