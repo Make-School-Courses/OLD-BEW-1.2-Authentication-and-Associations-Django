@@ -17,6 +17,8 @@
   - [Proposal Instructions](/Projects/proposal.md)
   - [Project Requirements](/Projects/requirements.md)
   - [Grading Rubric](/Projects/rubric.md)
+- **Other Assignments**
+  - [Blog Post](Projects/blog-post.md)
 - **Assessments**
   - [Quiz 1: Models](/Assessments/quiz-1.md)
   - [Quiz 2: Views & URLs, Templates, Authentication](/Assessments/quiz-2.md)
