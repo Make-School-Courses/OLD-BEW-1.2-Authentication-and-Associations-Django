@@ -101,7 +101,7 @@ Students by the end of the course will be able to...
 **To pass this course, you must meet the following requirements**:
 
 - Complete the Django Tutorial and `makewiki` project
-- Write and publish a blog post to Medium, dev.to, or a personal blog website
+- Write and publish a [blog post](Projects/blog-post.md) to Medium, dev.to, or a personal blog website
 - Pass the [Contractor Project](Projects/requirements.md) according to the [rubric](Projects/rubric.md)
 - Pass the final exam
 - Actively participate in class and abide by the attendance policy
