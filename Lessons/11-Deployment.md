@@ -22,7 +22,7 @@
 
 1. Demonstrate a Django deployment illustrated live, step by step, with guided mini activities and skills drills.
 2. Develop a generalized, standardized plan for deploying Django projects.
-3. Describe each step of the standardized required to deploy a Django project to a remote server.
+3. Describe each step required to deploy a Django project to a remote server.
 
 ## [**03m**] 🤔 Why You Should Know This
 
@@ -38,7 +38,7 @@
 **This guide is resource meant to walk you through deploying ANY Django project on Heroku. Please note the following guidelines to ensure your deployment experience goes smoothly**!
 
 1. Replace references to `uniqueprojectname` with a unique and memorable name for your project.
-     - **Spaces aren't allowed in a project name, so be sure any spaces in the string with dashes (`-`)**.
+     - **Spaces aren't allowed in a project name, so be sure to replace any spaces in the string with dashes (`-`)**.
 2. Replace references to `projectname` with the name of your Django project.
      - **Not sure what the project's name is?** Locate the folder that contains `settings.py` ‒ the name of that folder is your Django project name.
 
