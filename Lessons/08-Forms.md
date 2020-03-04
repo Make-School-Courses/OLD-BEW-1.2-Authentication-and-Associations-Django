@@ -158,11 +158,11 @@ Finally, use `CreateView` to handle the `GET` and `POST` for the form.
 ```python
 # books/views.py
 class BookCreateView(CreateView):
-  def get(self, request, *args, **kwargs):
+  def get(self, request):
       context = {'form': BookCreateForm()}
       return render(request, 'books/new.html', context)
 
-  def post(self, request, *args, **kwargs):
+  def post(self, request):
       form = BookCreateForm(request.POST)
       if form.is_valid():
           book = form.save()
