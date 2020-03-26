@@ -33,6 +33,8 @@ We will share these analogies together shortly.
 
 ### Enabling User Authentication in Django
 
+<!-- NOTE: add section on request.user -->
+
 In your project's root URLconf, add the following to the provided `urlpatterns` list:
 
 ```python

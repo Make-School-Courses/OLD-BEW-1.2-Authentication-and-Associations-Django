@@ -1,11 +1,5 @@
-<!-- Run this slideshow via the following command: -->
-<!-- reveal-md README.md -w -->
-
-
-<!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # 📜 Day 10: Static Files
 
-<!-- > -->
 
 ### ⏱ Agenda
 
@@ -18,7 +12,6 @@
 7. [🌃 After Class](#-after-class)
 8. [📚 Resources & Credits](#-resources--credits)
 
-<!-- > -->
 
 ## [**05m**] 🏆 Objectives
 
@@ -76,11 +69,7 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
 3. Follow the steps listed above to enable static files in your above in your makewiki project.
 4. Edit the `list.html` template to show the image somewhere on the screen!
 
-<!-- > -->
-
 ## [**10m**] 🌴 BREAK
-
-<!-- > -->
 
 ## [**15m**] 💻 Activity: Peer Proposal Review
 
@@ -93,8 +82,6 @@ Begin work on your Contractor Project. Your instructor will be reviewing your pr
 ## 🌃 After Class
 
 Continue working on your Contractor Project.
-
-<!-- > -->
 
 ## 📚 Resources & Credits
 

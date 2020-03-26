@@ -14,7 +14,7 @@
 
 1. Contrast and compare Django template implementation to Jinja.
 2. Demonstrate out how Django processes a single request/response cycle.
-3. Distinguish the each file in a Django app and when it's executed by the framework.
+3. Distinguish each file in a Django app and when it's executed by the framework.
 4. Create a minimal application from start to finish.
 
 ## 📖 [**20m**] **Overview**: Template Deja-Vu

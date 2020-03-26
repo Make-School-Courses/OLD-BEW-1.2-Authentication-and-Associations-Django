@@ -99,6 +99,10 @@ Run `python3 manage.py shell` to start the interactive shell.
 
 ### Query our Database Entries
 
+<!-- NOTE: have a section SPECIFICALLY for each of: all, get, filter -->
+
+<!-- NOTE: do a worksheet here with above -->
+
 Now, how can we interact with these models? Let's try it out!
 
 ```bash
