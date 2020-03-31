@@ -46,22 +46,22 @@ Students by the end of the course will be able to...
 
 **Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
 
-| Class | Date | Topics | Assignment | Assessment |
+| Class | Date | Topics | Assignment Due | Assessment |
 |:-----:| :----: | :--------: | :-----------: | :----:|
-|  1 | Tue, Mar 31 |  [Discovering Django](Lessons/01-Discovering-Django.md) | [Requests & Responses Tutorial] | |
-|  2 | Thu, Apr 2 | [Request & Response](Lessons/02-Request-Response.md) | [Models Tutorial]<br>[Portfolio Site] | |
-|  3 | Tue, Apr 7 | [Models](Lessons/02-Models.md) |  | |
-|  4 | Thu, Apr 9 | [More Models](Lessons/03-MoreModels.md) | [Views & Templates Tutorial] | |
-|  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [MakeWiki v1](https://github.com/make-school-labs/makewiki-v1) | |
-|  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates-B.md) | [Forms & Generic Views Tutorial] | [Quiz 1] |
-|  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview-B) |  | |
-|  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | [Wiki Project](https://github.com/make-school-labs/makewiki-starter): `v2` Challenges | |
-|  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) |  [Testing Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)| |
-| 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | [_**Contractor Project Proposal**_](Projects/proposal.md) | [Quiz 2] |
-| 11 | Tue, May 5 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) |  [Static Files] & [Admin Site] | |
-| 12 | Thu, May 7 | [Static Files](Lessons/10-StaticFiles.md) ||
-| 13 | Tue, May 12 | [Deployment](Lessons/11-Deployment.md) |||
-| 14 | Thu, May 14 | Final Assessment / Lab | Contractor Project | [Quiz 3] |
+|  1 | Tue, Mar 31 |  [Discovering Django](Lessons/01-Discovering-Django.md) | - | |
+|  2 | Thu, Apr 2 | [Request & Response](Lessons/02-Request-Response.md) | [Requests & Responses Tutorial] | |
+|  3 | Tue, Apr 7 | [Models](Lessons/02-Models.md) | [Models Tutorial]<br>Homework 1: [Portfolio Site] | |
+|  4 | Thu, Apr 9 | [More Models](Lessons/03-MoreModels.md) | - | |
+|  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
+|  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates-B.md) | - | [Quiz 1] |
+|  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview-B) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
+|  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | |
+|  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Pets Site] | |
+| 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | - | [Quiz 2] |
+| 11 | Tue, May 5 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
+| 12 | Thu, May 7 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project Proposal]() ||
+| 13 | Tue, May 12 | [Deployment](Lessons/11-Deployment.md) | - ||
+| 14 | Thu, May 14 | Final Assessment / Lab | [Custom Project]() | [Quiz 3] |
 
 <!-- tabs:end -->
 
@@ -94,8 +94,8 @@ Students by the end of the course will be able to...
 | Assignment | Due |
 | :--------: | :-: |
 | [Requests & Responses Tutorial] | **Thu, Apr 2** @ 2:30 PM |
-| Homework 1: [Portfolio Site] | **Tue, Apr 7** @ 2:30 PM |
 | [Models Tutorial] | **Tue, Apr 7** @ 2:30 PM |
+| Homework 1: [Portfolio Site] | **Tue, Apr 7** @ 2:30 PM |
 
 **Week 2**
 
@@ -131,7 +131,7 @@ Students by the end of the course will be able to...
 
 | Assignment | Due |
 | :--------: | :-: |
-| [Custom Project Proposal]() | **Tue, May 12** @ 2:30 PM |
+| [Custom Project Proposal]() | **Thu, May 7** @ 2:30 PM |
 | [Homework 6: Custom Project]() |  **Thu, May 14** @ 2:30 PM |
 
 <!-- tabs:end -->
