@@ -112,7 +112,7 @@ Continue to work on the Tutorial Part 2 (Models).
 
 ## Wrap-Up (5 minutes)
 
-Finish Tutorial Part 2 (Models) and Homework #1 (Portfolio Site) before the next class session and submit both of those to [Gradescope](https://gradescope.com).
+Finish [Tutorial Part 2 (Models)](https://docs.djangoproject.com/en/2.2/intro/tutorial02/) and [Homework #1 (Portfolio Site)](Projects/01-portfolio-site.md) before the next class session and submit both of those to [Gradescope](https://gradescope.com).
 
 Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
