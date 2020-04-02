@@ -20,8 +20,6 @@ By the end of this class, you will be able to...
 
 ## Tutorial Review (15 minutes)
 
-Submit your Tutorial Part 1 using [Gradescope](https://gradescope.com).
-
 Review the first portion of the Django tutorial together.
 
 As we review, be sure to compare/contrast Django syntax with what you've seen before in Flask.
@@ -106,7 +104,7 @@ This will render the template located in the file `myapp/about.html`, and pass i
 
 The relationship between URLs, Views, Templates, & Models looks like this:
 
-<img src="Lessons/Assets/views-urls.png" width="400">
+<img src="Lessons/Assets/views-urls.png" width="500">
 
 ## Tutorial Time (30 Minutes)
 
@@ -114,9 +112,9 @@ Continue to work on the Tutorial Part 2 (Models).
 
 ## Wrap-Up (5 minutes)
 
-Finish Tutorial Part 2 (Models) and Homework #1 (Portfolio Site) before the next class session.
+Finish Tutorial Part 2 (Models) and Homework #1 (Portfolio Site) before the next class session and submit both of those to [Gradescope](https://gradescope.com).
 
-Fill out the [Vibe Check]() form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## Resources & Credits
 
