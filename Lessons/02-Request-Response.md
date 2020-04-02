@@ -30,15 +30,17 @@ Watch as the instructor starts a new project using the techniques from the tutor
 
 Then, tell the instructor what to do to accomplish the same task.
 
-## Activity: Request/Response Practice (15 minutes)
+## Activity: Request/Response Practice (20 minutes)
 
-On your own, complete the following:
+Choose pairs randomly. With your partner, decide who will be the **driver** and who will be the **navigator**. The **driver** should share their screen and type in the code; the **navigator** should give them instructions.
 
 1. Create a project called 'music_site' that contains an app called 'music'.
 1. Re-route _all_ web requests (hint: use the empty string `''`) to your music app's URLs file. Then, send any web requests for the homepage `''` to a view called `home`.
 1. Create a view function `home` that returns an HttpResponse with the text "Hello World! You're at the Music App home page."
 
-## Break
+After you finish and test out your site in the browser, switch partners and repeat.
+
+## Break (10 minutes)
 
 ## Django Request/Response (20 minutes)
 
