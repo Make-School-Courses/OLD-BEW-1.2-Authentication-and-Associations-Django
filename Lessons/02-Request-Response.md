@@ -2,20 +2,23 @@
 
 ## Agenda
 
-1. Tutorial Review
-1. Request/Response Practice
+1. Tutorial Review (15 minutes)
+1. Request/Response Practice (15 minutes)
+1. Activity: Request/Response Practice (20 minutes)
 1. BREAK
-1. Tutorial Time
-1. Wrap-Up
+1. Django Request/Response (20 minutes)
+1. Tutorial Time (25 minutes)
+1. Wrap-Up (5 minutes)
 1. Resources & Credits
 
 ## Learning Objectives
 
 By the end of this class, you will be able to...
 
-1. Create a Django project, from scratch, containing 
+1. Create a Django project, from scratch, containing URLs and Views that together form a route.
+1. Describe the relationships between URLs, Views, Templates, & Models.
 
-## Tutorial Review (50 Minutes)
+## Tutorial Review (15 minutes)
 
 Submit your Tutorial Part 1 using [Gradescope](https://gradescope.com).
 
@@ -23,13 +26,13 @@ Review the first portion of the Django tutorial together.
 
 As we review, be sure to compare/contrast Django syntax with what you've seen before in Flask.
 
-### Practice - I Do, We Do, You Do
+## Practice - I Do, We Do, You Do (15 minutes)
 
-Close your laptops and watch as the instructor starts a new project using the techniques from the tutorial.
+Watch as the instructor starts a new project using the techniques from the tutorial.
 
 Then, tell the instructor what to do to accomplish the same task.
 
-### Activity: Request/Response Practice
+## Activity: Request/Response Practice (15 minutes)
 
 On your own, complete the following:
 
@@ -39,7 +42,7 @@ On your own, complete the following:
 
 ## Break
 
-## Django Request/Response
+## Django Request/Response (20 minutes)
 
 Django heavily utilizes what we would call **separation of concerns**. That means that pieces of code that have different responsibilities are put in different places.
 
@@ -75,7 +78,7 @@ There are a few things you'll notice about this code:
 ```py
 from django.http import HttpResponse
 
-def about():
+def about(request):
   return HttpResponse('<p>Hello! This is an about page!</p>)
 ```
 
@@ -85,15 +88,35 @@ Here, you'll notice that we can't just return a regular string. We need to first
 
 What's that? You want to display your HTML in a template, you say? Say no more!
 
-<!-- NOTE: add section on render -->
+In Django we can use the `render` function, which is very similar to Flask's `render_template`.
 
-## Tutorial Time (50 Minutes)
+The `render` function takes in a "context" variable, which is a dictionary containing any key-value pairs we want to send to the template.
+
+```py
+from django.shortcuts import render
+
+def about(request):
+    context = {
+        'favorite_color': 'blue'
+    }
+    return render(request, 'myapp/about.html', context)
+```
+
+This will render the template located in the file `myapp/about.html`, and pass it the `favorite_color` variable which has the value of `blue`.
+
+The relationship between URLs, Views, Templates, & Models looks like this:
+
+<img src="Lessons/Assets/views-urls.png" width="400">
+
+## Tutorial Time (30 Minutes)
 
 Continue to work on the Tutorial Part 2 (Models).
 
-## Wrap-Up
+## Wrap-Up (5 minutes)
 
-Finish Tutorial Part 2 (Models) before the next class session.
+Finish Tutorial Part 2 (Models) and Homework #1 (Portfolio Site) before the next class session.
+
+Fill out the [Vibe Check]() form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## Resources & Credits
 
