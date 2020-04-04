@@ -1,5 +1,7 @@
 # Day 2: Request-Response
 
+[Watch the Recording!](https://zoom.us/rec/share/-OpoIZ_86EZJbZWU8E3YVrIlPJzoaaa80HQa86BbxRwU14ZlhG7atisDtsTLRkfB?startTime=1585863150000)
+
 ## Agenda
 
 1. Tutorial Review (15 minutes)

@@ -17,10 +17,6 @@
 1. Write data models for real-world scenarios.
 1. Use the `Many-to-Many` and `Through` relationship to model scenarios.
 
-## Review & Submit Homework (5 minutes)
-
-Review any questions on the homework assignment & submit via [Gradescope](https://gradescope.com).
-
 ## Review: Music Site Project (20 minutes)
 
 Review the music site we created in the last lesson. You should have models for `Musician`, `Song`, and `Album`.
@@ -37,6 +33,8 @@ Perhaps we want to only see the songs that include a certain keyword, or are pla
 
 Use Django filters to enable this capability! They allow us to use a double-underscore, in conjunction with the field name, to generate results based on our unique criteria.
 
+There are two parts to every filter: the **field name** and the **lookup expression**. If no lookup expression is specified, it defaults to `exact` (i.e. match exactly). The **field name** answers the question, "What field are we looking for?" and the **lookup expression** answers the question, "How are we comparing values?"
+
 ### Common Filters
 
 These common filters come in handy in nearly every project:
@@ -44,15 +42,30 @@ These common filters come in handy in nearly every project:
 - `Song.objects.get(id=14)`: Return *one* `Song` with `id` `14`.
 - `Song.objects.filter(name="Single Ladies")`: Return 0 to many `Song`s with the `name` `Single Ladies`.
 - `Song.objects.filter(name__iexact="Ocean Eyes")`: Return songs that match `Ocean Eyes` and `ocean eyes` (or any other capitalization).
-- `Song.objects.filter(name__contains="Love")`: Return songs that contain the exact string, `Love`, but not `love`. (For case insensitive, use `icontains`.)
-- `Album.objects.filter(publish_date__gte=datetime.date(2011, 1, 1))`: Return albums that were published after January 1, 2011.
-- `Album.objects.filter(publish_date__year__range=[1980, 1990])`: Return albums that were published between 1980 and 1990, inclusive.
+- `Song.objects.filter(name__contains="Love")`: Return songs that contain the exact string `Love`, but not `love`. (For case insensitive, use `icontains`.)
+- `Album.objects.filter(pub_date__gt=datetime.date(2011, 1, 1))`: Return albums that were published on or after January 1, 2011, i.e. have a publish date *greater than or equal to* 1/1/2011. (For *less than or equal to*, use `lte` instead of `gte`.)
+- `Album.objects.filter(pub_date__year__range=[1980, 1990])`: Return albums that were published between 1980 and 1990, inclusive.
 
-**PROTIP**: `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
+`.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
+
+### Chaining Filters
+
+As you may have noticed in the tutorial, we can also **chain** filters' field names using the double-underscore `__`! We can use the double-underscore much as we would use **dot syntax** `.` in regular Python. Filter chaining is a feature that is built into Django.
+
+Here is an example of filter chaining:
+
+```py
+# Find all songs written by an artist who was born between the years 1980 and 1990.
+songs_by_millenial_artists = Song.objects.filter(album__artist__birth_date__year__range=[1980,1990])
+```
+
+In plain English, this means: "Find songs which have-an *album* which has-an *artist* who has-a *birth date* which has-a *year* which is in the *range* of 1980 to 1990."
+
+The **field name** (*what are we looking for?*) for this query is `album__artist__birth_date__year`, and the **lookup expression** (*how are we comparing?*) is `range`.
 
 ### Activity: Filters
 
-Find a partner you haven't worked with yet. Go over the [Model Field Reference](https://docs.djangoproject.com/en/3.0/ref/models/fields/) documentation and write down 3 more filters for `Song`, `Musician`, and/or `Album`.
+With a partner, fill out the [Filters Worksheet](). 
 
 ## BREAK (10 minutes)
 
@@ -125,13 +138,13 @@ We can interact with our data models as follows:
 
 ### Activity: Modeling Many-to-Many
 
-With your partner, choose one of the following scenarios (or create your own!) and write a data model, including a `Through` class:
+With your partner, choose one of the following scenarios and write a data model, including a `Through` class:
 
 1. EventBrite: `Attendee` and `Event`
 1. Patreon: `Creator` and `Subscriber`
 1. LinkedIn: `Employee` and `Company`
 
-Your instructor will check in on your progress before the end of class.
+When you are finished, switch partners and write another.
 
 ## Wrap-Up
 

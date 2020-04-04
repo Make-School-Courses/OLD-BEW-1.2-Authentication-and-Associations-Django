@@ -20,11 +20,9 @@
 
 ## Tutorial Review (20 Minutes)
 
-Go through Part 2 of the tutorial and go over any questions.
+Go through [Part 2](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) of the tutorial and go over any questions.
 
-Then, take a few minutes to submit Part 2 on [Gradescope](https://gradescope.com).
-
-## Models Review (30 Minutes)
+## Models Overview (30 Minutes)
 
 Bring up your `music` app from last class session. We'll be adding some new functionality to it.
 
@@ -80,11 +78,32 @@ We can do a migration using the following commands:
 1. `python manage.py makemigrations`
 2. `python manage.py migrate`
 
-### Add Some Entries Manually
+### Create a new Model Entry
+
+We can create a model in one of two ways. The first is to explicitly call `save()`:
+
+```py
+a1 = Article(title='All About Django')
+a1.save()
+```
+
+The second way is to use `.create()`:
+
+```py
+a1 = Article.objects.create(title='All About Django')
+```
+
+What if we want to *update* a model after it's already been created? We can retrieve it, update its fields, then save it again:
+
+```py
+a1 = Article.objects.get(title='All About Django')
+a1.pub_date=datetime.date(2020, 3, 1)
+a1.save()
+```
 
 Run `python3 manage.py shell` to start the interactive shell.
 
-```bash
+```py
 >>> from music.models import Musician, Song
 
 >>> Musician.objects.all()
@@ -95,13 +114,13 @@ Run `python3 manage.py shell` to start the interactive shell.
 
 >>> s1 = Song(name='Don\'t Stop Believing', artist=m1, num_stars=5)
 >>> s1.save()
+
+>>> # Update the model and save it again
+>>> s1.num_stars = 4
+>>> s1.save()
 ```
 
 ### Query our Database Entries
-
-<!-- NOTE: have a section SPECIFICALLY for each of: all, get, filter -->
-
-<!-- NOTE: do a worksheet here with above -->
 
 Now, how can we interact with these models? Let's try it out!
 
@@ -123,51 +142,16 @@ Now, how can we interact with these models? Let's try it out!
 
 ## BREAK
 
-## Activity: Models (25 minutes)
+## Activity: Models (20 minutes)
 
-Write a model for `Album` and add it to your `models.py` file.
+With a partner, write a model for `Album` and add it to your `models.py` file. As you work, answer the following questions:
 
 - What are the relationships between `Musician`, `Album`, and `Song`? Are `Musician` and `Song` still related? Is it a direct relationship (Musician has-many Songs) or indirect (Musician has-many Albums each of which has-many Songs)?
 
 - How can you migrate the database? Try doing a database migration and see what happens.
 
-## Filters (25 minutes)
+After you finish the activity, take a look at the [sample solution](https://github.com/meredithcat/django-music-site/blob/master/music/models.py).
 
-Perhaps we want to only see the songs that include a certain keyword, or are played by a certain artist. Or perhaps we want to only see albums that were published in a certain time period.
-
-Use Django filters to enable this capability! They allow us to use a double-underscore, in conjunction with the field name, to generate results based on our unique criteria.
-
-### Common Filters
-
-These common filters come in handy in nearly every project:
-
-- `Song.objects.get(id=14)`: Return *one* `Song` with `id` `14`.
-- `Song.objects.filter(name="Single Ladies")`: Return 0 to many `Song`s with the `name` `Single Ladies`.
-- `Song.objects.filter(name__iexact="Ocean Eyes")`: Return songs that match `Ocean Eyes` and `ocean eyes` (or any other capitalization).
-- `Song.objects.filter(name__contains="Love")`: Return songs that contain the exact string, `Love`, but not `love`. (For case insensitive, use `icontains`.)
-- `Album.objects.filter(pub_date__gte=datetime.date(2011, 1, 1))`: Return albums that were published after January 1, 2011.
-- `Album.objects.filter(pub_date__year__range=[1980, 1990])`: Return albums that were published between 1980 and 1990, inclusive.
-
-**PROTIP**: `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
-
-## Lab Activity & Homework (45 minutes)
-
-Your homework is to read the [Models documentation](https://docs.djangoproject.com/en/3.0/topics/db/models/) and answer the following questions:
-
-1. What does a model's field type represent? If I use a `CharField` versus a `TextField`, for example, what does that change about how the data is stored?
-1. What is the difference between the `null` and `blank` field options? What do each of them represent?
-1. How do we use the `TextChoices` field type to display multiple options?
-1. What is a `primary_key` field? If we don't specify a primary key, what is the default?
-1. How do we specify a verbose name? What purpose does it serve?
-1. In the documentation under "Many-to-one Relationships", an example is given of "Manufacturer" and "Car" models. Complete the code by adding at least 2 new fields to each model.
-1. In the documentation under "Many-to-Many Relationships", an example is given of "Pizza" and "Topping" models. Complete the code by adding at least 2 new fields to each model.
-1. What is an example of a one-to-one relationship? When would we use a OneToOneField?
-1. Sometimes we need to relate a model to one from another app. Give an example of an `import` line to show how we'd import the other model.
-1. What is the `class Meta`? When would we use it?
-1. What is an example of a model method? Suppose we have a class `Album`. What methods might we want to write for it?
-1. Give an example of model inheritance. How does inheritance help us to write better code?
-
-Write your answers in a file called `models_questions.md` and submit via Gradescope. (Graded based on effort - no need to be completely correct, but "I don't know" is not a valid answer!)
 
 ## Wrap Up
 
