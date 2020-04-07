@@ -1,14 +1,14 @@
-# Day 2/3: Models & ForeignKey
+# Day 3: Models & ForeignKey
 
 ### Table of Contents
 
 1. Learning Objectives (5 minutes)
 1. Tutorial Review (10 minutes)
-1. Models Review (30 minutes)
+1. Models Overview (30 minutes)
 1. Break
 1. Activity: Models (25 minutes)
-1. Filters (25 minutes)
-1. Wrap Up
+1. Activity Review (15 minutes)
+1. Wrap Up (5 minutes)
 1. Additional Resources
 
 ## Learning Objectives (5 Minutes)

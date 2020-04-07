@@ -81,7 +81,7 @@ Now try it out in your browser!
 
 In your project root folder, start another app called `messageboard` and add it to your installed apps. Modify the `portfolio_site/urls.py` file to re-route _all_ web traffic starting with `'messages'` to the message board's URLs file.
 
-In your `messageboard` app, create a URL and view function called `home` to display the text "Welcome to the message board!".
+In your `messageboard` app, create a URL and view function called `home` for the URL `''` to display the text "Welcome to the message board!".
 
 ## Stretch Challenges
 
