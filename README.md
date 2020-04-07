@@ -52,9 +52,9 @@ Students by the end of the course will be able to...
 |  2 | Thu, Apr 2 | [Request & Response](Lessons/02-Request-Response.md) | [Requests & Responses Tutorial] | |
 |  3 | Tue, Apr 7 | [Models](Lessons/02-Models.md) | [Models Tutorial]<br>Homework 1: [Portfolio Site] | |
 |  4 | Thu, Apr 9 | [More Models](Lessons/03-MoreModels.md) | - | |
-|  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs-B.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
-|  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates-B.md) | - | [Quiz 1] |
-|  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview-B) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
+|  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
+|  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates.md) | - | [Quiz 1] |
+|  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
 |  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | |
 |  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Pets Site] | |
 | 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | - | [Quiz 2] |
