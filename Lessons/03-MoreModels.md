@@ -27,7 +27,7 @@ Go to your admin site and enter some data for your favorite songs and albums. Tr
 
 If you're stuck, try cloning this [sample repository](https://github.com/meredithcat/django-music-site).
 
-## Filters (20 minutes)
+## Filters (15 minutes)
 
 Perhaps we want to only see the songs that include a certain keyword, or are played by a certain artist. Or perhaps we want to only see albums that were published in a certain time period.
 
@@ -63,23 +63,25 @@ In plain English, this means: "Find songs which have-an *album* which has-an *ar
 
 The **field name** (*what are we looking for?*) for this query is `album__artist__birth_date__year`, and the **lookup expression** (*how are we comparing?*) is `range`.
 
-### Activity: Filters (10 minutes)
+### Activity: Filters (15 minutes)
 
 With a partner, fill out the [Filters Worksheet](https://docs.google.com/document/d/1hRK2kNzNBiyhEkyfeBkaMFN7XM_x7y47hPLg-ux5cA4/edit). When you are finished, take a look at the [solution](https://docs.google.com/document/d/1l2b-uAIKt_mIbZG2Jh-6WF3aNFIkKs4cq8-0QyNIhDc/edit). 
 
 ## BREAK (10 minutes)
 
-## Activity: Data Modeling (25 minutes)
+<!--
+## Activity: Data Modeling (10 minutes)
 
 As a class, model a Lyft/Uber competitor `MakeRide` which hires drivers to give rides to passengers. Use the whiteboard to log all relevant information for each ride.
 
-With a partner, answer the following questions about the data you collected:
+As a class, answer the following questions about the data you collected:
 
 1. How do we plan to _access_ the data? (E.g. Find all rides that took place between 10am and 12pm on March 3rd.) Come up with at least 3-5 examples.
 1. What are the _nouns_ we want to track? (E.g. Driver, Rider, Place.) These will be our database models.
 1. What are the _relationships_ between these models? E.g. How is a driver related to a rider?
 
-As a class, go over the answers and construct a data model for `MakeRide`.
+Go over the answers and construct a data model for `MakeRide`.
+-->
 
 ## ManyToManyField and Through (25 minutes)
 
@@ -136,21 +138,20 @@ We can interact with our data models as follows:
 <QuerySet [<Person: Ringo Starr>, <Person: Paul McCartney>]>
 ```
 
-<!--
-### Activity: Modeling Many-to-Many
+## Activity: Modeling Many-to-Many (20 minutes)
 
-With your partner, choose one of the following scenarios and write a data model, including a `Through` class:
+With your partner, choose one of the following scenarios and write a data model, including a `Through` class. 
 
-1. EventBrite: `Attendee` and `Event`
-1. Patreon: `Creator` and `Subscriber`
-1. LinkedIn: `Employee` and `Company`
+1. EventBrite: `Attendee` and `Event` with "through" class `Ticket`
+1. Patreon: `Creator` and `Subscriber` with "through" class `Subscription`
+1. LinkedIn: `Employee` and `Company` with "through" class `Employment`
 
-When you are finished, switch partners and write another.
--->
+If you finish early, switch partners and write another.
+
 
 ## Wrap-Up
 
-Continue working on the [Tutorial Part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) (Views & URLs). Be sure to finish Part 3 before the next class session!
+Continue working on the [Tutorial Part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) (Views & URLs) and [Homework 2](Projects/02-books-site).
 
 ## Additional Resources & Credits
 
