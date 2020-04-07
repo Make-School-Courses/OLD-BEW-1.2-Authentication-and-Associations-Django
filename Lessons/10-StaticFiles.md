@@ -79,9 +79,11 @@ Break into pairs, and review one another's proposal for the contractor project. 
 
 Begin work on your Contractor Project. Your instructor will be reviewing your proposals during this time, and will chat with you one on one to clarify your project, if required. Be ready for feedback!
 
-## 🌃 After Class
+## 🌃 Wrap-Up
 
 Continue working on your Contractor Project.
+
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## 📚 Resources & Credits
 

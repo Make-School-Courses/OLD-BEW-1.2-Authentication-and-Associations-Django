@@ -174,11 +174,7 @@ class BookCreateView(CreateView):
 
 Review the v2 solution code with students. After reviewing the solution with students, be sure to allow some time for Q&A!
 
-<!-- > -->
-
 ## [**10m**] 🌴 BREAK
-
-<!-- > -->
 
 ## [**30m**] 💻 Activity: Forms Challenges
 
@@ -190,13 +186,13 @@ Review the v2 solution code with students. After reviewing the solution with stu
 If you finish early, continue with your tutorial!
 
 
-## 🌃 After Class
+## 🌃 Wrap-Up
 
 Be sure to complete today's challenges in your `v2` makewiki repo!
 
 The instructors and TAs will be checking in on your progress this week.
 
-<!-- > -->
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## 📚 Resources & Credits
 

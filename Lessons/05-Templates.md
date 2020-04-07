@@ -207,6 +207,8 @@ You will also need to create template files in `wiki/templates/wiki` for the lis
 
 Continue working on your [tutorial part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) (due next class) and the [music site]() mini-project (due in 1 week).
 
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+
 ## 📚 Resources & Credits
 
 - **Docs**: Built-in [Template Tags](https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#built-in-tag-reference) list

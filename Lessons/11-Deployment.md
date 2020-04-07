@@ -170,6 +170,10 @@ git push origin master
 5. Add your Heroku link to column K of the [Course Tracker](https://docs.google.com/spreadsheets/d/1lqgLdtLawKbIfsHinBktLNc2i_Axtmex6oHOsmlkCXg/edit#gid=1530489478&range=K:K).
 6. _(Optional)_ Celebrate your second deployment! Slack the link to your working deployment in our class channel.
 
+## Wrap-Up
+
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+
 ## 📚 Resources & Credits
 
 ### Advanced Deployments

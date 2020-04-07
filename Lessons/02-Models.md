@@ -153,9 +153,11 @@ With a partner, write a model for `Album` and add it to your `models.py` file. A
 
 - How can you migrate the database? Try doing a database migration and see what happens.
 
+- How can you add new objects to the database? Try adding at least one Album object.
+
 After you finish the activity, take a look at the [sample solution](https://github.com/meredithcat/django-music-site/blob/master/music/models.py).
 
-## Go over Solution (30 minutes)
+## Go over Solution (15 minutes)
 
 Go over any misconceptions about how to create & use models. Refer to the following diagram to illustrate the connections between models & model fields.
 
@@ -163,7 +165,9 @@ Go over any misconceptions about how to create & use models. Refer to the follow
 
 ## Wrap Up (5 minutes)
 
-Continue reading the Models documentation and submit your answers via [Gradescope](https://gradescope.com).
+Continue on to [Part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) of the tutorial and start on [Homework 2](Projects/02-books-site).
+
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## Additional Resources
 

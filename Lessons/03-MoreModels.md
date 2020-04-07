@@ -153,6 +153,8 @@ If you finish early, switch partners and write another.
 
 Continue working on the [Tutorial Part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/) (Views & URLs) and [Homework 2](Projects/02-books-site).
 
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+
 ## Additional Resources & Credits
 
 - [Many-to-Many Fields](https://docs.djangoproject.com/en/3.0/topics/db/examples/many_to_many/)

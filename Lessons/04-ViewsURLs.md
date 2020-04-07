@@ -128,9 +128,11 @@ Read the documentation _and_ the source code, then use what you learned to creat
 
 You will present your sample code to the class at the end of the activity.
 
-## Lab Time
+## Wrap-Up
 
 Begin working on the [MakeWiki V1 Challenges](https://github.com/Make-School-Labs/makewiki-v1) (due in 1 week). 
+
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
 ## 📚 Resources & Credits
 

@@ -173,6 +173,10 @@ Next, write a test that proves that we can successfully create a new wiki page b
 - Check that we get a `302` status code (Why 302 and not 200?)
 - Check that a new page object was created in the test database
 
+## Wrap-Up
+
+Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+
 ## 📚 Resources & Credits
 
 - [Intro to Testing in Django]
