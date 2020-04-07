@@ -12,13 +12,17 @@
   - [Django REST Framework](Lessons/09-Django-REST-Framework)
   - [Static Files](Lessons/10-StaticFiles)
   - [Deployment](Lessons/11-Deployment)
+- **[Homework Assignments](/README.md?id=schedule)**
+  - [Homework 1: Portfolio Site](Projects/01-portfolio-site.md)
+  - [Homework 2: Books Site](Projects/02-books-site.md)
+  - [Homework 3: Music Site](Projects/03-music-site.md)
+  - [Homework 4: Pets Site](Projects/04-pets-site.md)
+  - [Homework 5: Makewiki](Projects/05-makewiki.md)
 - **📈 Django Contractor Project**
   - [Project Kickoff](Lessons/06-ProjectKickoff)
   - [Proposal Instructions](/Projects/proposal.md)
   - [Project Requirements](/Projects/requirements.md)
   - [Grading Rubric](/Projects/rubric.md)
-- **Other Assignments**
-  - [Blog Post](Projects/blog-post.md)
 - **Assessments**
   - [Quiz 1: Models](/Assessments/quiz-1.md)
   - [Quiz 2: Views & URLs, Templates, Authentication](/Assessments/quiz-2.md)

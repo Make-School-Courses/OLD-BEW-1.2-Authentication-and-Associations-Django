@@ -15,8 +15,8 @@
 ## Learning Objectives (5 Minutes)
 
 1. Identify and describe different types of Django model fields.
-2. Define what a Django model is, and their applicable use cases.
-3. Write a new Django project and app!
+1. Use `ForeignKey` fields to model relationships between everyday objects
+1. 
 
 ## Tutorial Review (20 Minutes)
 
@@ -78,7 +78,7 @@ We can do a migration using the following commands:
 1. `python manage.py makemigrations`
 2. `python manage.py migrate`
 
-### Create a new Model Entry
+### Create/Update a new Model Entry
 
 We can create a model in one of two ways. The first is to explicitly call `save()`:
 
@@ -152,13 +152,18 @@ With a partner, write a model for `Album` and add it to your `models.py` file. A
 
 After you finish the activity, take a look at the [sample solution](https://github.com/meredithcat/django-music-site/blob/master/music/models.py).
 
+## Go over Solution (30 minutes)
 
-## Wrap Up
+Go over any misconceptions about how to create & use models. Refer to the following diagram to illustrate the connections between models & model fields.
+
+<img src="Lessons/Assets/models-foreign-key.png" width="1000">
+
+## Wrap Up (5 minutes)
 
 Continue reading the Models documentation and submit your answers via [Gradescope](https://gradescope.com).
 
 ## Additional Resources
 
-* [Best practices working with Django models in Python](https://steelkiwi.com/blog/best-practices-working-django-models-python/)
-
-* [Django Models documentation](https://docs.djangoproject.com/en/2.2/topics/db/models/)
+- [Best practices working with Django models in Python](https://steelkiwi.com/blog/best-practices-working-django-models-python/)
+- [Django Models documentation](https://docs.djangoproject.com/en/2.2/topics/db/models/)
+- [Django Model Fields](https://docs.djangoproject.com/en/3.0/ref/models/fields/)

@@ -159,7 +159,7 @@ Next, create a new folder in `books` called `templates`. In it, make a file `hom
 <ul>
   {% for book in books %}
     <li>
-      <a href="/book/{{ book.id }}">{{ book.name }}</a>
+      <a href="/book/{{ book.id }}">{{ book.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -185,7 +185,11 @@ def detail(request, book_id):
   return render(request, 'detail.html', context)
 ```
 
-Now, create a template in `books/templates` called `detail.html` that displays information about the book: its title, number of pages, publish date, author, and tags.
+Now, create a template in `books/templates` called `detail.html` that displays information about the book: its title, number of pages, publish date, author, author's birth date, and tags.
+
+When you are finished, your detail page should look like this:
+
+<img src="Projects/Assets/books-site-detail.png" width="300">
 
 ## Submission
 

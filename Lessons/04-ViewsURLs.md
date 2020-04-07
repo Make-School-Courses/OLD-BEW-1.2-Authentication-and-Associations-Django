@@ -74,6 +74,8 @@ def show_the_time(request):
 
 #### Class-Based Views
 
+<!-- note: split into View & Generics sections -->
+
 At their core, CBVs are Python classes. Django ships with a variety of “template” CBVs that have pre-configured functionality that you can reuse and oftentimes extend. These classes are then given helpful names that describe what kind of functionality they provide. You’ll often see these referred to as “generic views” because they provide solutions to common requirements.
 
 This means, to use class-based views, we'll have to modify, or *refactor*, the code to support this:
@@ -133,6 +135,7 @@ Begin working on the [MakeWiki V1 Challenges](https://github.com/Make-School-Lab
 ## 📚 Resources & Credits
 
 1. [Medium: Django Class-Based Views vs Function-Based Views](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b)
+1. [Classy Class-based Views](http://ccbv.co.uk/)
 2. [YouTube: Intro to Class-Based Views in Django](https://www.youtube.com/watch?v=-tqhhT3R6VY)
 3. [YouTube: Deep Dive - Class-Based Views](https://youtu.be/Qki2m5AyfWw)
 4. [Class-Based Views: Advanced Django Training](https://django-advanced-training.readthedocs.io/en/latest/features/class-based-views/)

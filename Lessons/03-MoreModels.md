@@ -17,7 +17,7 @@
 1. Write data models for real-world scenarios.
 1. Use the `Many-to-Many` and `Through` relationship to model scenarios.
 
-## Review: Music Site Project (20 minutes)
+## Review: Music Site Project (10 minutes)
 
 Review the music site we created in the last lesson. You should have models for `Musician`, `Song`, and `Album`.
 
@@ -43,7 +43,7 @@ These common filters come in handy in nearly every project:
 - `Song.objects.filter(name="Single Ladies")`: Return 0 to many `Song`s with the `name` `Single Ladies`.
 - `Song.objects.filter(name__iexact="Ocean Eyes")`: Return songs that match `Ocean Eyes` and `ocean eyes` (or any other capitalization).
 - `Song.objects.filter(name__contains="Love")`: Return songs that contain the exact string `Love`, but not `love`. (For case insensitive, use `icontains`.)
-- `Album.objects.filter(pub_date__gt=datetime.date(2011, 1, 1))`: Return albums that were published on or after January 1, 2011, i.e. have a publish date *greater than or equal to* 1/1/2011. (For *less than or equal to*, use `lte` instead of `gte`.)
+- `Album.objects.filter(pub_date__gte=datetime.date(2011, 1, 1))`: Return albums that were published on or after January 1, 2011, i.e. have a publish date *greater than or equal to* 1/1/2011. (For *less than or equal to*, use `lte` instead of `gte`.)
 - `Album.objects.filter(pub_date__year__range=[1980, 1990])`: Return albums that were published between 1980 and 1990, inclusive.
 
 `.get()` will return 0 to one result, whereas `.filter()` can return 0 to many results.
@@ -63,9 +63,9 @@ In plain English, this means: "Find songs which have-an *album* which has-an *ar
 
 The **field name** (*what are we looking for?*) for this query is `album__artist__birth_date__year`, and the **lookup expression** (*how are we comparing?*) is `range`.
 
-### Activity: Filters
+### Activity: Filters (10 minutes)
 
-With a partner, fill out the [Filters Worksheet](). 
+With a partner, fill out the [Filters Worksheet](https://docs.google.com/document/d/1hRK2kNzNBiyhEkyfeBkaMFN7XM_x7y47hPLg-ux5cA4/edit). When you are finished, take a look at the [solution](https://docs.google.com/document/d/1l2b-uAIKt_mIbZG2Jh-6WF3aNFIkKs4cq8-0QyNIhDc/edit). 
 
 ## BREAK (10 minutes)
 
@@ -136,6 +136,7 @@ We can interact with our data models as follows:
 <QuerySet [<Person: Ringo Starr>, <Person: Paul McCartney>]>
 ```
 
+<!--
 ### Activity: Modeling Many-to-Many
 
 With your partner, choose one of the following scenarios and write a data model, including a `Through` class:
@@ -145,6 +146,7 @@ With your partner, choose one of the following scenarios and write a data model,
 1. LinkedIn: `Employee` and `Company`
 
 When you are finished, switch partners and write another.
+-->
 
 ## Wrap-Up
 
