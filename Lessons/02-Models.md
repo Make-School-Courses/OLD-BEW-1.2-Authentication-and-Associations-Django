@@ -2,23 +2,22 @@
 
 ### Table of Contents
 
-1. [Learning Objectives (5 Minutes)](#learning-objectives-5-minutes)
-1. [Tutorial Review](#tutorial-review-20-minutes)
-1. [Models Review (30 Minutes)](#models-review-30-minutes)
-1. [Break](#break)
-1. [Activity: Models (25 minutes)](#activity-models-25-minutes)
-1. [Filters (25 minutes)](#filters-25-minutes)
-1. [Lab Activity & Homework (45 minutes)](#lab-activity-homework-45-minutes)
-1. [Wrap Up](#wrap-up)
-1. [Additional Resources](#additional-resources)
+1. Learning Objectives (5 minutes)
+1. Tutorial Review (10 minutes)
+1. Models Review (30 minutes)
+1. Break
+1. Activity: Models (25 minutes)
+1. Filters (25 minutes)
+1. Wrap Up
+1. Additional Resources
 
 ## Learning Objectives (5 Minutes)
 
 1. Identify and describe different types of Django model fields.
 1. Use `ForeignKey` fields to model relationships between everyday objects
-1. 
+1. Query for Model instances using Django's command line tool.
 
-## Tutorial Review (20 Minutes)
+## Tutorial Review (10 Minutes)
 
 Go through [Part 2](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) of the tutorial and go over any questions.
 
@@ -77,6 +76,10 @@ We can do a migration using the following commands:
 
 1. `python manage.py makemigrations`
 2. `python manage.py migrate`
+
+### Check out the Admin site
+
+Watch as your instructor demonstrates how to access and use the Django admin site.
 
 ### Create/Update a new Model Entry
 
