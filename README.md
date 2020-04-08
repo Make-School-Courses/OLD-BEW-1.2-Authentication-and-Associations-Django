@@ -40,11 +40,14 @@ Students by the end of the course will be able to...
 
 **Course Dates:** March 31 through May 14, 2020
 
+**Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
+
+All assignments are due **by the start of class (2:30pm) on the specified date.**
+
 <!-- tabs:start -->
 
 #### ** Section A (Meredith) **
 
-**Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
 
 | Class | Date | Topics | Assignment Due | Assessment |
 |:-----:| :----: | :--------: | :-----------: | :----:|
@@ -82,59 +85,6 @@ Students by the end of the course will be able to...
 [Music Collection Site]: Projects/03-music-site.md
 [Pets Site]: Projects/04-pets-site.md
 [MakeWiki]: Projects/05-makewiki.md
-
-## Assignments
-
-<!-- tabs:start -->
-
-#### ** Section A (Meredith) **
-
-**Week 1**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Requests & Responses Tutorial] | **Thu, Apr 2** @ 2:30 PM |
-| [Models Tutorial] | **Tue, Apr 7** @ 2:30 PM |
-| Homework 1: [Portfolio Site] | **Tue, Apr 7** @ 2:30 PM |
-
-**Week 2**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Views & Templates Tutorial] | **Tue, Apr 14** @ 2:30 PM |
-| Homework 2: [Books Catalogue] | **Tue, Apr 14** @ 2:30 PM |
-
-**Week 3**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Forms & Generic Views Tutorial] | **Tue, Apr 21** @ 2:30 PM |
-| Homework 3: [Music Collection Site] | **Tue, Apr 21** @ 2:30 PM |
-
-**Week 4**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Testing Tutorial] |  **Tue, Apr 28** @ 2:30 PM  |
-| Homework 4: [Pets Site] |  **Tue, Apr 28** @ 2:30 PM  |
-
-**Week 5**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Static Files] & [Admin Site] | **Tue, May 5** @ 2:30 PM |
-| Homework 5: [MakeWiki] | **Tue, May 5** @ 2:30 PM |
-
-<!-- note: add tests & creation page & drf as REQUIREMENTS for makewiki -->
-
-**Week 6**
-
-| Assignment | Due |
-| :--------: | :-: |
-| [Custom Project Proposal]() | **Thu, May 7** @ 2:30 PM |
-| [Homework 6: Custom Project]() |  **Thu, May 14** @ 2:30 PM |
-
-<!-- tabs:end -->
 
 ## Evaluation
 
