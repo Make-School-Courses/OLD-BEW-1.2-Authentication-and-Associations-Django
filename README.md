@@ -42,7 +42,9 @@ Students by the end of the course will be able to...
 
 **Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
 
-All assignments are due **by the start of class (2:30pm) on the specified date.**
+~~All assignments are due **by the start of class (2:30pm) on the specified date.**~~
+
+As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specified date.**
 
 <!-- tabs:start -->
 
