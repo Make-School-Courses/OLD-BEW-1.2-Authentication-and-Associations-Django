@@ -171,7 +171,7 @@ What happens when you click on a specific book's title? You should get "Page Not
 
 #### Create Book Detail View _(10 Points)_ 
 
-Next, let's make a detail page to display each book. In your `books/urls.py` file, create another URL entry for `book/<int:book_id>` and connect it to a view function called `detail`.
+Next, let's make a detail page to display each book. In your `books/urls.py` file, create another URL entry for `book/<int:book_id>/` and connect it to a view function called `detail`.
 
 The `detail` view function should take in the `request` object and the `book_id` parameter. It should construct a context variable that includes the specific book that has that given id, then render a template `detail.html`.
 
