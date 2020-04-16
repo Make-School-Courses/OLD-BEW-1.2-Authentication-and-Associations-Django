@@ -2,13 +2,13 @@
 
 ### ⏱ Agenda
 
-1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
-2. [📖 [**20m**] **Overview**: Template Deja-Vu](#%f0%9f%93%96-20m-overview-template-deja-vu)
+1. 🏆 [**5m**] Learning Objectives
+2. 📖 [**20m**] **Overview**: Template Deja-Vu
 3. [📝 [**20m**] **Demo**: Personal Wiki](#%f0%9f%93%9d-20m-demo-personal-wiki)
-4. [🌴 [**10m**] BREAK](#%f0%9f%8c%b4-10m-break)
-5. [💻 [**65m**] **Activity**: Personal Wiki (makewiki)](#%f0%9f%92%bb-65m-activity-personal-wiki-makewiki)
-6. [🌃 **After Class**: Complete Project](#%f0%9f%8c%83-after-class-complete-project)
-7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+4. 🌴 [**10m**] BREAK
+5. 💻 [**50m**] **Lab Time**: Music Site
+6. 🌃 **After Class**: Complete Project
+7. 📚 Resources & Credits
 
 ## 🏆 [**5m**] Learning Objectives
 
@@ -168,44 +168,13 @@ How could we use the `{% url %}` template tag in our music app?
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**65m**] **Activity**: Personal Wiki (makewiki)
+## 💻 [**50m**] Lab Time: Music Site Project
 
-> ⚠️ **IMPORTANT NOTE BEFORE YOU START** ⚠️ <br>
-> To ensure the best development experience, **_carefully and mindfully_** follow each instruction <font color="red">**_exactly_**</font> as written. _No exceptions_. Blocked? Raise your hand and let us know!
-
-### Setup From Starter Code
-
- **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
-
-1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki`.
-2. **In your terminal**, navigate to the directory where you store your projects.
-3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
-
-    ```bash
-    git clone https://make.sc/makewiki makewiki
-    cd makewiki
-    rm -rf .git
-    git init
-    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki
-    ```
-
-4. **Open the `makewiki` repository folder** in your IDE.
-
-### Starting the Challenges
-
-1. **REQUIRED**: Complete challenges in each of these files, in order:
-    1. `makewiki/urls.py`
-    1. `wiki/views.py`
-    1. `wiki/urls.py`
-    1. `templates/base.html`
-
-You will also need to create template files in `wiki/templates/wiki` for the list and detail pages that extend `base.html`. The naming of those files is up to you!
-
-**TIP**: Find all challenges by searching the project for instances of the word CHALLENGE. To search all files in your project directory, press <Command> + <Shift> + <F>, type CHALLENGE, and hit <Return>.
+Work on your [Music Site project](Projects/03-music-site). Take this time to get caught up on any assignments, ask questions, etc.
 
 ## Wrap-Up
 
-Continue working on your [tutorial part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) (due next class) and the [music site]() mini-project (due in 1 week).
+Continue working on your [tutorial part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/) (due next class) and the [music site](Projects/03-music-site.md) mini-project (due in 1 week).
 
 Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
