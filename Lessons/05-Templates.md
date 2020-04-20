@@ -138,7 +138,7 @@ def redirect_to_year(request):
     # ...
     year = 2006
     # ...
-    news_year_url = reverse('news-year-archive', args=[year])
+    article_url = reverse('news-year-archive', args=[year])
     return HttpResponseRedirect(article_url)
 ```
 
@@ -159,7 +159,7 @@ Or with the year in a template context variable:
 ```html
 <ul>
 {% for year in year_list %}
-<li><a href="{% url 'news-year-archive' yearvar %}">{{ year }} Archive</a></li>
+<li><a href="{% url 'news-year-archive' year %}">{{ year }} Archive</a></li>
 {% endfor %}
 </ul>
 ```
