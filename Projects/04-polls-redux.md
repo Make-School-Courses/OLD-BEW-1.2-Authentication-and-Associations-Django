@@ -41,7 +41,7 @@ Alternatively, if you'd prefer, you can complete this project on a separate _bra
 
 In this part, we'll be adding login & logout functionality to our Polls app.
 
-#### Add Login & Logout links _(5 Points)_
+### Add Login & Logout links _(5 Points)_
 
 In the `polls/templates/polls` folder, create a file called `base.html`. This will hold our HTML code for displaying the login & logout links. In this file, put the following contents:
 
@@ -72,7 +72,7 @@ Then, _refactor_ your templates for `detail.html`, `index.html`, and `results.ht
 
 Run your server, and verify that all of your pages now have "Login" and "Logout" links. If you click on one, you will see a "Page not found" error - don't worry, we'll fix that shortly!
 
-#### Add Accounts URLConf _(5 Points)_
+### Add Accounts URLConf _(5 Points)_
 
 In your project's root URLConf (most likely called `mysite/urls.py`), add the following to your `urlpatterns` list:
 
@@ -88,7 +88,7 @@ Now, run your server and refresh the page at `/polls/`. Click on one of the link
 
 You should see the following error: `TemplateDoesNotExist at /accounts/login/: registration/login.html`. This means that we need a _template_ called `registration/login.html` to render our login page!
 
-#### Add Registration App & Login Page _(10 Points)_
+### Add Registration App & Login Page _(10 Points)_
 
 In your root folder, run the following command to create a "registration" app:
 
@@ -138,7 +138,7 @@ LOGOUT_REDIRECT_URL = '/polls/'
 
 This will tell Django to take us back to the polls homepage whenever we log in or log out. Once you're done, re-load the login page and try logging in again. Success!
 
-#### Add Message for Logged-in Users _(10 Points)_
+### Add Message for Logged-in Users _(10 Points)_
 
 Okay, so that's cool and all, but... How do we actually know we've logged in?! If you've followed the instructions so far, you should find yourself back at the Polls homepage. Let's add a message in `base.html` to greet the logged-in user (and to prove to ourselves that we're now logged into the site).
 
@@ -170,7 +170,7 @@ This ensures that we will _only_ see the message if we are logged into the site.
 
 As a final challenge, **modify the code for the "Login" and "Logout" links to show the "Logout" link _only_ if the user is logged in, and the "Login" link _only_ if they are logged out.**
 
-#### Sign Up Page _(10 Points)_
+### Sign Up Page _(10 Points)_
 
 Woo-hoo, we've got the login flow working! But there's still an issue: None of our users can sign up for the site unless they are site admin users. Let's make a sign-up page!
 
@@ -234,7 +234,7 @@ Run your server, and verify that you are able to sign up with a _new_ username a
 
 ## Part 2: Forms
 
-#### New Question Creation Form
+### New Question Creation Form
 
 In `polls/templates/polls/base.html`, add the following link. Make sure it shows _only for logged-in users_ - we don't want just anyone to create a new poll!
 
@@ -309,7 +309,7 @@ Finally, we'll need a _template_ to display our form. In `polls/templates/polls`
 
 At this point, we should finally be ready to test our code! Run your server, and see if you can create a few new Questions this way.
 
-#### Save the Question's Author _(10 Points)_
+### Save the Question's Author _(10 Points)_
 
 Before moving on, let's add one more feature to add some _polish_ to our application: I want to know who the _author_ was of any given question. Since we now have a signup/login flow, this should be pretty straightforward!
 
@@ -378,7 +378,7 @@ Finally, update `polls/detail.html` to show the author of a particular question:
 
 Make sure you test out creating a new Question, and make sure your username shows up!
 
-#### New Choice Creation Form
+### New Choice Creation Form
 
 By now, you're probably wondering: How do we create new _choices_ for our brand-new polls?! We'll cover that in this next part!
 

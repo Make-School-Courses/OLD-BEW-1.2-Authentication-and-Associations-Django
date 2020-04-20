@@ -16,7 +16,7 @@
   - [Homework 1: Portfolio Site](Projects/01-portfolio-site.md)
   - [Homework 2: Books Site](Projects/02-books-site.md)
   - [Homework 3: Music Site](Projects/03-music-site.md)
-  - [Homework 4: Pets Site](Projects/04-pets-site.md)
+  - [Homework 4: Polls Redux](Projects/04-polls-redux.md)
   - [Homework 5: Makewiki](Projects/05-makewiki.md)
 - **📈 Django Contractor Project**
   - [Project Kickoff](Lessons/06-ProjectKickoff)
