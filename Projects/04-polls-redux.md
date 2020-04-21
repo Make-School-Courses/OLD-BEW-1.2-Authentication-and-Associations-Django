@@ -110,17 +110,17 @@ Now, let's add a template for our login page! In the `registration` folder, crea
         <p>Your username and password didn't match. Please try again.</p>
     {% endif %}
 
-    <form method="post" action="{% url 'login' %}" class="mx-auto">
+    <form method="post" action="{% url 'login' %}">
         {% csrf_token %}
         <p>
             <label for="id_username">Username</label>
-            <input class="form-control" type="text" name="username" id="id_username" required>
+            <input type="text" name="username" id="id_username" required>
         </p>
         <p>
             <label for="id_password">Password</label>
-            <input class="form-control" type="password" name="password" id="id_password" required>
+            <input type="password" name="password" id="id_password" required>
         </p>
-        <input type="submit" value="login" class="btn btn-success">
+        <input type="submit" value="login">
     </form>
 {% endblock %}
 ```
@@ -214,7 +214,7 @@ Finally, we'll need to make the template file to display to the user. In `regist
 {% block content %}
     <h3>Sign Up!</h3>
 
-    <form method="post" class="mx-auto">
+    <form method="post">
       {% csrf_token %}
       {% for field in form %}
           {% for error in field.errors %}
@@ -222,10 +222,10 @@ Finally, we'll need to make the template file to display to the user. In `regist
           {% endfor %}
           <p>
               <label for="id_{{ field.name }}">{{ field.label|title }}:</label>
-              <input class="form-control" type="{% if "password" in field.name %}password{% else %}text{% endif %}" name="{{ field.name }}" id="id_{{ field.name }}" required>
+              <input type="{% if "password" in field.name %}password{% else %}text{% endif %}" name="{{ field.name }}" id="id_{{ field.name }}" required>
           </p>
       {% endfor %}
-      <button type="submit" class="btn btn-success">Sign up</button>
+      <button type="submit">Sign up</button>
     </form>
 {% endblock %}
 ```
@@ -239,13 +239,13 @@ Run your server, and verify that you are able to sign up with a _new_ username a
 In `polls/templates/polls/base.html`, add the following link. Make sure it shows _only for logged-in users_ - we don't want just anyone to create a new poll!
 
 ```html
-<a href="/polls/new">New Poll</a>
+<a href="/polls/create">New Poll</a>
 ```
 
 Now, let's create the URL for the poll creation page. In `polls/urls.py`, add the following URL to your URLConf:
 
 ```py
-path('new/', views.QuestionCreateView.as_view(), name='create'),
+path('create/', views.QuestionCreateView.as_view(), name='create'),
 ```
 
 Next, add the corresponding `QuestionCreateView` to `polls/views.py`:
@@ -290,7 +290,7 @@ class QuestionCreateForm(forms.ModelForm):
         fields = ['question_text', 'pub_date']
 ```
 
-This indicates that the `QuestionCreateForm` should use _all_ fields from the `Question` model class. This is preferred to writing our own fields here, so that if they were to ever change in the `Question` class, they would be updated in the `QuestionCreateForm` class as well.
+This indicates that the `QuestionCreateForm` should use the 'question_text' and 'pub_date' fields from the `Question` model class. This is preferred to writing our own fields here, so that if they were to ever change in the `Question` class, they would be updated in the `QuestionCreateForm` class as well.
 
 Finally, we'll need a _template_ to display our form. In `polls/templates/polls`, create a file called `create.html` and give it the following contents:
 
@@ -298,6 +298,8 @@ Finally, we'll need a _template_ to display our form. In `polls/templates/polls`
 {% extends 'polls/base.html' %}
 
 {% block content %}
+    <h3>New Poll</h3>
+
     <form method="POST">
         {% csrf_token %}
         
@@ -422,6 +424,7 @@ Finally, modify `polls/templates/polls/detail.html` by adding the `choice_form` 
 ```html
 {% if request.user == question.author %}
     <!-- choice creation form -->
+    <h3>Create a new Choice!</h3>
     <form method='POST'>
         {% csrf_token %}
         {{ choice_form.as_p }}

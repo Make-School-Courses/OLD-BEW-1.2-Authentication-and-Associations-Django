@@ -60,7 +60,7 @@ As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specifie
 |  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
 |  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates.md) | - | [Quiz 1] |
 |  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
-|  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | |
+|  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | Quiz 1 Retake<br>(Optional) |
 |  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Polls Redux] | |
 | 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | - | [Quiz 2] |
 | 11 | Tue, May 5 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
