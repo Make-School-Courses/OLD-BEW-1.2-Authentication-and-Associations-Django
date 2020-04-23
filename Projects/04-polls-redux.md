@@ -321,6 +321,7 @@ In `polls/views.py`, modify the `QuestionCreateView` class using the `LoginRequi
 
 ```py
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.urls import reverse_lazy
 
 class QuestionCreateView(LoginRequiredMixin, generic.edit.CreateView):
     login_url = reverse_lazy('login')
