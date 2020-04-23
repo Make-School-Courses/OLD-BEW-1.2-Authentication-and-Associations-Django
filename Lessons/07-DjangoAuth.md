@@ -2,19 +2,19 @@
 
 ### ⏱ Agenda
 
-1. [[**02m**] 🏆 Objectives](#02m-%f0%9f%8f%86-objectives)
-2. [[**15m**] 📖 Overview: Login & Logout](#15m-%f0%9f%93%96-overview-login--logout)
-3. [[**30m**] 💻 Activity: v2 Challenges - Login & Logout](#30m-%f0%9f%92%bb-activity-v2-challenges---login--logout)
-4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-5. [[**15m**] 📖 Overview: Signup](#15m-%f0%9f%93%96-overview-signup)
-6. [[**30m**] 💻 Activity: v2 Challenges - Signup](#30m-%f0%9f%92%bb-activity-v2-challenges---signup)
-7. [🌃 After Class](#%f0%9f%8c%83-after-class)
-8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+1. [**02m**] 🏆 Objectives
+1. [**15m**] 📖 Overview: Login & Logout
+1. [**30m**] 💻 Activity: Polls Authentication - Login & Logout
+1. [**10m**] 🌴 BREAK
+1. [**15m**] 📖 Overview: Signup
+1. [**30m**] 💻 Activity: Polls Authentication - Signup
+1. 🌃 After Class
+1. 📚 Resources & Credits
 
 ## [**02m**] 🏆 Objectives
 
 1. Define authentication and authorization and discuss examples of each.
-1. Apply authentication to an existing codebase.
+1. Apply authentication (Login, Logout, & Signup) to an existing codebase.
 
 ## [**15m**] 📖 Overview: Login & Logout
 
@@ -35,7 +35,7 @@ We will share these analogies together shortly.
 
 <!-- NOTE: add section on request.user -->
 
-In your project's root URLconf, add the following to the provided `urlpatterns` list:
+In the project's root URLconf, we add the following to the provided `urlpatterns` list:
 
 ```python
 path('accounts/', include('django.contrib.auth.urls')),
@@ -54,30 +54,22 @@ accounts/reset/<uidb64>/<token>/ [name='password_reset_confirm']
 accounts/reset/done/ [name='password_reset_complete']
 ```
 
-As well as the following settings in `settings.py`:
-
-```python
-DEFAULT_LOGOUT_URL = '/'
-```
-
 This will enable authentication outside the administrative interface, like you see on typical websites.
 
 Read more about [Authentication Views in Django](https://docs.djangoproject.com/en/2.2/topics/auth/default/#module-django.contrib.auth.views).
 
-
 ### Login Templates
 
-A typical `login.html` template has been included with your `makewiki` `v2` starter code. [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/login.html).
+By adding that single line of code, we are effectively _using_ the Django built-in Login & Logout views:
 
-## [**30m**] 💻 Activity: v2 Challenges - Login & Logout
+- The [LoginView](https://github.com/django/django/blob/master/django/contrib/auth/views.py#L40) class has a default `template_name` attribute of `registration/login.html`. That means we need to create a _template file_ located in a folder "registration" and called "login.html".
+- The [LogoutView](https://github.com/django/django/blob/master/django/contrib/auth/views.py#L107) redirects the user to another page after they are logged out. Which page they are redirected to depends on the value of the `LOGOUT_REDIRECT_URL` variable located in `settings.py`. (So, no template needed for this one!)
 
-1. Begin the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by cloning the latest `makewiki-starter` to get the starter code for today by running the following command in the directory where you store your git repositories:
+## [**30m**] 💻 Activity: Polls Authentication - Login & Logout
 
-    ```bash
-    git clone https://github.com/Make-School-Labs/makewiki-starter makewiki_v2
-    ```
+1. Begin the [Polls Redux assignment](Projects/04-polls-redux). Make sure to _make a copy_ of your working Polls project (starting from Part 4 or later).
 
-2. Stop when you complete the first section titled [`Login & Logout`](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#login--logout).
+2. Stop when you complete the section titled [`Add Message for Logged-in Users`](Projects/04-polls-redux?id=add-message-for-logged-in-users-10-points).
 
 ## [**10m**] 🌴 BREAK
 
@@ -85,11 +77,11 @@ A typical `login.html` template has been included with your `makewiki` `v2` star
 
 We can log users in and out, but how do they sign up? We'll have to implement that functionality with our own view.
 
-User-related functionality --- creation during signup, viewing or editing a user profile, etc. ---  is typically kept in an `accounts` app.
+User-related functionality --- creation during signup, viewing or editing a user profile, etc. ---  is typically kept in an `accounts` or `registration` app.
 
 ### Signup Views
 
-Here's the `views.py` that handles the following workflow:
+Here's a `views.py` that handles the following workflow:
 
 - Allow user to choose `username` and `password`, then confirm the password.
 - Saves the user based on the submitted form data.
@@ -138,16 +130,23 @@ The simplest `signup.html` template looks like this:
 {% endblock %}
 ```
 
-Another typical `signup.html` template has been included with your `makewiki` `v2` starter code.  [View it on GitHub](https://github.com/Make-School-Labs/makewiki-starter/blob/master/templates/registration/signup.html).
+### The User object & `request.user`
 
-## [**30m**] 💻 Activity: v2 Challenges - Signup
+In Django, we can take advantage of the [built-in User model](https://docs.djangoproject.com/en/3.0/ref/contrib/auth/#user-model) when writing our authentication code. Then, we can use `request.user` to access the logged-in user anywhere in our views or templates!
 
-Move on to the [`Signup` section](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md#signup) of the [v2 Challenges](https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) to complete the assignment.
+To limit access to a particular page to _only_ logged-in users, we can use:
+
+- The [`@login_required` decorator](https://docs.djangoproject.com/en/3.0/topics/auth/default/#the-login-required-decorator) - only for function-based views
+- The [LoginRequiredMixin](https://docs.djangoproject.com/en/3.0/topics/auth/default/#the-loginrequired-mixin) - only for class-based views
+
+## [**30m**] 💻 Activity: Polls Authentication - Signup
+
+Move on to the [`Sign Up Page` section](Projects/04-polls-redux?id=sign-up-page-10-points).
 
 ## 🌃 After Class
 
-- **HOMEWORK**: Complete [v2 Challenges](https://https://github.com/Make-School-Labs/makewiki-starter/blob/master/CHALLENGES.md) by next class period.
-- **UP NEXT:** We'll add functionality to the green 'New Page' button in our `makewiki` project to learn more about creating and customizing Django forms!
+- **HOMEWORK**: Complete [Homework 4](Projects/04-polls-redux) by EOD on Tuesday.
+- **UP NEXT:** We'll talk more about Forms next week!
 
 Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
 
