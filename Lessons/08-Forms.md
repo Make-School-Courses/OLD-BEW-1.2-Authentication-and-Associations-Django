@@ -78,7 +78,7 @@ class FriendlyForm(forms.Form):
 ```
 
 - **Line 1**: To use the Form class, we need to import the forms module from Django.
-- **Line 2**" We create our `FriendlyForm` class, which inherits from Django’s forms.Form class.
+- **Line 2**: We create our `FriendlyForm` class, which inherits from Django’s forms.Form class.
 
 What happens when we use a Django form? Try this in `python manage.py shell`:
 
@@ -150,6 +150,7 @@ The `Meta` class allows us to specify details about the form, like what fields w
 class BookCreateForm(forms.ModelForm):
     class Meta:
         model = Book
+        fields = ['title', 'isbn', 'is_published']
 
 ```
 

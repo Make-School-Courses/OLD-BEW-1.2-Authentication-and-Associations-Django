@@ -390,6 +390,8 @@ In `polls/forms.py`, create a new form class for the `Choice` model and call it 
 In `polls/views.py`, modify the existing `DetailView` class as follows:
 
 ```py
+from .forms import ChoiceCreateForm
+
 class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
