@@ -34,7 +34,7 @@ Run the server and take a look at the site: there is a Wiki List page which list
 
 In this part, we'll add the login, logout, & signup functionality to the MakeWiki app.
 
-### Login & Logout  (_10 Points_)
+### Login & Logout _(10 Points)_
 
 1. Add the Django authentication views in `django.contrib.auth.urls` to the project's URLconf.
 1. Test `/accounts/login` in your browser -- see if you can log in using username `admin` and password `djangopony`.
@@ -43,7 +43,7 @@ In this part, we'll add the login, logout, & signup functionality to the MakeWik
 1. When a user clicks `Log In`, they should be navigated to the Login page.
 1. Replace `Hello, USERNAME` text with the username of the logged-in user, and only show it when the user is logged in.
 
-### Signup (_10 Points_)
+### Signup _(10 Points)_
 
 1. Create a new app named `accounts`. Add it to the `INSTALLED_APPS` list in `settings.py`.
 1. Create a view for signing up that extends `django.views.generic.CreateView` and renders the template contained in `registration/signup.html`.
@@ -55,7 +55,7 @@ In this part, we'll add the login, logout, & signup functionality to the MakeWik
 
 Here we'll flesh out the functionality of the "Create" button, as well as provide an Edit option to edit existing wiki pages.
 
-### Wiki Page Creation Form (_10 Points_)
+### Wiki Page Creation Form _(10 Points)_
 
 To add a Create view, complete the following steps in the `wiki` app:
 
@@ -67,7 +67,7 @@ To add a Create view, complete the following steps in the `wiki` app:
   - If False, display all the errors in the template, above the form fields.
 1. Instead of hard-coding the path to redirect to, use the `reverse` function to return the path.
 
-### Wiki Page Edit Form (_10 Points_)
+### Wiki Page Edit Form _(10 Points)_
 
 For the Page Detail view, complete the following steps in the `wiki` app:
 
@@ -84,7 +84,7 @@ For the Page Detail view, complete the following steps in the `wiki` app:
 
 In this part of the assignment, we'll flex our testing muscles and write some route tests!
 
-### Wiki Details Page Test (_10 Points_)
+### Wiki Details Page Test _(10 Points)_
 
 Write a route test that does the following:
 
@@ -93,7 +93,7 @@ Write a route test that does the following:
 1. Verify that the response has a `status_code` of `200`.
 1. Verify that the response's context includes the info for the `Page` object requested. (HINT: You can use `assertContains` to check the exact text of the response.)
 
-### Wiki Details Page Edit Test (_10 Points_)
+### Wiki Details Page Edit Test _(10 Points)_
 
 Write a route test that does the following:
 
@@ -103,7 +103,7 @@ Write a route test that does the following:
 1. Check that we get a 302 status code. (Why 302 and not 200?)
 1. Check that the page object was modified in the test database.
 
-### Wiki Creation Page Test (_10 Points_)
+### Wiki Creation Page Test _(10 Points)_
 
 Write a route test that does the following:
 
