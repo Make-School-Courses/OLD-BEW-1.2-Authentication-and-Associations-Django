@@ -21,7 +21,7 @@ Scoring is as follows:
 
 ## Setup
 
-Go to the [MakeWiki starter code](https://github.com/make-school-labs/makewiki-starter) and clone the repository to your local hard drive. Then, set up a _new_ repository for your Polls application on [GitHub.com](https://github.com) and execute the following to switch the remote:
+Go to the [MakeWiki starter code](https://github.com/make-school-labs/makewiki-starter) and clone the repository to your local hard drive. Then, set up a _new_ repository for your application on [GitHub.com](https://github.com) and execute the following to switch the remote:
 
 ```
 $ git remote remove origin
