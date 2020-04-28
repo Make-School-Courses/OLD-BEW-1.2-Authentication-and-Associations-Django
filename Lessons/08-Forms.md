@@ -171,20 +171,11 @@ class BookCreateView(CreateView):
       return render(request, 'books/new.html', {'form': form})
 ```
 
-## [**15m**] ✓ Review: v2 Solution
-
-Review the v2 solution code with students. After reviewing the solution with students, be sure to allow some time for Q&A!
-
 ## [**10m**] 🌴 BREAK
 
-## [**30m**] 💻 Activity: Forms Challenges
+## [**30m**] 💻 Activity: Introduce MakeWiki
 
-*If you get stuck, be sure to check out the Resources at the bottom of this lesson plan!*
-
-- [ ] Add a page that allows you to create a new Post in your wiki.
-- [ ] Make sure that when you submit the new Post, it saves to your database.
-
-If you finish early, continue with your tutorial!
+Watch as your instructor introduces the [MakeWiki](Projects/05-makewiki) project and its requirements!
 
 
 ## 🌃 Wrap-Up

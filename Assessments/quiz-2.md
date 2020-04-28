@@ -18,4 +18,4 @@ This quiz will revisit some of the same topics from [Quiz 1](Assessments/quiz-1.
 ### Authentication & Authorization
 
 - Explain the the difference between Authentication & Authorization and give examples of each.
-- Use the `user` object to access information about the logged in user.
+- Use the `request.user` object to access information about the logged in user.

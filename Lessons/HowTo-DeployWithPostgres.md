@@ -27,7 +27,7 @@ heroku addons:create heroku-postgresql:hobby-dev
 ```python
 import dj_database_url
 db_from_env = dj_database_url.config()
-DATABASES[‘default’].update(db_from_env)
+DATABASES['default'].update(db_from_env)
 ```
 
 This code will parse the values of the `DATABASE_URL` environment variable and convert them to something Django can understand.
