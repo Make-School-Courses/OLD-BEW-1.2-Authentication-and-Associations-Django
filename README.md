@@ -63,7 +63,7 @@ As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specifie
 |  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | Quiz 1 Retake<br>(Optional) |
 |  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Polls Redux] | |
 | 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | - | [Quiz 2] |
-| 11 | Tue, May 5 | [Django REST Framework](Lessons/09-Django-REST-Framework.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
+| 11 | Tue, May 5 | [Social Auth](Lessons/09-Social-Auth.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
 | 12 | Thu, May 7 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project] Proposal ||
 | 13 | Tue, May 12 | [Deployment](Lessons/11-Deployment.md) | - ||
 | 14 | Thu, May 14 | Final Assessment / Lab | [Custom Project]<br>-OR-<br>[Pets Site] | [Quiz 3] |
