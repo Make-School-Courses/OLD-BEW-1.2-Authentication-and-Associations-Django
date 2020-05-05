@@ -85,7 +85,7 @@ Your `tests.py` file(s) must include the following tests:
 
 ## Scoring
 
-Your work will be scored out of **** points as follows:
+Your work will be scored out of **140** points as follows:
 
 | Criteria                                       | Possible  |
 | ---------------------------------------------- | :-------: |
