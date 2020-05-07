@@ -103,7 +103,7 @@ Your work will be scored out of **140** points as follows:
 | Tests the Pets List page | `10` |
 | Tests the Pets Detail page | `10` |
 | Tests the Pet Creation flow | `10` |
-| Tests the Pet Creation flow | `10` |
+| Tests the Appointment Creation flow | `10` |
 
 ## Submission
 
