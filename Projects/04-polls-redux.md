@@ -262,7 +262,7 @@ class QuestionCreateView(generic.edit.CreateView):
 
     def post(self, request, *args, **kwargs):
         form = QuestionCreateForm(request.POST)
-        if form.is_valid:
+        if form.is_valid():
             question = form.save()
             question.save()
             return HttpResponseRedirect(

@@ -31,9 +31,6 @@
     - The [step by step guide](#60m--guided-tour-deploy-tutorial-on-heroku) in this plan works for _any_ Django application deployed to Heroku.
     - Wise students may consider bookmarking this plan to ensure stress-free, successful Django deployments in the future. Intensives kick off at the start of the new year!
 
-## [**15m**] Hiding Secrets
-
-In your Django project, 
 
 ## [**40m**] 📖 **Guided Tour**: Deploy Tutorial on Heroku
 
