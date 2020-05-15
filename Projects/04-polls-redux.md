@@ -354,7 +354,7 @@ class QuestionCreateView(LoginRequiredMixin, generic.edit.CreateView):
 
     def post(self, request, *args, **kwargs):
         form = QuestionCreateForm(request.POST)
-        if form.is_valid:
+        if form.is_valid():
             question = form.save(commit=False) # don't save the question yet
             question.author = request.user
             question.save()
@@ -403,7 +403,7 @@ class DetailView(generic.DetailView):
 
     def post(self, request, pk):
         form = ChoiceCreateForm(request.POST)
-        if form.is_valid:
+        if form.is_valid():
             choice = form.save(commit=False)
             choice.question = Question.objects.get(pk=pk)
             choice.save()
