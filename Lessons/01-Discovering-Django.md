@@ -102,7 +102,7 @@ Allow each group to present their discoveries. Be sure to use a timer!
 ## 🌃 [5m] After Class
 
 - Get started on the [Django tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/).
-- The **first page is due before the start of class on Day 3**.
+- The **first page is due before the start of class on Day 2**.
 
 ## 📚 Resources & Credits
 
