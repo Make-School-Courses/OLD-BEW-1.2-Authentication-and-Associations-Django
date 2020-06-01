@@ -121,6 +121,10 @@ The **absolute last day** to submit any assignment will be **Friday, July 17 at 
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
+## Class Recordings
+
+Recordings of the course video lectures can be found in [this shared Google Drive folder](https://drive.google.com/drive/folders/1PvR3ssK06roDA-QwSRo8c6paAmB9Mxnb?usp=sharing). Please do not share these files outside of Make School.
+
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
