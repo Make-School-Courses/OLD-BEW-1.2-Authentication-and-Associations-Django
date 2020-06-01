@@ -38,13 +38,11 @@ Students by the end of the course will be able to...
 
 ## Schedule
 
-**Course Dates:** March 31 through May 14, 2020
+**Course Dates:** June 1 through July 17, 2020
 
-**Class Times:** Tuesday and Thursday at 2:30 – 5:15pm (14 class sessions)
+**Class Times:** Monday, Wednesday, and Friday at 3:30 – 5:30pm (20 class sessions)
 
-~~All assignments are due **by the start of class (2:30pm) on the specified date.**~~
-
-As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specified date.**
+All assignments are due **by midnight (11:59pm) on the specified date.**
 
 <!-- tabs:start -->
 
@@ -53,20 +51,27 @@ As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specifie
 
 | Class | Date | Topics | Assignment Due | Assessment |
 |:-----:| :----: | :--------: | :-----------: | :----:|
-|  1 | Tue, Mar 31 |  [Discovering Django](Lessons/01-Discovering-Django.md) | - | |
-|  2 | Thu, Apr 2 | [Request & Response](Lessons/02-Request-Response.md) | [Requests & Responses Tutorial] | |
-|  3 | Tue, Apr 7 | [Models](Lessons/02-Models.md) | [Models Tutorial]<br>Homework 1: [Portfolio Site] | |
-|  4 | Thu, Apr 9 | [More Models](Lessons/03-MoreModels.md) | - | |
-|  5 | Tue, Apr 14 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
-|  6 | Thu, Apr 16 |  [Templates: Tying it Together](Lessons/05-Templates.md) | - | [Quiz 1] |
-|  7 | Tue, Apr 21 | [Django Core Review](Lessons/06-MidtermReview) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
-|  8 | Thu, Apr 23 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | Quiz 1 Retake<br>(Optional) |
-|  9 | Tue, Apr 28 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Polls Redux] | |
-| 10 | Thu, Apr 30 | [Testing](Lessons/07-Testing.md) | - | [Quiz 2] |
-| 11 | Tue, May 5 | [Social Auth](Lessons/09-Social-Auth.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
-| 12 | Thu, May 7 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project] Proposal ||
-| 13 | Tue, May 12 | [Deployment](Lessons/11-Deployment.md) | - ||
-| 14 | Thu, May 14 | Final Assessment / Lab | [Custom Project]<br>-OR-<br>[Pets Site] | [Quiz 3] |
+|  1 | Mon, June 1 |  [Discovering Django](Lessons/01-Discovering-Django.md) | - | |
+|  2 | Wed, June 3 | [Request & Response](Lessons/02-Request-Response.md) | [Requests & Responses Tutorial] | |
+|  3 | Fri, June 5 | Structured Lab Time | - | |
+|  4 | Mon, June 8 | [Models](Lessons/02-Models.md) | [Models Tutorial]<br>Homework 1: [Portfolio Site] | |
+|  5 | Wed, June 10 | [More Models](Lessons/03-MoreModels.md) | - | |
+|  6 | Fri, June 12 | Structured Lab Time | - | [Quiz 1] |
+|  7 | Mon, June 15 | [Views & URLs](Lessons/04-ViewsURLs.md) | [Views & Templates Tutorial]<br>Homework 2: [Books Catalogue] | |
+|  8 | Wed, June 17 |  [Templates: Tying it Together](Lessons/05-Templates.md) | - |  |
+|  9 | Fri, June 19 | Structured Lab Time | - | |
+|  10 | Mon, June 22 | [Django Core Review](Lessons/06-MidtermReview) | [Forms & Generic Views Tutorial]<br>Homework 3: [Music Collection Site] | |
+|  11 | Wed, June 24 | [Authentication & Authorization](Lessons/07-DjangoAuth.md) | - | |
+|  12 | Fri, June 26 | Structured Lab Time | - | [Quiz 2] |
+|  13 | Mon, June 29 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Polls Redux] | |
+| 14 | Wed, July 1 | [Testing](Lessons/07-Testing.md) | - | |
+|  - | Fri, June 3 | **NO CLASS - Independence Day** | - | |
+| 15 | Mon, July 6 | [Social Auth](Lessons/09-Social-Auth.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
+| 16 | Wed, July 8 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project] Proposal ||
+| 17 | Fri, June 10 | Structured Lab Time | - | [Quiz 3] |
+| 18 | Mon, July 13 | [Deployment](Lessons/11-Deployment.md) | - ||
+| 19 | Wed, July 15 | Final Assessment / Lab | - | |
+|  20 | Fri, June 17 | Structured Lab Time | [Custom Project]<br>-OR-<br>[Pets Site] | |
 
 <!-- tabs:end -->
 
@@ -94,8 +99,7 @@ As of 4/14/2020, all assignments are due **by midnight (11:59pm) on the specifie
 
 **To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-- Django Tutorial: 20%
-- Assignments & Class Participation: 50%
+- Assignments & Class Participation: 70%
 - Quizzes/Assessments: 30%
 
 In order to pass this course, you must also:
@@ -105,10 +109,15 @@ In order to pass this course, you must also:
 
 ## Late Assignment Policy
 
+If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
+
 - Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
 - Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
 - Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
-- The **absolute last day** to submit any assignment will be **Friday, May 15 at 11:59 PM**.
+
+Late assignment penalties **do not apply** to resubmissions. You may redo and resubmit your old assignments as many times as you would like up to the final course deadline. _**In other words, I will only consider your first submission when applying a late penalty.**_
+
+The **absolute last day** to submit any assignment will be **Friday, July 17 at 11:59 PM**.
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 

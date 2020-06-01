@@ -5,6 +5,7 @@
 ### ⏱ Agenda
 
 1. [🏆 Learning Objectives](#%f0%9f%8f%86-learning-objectives)
+1. [☀️ [5m] Warm-Up](#☀️-5m-Warm-Up)
 2. [📖 [15m] Course Overview](#%f0%9f%93%96-15m-course-overview)
 3. [📖 [20m] Discovering Django](#%f0%9f%93%96-20m-discovering-django)
 4. [🌴 [10m] BREAK](#%f0%9f%8c%b4-10m-break)
@@ -18,7 +19,13 @@
 **By the end of this class, you'll be able to...**
 
 1. Understand the scope, expectations, and requirements to pass this course.
-2. Introduce the Django web framework and it's features.
+2. Introduce the Django web framework and its features.
+
+## ☀️ [5m] Warm-Up
+
+In a group of 3, answer the following question: 
+
+_**What is one thing that has brought you joy over the past 2 weeks?**_
 
 ## 📖 [15m] Course Overview
 
