@@ -4,6 +4,7 @@
 
 ## Agenda
 
+1. Warm-Up (5 minutes)
 1. Tutorial Review (15 minutes)
 1. Request/Response Practice (15 minutes)
 1. Activity: Request/Response Practice (20 minutes)
@@ -19,6 +20,12 @@ By the end of this class, you will be able to...
 
 1. Create a Django project, from scratch, containing URLs and Views that together form a route.
 1. Describe the relationships between URLs, Views, Templates, & Models.
+
+## Warm-Up
+
+With a group of 3, answer the following question:
+
+_What are your best tips for staying productive and motivated while working virtually?_
 
 ## Tutorial Review (15 minutes)
 
