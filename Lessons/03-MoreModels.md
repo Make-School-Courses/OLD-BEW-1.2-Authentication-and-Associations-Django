@@ -1,4 +1,4 @@
-# Day 3: More Models
+# Day 4: More Models
 
 ### Table of Contents
 

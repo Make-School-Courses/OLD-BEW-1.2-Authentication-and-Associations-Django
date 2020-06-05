@@ -53,7 +53,7 @@ All assignments are due **by midnight (11:59pm) on the specified date.**
 |:-----:| :----: | :--------: | :-----------: | :----:|
 |  1 | Mon, June 1 |  [Discovering Django](Lessons/01-Discovering-Django.md) | - | |
 |  2 | Wed, June 3 | [Request & Response](Lessons/02-Request-Response.md) | [Requests & Responses Tutorial] | |
-|  3 | Fri, June 5 | Structured Lab Time | - | |
+|  3 | Fri, June 5 | [Lab 1: Flask & Forms Review](Labs/01-Flask-Forms.md) | - | |
 |  4 | Mon, June 8 | [Models](Lessons/02-Models.md) | [Models Tutorial]<br>Homework 1: [Portfolio Site] | |
 |  5 | Wed, June 10 | [More Models](Lessons/03-MoreModels.md) | - | |
 |  6 | Fri, June 12 | Structured Lab Time | - | [Quiz 1] |
