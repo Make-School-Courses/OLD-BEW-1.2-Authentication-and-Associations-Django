@@ -28,10 +28,10 @@ We can create a `home.html` template that collects the user's favorite color:
 <!-- templates/home.html -->
 <h1>Welcome!</h1>
 
-<form target="/results" action="GET">
+<form action="/results" method="GET">
 What is your favorite color?
 
-<input type="text" value="favorite_color">
+<input type="text" name="favorite_color">
 
 <input type="submit" value="Submit!">
 </form>
