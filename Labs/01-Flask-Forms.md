@@ -12,6 +12,7 @@ By the end of this class, you should be able to...
 HTML forms are one tool we can use to collect user input and make our websites interactive. Let's review how we use them in Flask to make a "favorite color" application.
 
 ```py
+# app.py
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -24,6 +25,7 @@ def homepage():
 We can create a `home.html` template that collects the user's favorite color:
 
 ```html
+<!-- templates/home.html -->
 <h1>Welcome!</h1>
 
 <form target="/results" action="GET">
@@ -38,6 +40,9 @@ What is your favorite color?
 Then, we'll need to collect the user's input from the **query parameters** that were sent via the form.
 
 ```py
+# app.py
+# ...
+
 @app.route('/results')
 def favorite_color_results():
     # declare a variable for the user's favorite color
@@ -49,6 +54,7 @@ def favorite_color_results():
 Finally, we'll need a `results.html` template:
 
 ```html
+<!-- templates/results.html -->
 <h1>Form Results</h1>
 
 <p>Your favorite color is: {{ favorite_color }}</p>
