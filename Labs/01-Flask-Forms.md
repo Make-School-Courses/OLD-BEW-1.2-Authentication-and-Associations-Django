@@ -66,13 +66,15 @@ Write a Flask application that collects the users' favorite foods. If their favo
 
 ## BREAK (10 minutes)
 
-## Activity 2
+## Activity 2 (50 minutes)
 
 Create a new Django application, and re-write your Flask code in Django. **HINT**: To get the query parameters, use `request.GET.get('form-field-name-goes-here')`.
 
 For more information on request parameters, check out [this article](https://docs.djangoproject.com/en/3.0/ref/request-response/).
 
 ## Wrap-Up
+
+Continue working on [Homework 1](Projects/01-portfolio-site) - due by Monday at 11:59 PM.
 
 ## Resources
 
