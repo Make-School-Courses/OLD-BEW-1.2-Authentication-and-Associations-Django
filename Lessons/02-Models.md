@@ -145,7 +145,7 @@ Now, how can we interact with these models? Let's try it out!
 
 ## BREAK
 
-## Activity: Models (20 minutes)
+## Activity: Models (30 minutes)
 
 With a partner, write a model for `Album` and add it to your `models.py` file. As you work, answer the following questions:
 
