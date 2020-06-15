@@ -132,7 +132,7 @@ Class-based views provide an **alternative way to implement views as Python obje
 
 Generic Class-based Views are view classes that are built into Django. We can _extend_ these classes to take advantage of their built-in functionality to perform a very specific task.
 
-## 💻 [40m] In Class Activity: CBVs Jigsaw
+## 💻 [40m] In Class Activity: CBVs
 
 Split students into groups of 3-4. Each group will fill out their own copy of [this worksheet](https://docs.google.com/document/d/1lwAhYh6sYrzmduuzebQhXw2OIKBj1iOQFea9nba0ukE/edit?usp=sharing) on the following view classes:
 
