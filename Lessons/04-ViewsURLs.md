@@ -16,11 +16,11 @@
 1. Refactor function-based views into generic class-based views.
 1. Identify use cases and pros/cons of various generic class-based views.
 
-## 📝 [15m] Review: Many-to-Many Relationships
+## 📝 [30m] Review: Many-to-Many Relationships
 
-Split students into breakout groups of 3.
+Watch as your instructor reviews how to use many-to-many relationships with a real-world example.
 
-In a Google doc or code editor, complete the code for the following models for an EventBrite-like site that tracks events and attendees. Keep in mind that the `Ticket` class will represent the "through" relationship.
+Split students into breakout groups of 3. In a code editor, complete the code for the following models for an EventBrite-like site that tracks events and attendees. Keep in mind that the `Ticket` class will represent the "through" relationship.
 
 ```js
 from django.db import models
@@ -134,22 +134,13 @@ Generic Class-based Views are view classes that are built into Django. We can _e
 
 ## 💻 [40m] In Class Activity: CBVs Jigsaw
 
-### Part 1: Expert Groups (20m)
-
-Your instructor will assign you a worksheet to explore one of the following class-based views with a group of 3-4:
+Split students into groups of 3-4. Each group will fill out their own copy of [this worksheet](https://docs.google.com/document/d/1lwAhYh6sYrzmduuzebQhXw2OIKBj1iOQFea9nba0ukE/edit?usp=sharing) on the following view classes:
 
   - [ListView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#listview)
   - [DetailView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/generic-display/#detailview)
   - [TemplateView](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#templateview)
-  - [RedirectView](https://docs.djangoproject.com/en/3.0/ref/class-based-views/base/#redirectview)
 
-With your group, fill out the worksheet and be prepared to present your findings to your peers.
-
-### Part 2: Jigsaw Groups (20m)
-
-Your instructor will re-assign you to a _new_ group of 3-4 where you will need to present your findings. Have each person share their screen while presenting and keep each person's presentation to 3-4 minutes, then leave 1-2 minutes for questions.
-
-If your group finishes early, come back to the main room.
+Together with your group, fill out _one copy_ of the worksheet and be prepared to present your findings to your peers.
 
 ## Wrap-Up
 
