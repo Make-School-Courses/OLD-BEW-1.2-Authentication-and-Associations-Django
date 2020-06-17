@@ -166,6 +166,10 @@ Or with the year in a template context variable:
 
 How could we use the `{% url %}` template tag in our music app?
 
+### Activity: Worksheet
+
+With a group of 2-3, make a copy of [this worksheet](https://docs.google.com/document/d/1B3upO_tTE6My_Gmxt0fOo0WmMYcFOExtlMizT85vZS4/edit?usp=sharing) and fill out the missing rows.
+
 ## 🌴 [**10m**] BREAK
 
 ## 💻 [**50m**] Lab Time: Music Site Project
