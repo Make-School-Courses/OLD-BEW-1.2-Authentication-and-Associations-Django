@@ -19,8 +19,6 @@
 
 As a class, go over quiz and answer any remaining questions.
 
-There will be a quiz retake available during lab time on Thurs, April 23. The retake will be **required** for anyone scoring below 50%, and **optional** otherwise.
-
 ## [**20m**] 💻 Activity
 
 Continue working on your Music Site mini-project.
