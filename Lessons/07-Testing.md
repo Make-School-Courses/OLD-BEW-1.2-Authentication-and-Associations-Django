@@ -98,11 +98,12 @@ Add this to your `tests.py` file, then run the new test. Did it work?
 
 What other things could we test? We could check to see whether or not our routes are working.
 
-When testing a route, there are **3 steps** we _(almost) always_ need to do:
+When testing a route, there are **4 steps** we _(almost) always_ need to do:
 
 1. **Set up the data.** This usually means creating some instances of our models!
 1. **Make a GET or POST request,** and save the response object in a variable.
 1. **Check that the REALITY** (what we _actually_ got in the response) **matches the EXPECTATION** (what we _should_ get in the response, if our site is working correctly).
+1. If we are testing a POST route, **check that the data was updated in the database.**
 
 Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
