@@ -98,8 +98,11 @@ Add this to your `tests.py` file, then run the new test. Did it work?
 
 What other things could we test? We could check to see whether or not our routes are working.
 
+When testing a route, there are **3 steps** we _(almost) always_ need to do:
 
-<p align="center"><img src="https://i.imgur.com/i91qZsF.png" width="240"></p>
+1. **Set up the data.** This usually means creating some instances of our models!
+1. **Make a GET or POST request,** and save the response object in a variable.
+1. **Check that the REALITY** (what we _actually_ got in the response) **matches the EXPECTATION** (what we _should_ get in the response, if our site is working correctly).
 
 Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
@@ -127,14 +130,12 @@ class ArticleListViewTests(TestCase):
 
         # Check that the number of articles passed to the template
         # matches the number of articles we have in the database.
-        responses = response.context['articles']
-        self.assertEqual(len(responses), 2)
+        response_articles = response.context['articles']
+        self.assertEqual(len(response_articles), 2)
 
-        self.assertQuerysetEqual(
-            responses,
-            ['<Article: My Test Article>', '<Article: Another Test Article>'],
-            ordered=False
-        )
+        # Check that the response HTML contains the text of the articles.
+        self.assertContains(response, 'My Test Article')
+        self.assertContains(response, 'Another Test Article')
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
