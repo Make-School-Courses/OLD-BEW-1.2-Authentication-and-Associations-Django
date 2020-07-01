@@ -63,33 +63,33 @@ When you're done writing the code, run the tests with `python manage.py test`. T
 
 ### Testing a Model
 
-Let's try something using the code we've already written. Let's test an aspect of our `Page` model!
+Let's try something using the code we've already written. Let's test an aspect of our `Article` model!
 
 ```python
 # wiki/tests.py
 from django.test import TestCase
 from django.contrib.auth.models import User
-from wiki.models import Page
+from wiki.models import Article
 
 class WikiTestCase(TestCase):
     def test_true_is_true(self):
         """ Tests if True is equal to True. Should always pass. """
         self.assertEqual(True, True)
 
-def test_page_slugify_on_save(self):
-        """ Tests the slug generated when saving a Page. """
+def test_article_slugify_on_save(self):
+        """ Tests the slug generated when saving an Article. """
         # Author is a required field in our model.
         # Create a user for this test and save it to the test database.
         user = User()
         user.save()
 
-        # Create and save a new page to the test database.
-        page = Page(title="My Test Page", content="test", author=user)
-        page.save()
+        # Create and save a new article to the test database.
+        article = Article(title="My Test Article", content="test", author=user)
+        article.save()
 
-        # Make sure the slug that was generated in Page.save()
+        # Make sure the slug that was generated in Article.save()
         # matches what we think it should be.
-        self.assertEqual(page.slug, "my-test-page")
+        self.assertEqual(article.slug, "my-test-article")
 ```
 
 Add this to your `tests.py` file, then run the new test. Did it work?
@@ -107,16 +107,16 @@ Let's add the following class to our `tests.py` file together, below the definit
 from django.contrib.auth.models import User
 from django.test import TestCase
 
-from wiki.models import Page
+from wiki.models import Article
 
 
-class PageListViewTests(TestCase):
-    def test_multiple_pages(self):
-        # Make some test data to be displayed on the page.
+class ArticleListViewTests(TestCase):
+    def test_multiple_articles(self):
+        # Make some test data to be displayed on the article.
         user = User.objects.create()
 
-        Page.objects.create(title="My Test Page", content="test", author=user)
-        Page.objects.create(title="Another Test Page", content="test", author=user)
+        Article.objects.create(title="My Test Article", content="test", author=user)
+        Article.objects.create(title="Another Test Article", content="test", author=user)
 
         # Issue a GET request to the MakeWiki homepage.
         # When we make a request, we get a response back.
@@ -125,14 +125,14 @@ class PageListViewTests(TestCase):
         # Check that the response is 200 OK.
         self.assertEqual(response.status_code, 200)
 
-        # Check that the number of pages passed to the template
-        # matches the number of pages we have in the database.
-        responses = response.context['pages']
+        # Check that the number of articles passed to the template
+        # matches the number of articles we have in the database.
+        responses = response.context['articles']
         self.assertEqual(len(responses), 2)
 
         self.assertQuerysetEqual(
             responses,
-            ['<Page: My Test Page>', '<Page: Another Test Page>'],
+            ['<Article: My Test Article>', '<Article: Another Test Article>'],
             ordered=False
         )
 ```
@@ -163,15 +163,15 @@ As long as your tests are sensibly arranged, they won’t become unmanageable. G
 
 In the same `tests.py` file we've used today, write tests that prove the following:
 
-1. That the wiki details page loads for a specific page
-1. That the wiki page creation form loads when visiting `/create`
+1. That the wiki details page loads for a specific article
+1. That the wiki article creation form loads when visiting `/create`
 
-Next, write a test that proves that we can successfully create a new wiki page by filling out the new page form. This one involves a few more steps:
+Next, write a test that proves that we can successfully create a new wiki article by filling out the new article form. This one involves a few more steps:
 
 - Create a dictionary of key-value pairs containing the post data to be sent via the form
 - Make a POST request to the client with `self.client.post()`
 - Check that we get a `302` status code (Why 302 and not 200?)
-- Check that a new page object was created in the test database
+- Check that a new article object was created in the test database
 
 ## Wrap-Up
 

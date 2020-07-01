@@ -12,8 +12,8 @@ Scoring is as follows:
 | ---------------------------------------------- | :-------: |
 | Login & Logout |    `10`    |
 | Signup |    `10`    |
-| Wiki Page Creation Form |    `10`    |
-| Wiki Page Edit Form |    `10`    |
+| Wiki Article Creation Form |    `10`    |
+| Wiki Article Edit Form |    `10`    |
 | Wiki Details Page Test |    `10`    |
 | Wiki Details Page Edit Test |    `10`    |
 | Wiki Creation Page Test |    `10`    |
@@ -53,31 +53,31 @@ In this part, we'll add the login, logout, & signup functionality to the MakeWik
 
 ## Part 2: Forms
 
-Here we'll flesh out the functionality of the "Create" button, as well as provide an Edit option to edit existing wiki pages.
+Here we'll flesh out the functionality of the "Create" button, as well as provide an Edit option to edit existing wiki articles.
 
-### Wiki Page Creation Form _(10 Points)_
+### Wiki Article Creation Form _(10 Points)_
 
 To add a Create view, complete the following steps in the `wiki` app:
 
-1. In `views.py`, import the `PageForm` class from `forms.py`. This form enables editing and creating of `Page` objects in the database.
-1. Create a new view class called `PageCreateView`. Link it to a URL named `create`.
-1. On `GET`, render a template to display the `PageForm` instance.
+1. In `views.py`, import the `ArticleForm` class from `forms.py`. This form enables editing and creating of `Article` objects in the database.
+1. Create a new view class called `ArticleCreateView`. Link it to a URL named `create`.
+1. On `GET`, render a template to display the `ArticleForm` instance.
 1. On `POST`, check if the data in the form is valid.
-  - If True, save the data and use the logged-in user as the `Page`'s `author`. Then, redirect to the Detail View for the newly created `Page` object.
+  - If True, save the data and use the logged-in user as the `Article`'s `author`. Then, redirect to the Detail View for the newly created `Article` object.
   - If False, display all the errors in the template, above the form fields.
 1. Instead of hard-coding the path to redirect to, use the `reverse` function to return the path.
 
-### Wiki Page Edit Form _(10 Points)_
+### Wiki Article Edit Form _(10 Points)_
 
-For the Page Detail view, complete the following steps in the `wiki` app:
+For the Article Detail view, complete the following steps in the `wiki` app:
 
-1. In `views.py`, import the `PageForm` class from `forms.py`. Edit the `PageDetailView` class as follows:
-1. On `GET`, render an edit form below the page details.
+1. In `views.py`, import the `ArticleForm` class from `forms.py`. Edit the `ArticleDetailView` class as follows:
+1. On `GET`, render an edit form below the article details.
 1. On `POST`, check if the data in the form is valid.
-  - If True, save the data and use the logged-in user as the `Page`'s `author`. Then, redirect back to the Detail View.
+  - If True, save the data and use the logged-in user as the `Article`'s `author`. Then, redirect back to the Detail View.
   - If False, display all the errors in the template, above the form fields.
 1. Instead of hard-coding the path to redirect to, use the `reverse` function to return the path.
-1. _(Stretch Challenge)_ After successfully editing a Page, use [Django Messages](https://docs.djangoproject.com/en/3.0/ref/contrib/messages/) to "flash" the user a success message: "REPLACE_WITH_PAGE_TITLE has been successfully updated."
+1. _(Stretch Challenge)_ After successfully editing an Article, use [Django Messages](https://docs.djangoproject.com/en/3.0/ref/contrib/messages/) to "flash" the user a success message: "REPLACE_WITH_ARTICLE_TITLE has been successfully updated."
 1. _(Stretch Challenge)_ Use the [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html) library in conjunction with Bootstrap to make your forms look even more beautiful and clean (and, well, _crisp_)!
 
 ## Part 3: Testing
@@ -88,29 +88,29 @@ In this part of the assignment, we'll flex our testing muscles and write some ro
 
 Write a route test that does the following:
 
-1. Create an instance of `Page` and save it to the database. (HINT: You'll need to first create an instance of `User` to use as the page's author.)
-1. Load the Wiki Details page for that `Page`'s `slug`.
+1. Create an instance of `Article` and save it to the database. (HINT: You'll need to first create an instance of `User` to use as the article's author.)
+1. Load the Wiki Details page for that `Article`'s `slug`.
 1. Verify that the response has a `status_code` of `200`.
-1. Verify that the response's context includes the info for the `Page` object requested. (HINT: You can use `assertContains` to check the exact text of the response.)
+1. Verify that the response's context includes the info for the `Article` object requested. (HINT: You can use `assertContains` to check the exact text of the response.)
 
 ### Wiki Details Page Edit Test _(10 Points)_
 
 Write a route test that does the following:
 
-1. Create an instance of `Page` and save it to the database.
-1. Create a dictionary of key-value pairs containing the post data to be sent via the form. This should include a new page title and description.
+1. Create an instance of `Article` and save it to the database.
+1. Create a dictionary of key-value pairs containing the post data to be sent via the form. This should include a new article title and description.
 1. Make a `POST` request to the details page with `self.client.post()`.
 1. Check that we get a 302 status code. (Why 302 and not 200?)
-1. Check that the page object was modified in the test database.
+1. Check that the article object was modified in the test database.
 
 ### Wiki Creation Page Test _(10 Points)_
 
 Write a route test that does the following:
 
-1. Create a dictionary of key-value pairs containing the post data to be sent via the form. This should include a page title and description.
+1. Create a dictionary of key-value pairs containing the post data to be sent via the form. This should include an article title and description.
 1. Make a `POST` request to the Wiki Create page with `self.client.post()`.
 1. Check that we get a 302 status code.
-1. Check that the page object was created in the test database.
+1. Check that the article object was created in the test database.
 
 ## Submission
 
