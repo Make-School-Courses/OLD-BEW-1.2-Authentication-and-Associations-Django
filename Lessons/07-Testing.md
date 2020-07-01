@@ -143,7 +143,24 @@ class ArticleListViewTests(TestCase):
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
 
-#### Example: Testing a GET & POST Route
+#### [**10m**] Activity: Write a Test for the Article Detail Page
+
+With a partner, write a test for the `ArticleDetailView` page. You can use the following starter code:
+
+```py
+class ArticleDetailViewTests(TestCase):
+    def test_single_article(self):
+        # TODO: Make some test data (one User and one Article)
+
+        # TODO: Make a GET request for the detail page
+
+        # TODO: Verify (using assertContains) that the article's title and contents
+        # appear on the page
+```
+
+## 🌴 [**10m**] BREAK
+
+### Testing a GET & POST Route
 
 Let's try writing a few more! This time, let's write some tests for the **Homework 4: Polls Redux** assignment, using both **GET** and **POST**.
 
@@ -206,8 +223,6 @@ As long as your tests are sensibly arranged, they won’t become unmanageable. G
 - A **separate TestClass for each model or view**
 - A **separate test method** for **each set of conditions** you want to test
 - Test **method names** that **describe their function**
-
-## 🌴 [**10m**] BREAK
 
 ## 💻 [**35m**] Activity: MakeWiki Tests
 
