@@ -105,6 +105,8 @@ When testing a route, there are **4 steps** we _(almost) always_ need to do:
 1. **Check that the REALITY** (what we _actually_ got in the response) **matches the EXPECTATION** (what we _should_ get in the response, if our site is working correctly).
 1. If we are testing a POST route, **check that the data was updated in the database.**
 
+#### Example: Testing a GET Route
+
 Let's add the following class to our `tests.py` file together, below the definition for `WikiTestCase`:
 
 ```python
@@ -140,6 +142,52 @@ class ArticleListViewTests(TestCase):
 ```
 
 Run your tests a final time. Are they all passing? Be sure to ask a friend or raise your hand to get unblocked!
+
+#### Example: Testing a GET & POST Route
+
+Let's try writing a few more! This time, let's write some tests for the **Homework 4: Polls Redux** assignment, using both **GET** and **POST**.
+
+Make sure to create a file called `tests.py` inside of the `polls` directory to put your test code into.
+
+```py
+from django.contrib.auth.models import User
+from django.contrib.auth import login
+from .models import Question, Choice
+
+from datetime import datetime
+
+class QuestionViewTests(TestCase):
+    def test_show_question_creation_form(self):
+        # 1: Create test data.
+        user = User.objects.create_user(username='admin', password='djangopony')
+        self.client.login(username='admin', password='djangopony')
+
+        # 2: Make a GET request.
+        response = self.client.get('/polls/create/')
+
+        # 3: Check that the response contains the text "New Poll"
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'New Poll')
+
+    def test_submit_question_creation_form(self):
+        # 1: Create test data.
+        user = User.objects.create_user(username='admin', password='djangopony')
+        self.client.login(username='admin', password='djangopony')
+
+        # 2: Make a POST request.
+        response = self.client.post('/polls/create/', 
+            {
+                'question_text': 'What is your favorite animal?', 
+                'pub_date': '3/4/2020'
+            })
+
+        # 3: Check that the response was successful
+        self.assertEqual(response.status_code, 302)
+
+        # 4: Check that the data was updated in the database
+        new_question = Question.objects.filter(question_text='What is your favorite animal?')
+        self.assertTrue(new_question.exists())
+```
 
 ### Final Thoughts
 
