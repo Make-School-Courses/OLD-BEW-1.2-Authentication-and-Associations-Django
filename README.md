@@ -66,7 +66,7 @@ All assignments are due **by midnight (11:59pm) on the specified date.**
 |  13 | Mon, June 29 | [Working with Forms](Lessons/08-Forms) | [Testing Tutorial]<br>Homework 4: [Polls Redux] | |
 | 14 | Wed, July 1 | [Testing](Lessons/07-Testing.md) | - | |
 |  - | Fri, June 3 | **NO CLASS - Independence Day** | - | |
-| 15 | Mon, July 6 | [Social Auth](Lessons/09-Social-Auth.md) |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
+| 15 | Mon, July 6 | Lab Time |  [Static Files] & [Admin Site]<br>Homework 5: [MakeWiki] | |
 | 16 | Wed, July 8 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project] Proposal ||
 | 17 | Fri, June 10 | Structured Lab Time | - | [Quiz 3] |
 | 18 | Mon, July 13 | [Deployment](Lessons/11-Deployment.md) | - ||
