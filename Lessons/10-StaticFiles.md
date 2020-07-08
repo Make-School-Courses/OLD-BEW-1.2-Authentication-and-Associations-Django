@@ -71,10 +71,6 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
 
 ## [**10m**] 🌴 BREAK
 
-## [**15m**] 💻 Activity: Peer Proposal Review
-
-Break into pairs, and review one another's proposal for the contractor project. Be sure to split the time equally, and give constructive feedback about one another's ideas.
-
 ## [**45m**] 💻 Activity: Kickoff Contractor Project
 
 Begin work on your Contractor Project. Your instructor will be reviewing your proposals during this time, and will chat with you one on one to clarify your project, if required. Be ready for feedback!
