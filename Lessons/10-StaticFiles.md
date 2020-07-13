@@ -58,8 +58,6 @@ The ability to serve static files comes from `django.contrib.staticfiles`, which
       <img src="{% static "my_app/example.jpg" %}" alt="My image">
       ```
 
-<!-- > -->
-
 ## [**30m**] 💻 Activity: Serve Static Files
 
 **CHALLENGE**:

@@ -169,7 +169,7 @@ git push origin master
 
 ## Wrap-Up
 
-Fill out the [Vibe Check](https://make.sc/bew1.2-vibe-check) form to let your instructor know of any thoughts or feelings you'd like to share about the class!
+Please fill out the [Course Feedback Form](https://make.sc/bew_1.2_survey) by the end of class today.
 
 ## 📚 Resources & Credits
 
