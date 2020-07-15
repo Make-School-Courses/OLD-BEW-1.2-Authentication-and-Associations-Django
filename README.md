@@ -70,7 +70,7 @@ All assignments are due **by midnight (11:59pm) on the specified date.**
 | 16 | Wed, July 8 | [Static Files](Lessons/10-StaticFiles.md) | [Custom Project] Proposal ||
 | 17 | Fri, June 10 | Structured Lab Time | - | [Quiz 3] |
 | 18 | Mon, July 13 | [Deployment](Lessons/11-Deployment.md) | - ||
-| 19 | Wed, July 15 | Final Assessment / Lab | - | |
+| 19 | Wed, July 15 | Lab Time | - | |
 |  20 | Fri, June 17 | Structured Lab Time | [Custom Project]<br>-OR-<br>[Pets Site] | |
 
 <!-- tabs:end -->
