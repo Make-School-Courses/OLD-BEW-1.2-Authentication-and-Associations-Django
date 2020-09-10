@@ -27,6 +27,12 @@ This course begins by fostering familiarity with framework features, then rapidl
 
 * [BEW 1.1](https://make.sc/bew1-1)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 Students by the end of the course will be able to...
@@ -124,6 +130,12 @@ If you require accommodations or have extenuating circumstances such as prolonge
 ## Class Recordings
 
 Recordings of the course video lectures can be found in [this shared Google Drive folder](https://drive.google.com/drive/folders/1PvR3ssK06roDA-QwSRo8c6paAmB9Mxnb?usp=sharing). Please do not share these files outside of Make School.
+
+## Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
